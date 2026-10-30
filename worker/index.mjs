@@ -1,2 +1,3 @@
-// Serves dist/ from the site bucket. Same file in every book: a candidate for kitap to ship.
-export { default } from '@openbooknetwork/kitap/worker';
+// The Worker that serves the site from the body-site bucket, see kitap's README under Deploy.
+import { site } from '@openbooknetwork/kitap/worker';
+export default site();
