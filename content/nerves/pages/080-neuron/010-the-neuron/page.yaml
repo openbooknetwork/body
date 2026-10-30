@@ -6,6 +6,6 @@ beden:
   distance: 0.2
   layers: [cortex, white-matter]
   section: { plane: axial, at: 1.6, flip: true }
-  parts: { highlight: [cerebral-cortex] }
+  parts: { highlight: [cerebral-cortex, white-matter] }
   labels:
     - { part: left-white-matter, text: "white matter" }

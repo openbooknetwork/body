@@ -203,6 +203,18 @@ pages.the-spleen.title: "Dalak"
 # spleen
 pages.red-and-white-pulp.labels.0: "dalak"
 
+# stomach
+pages.red-and-white-pulp.labels.1: "mide"
+
+# liver
+pages.red-and-white-pulp.labels.2: "karaciğer"
+
+# left kidney
+pages.red-and-white-pulp.labels.3: "sol böbrek"
+
+# aorta
+pages.red-and-white-pulp.labels.4: "aort"
+
 # Red and white pulp
 pages.red-and-white-pulp.title: "Kırmızı ve beyaz pulpa"
 

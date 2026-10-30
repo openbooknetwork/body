@@ -7,4 +7,9 @@ beden:
   section: { plane: axial, at: 1.09, flip: true }
   layers: [skin, organs, lymphoid, veins, arteries, skeleton]
   parts: { highlight: [spleen] }
-  labels: [{ part: spleen, text: "spleen" }]
+  labels:
+    - { part: spleen, text: "spleen" }
+    - { part: stomach, text: "stomach" }
+    - { part: liver, text: "liver" }
+    - { part: left-kidney, text: "left kidney" }
+    - { part: abdominal-aorta, text: "aorta" }

@@ -2,4 +2,6 @@ Cut across, the [spleen](@spleen) is mostly red pulp, a sponge of blood-filled s
 
 @image spleen-section-gray-cd3ce3
 
-The cut on the model crosses the upper abdomen at the level of the spleen, seen from above. Blood that enters the spleen passes the white pulp first, so a germ carried in the blood meets the lymphocytes there, and the B cells answer by making antibodies against it.
+The model's cut crosses the upper abdomen at the level of the spleen, seen from above. The [stomach](@stomach) lies in front of the spleen and the [left kidney](@left-kidney) toward the spine. The [liver](@liver) fills the right side, and the [aorta](@abdominal-aorta) runs in front of the spine. The pulp is too fine for the model and shows only in the figure.
+
+Blood that enters the spleen passes the white pulp first, so a germ carried in the blood meets the lymphocytes there, and the B cells answer by making antibodies against it.
