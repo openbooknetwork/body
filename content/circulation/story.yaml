@@ -23,9 +23,3 @@ beden:
     portal:       { color: "#6a3d9a", color_dark: "#a98bd6" }   # the hepatic portal system, between two capillary beds
     fetal:        { color: "#3f8f5a", color_dark: "#72c48d" }   # the ductus arteriosus, a vessel of the circulation before birth
     valve:        { color: "#d4a017", color_dark: "#f2c94c" }
-    muscle:       { color: "#9c5b5b", color_dark: "#c48080" }   # the wall of the heart and the calf muscles
-    airway:       { color: "#8fb3c9", color_dark: "#6f93a9" }
-    lung:         { color: "#d9a7a7", color_dark: "#8f6b6b" }
-    organ:        { color: "#b08968", color_dark: "#8a6a4f" }
-    bone:         { color: "#e8e2d2", color_dark: "#6f6a5e" }
-    skin:         { color: "#f2d9c4", color_dark: "#5a5048" }

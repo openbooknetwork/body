@@ -18,20 +18,6 @@ beden:
     above:   { direction: [0, 1, 0.35] }       # down onto the lower jaw and its teeth
     below:   { direction: [0, -0.6, 1] }       # up under the liver and into the pelvis
   families:
-    gut:       { color: "#c4706a", color_dark: "#e0938c" }   # the esophagus, stomach and small intestine
-    colon:     { color: "#a8765a", color_dark: "#c99a7e" }   # the large intestine
-    liver:     { color: "#8e3b2f", color_dark: "#c0614f" }
-    bile:      { color: "#5f8f3a", color_dark: "#8fc06a" }   # the gallbladder and the bile ducts
-    gland:     { color: "#d6a33c", color_dark: "#f0c35e" }   # the salivary glands and the pancreas
     duct:      { color: "#2f7f9a", color_dark: "#6fb6cf" }   # the pancreatic duct
-    muscle:    { color: "#9c5b5b", color_dark: "#c48080" }
-    tooth:     { color: "#efe6cf", color_dark: "#d9cfb4" }
     mesentery: { color: "#e3cf8f", color_dark: "#9c8a55" }
-    artery:    { color: "#b5352a", color_dark: "#e8695c" }
-    vein:      { color: "#2f6fb0", color_dark: "#6fa6e0" }
     portal:    { color: "#6a3d9a", color_dark: "#a98bd6" }   # the veins that carry the gut's blood to the liver
-    airway:    { color: "#8fb3c9", color_dark: "#6f93a9" }
-    organ:     { color: "#b08968", color_dark: "#8a6a4f" }
-    lung:      { color: "#d9a7a7", color_dark: "#8f6b6b" }
-    bone:      { color: "#e8e2d2", color_dark: "#6f6a5e" }
-    skin:      { color: "#f2d9c4", color_dark: "#5a5048" }

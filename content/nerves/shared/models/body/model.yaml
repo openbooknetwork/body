@@ -2,7 +2,7 @@
 # cord, the spinal, limb and autonomic nerves and the cranial nerves BodyParts3D lacks name Z-Anatomy element files,
 # fitted to BodyParts3D's skeleton. The viewer shows, lights, ghosts or cuts parts by these ids.
 file: model.glb
-sha256: af5236b1460ece014bd2d26a87c78e2e9b809dc8f3cec2b9485dec4b92a42615
+sha256: 95aff63372204da584019d8fd24faa77bf3f7d63ccc4ee00958a1387e48b9bb7
 credit: "BodyParts3D, The Database Center for Life Science, CC BY-SA 2.1 Japan; Z-Anatomy, Gauthier Kervyn, CC BY-SA 4.0; Cranial Nerves and Foramina, University of Dundee, CAHID, CC BY 4.0"
 source: https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html
 parts:
@@ -22,11 +22,11 @@ parts:
   skeleton:         { from: skeletal-system, minus: [skull, cervical-vertebrae, thoracic-vertebrae, first-lumbar-vertebra, second-lumbar-vertebra, third-lumbar-vertebra, fourth-lumbar-vertebra, fifth-lumbar-vertebra, sacrum, patellae], layer: skeleton, family: bone }
   quadriceps:       { concepts: [FMA22430, FMA22431, FMA22432, FMA22433], layer: muscles, family: muscle }   # rectus femoris and the three vasti
   diaphragm:        { concept: FMA13295, layer: muscles, family: muscle }
-  heart:            { concept: FMA7088, layer: organs, family: organ }
-  liver:            { concept: FMA7197, layer: organs, family: organ }
-  stomach:          { concept: FMA7148, layer: organs, family: organ }
-  urinary-bladder:  { concept: FMA15900, layer: organs, family: organ }
-  adrenal-glands:   { concept: FMA9604, layer: organs, family: gland }
+  heart:            { concept: FMA7088, layer: organs, family: heart }
+  liver:            { concept: FMA7197, layer: organs, family: liver }
+  stomach:          { concept: FMA7148, layer: organs, family: stomach }
+  urinary-bladder:  { concept: FMA15900, layer: organs, family: bladder }
+  adrenal-glands:   { concept: FMA9604, layer: organs, family: adrenal }
   # the cerebral cortex, gyrus by gyrus, so that a lobe or a single gyrus can be lit
   left-frontal-gyri:  { concepts: [FMA72654, FMA72656, FMA256194], exclude: [FJ1794], layer: cortex, family: frontal }   # superior and middle frontal gyri and the orbital gyri
   right-frontal-gyri: { concepts: [FMA72653, FMA72655, FMA256194], exclude: [FJ1793], layer: cortex, family: frontal }

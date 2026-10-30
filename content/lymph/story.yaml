@@ -18,17 +18,4 @@ beden:
     above:      { direction: [0, 1, 0.35] }       # down onto an axial cut, the front of the body nearest the viewer
     armpit:     { direction: [0.9, -0.3, 0.7] }   # from below and to the body's left, into the left armpit
   families:
-    node:      { color: "#4f8a3c", color_dark: "#8cc47a" }   # the lymph nodes and tonsils, green as the atlases draw lymph
-    duct:      { color: "#6fa05a", color_dark: "#a5d68f" }   # the drawn lymph ducts, a lighter green of the same system
-    lymphoid:  { color: "#8a4f7d", color_dark: "#c58bb8" }   # the thymus and the spleen
-    marrow:    { color: "#c46a4e", color_dark: "#e0937a" }   # the bones that keep red marrow in an adult
-    vein:      { color: "#2f6fb0", color_dark: "#6fa6e0" }
-    artery:    { color: "#b5352a", color_dark: "#e8695c" }
-    muscle:    { color: "#9c5b5b", color_dark: "#c48080" }
-    lung:      { color: "#d9a7a7", color_dark: "#8f6b6b" }
-    airway:    { color: "#c9b79c", color_dark: "#8c7d68" }
-    organ:     { color: "#b08968", color_dark: "#8a6a4f" }
-    gut:       { color: "#d1a08a", color_dark: "#9a7462" }
     mesentery: { color: "#e3c98a", color_dark: "#a8935f" }   # the fatty fold that carries the vessels and nodes of the small intestine
-    bone:      { color: "#e8e2d2", color_dark: "#6f6a5e" }
-    skin:      { color: "#f2d9c4", color_dark: "#5a5048" }

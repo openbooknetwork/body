@@ -9,13 +9,13 @@ parts:
   # context
   skin:            { concept: FMA7163, layer: skin, family: skin }
   skeleton:        { concept: FMA23881, layer: skeleton, family: bone }
-  brain:           { concept: FMA50801, layer: organs, family: organ }
+  brain:           { concept: FMA50801, layer: organs, family: brain }
   right-lung:      { concept: FMA7309, layer: lungs, family: lung, exclude: [FJ2041, FJ2044] }
   left-lung:       { concept: FMA7310, layer: lungs, family: lung }
-  liver:           { concept: FMA7197, layer: organs, family: organ }
-  right-kidney:    { concept: FMA7204, layer: organs, family: organ }
-  left-kidney:     { concept: FMA7205, layer: organs, family: organ }
-  spleen:          { concept: FMA7196, layer: organs, family: organ }
+  liver:           { concept: FMA7197, layer: organs, family: liver }
+  right-kidney:    { concept: FMA7204, layer: organs, family: kidney }
+  left-kidney:     { concept: FMA7205, layer: organs, family: kidney }
+  spleen:          { concept: FMA7196, layer: organs, family: spleen }
   trachea:         { concept: FMA7394, layer: airway, family: airway }
   bronchi:         { concepts: [FMA26661, FMA26662], layer: airway, family: airway }
   calf-muscles:    { concepts: [FMA45950, FMA22542], layer: muscles, family: muscle }   # the two heads of gastrocnemius and soleus
@@ -26,7 +26,7 @@ parts:
   pelvic-girdle:    { concept: FMA16581, layer: marrow, family: bone }
   femurs:           { concept: FMA9611, layer: marrow, family: bone }
   # the heart
-  heart:           { concept: FMA7088, layer: heart, family: muscle }
+  heart:           { concept: FMA7088, layer: heart, family: heart }
   right-atrium:    { concept: FMA7096, layer: chambers, family: deoxygenated }
   right-ventricle: { concept: FMA7098, layer: chambers, family: deoxygenated }
   left-atrium:     { concept: FMA7097, layer: chambers, family: oxygenated }
@@ -36,7 +36,7 @@ parts:
   mitral-valve:    { concept: FMA7235, layer: valves, family: valve }
   aortic-valve:    { concept: FMA7236, layer: valves, family: valve }
   # Z-Anatomy (Gauthier Kervyn, CC BY-SA 4.0), moved into this frame by beden z-anatomy as element files za-*
-  papillary-muscles: { elements: ["za-*-papillary-muscle-of-*-ventricle"], layer: valves, family: muscle }
+  papillary-muscles: { elements: ["za-*-papillary-muscle-of-*-ventricle"], layer: valves, family: heart }
   right-coronary-artery: { concept: FMA50039, layer: coronaries, family: oxygenated }
   left-coronary-artery:  { concept: FMA50040, layer: coronaries, family: oxygenated }
   anterior-interventricular-artery: { concept: FMA3862, layer: coronaries, family: oxygenated }
