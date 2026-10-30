@@ -1,0 +1,12 @@
+title: "Four chambers"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), ch. 57."]
+beden:
+  camera: oblique
+  look: heart
+  layers: [heart, chambers]
+  parts: { highlight: [right-atrium, right-ventricle, left-atrium, left-ventricle], ghost: [heart] }
+  labels:
+    - { part: right-atrium, text: "right atrium" }
+    - { part: right-ventricle, text: "right ventricle" }
+    - { part: left-atrium, text: "left atrium" }
+    - { part: left-ventricle, text: "left ventricle" }

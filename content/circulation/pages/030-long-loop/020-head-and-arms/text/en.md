@@ -1,0 +1,5 @@
+Three branches leave the top of the arch. The first, the [brachiocephalic](@brachiocephalic-artery), splits into the [right common carotid](@right-common-carotid-artery) to the head and the [right subclavian](@right-subclavian-artery) to the arm. The [left common carotid](@left-common-carotid-artery) and the [left subclavian](@left-subclavian-artery) leave the arch on their own. Each common carotid divides in the neck, and its [internal branch](@internal-carotid-arteries) enters the skull to supply the brain, with the two [vertebral arteries](@vertebral-arteries) that climb through the neck bones. The brain is a fiftieth of the body's weight and takes a fifth of its blood.
+
+@image aortic-arch-gray-3fc85a
+
+Each subclavian artery runs under the collarbone, becomes the [axillary](@axillary-arteries) in the armpit and the [brachial](@brachial-arteries) down the inside of the upper arm, where a cuff measures the blood pressure. At the elbow it divides into the [radial](@radial-arteries) and [ulnar](@ulnar-arteries) arteries, which join again in two arches in the palm.

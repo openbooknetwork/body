@@ -1,0 +1,19 @@
+# The main page: a list of the stories under content/.
+title: Open Body Book
+intro: Step-through models of the human body, one structure at a time. A free educational project. Pick an organ.
+languages: [en, tr]
+default_language: en
+stories: [circulation]
+
+# The engine that fills the viewport of every story that names none of its own.
+engine: beden
+
+theme: parchment
+url: https://openbodybook.org/
+repository: https://github.com/openbooknetwork/body
+assets:
+  url: https://assets.openbodybook.org/
+  bucket: body-assets
+  endpoint: https://929f186b3b6db84ea6cd5dcfe90dd2b3.r2.cloudflarestorage.com
+pages:
+  bucket: body-site

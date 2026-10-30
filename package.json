@@ -1,0 +1,14 @@
+{
+  "name": "body",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "kitap build", "dev": "kitap dev" },
+  "dependencies": {
+    "@openbooknetwork/kitap": "^0.1.0",
+    "@openbooknetwork/beden": "^0.1.0",
+    "js-yaml": "^5.4.2"
+  },
+  "description": "Open Body Book: step-through models of the human body, an educational project",
+  "version": "0.1.0",
+  "devDependencies": { "wrangler": "^4.152.0" }
+}

@@ -1,0 +1,3 @@
+Laid end to end the vessels of one body would stretch some 100,000 kilometres, and nearly all of that length is capillaries too fine to see. What the model shows is the [arterial tree](@arteries) down to branches a few millimetres wide: the aorta, its branches, and their branches, each narrower and more numerous than the last.
+
+The arteries hold only about a sixth of the blood. Their walls are thick and muscular, and the small ones, the arterioles, can narrow or widen on command, which is how the body sends more blood to the muscles in a run and to the gut after a meal, and how it raises or lowers the pressure as a whole.

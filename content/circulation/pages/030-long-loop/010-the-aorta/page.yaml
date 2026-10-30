@@ -1,0 +1,12 @@
+title: "The aorta"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), ch. 58 and 62."]
+beden:
+  camera: oblique
+  look: aorta
+  layers: [heart, aorta, skeleton]
+  parts: { highlight: [ascending-aorta, arch-of-aorta, descending-aorta, abdominal-aorta], ghost: [heart, skeleton] }
+  structure: aorta
+  labels:
+    - { part: arch-of-aorta, text: "arch" }
+    - { part: descending-aorta, text: "thoracic aorta" }
+    - { part: abdominal-aorta, text: "abdominal aorta" }

@@ -1,0 +1,9 @@
+name: "Aorta"
+latin: "Aorta"
+role: "The largest artery, from the left ventricle over the arch and down the trunk to the iliac arteries"
+source: https://en.wikipedia.org/wiki/Aorta
+images: [aortic-arch-gray-3fc85a]
+facts:
+  - { label: "Diameter", value: "About 25 mm at the root, 18 mm at the bifurcation" }
+  - { label: "Length", value: "About 40 cm" }
+  - { label: "Branches", value: "Coronary, brachiocephalic, carotid, subclavian, celiac, mesenteric, renal, iliac" }

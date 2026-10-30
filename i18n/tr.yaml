@@ -1,0 +1,8 @@
+# tr strings for the site.
+# Keys are stable ids, the comment above each one is the source text. Regenerate with: kitap i18n tr
+
+# Open Body Book
+site.title: "Açık Beden Kitabı"
+
+# Step-through models of the human body, one structure at a time. A free educational project. Pick an organ.
+site.intro: "İnsan bedeninin yapı yapı gösterilen adım adım modelleri. Ücretsiz bir eğitim projesi. Bir organ seçin."

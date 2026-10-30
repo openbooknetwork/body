@@ -1,0 +1,16 @@
+title: "The legs"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), ch. 79 and 80."]
+beden:
+  camera: front
+  look: leg-arteries
+  layers: [aorta, arteries, skeleton]
+  parts:
+    highlight: [common-iliac-arteries, external-iliac-arteries, femoral-arteries, popliteal-arteries, anterior-tibial-arteries, posterior-tibial-arteries, dorsalis-pedis-arteries, plantar-arteries]
+    ghost: [skeleton, internal-iliac-arteries]
+    hide: [brachiocephalic-artery, right-common-carotid-artery, left-common-carotid-artery, internal-carotid-arteries, vertebral-arteries, right-subclavian-artery, left-subclavian-artery, axillary-arteries, brachial-arteries, radial-arteries, ulnar-arteries, celiac-trunk, superior-mesenteric-artery, inferior-mesenteric-artery, renal-arteries]
+    flow: [abdominal-aorta, common-iliac-arteries, external-iliac-arteries, femoral-arteries, popliteal-arteries, posterior-tibial-arteries, plantar-arteries]
+  labels:
+    - { part: common-iliac-arteries, text: "common iliac" }
+    - { part: femoral-arteries, text: "femoral" }
+    - { part: popliteal-arteries, text: "popliteal" }
+    - { part: posterior-tibial-arteries, text: "posterior tibial" }

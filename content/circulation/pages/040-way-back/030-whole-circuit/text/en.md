@@ -1,0 +1,3 @@
+The two loops are one circuit, and the blood passes through the heart twice in every round: the right side sends it to the lungs, the left side sends it to the body. [Arteries](@arteries) carry it away from the heart and [veins](@veins) bring it back, whatever its colour: the pulmonary arteries carry dark blood and the pulmonary veins bright.
+
+At rest a red cell completes the round in about a minute. The arteries hold about a sixth of the blood, the capillaries a twentieth, and the veins, wide and slack, about two thirds. They are the reservoir: when the body needs more output, the veins tighten and send their store to the heart.

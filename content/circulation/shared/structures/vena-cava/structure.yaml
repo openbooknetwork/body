@@ -1,0 +1,8 @@
+name: "Venae cavae"
+latin: "Vena cava superior et inferior"
+role: "The two great veins that empty into the right atrium, one from above and one from below"
+source: https://en.wikipedia.org/wiki/Venae_cavae
+images: [venae-cavae-gray-b18313]
+facts:
+  - { label: "Diameter", value: "About 20 mm superior, 25 mm inferior" }
+  - { label: "Pressure", value: "0 to 5 mm Hg at the atrium" }

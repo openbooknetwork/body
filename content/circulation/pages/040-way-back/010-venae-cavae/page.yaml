@@ -1,0 +1,18 @@
+title: "The venae cavae"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), ch. 58 and 62.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 15."]
+beden:
+  camera: front
+  look: skin
+  distance: 2.2
+  layers: [skin, heart, veins, skeleton]
+  parts:
+    highlight: [superior-vena-cava, inferior-vena-cava, brachiocephalic-veins, internal-jugular-veins, subclavian-veins, axillary-veins, hepatic-veins, renal-veins, common-iliac-veins, external-iliac-veins, femoral-veins, popliteal-veins, great-saphenous-veins]
+    ghost: [skin, heart, skeleton]
+    flow: [great-saphenous-veins, femoral-veins, external-iliac-veins, common-iliac-veins, inferior-vena-cava]
+  structure: vena-cava
+  labels:
+    - { part: superior-vena-cava, text: "superior vena cava" }
+    - { part: inferior-vena-cava, text: "inferior vena cava" }
+    - { part: internal-jugular-veins, text: "internal jugular" }
+    - { part: femoral-veins, text: "femoral" }
+    - { part: great-saphenous-veins, text: "great saphenous" }

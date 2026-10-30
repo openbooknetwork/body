@@ -1,0 +1,3 @@
+[Aort](@ascending-aorta) sol karıncıktan yukarı doğru çıkar, yaklaşık 25 milimetre genişliğindedir, kalbin üstünde [kemerle](@arch-of-aorta) kıvrılır ve göğsün arkasında omurganın yanından [torasik aort](@descending-aorta) olarak iner, sonra diyaframdan [abdominal aort](@abdominal-aorta) olarak geçer ve dördüncü bel omuru hizasında iki iliyak artere ayrılır. Yaklaşık 40 santimetre uzunluğundadır.
+
+Duvarı esnektir. Karıncığın her vuruşuyla şişer ve vuruşlar arasında geri çekilir; bu, kalbin darbelerini daha düzenli bir akışa çevirir ve bilekte parmağın hissettiği nabız budur. Yaşla duvar sertleşir ve kalbin karşısında itmek zorunda olduğu basınç yükselir.

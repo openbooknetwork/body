@@ -1,0 +1,7 @@
+name = "openbodybook"
+main = "index.mjs"
+compatibility_date = "2026-10-01"
+routes = [{ pattern = "openbodybook.org/*", zone_name = "openbodybook.org" }]
+[[r2_buckets]]
+binding = "SITE"
+bucket_name = "body-site"

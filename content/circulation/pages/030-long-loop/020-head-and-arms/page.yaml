@@ -1,0 +1,17 @@
+title: "Head and arms"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), ch. 29, 45 and 58."]
+beden:
+  camera: front
+  look: arch-branches
+  distance: 1.4
+  layers: [heart, aorta, arteries, organs, skeleton]
+  parts:
+    highlight: [brachiocephalic-artery, right-common-carotid-artery, left-common-carotid-artery, internal-carotid-arteries, vertebral-arteries, right-subclavian-artery, left-subclavian-artery, axillary-arteries, brachial-arteries, radial-arteries, ulnar-arteries]
+    ghost: [heart, skeleton, brain, liver, right-kidney, left-kidney, abdominal-aorta]
+    flow: [arch-of-aorta, left-subclavian-artery, axillary-arteries, brachial-arteries, radial-arteries]
+  labels:
+    - { part: brachiocephalic-artery, text: "brachiocephalic" }
+    - { part: left-common-carotid-artery, text: "common carotid" }
+    - { part: left-subclavian-artery, text: "subclavian" }
+    - { part: brachial-arteries, text: "brachial" }
+    - { part: radial-arteries, text: "radial" }

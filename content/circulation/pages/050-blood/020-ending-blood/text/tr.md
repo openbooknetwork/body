@@ -1,0 +1,5 @@
+Alyuvarın çekirdeği yoktur ve kendini onaramaz. Yaklaşık 120 gün ve 300 km yolculuktan sonra zarı sertleşir ve [dalağın](@spleen) sınavından geçemez: dalağın pulpasından çıkmak için bir hücre kendinden dar yarıklardan sıkışıp geçmek zorundadır; sert bir hücre takılır ve orada bekleyen makrofajlar tarafından yutulur. Karaciğer ve ilik aynı işi daha küçük ölçekte yapar. Dalağı olmayan biri yaşar, ama yaşlı hücreleri daha uzun taşır ve bazı enfeksiyonlara daha kolay yakalanır.
+
+@image spleen-gray-6ae2c7
+
+Makrofaj hemoglobini parçalar. Demir saklanır ve kanda bir taşıyıcı proteine bağlı olarak iliğe geri gönderilir; böylece beden günde yalnızca bir iki miligram demir yitirir ve besinden o kadarına ihtiyaç duyar. Hemin geri kalanı sarı bir pigment olan bilirubine dönüşür; bilirubin [dalak veni](@splenic-vein) ve [portal venle](@portal-vein) [karaciğere](@liver) gider, karaciğer onu kandan çeker ve safraya, oradan bağırsağa gönderir. Bilirubin ve ürünleri dışkıyı kahverengi, idrarı sarı yapar; karaciğer iflas ettiğinde ya da hücreler temizlenebileceğinden hızlı parçalandığında deri de onunla sararır.

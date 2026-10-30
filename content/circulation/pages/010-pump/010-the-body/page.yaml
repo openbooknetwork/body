@@ -1,0 +1,8 @@
+title: "A body and its heart"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), ch. 57.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 9."]
+beden:
+  camera: front
+  look: skin
+  layers: [skin, skeleton, heart]
+  parts: { highlight: [heart], ghost: [skin, skeleton] }
+  labels: [{ part: heart, text: "heart" }]

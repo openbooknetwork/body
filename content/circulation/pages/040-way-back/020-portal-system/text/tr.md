@@ -1,0 +1,3 @@
+Venöz kanın bir kısmı dolambaçlı bir yol izler. Bağırsaktan ayrılan, yemeğin içerdiği her şeyle zengin kan [üst mezenterik vende](@superior-mesenteric-vein) toplanır, [dalak veni](@splenic-vein) ona katılır ve [portal ven](@portal-vein) onu karaciğere taşır; kan orada ikinci bir kılcal ağına yayılır. Karaciğer şekerleri alır, depolar ya da salar, protein yapar ve zehirli olanı parçalar; sonra kan [hepatik venlerde](@hepatic-veins) toplanır ve kalbin hemen altında alt ana toplardamara katılır.
+
+İki kılcal yatağı arasında uzanan bir vene portal ven denir ve bu en büyüğüdür. Karaciğerin kanının dörtte üçü bu yoldan, yalnızca dörtte biri hepatik arterden gelir.

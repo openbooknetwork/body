@@ -1,0 +1,16 @@
+# Aorta
+structure.name: "Aort"
+# The largest artery, from the left ventricle over the arch and down the trunk to the iliac arteries
+structure.role: "En büyük arter, sol karıncıktan kemer üzerinden gövde boyunca iliyak arterlere kadar"
+# Diameter
+structure.facts.0.label: "Çap"
+# About 25 mm at the root, 18 mm at the bifurcation
+structure.facts.0.value: "Kökte yaklaşık 25 mm, çatallanmada 18 mm"
+# Length
+structure.facts.1.label: "Uzunluk"
+# About 40 cm
+structure.facts.1.value: "Yaklaşık 40 cm"
+# Branches
+structure.facts.2.label: "Dallar"
+# Coronary, brachiocephalic, carotid, subclavian, celiac, mesenteric, renal, iliac
+structure.facts.2.value: "Koroner, brakiosefalik, karotis, subklavyen, çölyak, mezenterik, renal, iliyak"

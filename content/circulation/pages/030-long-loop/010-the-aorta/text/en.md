@@ -1,0 +1,3 @@
+The [aorta](@ascending-aorta) leaves the left ventricle upwards, about 25 millimetres across, bends over the heart in the [arch](@arch-of-aorta) and runs down the back of the chest beside the spine as the [thoracic aorta](@descending-aorta), then through the diaphragm as the [abdominal aorta](@abdominal-aorta), to divide at the fourth lumbar vertebra into the two iliac arteries. It is some 40 centimetres long.
+
+Its wall is elastic. It swells with every stroke of the ventricle and shrinks back between strokes, which turns the heart's pulses into a steadier flow and is the pulse a finger feels at the wrist. With age the wall stiffens and the pressure the heart must push against rises.
