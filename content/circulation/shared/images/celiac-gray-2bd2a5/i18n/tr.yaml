@@ -1,4 +1,6 @@
 # tr strings for the image "celiac-gray-2bd2a5".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
 
 # The celiac artery and its branches, the stomach raised, Gray's Anatomy, 1918, figure 533
 image.caption: "Çölyak arter ve dalları, mide kaldırılmış, Gray’s Anatomy, 1918, şekil 533"

@@ -1,0 +1,14 @@
+title: "Peyer's patches"
+date: "1677"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the small intestine.", "Johann Conrad Peyer, Exercitatio anatomico-medica de glandulis intestinorum (Schaffhausen, 1677).", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 35."]
+beden:
+  camera: front
+  look: ileum
+  distance: 0.6
+  layers: [gut, skeleton]
+  parts:
+    highlight: [ileum, appendix]
+    ghost: [duodenum, jejunum, large-intestine, skeleton]
+  labels:
+    - { part: ileum, text: "ileum" }
+    - { part: appendix, text: "appendix" }

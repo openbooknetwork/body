@@ -1,0 +1,6 @@
+# tr strings for the image "bronchiole-alveoli-f3da4c".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A small airway of the lung ending in air sacs, with its arteries and veins running beside it and around the sacs
+image.caption: "Akciğerin hava keseleriyle biten küçük bir hava yolu, yanında ve keselerin çevresinde arterleri ve venleri"

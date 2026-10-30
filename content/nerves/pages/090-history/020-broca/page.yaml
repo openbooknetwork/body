@@ -1,0 +1,10 @@
+title: "Broca's patient"
+sources: ["Paul Broca, Remarques sur le siège de la faculté du langage articulé, suivies d'une observation d'aphémie, Bulletin de la Société anatomique de Paris 36 (1861): 330-357.", "Paul Broca, Sur le siège de la faculté du langage articulé, Bulletin de la Société d'anthropologie de Paris 6 (1865): 377-393."]
+beden:
+  camera: left-side
+  look: left-inferior-frontal-gyrus
+  distance: 0.2
+  layers: [cortex, brainstem, cerebellum]
+  parts: { highlight: [left-inferior-frontal-gyrus] }
+  labels:
+    - { part: left-inferior-frontal-gyrus, text: "third frontal convolution" }

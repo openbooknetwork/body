@@ -1,0 +1,12 @@
+title: "Six metres of gut"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the small intestine.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 64 and 66."]
+beden:
+  camera: front
+  look: small-intestine
+  distance: 0.6
+  layers: [skeleton, tract]
+  parts: { highlight: [jejunum, ileum], ghost: [skeleton, large-intestine, stomach] }
+  structure: small-intestine
+  labels:
+    - { part: jejunum, text: "jejunum" }
+    - { part: ileum, text: "ileum" }

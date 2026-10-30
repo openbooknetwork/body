@@ -1,0 +1,6 @@
+# tr strings for the image "malpighi-abb878".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Marcello Malpighi, oil portrait by Carlo Cignani, 17th century
+image.caption: "Marcello Malpighi, Carlo Cignani’nin yağlıboya portresi, 17. yüzyıl"

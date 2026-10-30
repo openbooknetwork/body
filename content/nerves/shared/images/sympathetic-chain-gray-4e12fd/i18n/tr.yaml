@@ -1,0 +1,6 @@
+# tr strings for the image "sympathetic-chain-gray-4e12fd".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The right sympathetic chain beside the spine and its connections to the plexuses of the chest, abdomen and pelvis, after Schwalbe, Gray's Anatomy, 20th edition, 1918, figure 838
+image.caption: "Omurganın yanındaki sağ sempatik zincir ve göğüs, karın ve leğen pleksuslarıyla bağlantıları, Schwalbe’den, Gray’s Anatomy, 20. baskı, 1918, şekil 838"

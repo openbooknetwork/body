@@ -1,0 +1,6 @@
+# tr strings for the image "capillary-bed-994ca6".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A capillary bed between an arteriole and a venule, OpenStax Anatomy and Physiology
+image.caption: "Bir arteriyol ile bir venül arasındaki kılcal ağ, OpenStax Anatomy and Physiology"

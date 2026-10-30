@@ -1,0 +1,6 @@
+# tr strings for the image "beaumont-portrait-5b6e09".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# William Beaumont
+image.caption: "William Beaumont"

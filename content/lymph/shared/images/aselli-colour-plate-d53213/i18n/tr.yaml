@@ -1,0 +1,6 @@
+# tr strings for the image "aselli-colour-plate-d53213".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A plate of Aselli's De lactibus sive lacteis venis, 1627, printed in colour: the white milky veins gather in the mesentery of a dog and run up towards the lobes of the liver at the top right
+image.caption: "Aselli’nin De lactibus sive lacteis venis’inden renkli basılmış bir levha, 1627: beyaz süt damarları bir köpeğin mezenterinde toplanır ve sağ üstteki karaciğer loblarına doğru çıkar"

@@ -1,0 +1,9 @@
+name: "Spinal cord"
+latin: "Medulla spinalis"
+role: "The column of nervous tissue in the vertebral canal, from the foramen magnum to the first lumbar vertebra"
+source: https://en.wikipedia.org/wiki/Spinal_cord
+images: [cauda-equina-gray-5ede98]
+facts:
+  - { label: "Length", value: "About 45 cm" }
+  - { label: "Width", value: "About 1 cm, wider at the neck and lumbar enlargements" }
+  - { label: "Nerves", value: "31 pairs: 8 cervical, 12 thoracic, 5 lumbar, 5 sacral, 1 coccygeal" }

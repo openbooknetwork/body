@@ -1,0 +1,6 @@
+# tr strings for the image "microfilaria-e57f04".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A larva of Wuchereria bancrofti, a microfilaria, in a blood smear stained with haematoxylin, CDC DPDx
+image.caption: "Hematoksilenle boyanmış bir kan yaymasında Wuchereria bancrofti larvası, bir mikrofilarya, CDC DPDx"

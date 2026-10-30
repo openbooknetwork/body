@@ -1,0 +1,10 @@
+name: "Eyeball"
+latin: "Bulbus oculi"
+role: "The globe of the eye: three coats around the lens and the vitreous body"
+source: https://en.wikipedia.org/wiki/Human_eye
+images: [eye-section-bbeaae]
+facts:
+  - { label: "Diameter", value: "About 24 mm" }
+  - { label: "Focusing power", value: "About 59 dioptres, two thirds of it in the cornea" }
+  - { label: "Receptors", value: "About 100 million rods and 3 million cones" }
+  - { label: "Pupil", value: "1.5 to 8 mm across" }

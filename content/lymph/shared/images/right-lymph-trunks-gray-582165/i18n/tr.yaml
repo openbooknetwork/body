@@ -1,0 +1,6 @@
+# tr strings for the image "right-lymph-trunks-gray-582165".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Three forms of the lymph trunks at the right venous angle: they enter the veins one by one or join first in a short right lymphatic duct, Gray's Anatomy, 1918, figure 601
+image.caption: "Sağ venöz açıdaki lenf gövdelerinin üç biçimi: venlere tek tek girerler ya da önce kısa bir sağ lenf kanalında birleşirler, Gray’s Anatomy, 1918, şekil 601"

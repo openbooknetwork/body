@@ -1,3 +1,0 @@
-The muscle of the heart cannot feed on the blood inside its chambers: the wall is too thick. Two arteries, the [right](@right-coronary-artery) and the [left coronary](@left-coronary-artery), leave the aorta just above the aortic valve, the first branches of the whole systemic circulation, and run in the grooves of the heart's surface before sinking into the muscle. The left divides at once into a branch down the front and a branch round the back.
-
-They fill mostly between beats, when the squeezed muscle relaxes and lets them open. A clot in one of them starves the muscle beyond it. That is a heart attack.

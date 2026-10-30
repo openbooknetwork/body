@@ -1,0 +1,15 @@
+title: "The vagus"
+sources: ["Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 61.", "Hans-Rudolf Berthoud and Winfried Neuhuber, Functional and chemical anatomy of the afferent vagal system, Autonomic Neuroscience 85 (2000): 1-17.", "Otto Loewi, Über humorale Übertragbarkeit der Herznervenwirkung, Pflügers Archiv 189 (1921): 239-242."]
+beden:
+  camera: oblique
+  look: vagus-nerves
+  layers: [skin, skeleton, organs, autonomic, brainstem, cortex, cerebellum]
+  parts:
+    highlight: [vagus-nerves, medulla-oblongata, heart, stomach]
+    ghost: [skin, skeleton, cerebral-cortex, cerebellum]
+    hide: [sympathetic-trunks]
+    flow: [medulla-oblongata, vagus-nerves, stomach]
+  labels:
+    - { part: vagus-nerves, text: "vagus nerve" }
+    - { part: heart, text: "heart" }
+    - { part: stomach, text: "stomach" }

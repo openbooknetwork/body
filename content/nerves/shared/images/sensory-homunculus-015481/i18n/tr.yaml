@@ -1,0 +1,6 @@
+# tr strings for the image "sensory-homunculus-015481".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The sensory homunculus: the body mapped onto the postcentral gyrus of one hemisphere, with the hand, lips and tongue drawn large
+image.caption: "Duyu homunkulusu: bir yarıkürenin postsantral girusu üzerine haritalanmış beden, el, dudaklar ve dil büyük çizilmiş"

@@ -1,0 +1,15 @@
+title: "The mesentery"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the small intestine.", "Henry Gray, Anatomy of the Human Body, 20th ed. (1918), section VIII, The Lymphatics of the Abdomen and Pelvis."]
+beden:
+  camera: front
+  look: mesentery
+  distance: 0.6
+  layers: [gut, mesentery, veins, arteries, skeleton]
+  parts:
+    show: [mesenteric-nodes, aortic-nodes, cisterna-chyli]
+    highlight: [cisterna-chyli, mesenteric-nodes, aortic-nodes, mesentery, superior-mesenteric-artery, superior-mesenteric-vein]
+    ghost: [duodenum, jejunum, ileum, large-intestine, appendix, skeleton]
+  labels:
+    - { part: mesenteric-nodes, text: "mesenteric nodes" }
+    - { part: mesentery, text: "mesentery" }
+    - { part: superior-mesenteric-artery, text: "superior mesenteric artery" }

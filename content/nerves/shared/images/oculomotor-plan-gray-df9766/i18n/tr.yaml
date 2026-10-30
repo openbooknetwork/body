@@ -1,0 +1,6 @@
+# tr strings for the image "oculomotor-plan-gray-df9766".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Plan of the oculomotor nerve: its two divisions reach the lid lifter, the superior, medial and inferior recti and the inferior oblique, and a short root joins the ciliary ganglion, Gray's Anatomy, 20th edition, 1918, figure 775
+image.caption: "Göz hareket sinirinin planı: iki dalı göz kapağını kaldıran kasa, üst, iç ve alt düz kaslara ve alt eğik kasa ulaşır, kısa bir kök siliyer gangliyona katılır, Gray’s Anatomy, 20. baskı, 1918, şekil 775"

@@ -1,0 +1,6 @@
+# tr strings for the image "visual-pathway-gray-a1e990".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The visual pathway: fibres from the inner half of each retina cross in the optic chiasma and reach the cortex of the occipital lobes through the lateral geniculate bodies, Gray's Anatomy, 20th edition, 1918, figure 722
+image.caption: "Görme yolu: her retinanın iç yarısından gelen lifler optik kiyazmada çaprazlaşır ve lateral genikulat cisimlerden geçerek oksipital lobların korteksine ulaşır, Gray’s Anatomy, 20. baskı, 1918, şekil 722"

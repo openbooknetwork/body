@@ -1,0 +1,15 @@
+title: "The bandaged arm"
+date: "1628"
+sources: ["William Harvey, Exercitatio anatomica de motu cordis et sanguinis in animalibus (1628), ch. 11 and 13."]
+beden:
+  camera: front
+  look: [-0.22, 0.98, 0.10]
+  distance: 0.5
+  layers: [skin, veins, skeleton]
+  parts:
+    highlight: [cephalic-veins, basilic-veins, median-cubital-veins]
+    ghost: [skin, skeleton]
+  labels:
+    - { part: cephalic-veins, text: "cephalic" }
+    - { part: basilic-veins, text: "basilic" }
+    - { part: median-cubital-veins, text: "median cubital" }

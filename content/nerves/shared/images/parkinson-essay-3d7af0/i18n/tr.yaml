@@ -1,0 +1,6 @@
+# tr strings for the image "parkinson-essay-3d7af0".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The opening of James Parkinson's An Essay on the Shaking Palsy, London, 1817, with his definition of the disease
+image.caption: "James Parkinson’un An Essay on the Shaking Palsy’sinin (Londra, 1817) açılışı ve hastalığın tanımı"

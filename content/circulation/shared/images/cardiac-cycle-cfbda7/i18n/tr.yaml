@@ -1,0 +1,6 @@
+# tr strings for the image "cardiac-cycle-cfbda7".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# One beat of the left ventricle through systole and diastole: the pressures in the aorta, ventricle and atrium, the volume of the ventricle, the ECG and the heart sounds
+image.caption: "Sol karıncığın sistol ve diyastol boyunca bir atışı: aorttaki, karıncıktaki ve kulakçıktaki basınçlar, karıncığın hacmi, EKG ve kalp sesleri"

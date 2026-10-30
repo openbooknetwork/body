@@ -1,0 +1,345 @@
+# tr strings for the story "digestion".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# One tube
+groups.one-tube.title: "Tek bir boru"
+
+# The mouth
+groups.mouth.title: "Ağız"
+
+# Swallowing
+groups.swallowing.title: "Yutma"
+
+# The stomach
+groups.stomach.title: "Mide"
+
+# The duodenum
+groups.duodenum.title: "On iki parmak bağırsağı"
+
+# The small intestine
+groups.small-intestine.title: "İnce bağırsak"
+
+# The large intestine
+groups.large-intestine.title: "Kalın bağırsak"
+
+# The way out
+groups.way-out.title: "Çıkış yolu"
+
+# The liver
+groups.liver.title: "Karaciğer"
+
+# A day's digestion
+groups.a-day.title: "Bir günün sindirimi"
+
+# Watching digestion
+groups.history.title: "Sindirimi izlemek"
+
+# esophagus
+pages.the-tract.labels.0: "yemek borusu"
+
+# stomach
+pages.the-tract.labels.1: "mide"
+
+# small intestine
+pages.the-tract.labels.2: "ince bağırsak"
+
+# large intestine
+pages.the-tract.labels.3: "kalın bağırsak"
+
+# From mouth to anus
+pages.the-tract.title: "Ağızdan anüse"
+
+# salivary glands
+pages.the-glands.labels.0: "tükürük bezleri"
+
+# liver
+pages.the-glands.labels.1: "karaciğer"
+
+# gallbladder
+pages.the-glands.labels.2: "safra kesesi"
+
+# pancreas
+pages.the-glands.labels.3: "pankreas"
+
+# The glands that pour in
+pages.the-glands.title: "Boruya dökülen bezler"
+
+# incisors
+pages.teeth.labels.0: "kesiciler"
+
+# canines
+pages.teeth.labels.1: "köpek dişleri"
+
+# premolars
+pages.teeth.labels.2: "küçük azılar"
+
+# molars
+pages.teeth.labels.3: "büyük azılar"
+
+# Teeth
+pages.teeth.title: "Dişler"
+
+# tongue
+pages.tongue.labels.0: "dil"
+
+# The tongue
+pages.tongue.title: "Dil"
+
+# submandibular
+pages.saliva.labels.0: "çene altı"
+
+# sublingual
+pages.saliva.labels.1: "dil altı"
+
+# Saliva
+pages.saliva.title: "Tükürük"
+
+# soft palate
+pages.the-throat.labels.0: "yumuşak damak"
+
+# pharynx
+pages.the-throat.labels.1: "yutak"
+
+# epiglottis
+pages.the-throat.labels.2: "gırtlak kapağı"
+
+# larynx
+pages.the-throat.labels.3: "gırtlak"
+
+# The throat
+pages.the-throat.title: "Boğaz"
+
+# esophagus
+pages.esophagus.labels.0: "yemek borusu"
+
+# trachea
+pages.esophagus.labels.1: "soluk borusu"
+
+# heart
+pages.esophagus.labels.2: "kalp"
+
+# The esophagus
+pages.esophagus.title: "Yemek borusu"
+
+# diaphragm
+pages.the-hiatus.labels.0: "diyafram"
+
+# esophagus
+pages.the-hiatus.labels.1: "yemek borusu"
+
+# Through the diaphragm
+pages.the-hiatus.title: "Diyaframdan geçiş"
+
+# stomach
+pages.the-stomach.labels.0: "mide"
+
+# esophagus
+pages.the-stomach.labels.1: "yemek borusu"
+
+# duodenum
+pages.the-stomach.labels.2: "on iki parmak bağırsağı"
+
+# A bag of muscle
+pages.the-stomach.title: "Kastan bir torba"
+
+# stomach
+pages.acid.labels.0: "mide"
+
+# Acid and pepsin
+pages.acid.title: "Asit ve pepsin"
+
+# stomach
+pages.emptying.labels.0: "mide"
+
+# duodenum
+pages.emptying.labels.1: "on iki parmak bağırsağı"
+
+# Chyme and the pylorus
+pages.emptying.title: "Kimus ve pilor"
+
+# duodenum
+pages.the-duodenum.labels.0: "on iki parmak bağırsağı"
+
+# bile duct
+pages.the-duodenum.labels.1: "safra kanalı"
+
+# pancreatic duct
+pages.the-duodenum.labels.2: "pankreas kanalı"
+
+# Where the ducts open
+pages.the-duodenum.title: "Kanalların açıldığı yer"
+
+# pancreas
+pages.pancreas.labels.0: "pankreas"
+
+# pancreatic duct
+pages.pancreas.labels.1: "pankreas kanalı"
+
+# spleen
+pages.pancreas.labels.2: "dalak"
+
+# The pancreas
+pages.pancreas.title: "Pankreas"
+
+# gallbladder
+pages.gallbladder.labels.0: "safra kesesi"
+
+# cystic duct
+pages.gallbladder.labels.1: "sistik kanal"
+
+# bile duct
+pages.gallbladder.labels.2: "safra kanalı"
+
+# Bile and the gallbladder
+pages.gallbladder.title: "Safra ve safra kesesi"
+
+# jejunum
+pages.six-metres.labels.0: "jejunum"
+
+# ileum
+pages.six-metres.labels.1: "ileum"
+
+# Six metres of gut
+pages.six-metres.title: "Altı metre bağırsak"
+
+# jejunum
+pages.villi.labels.0: "jejunum"
+
+# Folds and villi
+pages.villi.title: "Kıvrımlar ve villuslar"
+
+# mesentery
+pages.mesentery.labels.0: "mezenter"
+
+# superior mesenteric artery
+pages.mesentery.labels.1: "üst mezenterik arter"
+
+# superior mesenteric vein
+pages.mesentery.labels.2: "üst mezenterik ven"
+
+# The mesentery
+pages.mesentery.title: "Mezenter"
+
+# ascending colon
+pages.the-colon.labels.0: "çıkan kolon"
+
+# transverse colon
+pages.the-colon.labels.1: "transvers kolon"
+
+# descending colon
+pages.the-colon.labels.2: "inen kolon"
+
+# rectum
+pages.the-colon.labels.3: "rektum"
+
+# The colon
+pages.the-colon.title: "Kolon"
+
+# cecum
+pages.cecum-and-appendix.labels.0: "kör bağırsak"
+
+# appendix
+pages.cecum-and-appendix.labels.1: "apandis"
+
+# ileum
+pages.cecum-and-appendix.labels.2: "ileum"
+
+# Cecum and appendix
+pages.cecum-and-appendix.title: "Kör bağırsak ve apandis"
+
+# taeniae coli
+pages.taeniae.labels.0: "kolon şeritleri"
+
+# Bands and pouches
+pages.taeniae.title: "Şeritler ve cepler"
+
+# colon
+pages.bacteria.labels.0: "kolon"
+
+# The bacteria
+pages.bacteria.title: "Bakteriler"
+
+# rectum
+pages.rectum.labels.0: "rektum"
+
+# The rectum
+pages.rectum.title: "Rektum"
+
+# puborectalis
+pages.sphincters.labels.0: "puborektal kas"
+
+# external anal sphincter
+pages.sphincters.labels.1: "dış anal sfinkter"
+
+# Holding on
+pages.sphincters.title: "Tutmak"
+
+# liver
+pages.the-liver.labels.0: "karaciğer"
+
+# gallbladder
+pages.the-liver.labels.1: "safra kesesi"
+
+# The largest gland
+pages.the-liver.title: "En büyük bez"
+
+# portal vein
+pages.portal-blood.labels.0: "portal ven"
+
+# superior mesenteric vein
+pages.portal-blood.labels.1: "üst mezenterik ven"
+
+# splenic vein
+pages.portal-blood.labels.2: "dalak veni"
+
+# hepatic veins
+pages.portal-blood.labels.3: "hepatik venler"
+
+# Blood from the gut
+pages.portal-blood.title: "Bağırsaktan gelen kan"
+
+# 10 seconds
+pages.a-meal.labels.0: "10 saniye"
+
+# about 4 hours
+pages.a-meal.labels.1: "yaklaşık 4 saat"
+
+# 3 to 5 hours
+pages.a-meal.labels.2: "3 ila 5 saat"
+
+# 1 to 2 days
+pages.a-meal.labels.3: "1 ila 2 gün"
+
+# A meal's journey
+pages.a-meal.title: "Bir öğünün yolculuğu"
+
+# stomach
+pages.beaumont.labels.0: "mide"
+
+# 1822 to 1833
+pages.beaumont.date: "1822 ile 1833 arası"
+
+# A window into the stomach
+pages.beaumont.title: "Mideye açılan pencere"
+
+# salivary glands
+pages.pavlov.labels.0: "tükürük bezleri"
+
+# esophagus
+pages.pavlov.labels.1: "yemek borusu"
+
+# stomach
+pages.pavlov.labels.2: "mide"
+
+# 1904
+pages.pavlov.date: "1904"
+
+# Pavlov's dogs
+pages.pavlov.title: "Pavlov’un köpekleri"
+
+# How the body breaks down food and absorbs it, from the mouth to the rectum. It covers the teeth, swallowing, the stomach, the liver, gallbladder and pancreas, and the small and large intestines, and ends with the experiments of Beaumont and Pavlov.
+story.summary: "Bedenin besini ağızdan rektuma kadar nasıl parçalayıp emdiği. Dişleri, yutmayı, mideyi, karaciğer, safra kesesi ve pankreası, ince ve kalın bağırsağı anlatır ve Beaumont ile Pavlov’un deneyleriyle biter."
+
+# The digestive system
+story.title: "Sindirim sistemi"

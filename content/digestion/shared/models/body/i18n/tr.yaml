@@ -1,0 +1,215 @@
+# tr strings for the model "body".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# skin
+parts.skin: "deri"
+
+# skeleton
+parts.skeleton: "iskelet"
+
+# heart
+parts.heart: "kalp"
+
+# right lung
+parts.right-lung: "sağ akciğer"
+
+# left lung
+parts.left-lung: "sol akciğer"
+
+# diaphragm
+parts.diaphragm: "diyafram"
+
+# right kidney
+parts.right-kidney: "sağ böbrek"
+
+# left kidney
+parts.left-kidney: "sol böbrek"
+
+# spleen
+parts.spleen: "dalak"
+
+# larynx
+parts.larynx: "gırtlak"
+
+# epiglottis
+parts.epiglottis: "gırtlak kapağı"
+
+# trachea
+parts.trachea: "soluk borusu"
+
+# lips
+parts.lips: "dudaklar"
+
+# tongue
+parts.tongue: "dil"
+
+# soft palate
+parts.soft-palate: "yumuşak damak"
+
+# incisors
+parts.incisors: "kesici dişler"
+
+# canines
+parts.canines: "köpek dişleri"
+
+# premolars
+parts.premolars: "küçük azı dişleri"
+
+# molars
+parts.molars: "büyük azı dişleri"
+
+# submandibular glands
+parts.submandibular-glands: "çene altı bezleri"
+
+# sublingual glands
+parts.sublingual-glands: "dil altı bezleri"
+
+# pharynx
+parts.pharynx: "yutak"
+
+# esophagus
+parts.esophagus: "yemek borusu"
+
+# stomach
+parts.stomach: "mide"
+
+# duodenum
+parts.duodenum: "on iki parmak bağırsağı"
+
+# jejunum
+parts.jejunum: "jejunum"
+
+# ileum
+parts.ileum: "ileum"
+
+# cecum
+parts.cecum: "kör bağırsak"
+
+# appendix
+parts.appendix: "apandis"
+
+# ascending colon
+parts.ascending-colon: "çıkan kolon"
+
+# transverse colon
+parts.transverse-colon: "transvers kolon"
+
+# descending colon
+parts.descending-colon: "inen kolon"
+
+# rectum
+parts.rectum: "rektum"
+
+# taeniae coli
+parts.taeniae-coli: "kolon şeritleri"
+
+# mesentery
+parts.mesentery: "mezenter"
+
+# puborectalis
+parts.puborectalis: "puborektal kas"
+
+# external anal sphincter
+parts.external-anal-sphincter: "dış anal sfinkter"
+
+# liver
+parts.liver: "karaciğer"
+
+# liver ducts
+parts.liver-ducts: "karaciğer içi safra yolları"
+
+# bile duct
+parts.bile-duct: "safra kanalı"
+
+# cystic duct
+parts.cystic-duct: "sistik kanal"
+
+# gallbladder
+parts.gallbladder: "safra kesesi"
+
+# pancreas
+parts.pancreas: "pankreas"
+
+# pancreatic duct
+parts.pancreatic-duct: "pankreas kanalı"
+
+# aorta
+parts.aorta: "aort"
+
+# celiac trunk
+parts.celiac-trunk: "çölyak trunkus"
+
+# hepatic artery
+parts.hepatic-artery: "hepatik arter"
+
+# superior mesenteric artery
+parts.superior-mesenteric-artery: "üst mezenterik arter"
+
+# inferior mesenteric artery
+parts.inferior-mesenteric-artery: "alt mezenterik arter"
+
+# inferior vena cava
+parts.inferior-vena-cava: "alt ana toplardamar"
+
+# hepatic veins
+parts.hepatic-veins: "hepatik venler"
+
+# portal vein
+parts.portal-vein: "portal ven"
+
+# superior mesenteric vein
+parts.superior-mesenteric-vein: "üst mezenterik ven"
+
+# inferior mesenteric vein
+parts.inferior-mesenteric-vein: "alt mezenterik ven"
+
+# splenic vein
+parts.splenic-vein: "dalak veni"
+
+# lungs
+parts.lungs: "akciğerler"
+
+# kidneys
+parts.kidneys: "böbrekler"
+
+# airway
+parts.airway: "hava yolu"
+
+# teeth
+parts.teeth: "dişler"
+
+# salivary glands
+parts.salivary-glands: "tükürük bezleri"
+
+# mouth
+parts.mouth: "ağız"
+
+# tract
+parts.tract: "sindirim kanalı"
+
+# small intestine
+parts.small-intestine: "ince bağırsak"
+
+# large intestine
+parts.large-intestine: "kalın bağırsak"
+
+# colon
+parts.colon: "kolon"
+
+# anal sphincters
+parts.anal-sphincters: "anüs kasları"
+
+# biliary tree
+parts.biliary-tree: "safra yolları"
+
+# glands
+parts.glands: "bezler"
+
+# gut arteries
+parts.gut-arteries: "bağırsak arterleri"
+
+# portal system
+parts.portal-system: "portal sistem"

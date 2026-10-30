@@ -1,0 +1,6 @@
+# tr strings for the image "cecum-interior-gray-18f98a".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The cecum opened, showing the opening of the ileum with its valve and the opening of the appendix, Gray's Anatomy, 1918, figure 1075
+image.caption: "Açılmış kör bağırsak, kapağıyla ileumun ağzı ve apandisin ağzı, Gray’s Anatomy, 1918, şekil 1075"

@@ -1,0 +1,6 @@
+# tr strings for the image "bartholin-portrait-ff4521".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Thomas Bartholin at 35, professor of anatomy at Copenhagen, engraving by Jonas Suyderhoef after Carel van Mander, 1651
+image.caption: "Kopenhag’da anatomi profesörü Thomas Bartholin 35 yaşında, Carel van Mander’den Jonas Suyderhoef’un gravürü, 1651"

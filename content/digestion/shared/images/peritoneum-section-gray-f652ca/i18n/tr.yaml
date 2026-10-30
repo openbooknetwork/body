@@ -1,0 +1,6 @@
+# tr strings for the image "peritoneum-section-gray-f652ca".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The abdomen cut down the middle, showing the peritoneum and the mesentery that holds the small intestine, Gray's Anatomy, 1918, figure 1035
+image.caption: "Ortadan kesilmiş karın: periton ve ince bağırsağı taşıyan mezenter, Gray’s Anatomy, 1918, şekil 1035"

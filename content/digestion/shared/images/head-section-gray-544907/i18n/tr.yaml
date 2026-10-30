@@ -1,0 +1,6 @@
+# tr strings for the image "head-section-gray-544907".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The head and neck cut down the middle: nose, mouth, pharynx, larynx and the start of the esophagus, Gray's Anatomy, 1918, figure 994
+image.caption: "Ortadan kesilmiş baş ve boyun: burun, ağız, yutak, gırtlak ve yemek borusunun başı, Gray’s Anatomy, 1918, şekil 994"

@@ -1,0 +1,16 @@
+title: "The armpit"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapters on the shoulder girdle and arm and on the chest wall and breast.", "Henry Gray, Anatomy of the Human Body, 20th ed. (1918), section VIII, The Lymphatics of the Upper Extremity."]
+beden:
+  camera: armpit
+  look: [0.116, 1.284, 0.103]
+  distance: 0.6
+  layers: [skin, skeleton, muscles, veins, arteries, lungs]
+  parts:
+    show: [axillary-nodes]
+    highlight: [axillary-nodes, axillary-veins, axillary-arteries]
+    ghost: [skin, skeleton, pectoralis-major, right-lung, left-lung]
+    hide: [diaphragm]
+  labels:
+    - { part: axillary-nodes, text: "axillary nodes" }
+    - { part: axillary-veins, text: "axillary vein" }
+    - { part: pectoralis-major, text: "pectoralis major" }

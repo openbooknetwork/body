@@ -1,0 +1,6 @@
+# tr strings for the image "digestion-by-part-openstax-e09ba2".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# What each part of the tract does: mechanical digestion, chemical digestion and absorption, OpenStax Anatomy and Physiology
+image.caption: "Kanalın her bölümünün işi: mekanik sindirim, kimyasal sindirim ve emilim, OpenStax Anatomy and Physiology"

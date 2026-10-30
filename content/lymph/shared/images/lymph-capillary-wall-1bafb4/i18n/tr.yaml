@@ -1,0 +1,6 @@
+# tr strings for the image "lymph-capillary-wall-1bafb4".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A lymph capillary in the tissue spaces and, enlarged, its wall: overlapping endothelial flaps let tissue fluid in and close against backflow, and collagen fibres anchor the wall, OpenStax, Anatomy and Physiology
+image.caption: "Doku boşluklarında bir lenf kılcalı ve büyütülmüş duvarı: üst üste binen endotel kapakları doku sıvısını içeri alır ve geri akışa karşı kapanır, kolajen lifler duvarı bağlar, OpenStax, Anatomy and Physiology"

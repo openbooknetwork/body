@@ -1,0 +1,6 @@
+# tr strings for the image "internal-capsule-gray-b32e5a".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Coronal section through the thalamus: the internal capsule runs between the thalamus and caudate nucleus on one side and the putamen and globus pallidus on the other, Gray's Anatomy, 20th edition, 1918, figure 718
+image.caption: "Talamustan geçen koronal kesit: iç kapsül bir yanda talamus ve kaudat çekirdek, öbür yanda putamen ve globus pallidus arasından geçer, Gray’s Anatomy, 20. baskı, 1918, şekil 718"

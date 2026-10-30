@@ -1,3 +1,0 @@
-Dört kapak kanı tek yöne akıtır. Her kulakçık ile karıncığı arasında bir kapak durur: sağda üç yaprakçıklı [triküspit](@tricuspid-valve), solda iki yaprakçıklı [mitral](@mitral-valve); her biri basınç altında geriye dönmesin diye karıncık duvarına kirişlerle bağlıdır. Her karıncığın çıkışında bir kapak daha vardır, sağda [pulmoner](@pulmonary-valve), solda [aort](@aortic-valve) kapağı: kan geri gelmeye çalıştığı anda dolup kapanan üç cep.
-
-Stetoskopla bir atış iki sestir. İlki karıncıklar sıkışmaya başlarken triküspit ve mitral kapakların kapanması, ikincisi karıncıklar gevşerken pulmoner ve aort kapaklarının kapanmasıdır. Aradaki bir üfürüm, daralmış ya da kaçıran bir kapaktan zorla geçen kandır.

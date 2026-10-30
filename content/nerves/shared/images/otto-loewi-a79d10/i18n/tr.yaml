@@ -1,0 +1,6 @@
+# tr strings for the image "otto-loewi-a79d10".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Otto Loewi, who shared the 1936 Nobel Prize in Physiology or Medicine for the chemical transmission of nerve impulses
+image.caption: "Sinir uyarılarının kimyasal iletimi için 1936 Nobel Fizyoloji veya Tıp Ödülü’nü paylaşan Otto Loewi"

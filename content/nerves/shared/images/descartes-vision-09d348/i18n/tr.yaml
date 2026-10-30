@@ -1,0 +1,6 @@
+# tr strings for the image "descartes-vision-09d348".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# René Descartes' drawing of vision in the Treatise of Man, 1664: the optic nerves run from the eyes to the pineal gland
+image.caption: "René Descartes’ın İnsan Üzerine İnceleme’deki görme çizimi, 1664: görme sinirleri gözlerden epifize uzanır"

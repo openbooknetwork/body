@@ -1,0 +1,6 @@
+# tr strings for the image "thymus-lobule-gray-1370ee".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A lobule of the thymus, slightly diagrammatic: a dark cortex round a pale medulla that holds a concentric corpuscle, Gray's Anatomy, 1918, figure 1179
+image.caption: "Timusun bir lobçuğu, biraz şematik: eşmerkezli bir cisimcik taşıyan açık renkli bir medullanın çevresinde koyu bir korteks, Gray’s Anatomy, 1918, şekil 1179"

@@ -1,0 +1,12 @@
+title: "The valves"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the heart.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 9 and 23."]
+beden:
+  camera: above
+  look: valves
+  layers: [chambers, valves]
+  parts: { highlight: [tricuspid-valve, pulmonary-valve, mitral-valve, aortic-valve, papillary-muscles], ghost: [right-ventricle, left-ventricle], hide: [right-atrium, left-atrium] }
+  labels:
+    - { part: tricuspid-valve, text: "tricuspid" }
+    - { part: mitral-valve, text: "mitral" }
+    - { part: aortic-valve, text: "aortic" }
+    - { part: pulmonary-valve, text: "pulmonary" }

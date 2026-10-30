@@ -1,0 +1,6 @@
+# tr strings for the image "superior-mesenteric-artery-gray-249fac".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The superior mesenteric artery and the arches it forms in the mesentery, Gray's Anatomy, 1918, figure 534
+image.caption: "Üst mezenterik arter ve mezenterde oluşturduğu kemerler, Gray’s Anatomy, 1918, şekil 534"

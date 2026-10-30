@@ -1,0 +1,6 @@
+# tr strings for the image "bone-marrow-gray-0a9854".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Red bone marrow, magnified: fat cells among the blood-forming cells, Gray's Anatomy, 1918, figure 72
+image.caption: "Kırmızı kemik iliği, büyütülmüş: kan yapan hücreler arasında yağ hücreleri, Gray’s Anatomy, 1918, şekil 72"

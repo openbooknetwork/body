@@ -1,0 +1,16 @@
+title: "The groin"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the pelvic girdle, hip, gluteal region and thigh.", "Henry Gray, Anatomy of the Human Body, 20th ed. (1918), section VIII, The Lymphatics of the Lower Extremity."]
+beden:
+  camera: front
+  look: groin-vessels
+  distance: 0.7
+  layers: [skin, skeleton, veins, arteries]
+  parts:
+    show: [inguinal-nodes, pelvic-nodes, aortic-nodes, cisterna-chyli]
+    highlight: [cisterna-chyli, inguinal-nodes, pelvic-nodes, aortic-nodes, great-saphenous-veins, femoral-veins, external-iliac-veins, external-iliac-arteries]
+    ghost: [skin, skeleton]
+  labels:
+    - { part: inguinal-nodes, text: "inguinal nodes" }
+    - { part: great-saphenous-veins, text: "great saphenous vein" }
+    - { part: femoral-veins, text: "femoral vein" }
+    - { part: external-iliac-arteries, text: "external iliac" }

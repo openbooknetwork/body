@@ -1,0 +1,6 @@
+# tr strings for the image "esophagus-openstax-bc1bf9".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The esophagus from the pharynx to the stomach, with its upper and lower sphincters, OpenStax Anatomy and Physiology
+image.caption: "Yutaktan mideye yemek borusu, üst ve alt sfinkterleriyle, OpenStax Anatomy and Physiology"

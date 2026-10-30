@@ -1,0 +1,15 @@
+title: "Where the ducts open"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapters on the small intestine and on the gallbladder and biliary tree.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 65.", "William Bayliss and Ernest Starling, The mechanism of pancreatic secretion, Journal of Physiology 28 (1902): 325 to 353."]
+beden:
+  camera: front
+  look: duodenum
+  distance: 0.35
+  layers: [tract, pancreas, bile, skeleton]
+  parts:
+    highlight: [duodenum, bile-duct, pancreatic-duct]
+    ghost: [pancreas, skeleton, stomach]
+    hide: [jejunum, ileum, cecum, appendix, ascending-colon, transverse-colon, descending-colon, rectum]
+  labels:
+    - { part: duodenum, text: "duodenum" }
+    - { part: bile-duct, text: "bile duct" }
+    - { part: pancreatic-duct, text: "pancreatic duct" }

@@ -1,0 +1,6 @@
+# tr strings for the image "lymph-node-micrograph-bc352d".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A pig's lymph node under the microscope: 1 capsule, 2 subcapsular sinus, 3 germinal centres, 4 lymphoid nodule, 5 trabeculae
+image.caption: "Mikroskopta bir domuzun lenf düğümü: 1 kapsül, 2 kapsül altı sinüs, 3 germinal merkezler, 4 lenfoid nodül, 5 trabeküller"

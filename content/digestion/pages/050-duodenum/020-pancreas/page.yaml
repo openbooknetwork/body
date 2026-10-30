@@ -1,0 +1,16 @@
+title: "The pancreas"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the pancreas.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 65 and 79."]
+beden:
+  camera: front
+  look: pancreas
+  distance: 0.4
+  layers: [tract, pancreas, organs, skeleton]
+  parts:
+    highlight: [pancreas, pancreatic-duct]
+    ghost: [duodenum, spleen, skeleton]
+    hide: [stomach, right-kidney, left-kidney, jejunum, ileum, cecum, appendix, ascending-colon, transverse-colon, descending-colon, rectum]
+  structure: pancreas
+  labels:
+    - { part: pancreas, text: "pancreas" }
+    - { part: pancreatic-duct, text: "pancreatic duct" }
+    - { part: spleen, text: "spleen" }

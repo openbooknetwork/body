@@ -1,0 +1,35 @@
+# tr strings for the structure "liver".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Liver
+structure.name: "Karaciğer"
+
+# The largest gland, under the right ribs, which receives the blood from the gut, stores and changes what it carries and makes bile
+structure.role: "Sağ kaburgaların altındaki en büyük bez, bağırsaktan gelen kanı alır, taşıdıklarını depolar ve dönüştürür, safra yapar"
+
+# Weight
+structure.facts.0.label: "Ağırlık"
+
+# Blood flow
+structure.facts.1.label: "Kan akımı"
+
+# Bile
+structure.facts.2.label: "Safra"
+
+# Lobules
+structure.facts.3.label: "Lobüller"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# About 1.5 kg
+structure.facts.0.value: "Yaklaşık 1,5 kg"
+
+# About 1.35 litres a minute, three quarters by the portal vein
+structure.facts.1.value: "Dakikada yaklaşık 1,35 litre, dörtte üçü portal venden"
+
+# 600 to 1,000 ml a day
+structure.facts.2.value: "Günde 600 ila 1.000 ml"
+
+# 50,000 to 100,000
+structure.facts.3.value: "50.000 ila 100.000"

@@ -1,0 +1,6 @@
+# tr strings for the image "teeth-jaws-gray-22afcf".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Side view of the teeth and jaws, Gray's Anatomy, 1918, figure 995
+image.caption: "Dişler ve çeneler, yandan, Gray’s Anatomy, 1918, şekil 995"

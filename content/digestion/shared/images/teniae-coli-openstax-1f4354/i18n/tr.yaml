@@ -1,0 +1,6 @@
+# tr strings for the image "teniae-coli-openstax-1f4354".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The wall of the colon: a taenia coli, the pouches called haustra and small bags of fat, OpenStax Anatomy and Physiology
+image.caption: "Kolonun duvarı: bir kolon şeridi, haustra denen cepler ve küçük yağ keseleri, OpenStax Anatomy and Physiology"

@@ -1,0 +1,6 @@
+# tr strings for the image "forearm-arteries-deep-gray-011861".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The front of the forearm, deep view: the brachial artery dividing below the elbow into the radial and ulnar arteries, Gray's Anatomy, 1918, figure 528
+image.caption: "Önkolun önü, derin görünüm: dirseğin altında radyal ve ulnar arterlere ayrılan brakiyal arter, Gray’s Anatomy, 1918, şekil 528"

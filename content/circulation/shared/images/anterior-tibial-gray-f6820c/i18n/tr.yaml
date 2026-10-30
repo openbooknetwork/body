@@ -1,0 +1,6 @@
+# tr strings for the image "anterior-tibial-gray-f6820c".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The front of the leg and foot: the anterior tibial artery running down to become the dorsalis pedis on the top of the foot, Gray's Anatomy, 1918, figure 553
+image.caption: "Bacağın ve ayağın önü: aşağı inip ayağın üstünde ayak sırtı arteri olan ön tibial arter, Gray’s Anatomy, 1918, şekil 553"

@@ -1,0 +1,6 @@
+# tr strings for the image "brachial-plexus-plan-3c633c".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The brachial plexus from its roots, C5 to T1, on the right to its five end nerves on the left
+image.caption: "Sağda C5’ten T1’e köklerinden solda beş son sinirine kadar brakiyal pleksus"

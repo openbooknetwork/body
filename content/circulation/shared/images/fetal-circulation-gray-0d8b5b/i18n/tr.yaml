@@ -1,0 +1,6 @@
+# tr strings for the image "fetal-circulation-gray-0d8b5b".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The circulation before birth: the umbilical vein from the placenta, the ductus venosus through the liver, and the ductus arteriosus between the pulmonary artery and the aorta, Gray's Anatomy, 1918, figure 502
+image.caption: "Doğumdan önceki dolaşım: plasentadan gelen göbek veni, karaciğerin içinden geçen duktus venozus ve pulmoner arter ile aort arasındaki duktus arteriyozus, Gray’s Anatomy, 1918, şekil 502"

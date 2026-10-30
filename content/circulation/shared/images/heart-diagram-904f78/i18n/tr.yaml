@@ -1,0 +1,6 @@
+# tr strings for the image "heart-diagram-904f78".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The four chambers and four valves of the heart and the great vessels, with arrows for the way the blood flows
+image.caption: "Kalbin dört odacığı, dört kapağı ve büyük damarlar, kanın akış yönünü gösteren oklarla"

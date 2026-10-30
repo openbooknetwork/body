@@ -1,0 +1,29 @@
+# tr strings for the structure "spinal-cord".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Spinal cord
+structure.name: "Omurilik"
+
+# The column of nervous tissue in the vertebral canal, from the foramen magnum to the first lumbar vertebra
+structure.role: "Omurga kanalında, büyük delikten birinci bel omuruna kadar uzanan sinir dokusu sütunu"
+
+# Length
+structure.facts.0.label: "Uzunluk"
+
+# Width
+structure.facts.1.label: "Genişlik"
+
+# Nerves
+structure.facts.2.label: "Sinirler"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# About 45 cm
+structure.facts.0.value: "Yaklaşık 45 cm"
+
+# About 1 cm, wider at the neck and lumbar enlargements
+structure.facts.1.value: "Yaklaşık 1 cm, boyun ve bel kalınlaşmalarında daha geniş"
+
+# 31 pairs: 8 cervical, 12 thoracic, 5 lumbar, 5 sacral, 1 coccygeal
+structure.facts.2.value: "31 çift: 8 boyun, 12 göğüs, 5 bel, 5 sakral, 1 kuyruk"

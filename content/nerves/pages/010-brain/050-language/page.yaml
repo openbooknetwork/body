@@ -1,0 +1,11 @@
+title: "Language"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the cerebral hemispheres.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 58.", "Carl Wernicke, Der aphasische Symptomencomplex (Breslau, 1874)."]
+beden:
+  camera: left-side
+  look: left-hemisphere
+  distance: 0.28
+  layers: [cortex, brainstem, cerebellum]
+  parts: { highlight: [left-inferior-frontal-gyrus, left-posterior-superior-temporal-gyrus] }
+  labels:
+    - { part: left-inferior-frontal-gyrus, text: "Broca's area" }
+    - { part: left-posterior-superior-temporal-gyrus, text: "Wernicke's area" }

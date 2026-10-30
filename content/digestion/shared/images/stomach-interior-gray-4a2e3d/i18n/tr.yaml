@@ -1,0 +1,6 @@
+# tr strings for the image "stomach-interior-gray-4a2e3d".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Interior of the stomach, with the pylorus and its valve at the outlet into the duodenum, Gray's Anatomy, 1918, figure 1050
+image.caption: "Midenin içi, on iki parmak bağırsağına açılan çıkışında pilor ve kapağıyla, Gray’s Anatomy, 1918, şekil 1050"

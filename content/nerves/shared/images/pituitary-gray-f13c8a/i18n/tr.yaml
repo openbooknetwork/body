@@ -1,0 +1,6 @@
+# tr strings for the image "pituitary-gray-f13c8a".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Section through the pituitary gland in its bony seat, hanging from the infundibulum behind the optic chiasm, Gray's Anatomy, 20th edition, 1918, figure 1180
+image.caption: "Kemik yuvasındaki hipofizden geçen kesit, optik kiyazmanın arkasında infundibulumdan sarkar, Gray’s Anatomy, 20. baskı, 1918, şekil 1180"

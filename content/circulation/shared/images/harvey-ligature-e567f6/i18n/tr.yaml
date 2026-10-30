@@ -1,4 +1,6 @@
 # tr strings for the image "harvey-ligature-e567f6".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
 
 # The bandaged arm and the valves of the veins, William Harvey, De motu cordis, 1628
 image.caption: "Bağlı kol ve venlerin kapakçıkları, William Harvey, De motu cordis, 1628"

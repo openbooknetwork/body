@@ -1,12 +1,23 @@
+# tr strings for the structure "vena-cava".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
 # Venae cavae
 structure.name: "Ana toplardamarlar"
+
 # The two great veins that empty into the right atrium, one from above and one from below
 structure.role: "Sağ kulakçığa biri yukarıdan biri aşağıdan boşalan iki büyük ven"
+
 # Diameter
 structure.facts.0.label: "Çap"
-# About 20 mm superior, 25 mm inferior
-structure.facts.0.value: "Üstte yaklaşık 20 mm, altta 25 mm"
+
 # Pressure
 structure.facts.1.label: "Basınç"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# About 20 mm superior, 25 mm inferior
+structure.facts.0.value: "Üstte yaklaşık 20 mm, altta 25 mm"
+
 # 0 to 5 mm Hg at the atrium
 structure.facts.1.value: "Kulakçıkta 0 ila 5 mm Hg"

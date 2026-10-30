@@ -1,0 +1,6 @@
+# tr strings for the image "pancreas-blausen-99805e".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The pancreas and its ducts, which open with the bile duct into the duodenum, Blausen Medical
+image.caption: "Safra kanalıyla birlikte on iki parmak bağırsağına açılan pankreas ve kanalları, Blausen Medical"

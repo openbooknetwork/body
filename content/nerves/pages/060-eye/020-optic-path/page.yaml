@@ -1,0 +1,15 @@
+title: "From eye to cortex"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapters on the diencephalon and on the cerebral hemispheres.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 52.", "René Descartes, L'Homme (Paris, 1664)."]
+beden:
+  camera: below
+  look: visual-pathway
+  layers: [eyes, nerves, cortex, brainstem]
+  parts:
+    highlight: [optic-nerves, optic-chiasm, optic-tracts, lateral-geniculate-bodies, occipital-lobes]
+    ghost: [cerebral-cortex]
+    flow: [retina, optic-nerves, optic-chiasm, optic-tracts, lateral-geniculate-bodies, occipital-lobes]
+  labels:
+    - { part: optic-nerves, text: "optic nerve" }
+    - { part: optic-chiasm, text: "chiasm" }
+    - { part: optic-tracts, text: "optic tract" }
+    - { part: left-occipital-lobe, text: "visual cortex" }

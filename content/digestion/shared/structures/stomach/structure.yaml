@@ -1,0 +1,9 @@
+name: "Stomach"
+latin: "Gaster"
+role: "The muscular bag between the esophagus and the duodenum that holds a meal, mixes it with acid and pepsin and lets it out a little at a time"
+source: https://en.wikipedia.org/wiki/Stomach
+images: [stomach-interior-gray-4a2e3d]
+facts:
+  - { label: "Capacity", value: "0.8 to 1.5 litres before the pressure inside rises" }
+  - { label: "Gastric juice", value: "About 1.5 litres a day, pH 1 to 3.5" }
+  - { label: "Emptying", value: "More than nine tenths of a solid meal in about 4 hours" }

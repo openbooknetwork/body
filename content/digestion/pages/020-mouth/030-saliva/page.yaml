@@ -1,0 +1,11 @@
+title: "Saliva"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the mouth.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 65 and 66."]
+beden:
+  camera: left
+  look: salivary-glands
+  distance: 0.3
+  layers: [skin, skeleton, salivary, mouth, teeth]
+  parts: { highlight: [submandibular-glands, sublingual-glands], ghost: [skin, skeleton] }
+  labels:
+    - { part: submandibular-glands, text: "submandibular" }
+    - { part: sublingual-glands, text: "sublingual" }

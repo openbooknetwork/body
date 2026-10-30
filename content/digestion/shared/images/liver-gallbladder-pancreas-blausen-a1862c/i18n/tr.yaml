@@ -1,0 +1,6 @@
+# tr strings for the image "liver-gallbladder-pancreas-blausen-a1862c".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The liver, gallbladder and pancreas beside the stomach and duodenum, Blausen Medical
+image.caption: "Mide ve on iki parmak bağırsağının yanında karaciğer, safra kesesi ve pankreas, Blausen Medical"

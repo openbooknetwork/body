@@ -1,0 +1,6 @@
+# tr strings for the image "rectum-section-gray-c5b007".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The rectum and anal canal cut lengthwise, with the internal and external sphincters, Gray's Anatomy, 1918, figure 1078
+image.caption: "Boyuna kesilmiş rektum ve anal kanal, iç ve dış sfinkterleriyle, Gray’s Anatomy, 1918, şekil 1078"

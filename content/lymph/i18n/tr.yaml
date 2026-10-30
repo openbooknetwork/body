@@ -1,0 +1,336 @@
+# tr strings for the story "lymph".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Fluid from the blood
+groups.from-the-blood.title: "Kandan çıkan sıvı"
+
+# The way to the veins
+groups.to-the-veins.title: "Venlere giden yol"
+
+# The nodes
+groups.nodes.title: "Düğümler"
+
+# The lymphoid organs
+groups.organs.title: "Lenfoid organlar"
+
+# Guards at the openings
+groups.gates.title: "Kapılardaki bekçiler"
+
+# When drainage fails
+groups.swelling.title: "Boşalma aksadığında"
+
+# Milky veins
+groups.history.title: "Süt damarları"
+
+# thymus
+pages.a-second-network.labels.0: "timus"
+
+# spleen
+pages.a-second-network.labels.1: "dalak"
+
+# venous angle
+pages.a-second-network.labels.2: "venöz açı"
+
+# A second network
+pages.a-second-network.title: "İkinci bir ağ"
+
+# femoral artery
+pages.leaving-the-capillaries.labels.0: "femoral arter"
+
+# femoral vein
+pages.leaving-the-capillaries.labels.1: "femoral ven"
+
+# Leaving the capillaries
+pages.leaving-the-capillaries.title: "Kılcallardan çıkış"
+
+# great saphenous vein
+pages.lymph-capillaries.labels.0: "büyük safen ven"
+
+# inguinal nodes
+pages.lymph-capillaries.labels.1: "kasık düğümleri"
+
+# The first lymph vessels
+pages.lymph-capillaries.title: "İlk lenf damarları"
+
+# diaphragm
+pages.valves-and-pumps.labels.0: "diyafram"
+
+# Valves and pumps
+pages.valves-and-pumps.title: "Kapakçıklar ve pompalar"
+
+# cisterna chyli
+pages.thoracic-duct.labels.0: "sisterna şili"
+
+# thoracic duct
+pages.thoracic-duct.labels.1: "duktus torasikus"
+
+# abdominal aorta
+pages.thoracic-duct.labels.2: "abdominal aort"
+
+# azygos vein
+pages.thoracic-duct.labels.3: "azigos ven"
+
+# left venous angle
+pages.thoracic-duct.labels.4: "sol venöz açı"
+
+# The thoracic duct
+pages.thoracic-duct.title: "Duktus torasikus"
+
+# left venous angle
+pages.two-ducts.labels.0: "sol venöz açı"
+
+# right venous angle
+pages.two-ducts.labels.1: "sağ venöz açı"
+
+# right lymphatic duct
+pages.two-ducts.labels.2: "sağ lenf kanalı"
+
+# superior vena cava
+pages.two-ducts.labels.3: "üst ana toplardamar"
+
+# Where lymph meets the blood
+pages.two-ducts.title: "Lenfin kanla buluştuğu yer"
+
+# neck
+pages.node-chains.labels.0: "boyun"
+
+# armpit
+pages.node-chains.labels.1: "koltuk altı"
+
+# groin
+pages.node-chains.labels.2: "kasık"
+
+# aorta
+pages.node-chains.labels.3: "aort"
+
+# mesentery
+pages.node-chains.labels.4: "mezenter"
+
+# Where the nodes gather
+pages.node-chains.title: "Düğümlerin toplandığı yerler"
+
+# inguinal nodes
+pages.inside-a-node.labels.0: "kasık düğümleri"
+
+# femoral vein
+pages.inside-a-node.labels.1: "femoral ven"
+
+# femoral artery
+pages.inside-a-node.labels.2: "femoral arter"
+
+# Inside a node
+pages.inside-a-node.title: "Bir düğümün içi"
+
+# deep cervical nodes
+pages.the-neck.labels.0: "derin servikal düğümler"
+
+# internal jugular vein
+pages.the-neck.labels.1: "iç juguler ven"
+
+# common carotid
+pages.the-neck.labels.2: "ana karotis"
+
+# The neck
+pages.the-neck.title: "Boyun"
+
+# axillary nodes
+pages.the-armpit.labels.0: "koltuk altı düğümleri"
+
+# axillary vein
+pages.the-armpit.labels.1: "aksiller ven"
+
+# pectoralis major
+pages.the-armpit.labels.2: "büyük göğüs kası"
+
+# The armpit
+pages.the-armpit.title: "Koltuk altı"
+
+# inguinal nodes
+pages.the-groin.labels.0: "kasık düğümleri"
+
+# great saphenous vein
+pages.the-groin.labels.1: "büyük safen ven"
+
+# femoral vein
+pages.the-groin.labels.2: "femoral ven"
+
+# external iliac
+pages.the-groin.labels.3: "dış iliyak"
+
+# The groin
+pages.the-groin.title: "Kasık"
+
+# tracheobronchial nodes
+pages.the-chest.labels.0: "trakeobronşiyal düğümler"
+
+# trachea
+pages.the-chest.labels.1: "soluk borusu"
+
+# right main bronchus
+pages.the-chest.labels.2: "sağ ana bronş"
+
+# left main bronchus
+pages.the-chest.labels.3: "sol ana bronş"
+
+# The chest
+pages.the-chest.title: "Göğüs"
+
+# mesenteric nodes
+pages.the-mesentery.labels.0: "mezenter düğümleri"
+
+# mesentery
+pages.the-mesentery.labels.1: "mezenter"
+
+# superior mesenteric artery
+pages.the-mesentery.labels.2: "üst mezenterik arter"
+
+# The mesentery
+pages.the-mesentery.title: "Mezenter"
+
+# spleen
+pages.the-spleen.labels.0: "dalak"
+
+# splenic artery
+pages.the-spleen.labels.1: "dalak arteri"
+
+# splenic vein
+pages.the-spleen.labels.2: "dalak veni"
+
+# The spleen
+pages.the-spleen.title: "Dalak"
+
+# spleen
+pages.red-and-white-pulp.labels.0: "dalak"
+
+# Red and white pulp
+pages.red-and-white-pulp.title: "Kırmızı ve beyaz pulpa"
+
+# thymus
+pages.the-thymus.labels.0: "timus"
+
+# The thymus
+pages.the-thymus.title: "Timus"
+
+# thymus, cut
+pages.t-cell-school.labels.0: "timus, kesit"
+
+# A school for T cells
+pages.t-cell-school.title: "T hücrelerinin okulu"
+
+# sternum
+pages.born-in-the-marrow.labels.0: "göğüs kemiği"
+
+# pelvis
+pages.born-in-the-marrow.labels.1: "leğen"
+
+# femur
+pages.born-in-the-marrow.labels.2: "uyluk kemiği"
+
+# Born in the marrow
+pages.born-in-the-marrow.title: "İlikte doğanlar"
+
+# spleen
+pages.cells-on-patrol.labels.0: "dalak"
+
+# thymus
+pages.cells-on-patrol.labels.1: "timus"
+
+# Cells on patrol
+pages.cells-on-patrol.title: "Devriyedeki hücreler"
+
+# palatine tonsil
+pages.the-tonsils.labels.0: "damak bademciği"
+
+# soft palate
+pages.the-tonsils.labels.1: "yumuşak damak"
+
+# tongue
+pages.the-tonsils.labels.2: "dil"
+
+# The tonsils
+pages.the-tonsils.title: "Bademcikler"
+
+# ileum
+pages.peyers-patches.labels.0: "ileum"
+
+# appendix
+pages.peyers-patches.labels.1: "apandis"
+
+# 1677
+pages.peyers-patches.date: "1677"
+
+# Peyer's patches
+pages.peyers-patches.title: "Peyer plakları"
+
+# jejunum
+pages.milky-lymph.labels.0: "jejunum"
+
+# mesentery
+pages.milky-lymph.labels.1: "mezenter"
+
+# Milky lymph
+pages.milky-lymph.title: "Süt gibi lenf"
+
+# great saphenous vein
+pages.oedema.labels.0: "büyük safen ven"
+
+# femoral vein
+pages.oedema.labels.1: "femoral ven"
+
+# Swelling
+pages.oedema.title: "Şişlik"
+
+# axillary nodes
+pages.lymphoedema.labels.0: "koltuk altı düğümleri"
+
+# axillary vessels
+pages.lymphoedema.labels.1: "aksiller damarlar"
+
+# Blocked lymph
+pages.lymphoedema.title: "Tıkanan lenf"
+
+# mesentery
+pages.aselli.labels.0: "mezenter"
+
+# liver
+pages.aselli.labels.1: "karaciğer"
+
+# 1622
+pages.aselli.date: "1622"
+
+# Aselli's milky veins
+pages.aselli.title: "Aselli’nin süt damarları"
+
+# receptacle of the chyle
+pages.pecquet.labels.0: "şilus haznesi"
+
+# left subclavian vein
+pages.pecquet.labels.1: "sol subklavyen ven"
+
+# superior vena cava
+pages.pecquet.labels.2: "üst ana toplardamar"
+
+# 1651
+pages.pecquet.date: "1651"
+
+# Pecquet's cistern
+pages.pecquet.title: "Pecquet’nin haznesi"
+
+# liver
+pages.rudbeck-and-bartholin.labels.0: "karaciğer"
+
+# great veins
+pages.rudbeck-and-bartholin.labels.1: "büyük venler"
+
+# 1653
+pages.rudbeck-and-bartholin.date: "1653"
+
+# Rudbeck and Bartholin
+pages.rudbeck-and-bartholin.title: "Rudbeck ve Bartholin"
+
+# The lymphatic system collects fluid from the tissues, filters it through the lymph nodes and returns it to the blood. This story covers the lymph vessels and nodes, the spleen, thymus and bone marrow, the tonsils, and what happens when drainage fails.
+story.summary: "Lenf sistemi dokulardaki sıvıyı toplar, lenf düğümlerinde süzer ve kana geri verir. Bu hikâye lenf damarlarını ve düğümlerini, dalak, timus ve kemik iliğini, bademcikleri ve boşalma aksadığında olanları anlatır."
+
+# The lymphatic system
+story.title: "Lenf sistemi"

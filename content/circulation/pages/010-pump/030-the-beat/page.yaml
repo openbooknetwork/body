@@ -1,0 +1,11 @@
+title: "The beat"
+sources: ["Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 9 and 10.", "Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the heart."]
+beden:
+  camera: front
+  look: heart
+  layers: [heart, chambers, valves]
+  section: { plane: coronal, at: 0.13, flip: true }
+  parts: { highlight: [left-ventricle, right-ventricle], ghost: [heart, right-atrium, left-atrium] }
+  labels:
+    - { part: left-ventricle, text: "left ventricle" }
+    - { part: right-ventricle, text: "right ventricle" }

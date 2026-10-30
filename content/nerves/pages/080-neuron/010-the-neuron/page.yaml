@@ -1,0 +1,11 @@
+title: "The neuron"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the tissues of the nervous system.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 46.", "Frederico Azevedo et al., Equal numbers of neuronal and nonneuronal cells make the human brain an isometrically scaled-up primate brain, Journal of Comparative Neurology 513 (2009): 532-541."]
+beden:
+  camera: above
+  look: left-precentral-gyrus
+  distance: 0.2
+  layers: [cortex, white-matter]
+  section: { plane: axial, at: 1.6, flip: true }
+  parts: { highlight: [cerebral-cortex] }
+  labels:
+    - { part: left-white-matter, text: "white matter" }

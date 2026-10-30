@@ -1,0 +1,14 @@
+title: "The first breath"
+sources: ["Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 84.", "Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapters on the heart and on the development of the heart.", "Patrick Hagen, David Scholz and William Edwards, Incidence and size of patent foramen ovale during the first 10 decades of life, Mayo Clinic Proceedings 59 (1984): 17-20."]
+beden:
+  camera: oblique
+  look: lungs
+  layers: [lungs, heart, chambers, pulmonary, aorta, fetal]
+  parts:
+    highlight: [pulmonary-trunk, right-pulmonary-artery, left-pulmonary-artery, pulmonary-veins, ductus-arteriosus]
+    ghost: [right-lung, left-lung, heart]
+    hide: [abdominal-aorta]
+    flow: [right-ventricle, pulmonary-trunk, right-pulmonary-artery, pulmonary-veins, left-atrium]
+  labels:
+    - { part: ductus-arteriosus, text: "ligamentum arteriosum" }
+    - { part: pulmonary-veins, text: "pulmonary veins" }

@@ -1,0 +1,15 @@
+title: "The mesentery"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the peritoneum, mesentery and peritoneal cavity.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 63.", "Calvin Coffey and Peter O'Leary, The mesentery: structure, function, and role in disease, The Lancet Gastroenterology and Hepatology 1 (2016): 238 to 247."]
+beden:
+  camera: front
+  look: mesentery
+  distance: 0.6
+  layers: [skeleton, tract, mesentery, arteries, portal, pancreas]
+  parts:
+    highlight: [mesentery, superior-mesenteric-artery, superior-mesenteric-vein]
+    ghost: [jejunum, ileum, skeleton, aorta, pancreas]
+    hide: [celiac-trunk, hepatic-artery, inferior-mesenteric-artery, inferior-mesenteric-vein, splenic-vein, portal-vein, stomach, transverse-colon, pancreatic-duct]
+  labels:
+    - { part: mesentery, text: "mesentery" }
+    - { part: superior-mesenteric-artery, text: "superior mesenteric artery" }
+    - { part: superior-mesenteric-vein, text: "superior mesenteric vein" }

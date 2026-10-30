@@ -1,0 +1,6 @@
+# tr strings for the image "spinal-cord-section-gray-b6d6fd".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Cross-section of the spinal cord in the chest: a butterfly of grey matter inside the white, with the posterior and anterior nerve roots, Gray's Anatomy, 20th edition, 1918, figure 664
+image.caption: "Göğüs hizasında omuriliğin enine kesiti: ak maddenin içinde kelebek biçimli boz madde, arka ve ön sinir kökleriyle, Gray’s Anatomy, 20. baskı, 1918, şekil 664"

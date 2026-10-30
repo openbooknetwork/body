@@ -1,0 +1,6 @@
+# tr strings for the image "peyers-patch-gray-a243c2".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A Peyer's patch in section: villi above, round lymph nodules below, and the lymph vessels injected around them, Gray's Anatomy, 1918, figure 1063
+image.caption: "Kesitte bir Peyer plağı: üstte villuslar, altta yuvarlak lenf nodülleri ve çevrelerinde boyalı lenf damarları, Gray’s Anatomy, 1918, şekil 1063"

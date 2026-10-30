@@ -1,0 +1,14 @@
+title: "The throat"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the pharynx.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 64."]
+beden:
+  camera: side
+  look: pharynx
+  distance: 0.35
+  layers: [skin, skeleton, mouth, teeth, pharynx, airway, tract]
+  section: { plane: sagittal, at: 0 }
+  parts: { highlight: [soft-palate, pharynx, epiglottis], ghost: [skin, skeleton, larynx, trachea] }
+  labels:
+    - { part: soft-palate, text: "soft palate" }
+    - { part: pharynx, text: "pharynx" }
+    - { part: epiglottis, text: "epiglottis" }
+    - { part: larynx, text: "larynx" }

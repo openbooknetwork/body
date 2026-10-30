@@ -1,0 +1,6 @@
+# tr strings for the image "thymus-openstax-6fdca7".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The thymus behind the breastbone, a micrograph of its cortex and medulla, and a diagram of the young T cells among the epithelial cells, OpenStax, Anatomy and Physiology
+image.caption: "Göğüs kemiğinin arkasındaki timus, korteksinin ve medullasının mikrografı ve epitel hücreleri arasındaki genç T hücrelerinin şeması, OpenStax, Anatomy and Physiology"

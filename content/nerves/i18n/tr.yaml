@@ -1,0 +1,450 @@
+# tr strings for the story "nerves".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The brain
+groups.brain.title: "Beyin"
+
+# Inside the brain
+groups.inside.title: "Beynin içi"
+
+# Brainstem and cerebellum
+groups.hindbrain.title: "Beyin sapı ve beyincik"
+
+# The spinal cord
+groups.cord.title: "Omurilik"
+
+# Nerves of the limbs
+groups.limbs.title: "Kol ve bacak sinirleri"
+
+# The eye and its nerves
+groups.eye.title: "Göz ve sinirleri"
+
+# The autonomic system
+groups.autonomic.title: "Otonom sistem"
+
+# Neurons and signals
+groups.neuron.title: "Nöronlar ve sinyaller"
+
+# History
+groups.history.title: "Tarih"
+
+# brain
+pages.the-system.labels.0: "beyin"
+
+# spinal cord
+pages.the-system.labels.1: "omurilik"
+
+# sciatic nerve
+pages.the-system.labels.2: "siyatik sinir"
+
+# Brain, cord and nerves
+pages.the-system.title: "Beyin, omurilik ve sinirler"
+
+# left hemisphere
+pages.hemispheres.labels.0: "sol yarıküre"
+
+# right hemisphere
+pages.hemispheres.labels.1: "sağ yarıküre"
+
+# Two hemispheres
+pages.hemispheres.title: "İki yarıküre"
+
+# frontal
+pages.lobes.labels.0: "frontal"
+
+# parietal
+pages.lobes.labels.1: "parietal"
+
+# temporal
+pages.lobes.labels.2: "temporal"
+
+# occipital
+pages.lobes.labels.3: "oksipital"
+
+# Four lobes
+pages.lobes.title: "Dört lob"
+
+# motor cortex
+pages.motor-and-sensory.labels.0: "motor korteks"
+
+# sensory cortex
+pages.motor-and-sensory.labels.1: "duyu korteksi"
+
+# Movement and touch
+pages.motor-and-sensory.title: "Hareket ve dokunma"
+
+# Broca's area
+pages.language.labels.0: "Broca alanı"
+
+# Wernicke's area
+pages.language.labels.1: "Wernicke alanı"
+
+# Language
+pages.language.title: "Dil"
+
+# white matter
+pages.grey-and-white.labels.0: "ak madde"
+
+# internal capsule
+pages.grey-and-white.labels.1: "iç kapsül"
+
+# Grey and white matter
+pages.grey-and-white.title: "Boz ve ak madde"
+
+# corpus callosum
+pages.corpus-callosum.labels.0: "korpus kallozum"
+
+# The bridge between the halves
+pages.corpus-callosum.title: "Yarımlar arasındaki köprü"
+
+# caudate nucleus
+pages.basal-ganglia.labels.0: "kaudat çekirdek"
+
+# putamen
+pages.basal-ganglia.labels.1: "putamen"
+
+# globus pallidus
+pages.basal-ganglia.labels.2: "globus pallidus"
+
+# The basal ganglia
+pages.basal-ganglia.title: "Bazal çekirdekler"
+
+# thalamus
+pages.thalamus.labels.0: "talamus"
+
+# hypothalamus
+pages.thalamus.labels.1: "hipotalamus"
+
+# pituitary
+pages.thalamus.labels.2: "hipofiz"
+
+# Thalamus and hypothalamus
+pages.thalamus.title: "Talamus ve hipotalamus"
+
+# hippocampus
+pages.memory.labels.0: "hipokampus"
+
+# amygdala
+pages.memory.labels.1: "amigdala"
+
+# fornix
+pages.memory.labels.2: "forniks"
+
+# Memory
+pages.memory.title: "Bellek"
+
+# lateral ventricle
+pages.ventricles.labels.0: "yan ventrikül"
+
+# third ventricle
+pages.ventricles.labels.1: "üçüncü ventrikül"
+
+# fourth ventricle
+pages.ventricles.labels.2: "dördüncü ventrikül"
+
+# The ventricles
+pages.ventricles.title: "Ventriküller"
+
+# midbrain
+pages.brainstem.labels.0: "orta beyin"
+
+# pons
+pages.brainstem.labels.1: "pons"
+
+# medulla
+pages.brainstem.labels.2: "medulla"
+
+# The brainstem
+pages.brainstem.title: "Beyin sapı"
+
+# cerebellum
+pages.cerebellum.labels.0: "beyincik"
+
+# The cerebellum
+pages.cerebellum.title: "Beyincik"
+
+# precentral gyrus
+pages.motor-path.labels.0: "presantral girus"
+
+# internal capsule
+pages.motor-path.labels.1: "iç kapsül"
+
+# pyramids
+pages.motor-path.labels.2: "piramitler"
+
+# corticospinal tract
+pages.motor-path.labels.3: "kortikospinal yol"
+
+# From cortex to cord
+pages.motor-path.title: "Korteksten omuriliğe"
+
+# 8 cervical
+pages.the-cord.labels.0: "8 boyun"
+
+# 12 thoracic
+pages.the-cord.labels.1: "12 göğüs"
+
+# 5 lumbar
+pages.the-cord.labels.2: "5 bel"
+
+# 5 sacral
+pages.the-cord.labels.3: "5 sakral"
+
+# diaphragm
+pages.the-cord.labels.4: "diyafram"
+
+# The cord and its nerves
+pages.the-cord.title: "Omurilik ve sinirleri"
+
+# L1
+pages.cord-end.labels.0: "L1"
+
+# L2
+pages.cord-end.labels.1: "L2"
+
+# L3
+pages.cord-end.labels.2: "L3"
+
+# L4
+pages.cord-end.labels.3: "L4"
+
+# cauda equina
+pages.cord-end.labels.4: "kauda ekina"
+
+# Where the cord ends
+pages.cord-end.title: "Omuriliğin bittiği yer"
+
+# quadriceps
+pages.reflex.labels.0: "kuadriseps"
+
+# kneecap
+pages.reflex.labels.1: "diz kapağı"
+
+# femoral nerve
+pages.reflex.labels.2: "femoral sinir"
+
+# The knee jerk
+pages.reflex.title: "Diz refleksi"
+
+# roots
+pages.brachial-plexus.labels.0: "kökler"
+
+# trunks
+pages.brachial-plexus.labels.1: "gövdeler"
+
+# divisions
+pages.brachial-plexus.labels.2: "dallar"
+
+# posterior cord
+pages.brachial-plexus.labels.3: "arka kordon"
+
+# The brachial plexus
+pages.brachial-plexus.title: "Brakiyal pleksus"
+
+# musculocutaneous
+pages.arm-nerves.labels.0: "muskulokutan"
+
+# axillary
+pages.arm-nerves.labels.1: "aksiller"
+
+# radial
+pages.arm-nerves.labels.2: "radyal"
+
+# median
+pages.arm-nerves.labels.3: "median"
+
+# ulnar
+pages.arm-nerves.labels.4: "ulnar"
+
+# Nerves of the arm
+pages.arm-nerves.title: "Kolun sinirleri"
+
+# sciatic
+pages.leg-nerves.labels.0: "siyatik"
+
+# tibial
+pages.leg-nerves.labels.1: "tibial"
+
+# common fibular
+pages.leg-nerves.labels.2: "ortak fibular"
+
+# femoral
+pages.leg-nerves.labels.3: "femoral"
+
+# Nerves of the leg
+pages.leg-nerves.title: "Bacağın sinirleri"
+
+# cornea
+pages.the-eye.labels.0: "kornea"
+
+# iris
+pages.the-eye.labels.1: "iris"
+
+# lens
+pages.the-eye.labels.2: "mercek"
+
+# retina
+pages.the-eye.labels.3: "retina"
+
+# The eye
+pages.the-eye.title: "Göz"
+
+# optic nerve
+pages.optic-path.labels.0: "görme siniri"
+
+# chiasm
+pages.optic-path.labels.1: "kiyazma"
+
+# optic tract
+pages.optic-path.labels.2: "optik yol"
+
+# visual cortex
+pages.optic-path.labels.3: "görme korteksi"
+
+# From eye to cortex
+pages.optic-path.title: "Gözden kortekse"
+
+# oculomotor nerve
+pages.eye-muscles.labels.0: "göz hareket siniri"
+
+# trochlear nerve
+pages.eye-muscles.labels.1: "makara siniri"
+
+# abducens nerve
+pages.eye-muscles.labels.2: "uzaklaştırıcı sinir"
+
+# superior oblique
+pages.eye-muscles.labels.3: "üst eğik kas"
+
+# lateral rectus
+pages.eye-muscles.labels.4: "dış düz kas"
+
+# Moving the eye
+pages.eye-muscles.title: "Gözü oynatmak"
+
+# I
+pages.cranial-nerves.labels.0: "I"
+
+# II
+pages.cranial-nerves.labels.1: "II"
+
+# III
+pages.cranial-nerves.labels.2: "III"
+
+# IV
+pages.cranial-nerves.labels.3: "IV"
+
+# V
+pages.cranial-nerves.labels.4: "V"
+
+# VI
+pages.cranial-nerves.labels.5: "VI"
+
+# VII
+pages.cranial-nerves.labels.6: "VII"
+
+# VIII
+pages.cranial-nerves.labels.7: "VIII"
+
+# IX
+pages.cranial-nerves.labels.8: "IX"
+
+# X
+pages.cranial-nerves.labels.9: "X"
+
+# XI
+pages.cranial-nerves.labels.10: "XI"
+
+# XII
+pages.cranial-nerves.labels.11: "XII"
+
+# Twelve cranial nerves
+pages.cranial-nerves.title: "On iki kafa siniri"
+
+# sympathetic trunk
+pages.two-systems.labels.0: "sempatik zincir"
+
+# heart
+pages.two-systems.labels.1: "kalp"
+
+# liver
+pages.two-systems.labels.2: "karaciğer"
+
+# stomach
+pages.two-systems.labels.3: "mide"
+
+# adrenal glands
+pages.two-systems.labels.4: "böbreküstü bezleri"
+
+# bladder
+pages.two-systems.labels.5: "idrar torbası"
+
+# Two systems
+pages.two-systems.title: "İki sistem"
+
+# vagus nerve
+pages.vagus.labels.0: "vagus siniri"
+
+# heart
+pages.vagus.labels.1: "kalp"
+
+# stomach
+pages.vagus.labels.2: "mide"
+
+# The vagus
+pages.vagus.title: "Vagus"
+
+# ciliary ganglion
+pages.pupil.labels.0: "siliyer gangliyon"
+
+# iris
+pages.pupil.labels.1: "iris"
+
+# lacrimal gland
+pages.pupil.labels.2: "gözyaşı bezi"
+
+# The pupil
+pages.pupil.title: "Göz bebeği"
+
+# white matter
+pages.the-neuron.labels.0: "ak madde"
+
+# The neuron
+pages.the-neuron.title: "Nöron"
+
+# white matter
+pages.the-signal.labels.0: "ak madde"
+
+# corpus callosum
+pages.the-signal.labels.1: "korpus kallozum"
+
+# The signal
+pages.the-signal.title: "Sinyal"
+
+# lumbar spine
+pages.galvani.labels.0: "bel omurgası"
+
+# sciatic nerve
+pages.galvani.labels.1: "siyatik sinir"
+
+# Galvani's frogs
+pages.galvani.title: "Galvani’nin kurbağaları"
+
+# third frontal convolution
+pages.broca.labels.0: "üçüncü frontal kıvrım"
+
+# Broca's patient
+pages.broca.title: "Broca’nın hastası"
+
+# cerebellum
+pages.golgi-and-cajal.labels.0: "beyincik"
+
+# Golgi and Cajal
+pages.golgi-and-cajal.title: "Golgi ve Cajal"
+
+# The brain, the spinal cord and the nerves of the body. Pages cover the regions of the brain, reflexes, the nerves of the limbs and head, the autonomic system and how a nerve cell signals. The last pages tell of the experiments of Galvani, Broca, Golgi and Cajal.
+story.summary: "Beyin, omurilik ve bedenin sinirleri. Sayfalar beynin bölgelerini, refleksleri, kol, bacak ve baş sinirlerini, otonom sistemi ve bir sinir hücresinin nasıl sinyal ilettiğini anlatır. Son sayfalar Galvani, Broca, Golgi ve Cajal’ın deneylerine ayrılmıştır."
+
+# The nervous system
+story.title: "Sinir sistemi"

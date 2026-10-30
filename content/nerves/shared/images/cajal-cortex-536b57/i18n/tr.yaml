@@ -1,0 +1,6 @@
+# tr strings for the image "cajal-cortex-536b57".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Three drawings of the human cerebral cortex by Santiago Ramón y Cajal, 1899: visual and motor cortex stained for cell bodies, and an infant's cortex stained with Golgi's method
+image.caption: "Santiago Ramón y Cajal’ın insan beyin korteksinin üç çizimi, 1899: hücre gövdeleri için boyanmış görme ve motor korteks ve Golgi yöntemiyle boyanmış bir bebek korteksi"

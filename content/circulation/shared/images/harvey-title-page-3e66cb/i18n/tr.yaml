@@ -1,4 +1,6 @@
 # tr strings for the image "harvey-title-page-3e66cb".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
 
 # Title page of William Harvey's Exercitatio anatomica de motu cordis et sanguinis in animalibus, Frankfurt, 1628
 image.caption: "William Harvey’nin Exercitatio anatomica de motu cordis et sanguinis in animalibus’unun başlık sayfası, Frankfurt, 1628"

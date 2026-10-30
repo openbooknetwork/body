@@ -1,0 +1,17 @@
+title: "The brain's arteries"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the vascular supply of the brain.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 62.", "Thomas Willis, Cerebri anatome (London, 1664)."]
+beden:
+  camera: below
+  look: brain-arteries
+  layers: [organs, brain-arteries]
+  parts:
+    show: [internal-carotid-arteries, vertebral-arteries]
+    highlight: [internal-carotid-arteries, vertebral-arteries, basilar-artery, arterial-circle]
+    ghost: [brain]
+    hide: [liver, right-kidney, left-kidney, spleen]
+  structure: arterial-circle
+  labels:
+    - { part: internal-carotid-arteries, text: "internal carotid" }
+    - { part: vertebral-arteries, text: "vertebral" }
+    - { part: basilar-artery, text: "basilar" }
+    - { part: arterial-circle, text: "arterial circle" }

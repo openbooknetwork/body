@@ -1,0 +1,16 @@
+title: "Before the first breath"
+sources: ["Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 84.", "Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the development of the heart."]
+beden:
+  camera: left
+  look: [0.027, 1.26, 0.11]
+  distance: 0.35
+  layers: [heart, chambers, aorta, pulmonary, fetal]
+  parts:
+    highlight: [ductus-arteriosus, right-atrium, left-atrium]
+    ghost: [heart, right-ventricle, left-ventricle]
+    hide: [abdominal-aorta, pulmonary-veins]
+    flow: [right-ventricle, pulmonary-trunk, ductus-arteriosus, descending-aorta]
+  labels:
+    - { part: ductus-arteriosus, text: "ductus arteriosus" }
+    - { part: right-atrium, text: "right atrium" }
+    - { part: left-atrium, text: "left atrium" }

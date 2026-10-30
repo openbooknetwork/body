@@ -1,0 +1,14 @@
+title: "The bacteria"
+sources: ["Ron Sender, Shai Fuchs and Ron Milo, Revised estimates for the number of human and bacteria cells in the body, PLoS Biology 14 (2016): e1002533.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 64 and 66."]
+beden:
+  camera: oblique
+  look: large-intestine
+  distance: 0.6
+  layers: [tract]
+  section: { plane: coronal, at: 0.12, flip: true }
+  parts:
+    highlight: [large-intestine]
+    ghost: [jejunum, ileum]
+    hide: [pharynx, esophagus, stomach, duodenum]
+  labels:
+    - { part: transverse-colon, text: "colon" }

@@ -1,0 +1,6 @@
+# tr strings for the image "arm-skin-nerves-gray-18a851".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The skin of the right arm from the front and the back, coloured by the nerve that supplies each area, after Gray's Anatomy, 20th edition, 1918, figures 812 and 814
+image.caption: "Önden ve arkadan sağ kolun derisi, her alan onu besleyen sinire göre boyalı, Gray’s Anatomy, 20. baskı, 1918, şekil 812 ve 814’ten"

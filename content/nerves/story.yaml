@@ -1,0 +1,51 @@
+id: nerves
+title: "The nervous system"
+summary: "The brain, the spinal cord and the nerves of the body. Pages cover the regions of the brain, reflexes, the nerves of the limbs and head, the autonomic system and how a nerve cell signals. The last pages tell of the experiments of Galvani, Broca, Golgi and Cajal."
+cover: brain-lobes-gray-24c3e1
+languages: [en, tr]
+default_language: en
+beden:
+  model: body
+  # the overview before the first page: the body with its brain, cord and nerves
+  overview: { camera: front, look: skin, layers: [skin, skeleton, cortex, brainstem, cerebellum, cord, roots, limb-nerves], parts: { highlight: [brain, spinal-cord, peripheral-nerves], ghost: [skin, skeleton] } }
+  cameras:
+    front:      { direction: [0, 0.05, 1] }
+    oblique:    { direction: [0.7, 0.35, 1] }
+    left:       { direction: [-1, 0.1, 0.4] }
+    right:      { direction: [1, 0.1, 0.4] }
+    back:       { direction: [0, 0.05, -1] }
+    left-side:  { direction: [1, 0.1, 0.05] }    # onto the body's left side, where the language areas sit
+    right-side: { direction: [-1, 0.05, 0.02] }  # from the body's right, onto a midline cut of its left half
+    above:      { direction: [0, 1, -0.15] }     # down onto the crown, the forehead at the top
+    below:      { direction: [0, -1, 0.15] }     # up onto the base of the brain, the forehead at the top
+  families:
+    frontal:      { color: "#c8835a", color_dark: "#e3a37f" }
+    parietal:     { color: "#6f9a5b", color_dark: "#98c283" }
+    temporal:     { color: "#5d86b5", color_dark: "#88afdf" }
+    occipital:    { color: "#a86aa8", color_dark: "#cf93cf" }
+    insula:       { color: "#4f9e98", color_dark: "#7cc7c1" }
+    limbic:       { color: "#c99a2e", color_dark: "#e8c062" }   # the cingulate gyrus, hippocampus and amygdala
+    white:        { color: "#e9e2d3", color_dark: "#a49d8f" }   # the white matter, corpus callosum, internal capsule and fornix
+    nucleus:      { color: "#6d5a9e", color_dark: "#a08fd0" }   # the basal ganglia
+    diencephalon: { color: "#c46f86", color_dark: "#e598ad" }   # the thalamus, hypothalamus and geniculate bodies
+    brainstem:    { color: "#b39470", color_dark: "#d5b893" }
+    cerebellum:   { color: "#9a6650", color_dark: "#c58f78" }
+    csf:          { color: "#3f8fd2", color_dark: "#72b5ef" }   # the ventricles
+    plexus:       { color: "#b5352a", color_dark: "#e8695c" }   # the choroid plexus, a tuft of capillaries
+    nerve:        { color: "#e0b422", color_dark: "#f2cf55" }
+    sympathetic:  { color: "#d9662b", color_dark: "#f08a55" }   # the sympathetic trunks
+    parasympathetic: { color: "#2f9e6e", color_dark: "#5fc795" }   # the vagus nerves
+    grey:         { color: "#8c7f78", color_dark: "#b3a69f" }   # the grey matter of the spinal cord
+    tract:        { color: "#c8463e", color_dark: "#e8746b" }   # the corticospinal tracts
+    meninges:     { color: "#cdb9a0", color_dark: "#8f7d68" }   # the spinal dura
+    ganglion:     { color: "#e07b22", color_dark: "#f2a055" }
+    sclera:       { color: "#efe9df", color_dark: "#9a948a" }
+    choroid:      { color: "#7b3d30", color_dark: "#a8604f" }
+    retina:       { color: "#cf6a4c", color_dark: "#e8907a" }
+    clear:        { color: "#a9d3e8", color_dark: "#6d9fb8" }   # the cornea, lens and vitreous body
+    iris:         { color: "#4f7396", color_dark: "#7fa2c4" }
+    gland:        { color: "#b8607e", color_dark: "#dd8aa6" }
+    muscle:       { color: "#9c5b5b", color_dark: "#c48080" }
+    organ:        { color: "#b08968", color_dark: "#8a6a4f" }
+    bone:         { color: "#e8e2d2", color_dark: "#6f6a5e" }
+    skin:         { color: "#f2d9c4", color_dark: "#5a5048" }

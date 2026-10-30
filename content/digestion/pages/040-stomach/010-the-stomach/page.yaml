@@ -1,0 +1,17 @@
+title: "A bag of muscle"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the abdominal oesophagus and stomach.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 64."]
+beden:
+  camera: front
+  look: stomach
+  distance: 0.5
+  layers: [skeleton, liver, tract]
+  parts:
+    show: [esophagus, duodenum]
+    highlight: [stomach]
+    ghost: [skeleton, liver]
+    hide: [jejunum, ileum, cecum, appendix, ascending-colon, transverse-colon, descending-colon, rectum]
+  structure: stomach
+  labels:
+    - { part: stomach, text: "stomach" }
+    - { part: esophagus, text: "esophagus" }
+    - { part: duodenum, text: "duodenum" }

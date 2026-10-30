@@ -1,0 +1,15 @@
+title: "Chyme and the pylorus"
+sources: ["Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 64.", "Thomas Abell and others, Consensus recommendations for gastric emptying scintigraphy, American Journal of Gastroenterology 103 (2008): 753 to 763."]
+beden:
+  camera: oblique
+  look: stomach
+  distance: 0.45
+  layers: [skeleton, tract, pancreas]
+  parts:
+    highlight: [stomach, duodenum]
+    ghost: [skeleton, pancreas, pancreatic-duct]
+    hide: [jejunum, ileum, cecum, appendix, ascending-colon, transverse-colon, descending-colon, rectum]
+    flow: [stomach, duodenum]
+  labels:
+    - { part: stomach, text: "stomach" }
+    - { part: duodenum, text: "duodenum" }

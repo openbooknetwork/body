@@ -1,0 +1,16 @@
+title: "The arm"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapters on the shoulder girdle and arm, the elbow and forearm, and the wrist and hand."]
+beden:
+  camera: front
+  look: [0.20, 1.03, 0.10]
+  distance: 1.0
+  layers: [skin, skeleton, arteries]
+  parts:
+    highlight: [axillary-arteries, brachial-arteries, radial-arteries, ulnar-arteries, superficial-palmar-arches, deep-palmar-arches]
+    ghost: [skin, skeleton]
+    flow: [left-subclavian-artery, axillary-arteries, brachial-arteries, radial-arteries, superficial-palmar-arches]
+  labels:
+    - { part: axillary-arteries, text: "axillary" }
+    - { part: brachial-arteries, text: "brachial" }
+    - { part: radial-arteries, text: "radial" }
+    - { part: ulnar-arteries, text: "ulnar" }

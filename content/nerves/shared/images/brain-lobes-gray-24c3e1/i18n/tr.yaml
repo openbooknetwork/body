@@ -1,0 +1,6 @@
+# tr strings for the image "brain-lobes-gray-24c3e1".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The left hemisphere from the side, with the frontal, parietal, temporal and occipital lobes coloured, Gray's Anatomy, 20th edition, 1918, figure 728
+image.caption: "Yandan sol yarıküre, frontal, parietal, temporal ve oksipital loblar boyalı, Gray’s Anatomy, 20. baskı, 1918, şekil 728"

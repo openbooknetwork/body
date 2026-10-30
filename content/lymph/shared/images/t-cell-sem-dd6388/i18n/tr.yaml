@@ -1,0 +1,6 @@
+# tr strings for the image "t-cell-sem-dd6388".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A human T cell from a healthy donor, scanning electron micrograph in false colour, NIAID
+image.caption: "Sağlıklı bir bağışçıdan bir insan T hücresi, yapay renkli taramalı elektron mikrografı, NIAID"

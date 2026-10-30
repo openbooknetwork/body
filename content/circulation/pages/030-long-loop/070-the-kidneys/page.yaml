@@ -1,0 +1,14 @@
+title: "The kidneys"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the kidney and ureter.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 26 and 27."]
+beden:
+  camera: front
+  look: kidneys
+  distance: 0.45
+  layers: [organs, aorta, arteries, veins]
+  parts:
+    highlight: [renal-arteries, intrarenal-arteries, intrarenal-veins, renal-veins]
+    ghost: [right-kidney, left-kidney, liver, spleen]
+    hide: [brain, arch-branches, neck-arteries, internal-carotid-arteries, arm-arteries, leg-arteries, internal-iliac-arteries, superficial-veins, deep-leg-veins, arm-veins, leg-veins, internal-jugular-veins, brachiocephalic-veins, superior-vena-cava, azygos-vein]
+  labels:
+    - { part: renal-arteries, text: "renal arteries" }
+    - { part: renal-veins, text: "renal veins" }

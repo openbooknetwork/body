@@ -1,0 +1,35 @@
+# tr strings for the structure "eye".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Eyeball
+structure.name: "Göz küresi"
+
+# The globe of the eye: three coats around the lens and the vitreous body
+structure.role: "Gözün küresi: merceği ve camsı cismi saran üç tabaka"
+
+# Diameter
+structure.facts.0.label: "Çap"
+
+# Focusing power
+structure.facts.1.label: "Kırma gücü"
+
+# Receptors
+structure.facts.2.label: "Algılayıcılar"
+
+# Pupil
+structure.facts.3.label: "Göz bebeği"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# About 24 mm
+structure.facts.0.value: "Yaklaşık 24 mm"
+
+# About 59 dioptres, two thirds of it in the cornea
+structure.facts.1.value: "Yaklaşık 59 diyoptri, üçte ikisi korneada"
+
+# About 100 million rods and 3 million cones
+structure.facts.2.value: "Yaklaşık 100 milyon çubuk ve 3 milyon koni"
+
+# 1.5 to 8 mm across
+structure.facts.3.value: "Çapı 1,5 ila 8 mm"

@@ -1,0 +1,6 @@
+# tr strings for the image "arterial-system-7dbf4d".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The main arteries of the body from the front
+image.caption: "Bedenin başlıca arterleri, önden"

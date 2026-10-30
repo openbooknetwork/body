@@ -1,0 +1,6 @@
+# tr strings for the image "vagus-gray-e92d5d".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Course of the glossopharyngeal, vagus and accessory nerves: the vagus runs down the neck beside the carotid artery and jugular vein, past the heart and lungs to the stomach, Gray's Anatomy, 20th edition, 1918, figure 793
+image.caption: "Dil-yutak, vagus ve aksesuar sinirlerin seyri: vagus boyunda karotis arteri ve juguler venin yanından iner, kalbin ve akciğerlerin yanından mideye ulaşır, Gray’s Anatomy, 20. baskı, 1918, şekil 793"

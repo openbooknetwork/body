@@ -1,0 +1,6 @@
+# tr strings for the image "groin-veins-gray-763233".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The great (internal) saphenous vein joining the femoral vein in the groin, with the small superficial veins of the lower abdomen, Gray's Anatomy, 1918, figure 584
+image.caption: "Kasıkta femoral vene katılan büyük (iç) safen ven ve karnın alt bölümünün küçük yüzeyel venleri, Gray’s Anatomy, 1918, şekil 584"

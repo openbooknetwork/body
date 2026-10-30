@@ -1,0 +1,6 @@
+# tr strings for the image "brain-territories-gray-56c6c5".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The outer surface of a cerebral hemisphere, coloured by the artery that feeds each area: anterior cerebral blue, middle cerebral pink, posterior cerebral yellow, Gray's Anatomy, 1918, figure 517
+image.caption: "Bir beyin yarımküresinin dış yüzü, her bölgeyi besleyen artere göre boyanmış: ön serebral mavi, orta serebral pembe, arka serebral sarı, Gray’s Anatomy, 1918, şekil 517"

@@ -1,0 +1,6 @@
+# tr strings for the image "pavlov-dog-44c7ea".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# One of Pavlov's dogs, preserved at the Pavlov Museum in Ryazan, with the tube and container that collected its saliva
+image.caption: "Pavlov’un köpeklerinden biri, Ryazan’daki Pavlov Müzesi’nde, salyasını toplayan boru ve kabıyla"

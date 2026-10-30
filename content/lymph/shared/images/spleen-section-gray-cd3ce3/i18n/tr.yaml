@@ -1,0 +1,6 @@
+# tr strings for the image "spleen-section-gray-cd3ce3".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A spleen cut across, its injected veins branching through the spongy pulp, Gray's Anatomy, 1918, figure 1189
+image.caption: "Enine kesilmiş bir dalak, boyalı venleri süngerimsi pulpanın içinde dallanır, Gray’s Anatomy, 1918, şekil 1189"

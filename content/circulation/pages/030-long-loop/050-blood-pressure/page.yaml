@@ -1,0 +1,8 @@
+title: "Blood pressure"
+sources: ["Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 14 and 15.", "Scipione Riva-Rocci, Un nuovo sfigmomanometro, Gazzetta Medica di Torino 47 (1896)."]
+beden:
+  camera: front
+  look: [-0.19, 1.06, 0.08]
+  distance: 0.45
+  layers: [skin, skeleton, arteries]
+  parts: { highlight: [brachial-arteries], ghost: [skin, skeleton] }

@@ -1,0 +1,13 @@
+title: "The thymus"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), ch. 4 and chapter on the mediastinum.", "Jacques Miller, Immunological function of the thymus, The Lancet 278 (1961), 748-749."]
+beden:
+  camera: front
+  look: thymus
+  distance: 0.45
+  layers: [heart, lymphoid, veins, arteries, lungs, skeleton]
+  parts:
+    highlight: [thymus]
+    ghost: [heart, right-lung, left-lung, skeleton]
+    hide: [spleen]
+  structure: thymus
+  labels: [{ part: left-thymic-lobe, text: "thymus" }]

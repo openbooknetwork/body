@@ -1,0 +1,6 @@
+# tr strings for the image "neck-nodes-gray-31c17d".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The superficial lymph nodes and vessels of the head and neck, with the superior and inferior deep cervical nodes, Gray's Anatomy, 1918, figure 602
+image.caption: "Başın ve boynun yüzeysel lenf düğümleri ve damarları, üst ve alt derin servikal düğümlerle, Gray’s Anatomy, 1918, şekil 602"

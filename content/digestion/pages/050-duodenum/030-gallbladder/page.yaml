@@ -1,0 +1,16 @@
+title: "Bile and the gallbladder"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the gallbladder and biliary tree.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 65 and 71."]
+beden:
+  camera: front
+  look: gallbladder
+  distance: 0.35
+  layers: [liver, bile, tract, pancreas]
+  parts:
+    highlight: [gallbladder, cystic-duct, bile-duct, liver-ducts]
+    ghost: [liver, duodenum, pancreas]
+    hide: [stomach, jejunum, ileum, cecum, appendix, ascending-colon, transverse-colon, descending-colon, rectum]
+    flow: [gallbladder, cystic-duct, bile-duct, duodenum]
+  labels:
+    - { part: gallbladder, text: "gallbladder" }
+    - { part: cystic-duct, text: "cystic duct" }
+    - { part: bile-duct, text: "bile duct" }

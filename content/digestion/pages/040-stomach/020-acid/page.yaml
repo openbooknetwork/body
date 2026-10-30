@@ -1,0 +1,13 @@
+title: "Acid and pepsin"
+sources: ["Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 65.", "Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the abdominal oesophagus and stomach.", "Barry Marshall and Robin Warren, Unidentified curved bacilli in the stomach of patients with gastritis and peptic ulceration, The Lancet 323 (1984): 1311 to 1315."]
+beden:
+  camera: front
+  look: stomach
+  distance: 0.35
+  layers: [tract]
+  section: { plane: coronal, at: 0.135, flip: true }
+  parts:
+    highlight: [stomach]
+    hide: [pharynx, jejunum, ileum, cecum, appendix, ascending-colon, transverse-colon, descending-colon, rectum]
+  labels:
+    - { part: stomach, text: "stomach" }

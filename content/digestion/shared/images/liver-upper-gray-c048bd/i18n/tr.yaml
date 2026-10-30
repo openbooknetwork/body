@@ -1,0 +1,6 @@
+# tr strings for the image "liver-upper-gray-c048bd".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The upper surface of the liver, with its right and left lobes, Gray's Anatomy, 1918, figure 1085
+image.caption: "Karaciğerin üst yüzü, sağ ve sol lobuyla, Gray’s Anatomy, 1918, şekil 1085"

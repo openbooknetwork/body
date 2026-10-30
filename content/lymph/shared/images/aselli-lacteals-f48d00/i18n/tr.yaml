@@ -1,0 +1,6 @@
+# tr strings for the image "aselli-lacteals-f48d00".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Aselli's first plate: the milky veins, white, spread through the mesentery of a dog, from De lactibus sive lacteis venis, 1627, in a later reproduction
+image.caption: "Aselli’nin ilk levhası: bir köpeğin mezenterine yayılmış beyaz süt damarları, De lactibus sive lacteis venis, 1627, sonraki bir baskıdan"

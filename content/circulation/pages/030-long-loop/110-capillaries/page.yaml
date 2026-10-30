@@ -1,0 +1,10 @@
+title: "Capillaries"
+sources: ["Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 16.", "Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), ch. 6."]
+beden:
+  camera: front
+  look: [0.255, 0.775, 0.125]
+  distance: 0.35
+  layers: [skin, skeleton, arteries, veins]
+  parts:
+    highlight: [superficial-palmar-arches, deep-palmar-arches, dorsal-venous-networks]
+    ghost: [skin, skeleton]

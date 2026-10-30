@@ -1,0 +1,6 @@
+# tr strings for the image "lymphatic-system-d37ec5".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The lymphatic system of a woman: the lymph vessels of the limbs and the breast, the cervical, axillary, lumbar, pelvic and inguinal nodes, the cisterna chyli, the thoracic duct, the thymus and the spleen
+image.caption: "Bir kadının lenf sistemi: kolların, bacakların ve memenin lenf damarları, boyun, koltuk altı, bel, leğen ve kasık düğümleri, sisterna şili, duktus torasikus, timus ve dalak"

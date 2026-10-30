@@ -1,0 +1,15 @@
+title: "Harvey's sum"
+date: "1628"
+sources: ["William Harvey, Exercitatio anatomica de motu cordis et sanguinis in animalibus (1628), ch. 9."]
+beden:
+  camera: oblique
+  look: heart
+  distance: 0.6
+  layers: [heart, chambers, aorta]
+  parts:
+    highlight: [left-ventricle, ascending-aorta, arch-of-aorta, descending-aorta, abdominal-aorta]
+    ghost: [heart, right-atrium, right-ventricle, left-atrium]
+    flow: [left-atrium, left-ventricle, ascending-aorta, arch-of-aorta, descending-aorta, abdominal-aorta]
+  labels:
+    - { part: left-ventricle, text: "left ventricle" }
+    - { part: arch-of-aorta, text: "aorta" }

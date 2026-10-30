@@ -1,0 +1,6 @@
+# tr strings for the image "heart-conduction-15b899".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The conducting system of the heart: the sinoatrial node in the wall of the right atrium, the atrioventricular node and bundle, and the fibres that spread through the ventricle walls, OpenStax Anatomy and Physiology
+image.caption: "Kalbin iletim sistemi: sağ kulakçığın duvarındaki sinoatriyal düğüm, atriyoventriküler düğüm ve demet, karıncık duvarlarına yayılan lifler, OpenStax Anatomy and Physiology"

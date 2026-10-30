@@ -1,0 +1,6 @@
+# tr strings for the image "orbit-muscles-gray-c7b872".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The origins of the eye muscles at the back of the right orbit, with the oculomotor, trochlear and abducent nerves entering, Gray's Anatomy, 20th edition, 1918, figure 787
+image.caption: "Sağ göz çukurunun arkasında göz kaslarının başlangıçları ve giren göz hareket, makara ve uzaklaştırıcı sinirler, Gray’s Anatomy, 20. baskı, 1918, şekil 787"

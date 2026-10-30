@@ -1,0 +1,175 @@
+# The whole body model of the nerves story, built by `beden model`. Most parts name a BodyParts3D concept. The spinal
+# cord, the spinal, limb and autonomic nerves and the cranial nerves BodyParts3D lacks name Z-Anatomy element files,
+# fitted to BodyParts3D's skeleton. The viewer shows, lights, ghosts or cuts parts by these ids.
+file: model.glb
+sha256: af5236b1460ece014bd2d26a87c78e2e9b809dc8f3cec2b9485dec4b92a42615
+credit: "BodyParts3D, The Database Center for Life Science, CC BY-SA 2.1 Japan; Z-Anatomy, Gauthier Kervyn, CC BY-SA 4.0; Cranial Nerves and Foramina, University of Dundee, CAHID, CC BY 4.0"
+source: https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html
+parts:
+  # context
+  skin:             { concept: FMA7163, layer: skin, family: skin }
+  skeletal-system:  { concept: FMA23881, export: false }   # only derives the skeleton below
+  skull:            { concept: FMA46565, layer: skeleton, family: bone }
+  cervical-vertebrae: { concept: FMA24138, layer: skeleton, family: bone }
+  thoracic-vertebrae: { concept: FMA9140, layer: skeleton, family: bone }
+  first-lumbar-vertebra:  { concept: FMA13072, layer: skeleton, family: bone }
+  second-lumbar-vertebra: { concept: FMA13073, layer: skeleton, family: bone }
+  third-lumbar-vertebra:  { concept: FMA13074, layer: skeleton, family: bone }
+  fourth-lumbar-vertebra: { concept: FMA13075, layer: skeleton, family: bone }
+  fifth-lumbar-vertebra:  { concept: FMA13076, layer: skeleton, family: bone }
+  sacrum:           { concept: FMA16202, layer: skeleton, family: bone }
+  patellae:         { concept: FMA24485, layer: skeleton, family: bone }
+  skeleton:         { from: skeletal-system, minus: [skull, cervical-vertebrae, thoracic-vertebrae, first-lumbar-vertebra, second-lumbar-vertebra, third-lumbar-vertebra, fourth-lumbar-vertebra, fifth-lumbar-vertebra, sacrum, patellae], layer: skeleton, family: bone }
+  quadriceps:       { concepts: [FMA22430, FMA22431, FMA22432, FMA22433], layer: muscles, family: muscle }   # rectus femoris and the three vasti
+  diaphragm:        { concept: FMA13295, layer: muscles, family: muscle }
+  heart:            { concept: FMA7088, layer: organs, family: organ }
+  liver:            { concept: FMA7197, layer: organs, family: organ }
+  stomach:          { concept: FMA7148, layer: organs, family: organ }
+  urinary-bladder:  { concept: FMA15900, layer: organs, family: organ }
+  adrenal-glands:   { concept: FMA9604, layer: organs, family: gland }
+  # the cerebral cortex, gyrus by gyrus, so that a lobe or a single gyrus can be lit
+  left-frontal-gyri:  { concepts: [FMA72654, FMA72656, FMA256194], exclude: [FJ1794], layer: cortex, family: frontal }   # superior and middle frontal gyri and the orbital gyri
+  right-frontal-gyri: { concepts: [FMA72653, FMA72655, FMA256194], exclude: [FJ1793], layer: cortex, family: frontal }
+  left-inferior-frontal-gyrus:  { concept: FMA72658, layer: cortex, family: frontal }
+  right-inferior-frontal-gyrus: { concept: FMA72657, layer: cortex, family: frontal }
+  left-precentral-gyrus:  { concept: FMA72662, layer: cortex, family: frontal }
+  right-precentral-gyrus: { concept: FMA72661, layer: cortex, family: frontal }
+  left-postcentral-gyrus:  { concept: FMA72666, layer: cortex, family: parietal }
+  right-postcentral-gyrus: { concept: FMA72665, layer: cortex, family: parietal }
+  left-parietal-gyri:  { concepts: [FMA72672, FMA72668, FMA72670], layer: cortex, family: parietal }   # superior parietal lobule, supramarginal and angular gyri
+  right-parietal-gyri: { concepts: [FMA72671, FMA72667, FMA72669], layer: cortex, family: parietal }
+  left-temporal-gyri:  { concepts: [FMA72801, FMA72686, FMA72688, FMA72690, FMA72706], layer: cortex, family: temporal }   # front of the superior, middle, inferior, fusiform and parahippocampal gyri
+  right-temporal-gyri: { concepts: [FMA72800, FMA72685, FMA72687, FMA72689, FMA72705], layer: cortex, family: temporal }
+  left-posterior-superior-temporal-gyrus:  { concept: FMA72805, layer: cortex, family: temporal }
+  right-posterior-superior-temporal-gyrus: { concept: FMA72804, layer: cortex, family: temporal }
+  left-occipital-lobe:  { concept: FMA72976, layer: cortex, family: occipital }
+  right-occipital-lobe: { concept: FMA72975, layer: cortex, family: occipital }
+  left-insula:  { concept: FMA72978, layer: cortex, family: insula }
+  right-insula: { concept: FMA72977, layer: cortex, family: insula }
+  left-cingulate-gyrus:  { concept: FMA72718, layer: cortex, family: limbic }
+  right-cingulate-gyrus: { concept: FMA72717, layer: cortex, family: limbic }
+  # the white matter
+  left-white-matter:  { concept: FMA242186, exclude: [FJ1750], layer: white-matter, family: white }
+  right-white-matter: { concept: FMA242184, exclude: [FJ1751], layer: white-matter, family: white }
+  internal-capsules:  { concept: FMA61950, layer: white-matter, family: white }
+  corpus-callosum:    { concept: FMA86464, layer: white-matter, family: white }
+  fornix:             { concepts: [FMA61965, FMA61970], layer: white-matter, family: white }
+  # the deep grey matter
+  caudate-nuclei:   { concept: FMA61833, layer: deep, family: nucleus }
+  putamen:          { concept: FMA61834, layer: deep, family: nucleus }
+  globus-pallidus:  { concept: FMA61835, layer: deep, family: nucleus }
+  thalami:          { concept: FMA62007, layer: deep, family: diencephalon }
+  hypothalamus:     { concepts: [FMA62008, FMA74877], layer: deep, family: diencephalon }   # with the mammillary bodies
+  pituitary-gland:  { concept: FMA13889, layer: deep, family: gland }
+  pineal-gland:     { concept: FMA62033, layer: deep, family: gland }
+  hippocampi:       { concepts: [FMA72714, FMA72713], layer: deep, family: limbic }
+  amygdalae:        { concept: FMA61841, layer: deep, family: limbic }
+  # the ventricles
+  lateral-ventricles: { concepts: [FMA78448, FMA75351], layer: ventricles, family: csf }   # with the interventricular foramina
+  third-ventricle:    { concept: FMA78454, layer: ventricles, family: csf }
+  cerebral-aqueduct:  { concept: FMA78467, layer: ventricles, family: csf }
+  fourth-ventricle:   { concept: FMA78469, layer: ventricles, family: csf }
+  choroid-plexus:     { concept: FMA61934, layer: ventricles, family: plexus }
+  # the brainstem, the cerebellum and the cord
+  midbrain:           { concept: FMA61993, exclude: [FJ1738], layer: brainstem, family: brainstem }   # the aqueduct is its own part
+  cerebral-peduncles: { concept: FMA62394, layer: brainstem, family: brainstem }
+  pons:               { concept: FMA67943, layer: brainstem, family: brainstem }
+  medulla-oblongata:  { concept: FMA62004, layer: brainstem, family: brainstem }
+  cerebellum:         { concept: FMA67944, layer: cerebellum, family: cerebellum }
+  # the eyes
+  sclera:         { concept: FMA58269, layer: eyes, family: sclera }
+  choroid:        { concept: FMA58298, layer: eyes, family: choroid }
+  retina:         { concept: FMA58604, layer: eyes, family: retina }
+  cornea:         { concept: FMA58238, layer: eyes, family: clear }
+  iris:           { concept: FMA58235, layer: eyes, family: iris }
+  ciliary-body:   { concept: FMA58431, layer: eyes, family: choroid }
+  lens:           { concept: FMA58241, layer: eyes, family: clear }
+  vitreous-body:  { concept: FMA58827, layer: eyes, family: clear }
+  # the orbit: the muscles that move the eye and the gland that wets it
+  oculomotor-muscles:     { concepts: [FMA49035, FMA49036, FMA49037, FMA49040, FMA49041], layer: orbit, family: muscle }   # superior, inferior and medial recti, inferior oblique, levator of the eyelid
+  superior-oblique-muscles: { concept: FMA49039, layer: orbit, family: muscle }
+  lateral-rectus-muscles: { concept: FMA49038, layer: orbit, family: muscle }
+  lacrimal-glands:        { concept: FMA59101, layer: orbit, family: gland }
+  # the nerves
+  optic-nerves:          { concept: FMA50863, layer: nerves, family: nerve }
+  optic-chiasm:          { concept: FMA62045, layer: nerves, family: nerve }
+  optic-tracts:          { concept: FMA62046, layer: nerves, family: nerve }
+  lateral-geniculate-bodies: { concept: FMA62209, layer: nerves, family: diencephalon }
+  oculomotor-nerves:     { concept: FMA52571, layer: nerves, family: nerve }
+  trochlear-nerves:      { concept: FMA50865, layer: nerves, family: nerve }
+  ophthalmic-nerves:     { concept: FMA52607, layer: nerves, family: nerve }   # the first division of the trigeminal with its branches
+  ciliary-ganglia:       { concept: FMA6964, layer: nerves, family: ganglion }
+  short-ciliary-nerves:  { concept: FMA7041, layer: nerves, family: nerve }
+  # Z-Anatomy (Gauthier Kervyn, CC BY-SA 4.0) and its cranial nerves from Cranial Nerves and Foramina (University of
+  # Dundee, CAHID, CC BY 4.0), fitted to BodyParts3D's skeleton. Its inner-ear meshes stay out: their source is NC.
+  spinal-cord:         { elements: [za-white-matter-of-spinal-cord], layer: cord, family: white }
+  spinal-grey-matter:  { elements: [za-anterior-horn-of-spinal-cord, za-posterior-horn-of-spinal-cord, za-lateral-intermediate-substance, za-intermediolateral-nucleus], layer: cord, family: grey }
+  corticospinal-tracts: { elements: [za-lateral-corticospinal-tract, za-anterior-corticospinal-tract], layer: cord, family: tract }
+  spinal-dura:         { elements: [za-spinal-dura], layer: meninges, family: meninges }
+  anterior-roots:      { elements: [za-anterior-root-of-spinal-nerve*], layer: roots, family: nerve }
+  posterior-roots:     { elements: [za-posterior-root-of-spinal-nerve*], layer: roots, family: nerve }
+  spinal-ganglia:      { elements: [za-spinal-ganglion*], layer: roots, family: ganglion }
+  cauda-equina:        { elements: [za-cauda-equina], layer: roots, family: nerve }
+  brachial-plexus-roots:     { elements: [za-roots-of-brachial-plexus*], layer: limb-nerves, family: nerve }
+  brachial-plexus-trunks:    { elements: [za-superior-trunk-of-brachial-plexus*, za-middle-trunk-of-brachial-plexus*, za-inferior-trunk-of-brachial-plexus*], layer: limb-nerves, family: nerve }
+  brachial-plexus-divisions: { elements: [za-*division-of-*-trunk-of-brachial-plexus*], layer: limb-nerves, family: nerve }
+  brachial-plexus-cords:     { elements: [za-posterior-cord-of-brachial-plexus*], layer: limb-nerves, family: nerve }   # Z-Anatomy draws the posterior cord only
+  musculocutaneous-nerves:   { elements: [za-musculocutaneous-nerve*, za-lateral-antebrachial-cutaneous-nerve*], layer: limb-nerves, family: nerve }
+  axillary-nerves:           { elements: [za-axillary-nerve*, za-muscular-branches-of-axillary-nerve*, za-superior-lateral-brachial-cutaneous-nerve*], layer: limb-nerves, family: nerve }
+  radial-nerves:             { elements: [za-radial-nerve*, za-*of-radial-nerve*, za-posterior-interosseous-nerve-of-forearm*], layer: limb-nerves, family: nerve }
+  median-nerves:             { elements: [za-median-nerve*, za-*of-median-nerve*, za-anterior-interosseous-nerve-of-forearm*], layer: limb-nerves, family: nerve }
+  ulnar-nerves:              { elements: [za-ulnar-nerve*, za-*of-ulnar-nerve*], layer: limb-nerves, family: nerve }
+  intercostal-nerves:        { elements: [za-intercostal-nerves*], layer: limb-nerves, family: nerve }
+  femoral-nerves:            { elements: [za-femoral-nerve*, za-anterior-cutaneous-branches-of-femoral-nerve*, za-*saphenous-nerve*], layer: limb-nerves, family: nerve }
+  sciatic-nerves:            { elements: [za-sciatic-nerve*], layer: limb-nerves, family: nerve }
+  tibial-nerves:             { elements: [za-tibial-nerve*, za-*plantar*, za-medial-sural-cutaneous-nerve*, za-sural-nerve*], layer: limb-nerves, family: nerve }
+  common-fibular-nerves:     { elements: [za-*fibular-nerve*, za-*dorsal-cutaneous-nerve-of-foot*], layer: limb-nerves, family: nerve }
+  vagus-nerves:              { elements: [za-vagus-nerve-x*], layer: autonomic, family: parasympathetic }
+  sympathetic-trunks:        { elements: [za-sympathetic-trunk*, za-ganglia-of-sympathetic-trunk*, za-sympathetic-nerves*], layer: autonomic, family: sympathetic }
+  olfactory-nerves:          { elements: [za-olfactory-nerve-i*], layer: cranial-nerves, family: nerve }
+  trigeminal-nerves:         { elements: [za-trigeminal-nerve-v*, za-sensory-root-of-trigeminal-nerve*, za-motor-root-of-trigeminal-nerve*], layer: cranial-nerves, family: nerve }
+  maxillary-nerves:          { elements: [za-*maxillary-nerve*], layer: cranial-nerves, family: nerve }
+  mandibular-nerves:         { elements: [za-*mandibular-nerve*, za-inferior-alveolar-nerve*, za-lingual-nerve*, za-buccal-nerve*, za-mental-nerve*, za-nerve-to-mylohyoid-muscle*], layer: cranial-nerves, family: nerve }
+  abducens-nerves:           { elements: [za-abducens-nerve-vi*], layer: nerves, family: nerve }
+  facial-nerves:             { elements: [za-facial-nerve-vii*, za-chorda-tympani*], layer: cranial-nerves, family: nerve }
+  vestibulocochlear-nerves:  { elements: [za-vestibulocochlear-nerve-viii*], layer: cranial-nerves, family: nerve }
+  glossopharyngeal-nerves:   { elements: [za-glossopharyngeal-nerve-ix*], layer: cranial-nerves, family: nerve }
+  accessory-nerves:          { elements: [za-accessory-nerve-xi*], layer: cranial-nerves, family: nerve }
+  hypoglossal-nerves:        { elements: [za-hypoglossal-nerve-xii*], layer: cranial-nerves, family: nerve }
+groups:
+  lumbar-vertebrae: [first-lumbar-vertebra, second-lumbar-vertebra, third-lumbar-vertebra, fourth-lumbar-vertebra, fifth-lumbar-vertebra]
+  vertebral-column: [cervical-vertebrae, thoracic-vertebrae, first-lumbar-vertebra, second-lumbar-vertebra, third-lumbar-vertebra, fourth-lumbar-vertebra, fifth-lumbar-vertebra, sacrum]
+  left-frontal-lobe:  [left-frontal-gyri, left-inferior-frontal-gyrus, left-precentral-gyrus]
+  right-frontal-lobe: [right-frontal-gyri, right-inferior-frontal-gyrus, right-precentral-gyrus]
+  left-parietal-lobe:  [left-postcentral-gyrus, left-parietal-gyri]
+  right-parietal-lobe: [right-postcentral-gyrus, right-parietal-gyri]
+  left-temporal-lobe:  [left-temporal-gyri, left-posterior-superior-temporal-gyrus]
+  right-temporal-lobe: [right-temporal-gyri, right-posterior-superior-temporal-gyrus]
+  frontal-lobes:   [left-frontal-gyri, left-inferior-frontal-gyrus, left-precentral-gyrus, right-frontal-gyri, right-inferior-frontal-gyrus, right-precentral-gyrus]
+  parietal-lobes:  [left-postcentral-gyrus, left-parietal-gyri, right-postcentral-gyrus, right-parietal-gyri]
+  temporal-lobes:  [left-temporal-gyri, left-posterior-superior-temporal-gyrus, right-temporal-gyri, right-posterior-superior-temporal-gyrus]
+  occipital-lobes: [left-occipital-lobe, right-occipital-lobe]
+  precentral-gyri:  [left-precentral-gyrus, right-precentral-gyrus]
+  postcentral-gyri: [left-postcentral-gyrus, right-postcentral-gyrus]
+  insulae:          [left-insula, right-insula]
+  cingulate-gyri:   [left-cingulate-gyrus, right-cingulate-gyrus]
+  left-hemisphere:  [left-frontal-gyri, left-inferior-frontal-gyrus, left-precentral-gyrus, left-postcentral-gyrus, left-parietal-gyri, left-temporal-gyri, left-posterior-superior-temporal-gyrus, left-occipital-lobe, left-insula, left-cingulate-gyrus, left-white-matter]
+  right-hemisphere: [right-frontal-gyri, right-inferior-frontal-gyrus, right-precentral-gyrus, right-postcentral-gyrus, right-parietal-gyri, right-temporal-gyri, right-posterior-superior-temporal-gyrus, right-occipital-lobe, right-insula, right-cingulate-gyrus, right-white-matter]
+  cerebral-cortex:  [left-frontal-gyri, left-inferior-frontal-gyrus, left-precentral-gyrus, left-postcentral-gyrus, left-parietal-gyri, left-temporal-gyri, left-posterior-superior-temporal-gyrus, left-occipital-lobe, left-insula, left-cingulate-gyrus, right-frontal-gyri, right-inferior-frontal-gyrus, right-precentral-gyrus, right-postcentral-gyrus, right-parietal-gyri, right-temporal-gyri, right-posterior-superior-temporal-gyrus, right-occipital-lobe, right-insula, right-cingulate-gyrus]
+  white-matter:     [left-white-matter, right-white-matter, internal-capsules, corpus-callosum, fornix]
+  basal-ganglia:    [caudate-nuclei, putamen, globus-pallidus]
+  ventricles:       [lateral-ventricles, third-ventricle, cerebral-aqueduct, fourth-ventricle]
+  brainstem:        [midbrain, cerebral-peduncles, pons, medulla-oblongata]
+  brain:            [left-frontal-gyri, left-inferior-frontal-gyrus, left-precentral-gyrus, left-postcentral-gyrus, left-parietal-gyri, left-temporal-gyri, left-posterior-superior-temporal-gyrus, left-occipital-lobe, left-insula, left-cingulate-gyrus, right-frontal-gyri, right-inferior-frontal-gyrus, right-precentral-gyrus, right-postcentral-gyrus, right-parietal-gyri, right-temporal-gyri, right-posterior-superior-temporal-gyrus, right-occipital-lobe, right-insula, right-cingulate-gyrus, midbrain, cerebral-peduncles, pons, medulla-oblongata, cerebellum]
+  eyeballs:         [sclera, choroid, retina, cornea, iris, ciliary-body, lens, vitreous-body]
+  eye-muscles:      [oculomotor-muscles, superior-oblique-muscles, lateral-rectus-muscles]
+  visual-pathway:   [optic-nerves, optic-chiasm, optic-tracts, lateral-geniculate-bodies, left-occipital-lobe, right-occipital-lobe]
+  orbit-nerves:     [oculomotor-nerves, trochlear-nerves, ophthalmic-nerves, ciliary-ganglia, short-ciliary-nerves]
+  motor-pathway:    [left-precentral-gyrus, internal-capsules, cerebral-peduncles, pons, medulla-oblongata, corticospinal-tracts]
+  spinal-roots:     [anterior-roots, posterior-roots, spinal-ganglia]
+  brachial-plexus:  [brachial-plexus-roots, brachial-plexus-trunks, brachial-plexus-divisions, brachial-plexus-cords]
+  arm-nerves:       [musculocutaneous-nerves, axillary-nerves, radial-nerves, median-nerves, ulnar-nerves]
+  leg-nerves:       [femoral-nerves, sciatic-nerves, tibial-nerves, common-fibular-nerves]
+  peripheral-nerves: [anterior-roots, posterior-roots, spinal-ganglia, cauda-equina, brachial-plexus-roots, brachial-plexus-trunks, brachial-plexus-divisions, brachial-plexus-cords, musculocutaneous-nerves, axillary-nerves, radial-nerves, median-nerves, ulnar-nerves, intercostal-nerves, femoral-nerves, sciatic-nerves, tibial-nerves, common-fibular-nerves]
+  trigeminal:       [trigeminal-nerves, ophthalmic-nerves, maxillary-nerves, mandibular-nerves]
+  cranial-nerves:   [olfactory-nerves, optic-nerves, oculomotor-nerves, trochlear-nerves, trigeminal-nerves, ophthalmic-nerves, maxillary-nerves, mandibular-nerves, abducens-nerves, facial-nerves, vestibulocochlear-nerves, glossopharyngeal-nerves, vagus-nerves, accessory-nerves, hypoglossal-nerves]

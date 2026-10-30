@@ -1,0 +1,12 @@
+title: "From mouth to anus"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapters on the stomach, the small intestine and the large intestine.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 63."]
+beden:
+  camera: front
+  look: tract
+  layers: [skin, pharynx, tract]
+  parts: { highlight: [pharynx, esophagus, stomach, small-intestine, large-intestine], ghost: [skin] }
+  labels:
+    - { part: esophagus, text: "esophagus" }
+    - { part: stomach, text: "stomach" }
+    - { part: jejunum, text: "small intestine" }
+    - { part: transverse-colon, text: "large intestine" }

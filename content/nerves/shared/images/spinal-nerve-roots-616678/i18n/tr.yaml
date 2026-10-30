@@ -1,0 +1,6 @@
+# tr strings for the image "spinal-nerve-roots-616678".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A segment of the spinal cord with its two roots: the posterior root and its ganglion bring sensation in, the anterior root sends commands out
+image.caption: "İki köküyle bir omurilik bölütü: arka kök ve gangliyonu duyuyu içeri getirir, ön kök komutları dışarı gönderir"

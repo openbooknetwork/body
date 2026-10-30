@@ -1,0 +1,6 @@
+# tr strings for the image "rudbeck-portrait-ae1b8b".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Olof Rudbeck in 1696, portrait by Martin Mijtens the elder
+image.caption: "Olof Rudbeck 1696’da, Martin Mijtens’in (baba) portresi"

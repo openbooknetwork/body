@@ -1,0 +1,12 @@
+title: "The neck"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the neck.", "Henry Gray, Anatomy of the Human Body, 20th ed. (1918), section VIII, The Lymphatics of the Head, Face, and Neck."]
+beden:
+  camera: left
+  look: neck-vessels
+  distance: 0.45
+  layers: [skin, skeleton, veins, arteries, mouth]
+  parts: { show: [neck-nodes, head-nodes, thoracic-duct], highlight: [thoracic-duct, neck-nodes, head-nodes, internal-jugular-veins, common-carotid-arteries], ghost: [skin, skeleton] }
+  labels:
+    - { part: neck-nodes, text: "deep cervical nodes" }
+    - { part: right-internal-jugular-vein, text: "internal jugular vein" }
+    - { part: common-carotid-arteries, text: "common carotid" }

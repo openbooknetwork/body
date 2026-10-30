@@ -1,23 +1,30 @@
 id: circulation
-title: "The circulation of the blood"
-summary: "One pump, two loops and some 100,000 km of vessels: the heart and its chambers, the short loop through the lungs, the aorta and every artery it feeds, the veins that bring the blood back, and the bandaged arm with which Harvey proved in 1628 that it goes round."
+title: "The circulatory system"
+summary: "The heart, the arteries, the veins and how the blood moves through them. It follows the blood from the heart to the lungs, around the body and back, and also covers the circulation before birth and how Harvey proved in 1628 that the blood circulates."
 cover: heart-front-gray-97457a
 languages: [en, tr]
 default_language: en
 beden:
   model: body
+  # the overview before the first page: the body with its heart
+  overview: { camera: front, look: skin, layers: [skin, heart], parts: { highlight: [heart], ghost: [skin] } }
+  # BodyParts3D's +x is the body's left, so the left camera stands at +x
   cameras:
     front:   { direction: [0, 0.05, 1] }
     oblique: { direction: [0.7, 0.35, 1] }
-    left:    { direction: [-1, 0.1, 0.4] }
-    right:   { direction: [1, 0.1, 0.4] }
+    left:    { direction: [1, 0.1, 0.4] }
+    right:   { direction: [-1, 0.1, 0.4] }
     back:    { direction: [0, 0.05, -1] }
+    above:   { direction: [0, 1, 0.45] }    # down onto the valves with the atria taken away
+    below:   { direction: [0, -1, 0.3] }    # up at the base of the brain
   families:
     oxygenated:   { color: "#b5352a", color_dark: "#e8695c" }   # the left heart, the aorta and every systemic artery, the pulmonary veins
     deoxygenated: { color: "#2f6fb0", color_dark: "#6fa6e0" }   # the right heart, the venae cavae and every systemic vein, the pulmonary arteries
     portal:       { color: "#6a3d9a", color_dark: "#a98bd6" }   # the hepatic portal system, between two capillary beds
+    fetal:        { color: "#3f8f5a", color_dark: "#72c48d" }   # the ductus arteriosus, a vessel of the circulation before birth
     valve:        { color: "#d4a017", color_dark: "#f2c94c" }
-    muscle:       { color: "#9c5b5b", color_dark: "#c48080" }   # the wall of the heart
+    muscle:       { color: "#9c5b5b", color_dark: "#c48080" }   # the wall of the heart and the calf muscles
+    airway:       { color: "#8fb3c9", color_dark: "#6f93a9" }
     lung:         { color: "#d9a7a7", color_dark: "#8f6b6b" }
     organ:        { color: "#b08968", color_dark: "#8a6a4f" }
     bone:         { color: "#e8e2d2", color_dark: "#6f6a5e" }

@@ -1,0 +1,29 @@
+# tr strings for the structure "pancreas".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Pancreas
+structure.name: "Pankreas"
+
+# A gland behind the stomach that sends digestive juice into the duodenum and insulin and glucagon into the blood
+structure.role: "Midenin arkasında, on iki parmak bağırsağına sindirim özsuyu, kana insülin ve glukagon gönderen bez"
+
+# Length
+structure.facts.0.label: "Uzunluk"
+
+# Juice
+structure.facts.1.label: "Özsu"
+
+# Islets
+structure.facts.2.label: "Adacıklar"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# 12 to 15 cm
+structure.facts.0.value: "12 ila 15 cm"
+
+# About 1 litre a day, pH about 8
+structure.facts.1.value: "Günde yaklaşık 1 litre, pH 8 dolayında"
+
+# 1 to 2 million, one or two percent of its mass
+structure.facts.2.value: "1 ila 2 milyon, kütlesinin yüzde bir ikisi"

@@ -1,0 +1,16 @@
+title: "Where the nodes gather"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), ch. 6.", "Henry Gray, Anatomy of the Human Body, 20th ed. (1918), section VIII, The Lymphatic System."]
+beden:
+  camera: front
+  look: skin
+  distance: 2.0
+  layers: [skin, skeleton, nodes, veins, arteries]
+  parts:
+    highlight: [neck-nodes, axillary-nodes, inguinal-nodes, aortic-nodes, mesenteric-nodes]
+    ghost: [skin, skeleton]
+  labels:
+    - { part: neck-nodes, text: "neck" }
+    - { part: axillary-nodes, text: "armpit" }
+    - { part: inguinal-nodes, text: "groin" }
+    - { part: aortic-nodes, text: "aorta" }
+    - { part: mesenteric-nodes, text: "mesentery" }

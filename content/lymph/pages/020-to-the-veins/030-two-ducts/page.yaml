@@ -1,0 +1,16 @@
+title: "Where lymph meets the blood"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapters on the neck and the mediastinum.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 15 and 16."]
+beden:
+  camera: front
+  look: great-veins
+  distance: 0.4
+  layers: [skeleton, ducts, veins, heart]
+  parts:
+    highlight: [thoracic-duct, right-lymphatic-duct, left-venous-angle, right-venous-angle, brachiocephalic-veins, superior-vena-cava]
+    ghost: [skeleton, heart]
+    flow: [thoracic-duct, left-subclavian-vein, left-brachiocephalic-vein, superior-vena-cava, heart]
+  labels:
+    - { part: left-subclavian-vein, text: "left venous angle" }
+    - { part: right-subclavian-vein, text: "right venous angle" }
+    - { part: right-lymphatic-duct, text: "right lymphatic duct" }
+    - { part: superior-vena-cava, text: "superior vena cava" }

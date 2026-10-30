@@ -1,0 +1,6 @@
+# tr strings for the image "pancreatic-duct-gray-c3403b".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The duodenum opened to show the shared opening of the bile duct and the pancreatic duct, Gray's Anatomy, 1918, figure 1100
+image.caption: "Safra kanalı ile pankreas kanalının ortak ağzını göstermek için açılmış on iki parmak bağırsağı, Gray’s Anatomy, 1918, şekil 1100"

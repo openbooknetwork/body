@@ -1,0 +1,6 @@
+# tr strings for the image "circle-willis-gray-91209c".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The arterial circle at the base of the brain, joining the two internal carotids and the basilar artery, Gray's Anatomy, 1918, figure 519
+image.caption: "Beynin tabanında iki iç karotis arterini ve baziler arteri birleştiren arteriyel halka, Gray’s Anatomy, 1918, şekil 519"

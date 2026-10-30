@@ -1,0 +1,6 @@
+# tr strings for the image "heart-attack-199606".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A heart attack: a clot blocks a branch of the left coronary artery and the muscle beyond it is damaged
+image.caption: "Kalp krizi: bir pıhtı sol koroner arterin bir dalını tıkar ve ötesindeki kas zarar görür"

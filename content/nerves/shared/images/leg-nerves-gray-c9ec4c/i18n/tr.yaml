@@ -1,0 +1,6 @@
+# tr strings for the image "leg-nerves-gray-c9ec4c".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Nerves of the right leg from behind: the sciatic nerve leaves the pelvis below the piriformis and divides into the tibial and common peroneal, or fibular, nerves, Gray's Anatomy, 20th edition, 1918, figure 832
+image.caption: "Arkadan sağ bacağın sinirleri: siyatik sinir piriformis kasının altından leğeni terk eder ve tibial ile ortak peroneal, yani fibular sinire ayrılır, Gray’s Anatomy, 20. baskı, 1918, şekil 832"

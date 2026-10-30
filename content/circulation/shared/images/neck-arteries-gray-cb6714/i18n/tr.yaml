@@ -1,0 +1,6 @@
+# tr strings for the image "neck-arteries-gray-cb6714".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The arteries of the right side of the neck: the common carotid dividing into the internal and external carotids, and the vertebral artery climbing through the neck vertebrae, Gray's Anatomy, 1918, figure 513
+image.caption: "Boynun sağ yanının arterleri: iç ve dış karotise ayrılan ana karotis ve boyun omurlarının içinden tırmanan vertebral arter, Gray’s Anatomy, 1918, şekil 513"

@@ -1,0 +1,11 @@
+title: "Galvani's frogs"
+sources: ["Luigi Galvani, De viribus electricitatis in motu musculari commentarius (Bologna, 1791).", "Alessandro Volta, On the electricity excited by the mere contact of conducting substances of different kinds, Philosophical Transactions of the Royal Society 90 (1800): 403-431."]
+beden:
+  camera: oblique
+  look: lumbar-vertebrae
+  distance: 1.0
+  layers: [skin, skeleton, muscles, roots]
+  parts: { show: [sciatic-nerves], highlight: [lumbar-vertebrae, sciatic-nerves], ghost: [skin, skeleton], hide: [diaphragm] }
+  labels:
+    - { part: third-lumbar-vertebra, text: "lumbar spine" }
+    - { part: sciatic-nerves, text: "sciatic nerve" }

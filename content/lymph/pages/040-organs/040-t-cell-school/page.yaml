@@ -1,0 +1,10 @@
+title: "A school for T cells"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), ch. 4.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 35."]
+beden:
+  camera: front
+  look: thymus
+  distance: 0.35
+  section: { plane: coronal, at: 0.14, flip: true }
+  layers: [heart, lymphoid, veins, arteries, lungs, skeleton]
+  parts: { highlight: [thymus], hide: [spleen] }
+  labels: [{ part: right-thymic-lobe, text: "thymus, cut" }]

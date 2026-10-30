@@ -1,0 +1,11 @@
+title: "Holding on"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the large intestine.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 64."]
+beden:
+  camera: below
+  look: external-anal-sphincter
+  distance: 0.3
+  layers: [skeleton, tract, pelvic-floor]
+  parts: { highlight: [puborectalis, external-anal-sphincter], ghost: [skeleton, rectum] }
+  labels:
+    - { part: puborectalis, text: "puborectalis" }
+    - { part: external-anal-sphincter, text: "external anal sphincter" }

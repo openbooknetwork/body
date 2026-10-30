@@ -1,0 +1,6 @@
+# tr strings for the image "liver-sinusoid-a266e6".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Blood from a portal venule and a hepatic arteriole flowing along a sinusoid past liver cells to the central vein
+image.caption: "Bir portal venül ve bir hepatik arteriyolden gelen kanın, karaciğer hücrelerinin yanından bir sinüzoid boyunca merkez vene akışı"

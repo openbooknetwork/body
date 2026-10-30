@@ -1,0 +1,6 @@
+# tr strings for the image "spleen-gray-6ae2c7".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The spleen and its vessels, Gray's Anatomy, 1918, figure 1188
+image.caption: "Dalak ve damarları, Gray’s Anatomy, 1918, şekil 1188"

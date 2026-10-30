@@ -1,11 +1,6 @@
 # tr strings for the story "circulation".
-# Keys are stable ids, the comment above each one is the source text. Regenerate with: kitap i18n tr
-
-# The circulation of the blood
-story.title: "Kan dolaşımı"
-
-# One pump, two loops and some 100,000 km of vessels: the heart and its chambers, the short loop through the lungs, the aorta and every artery it feeds, the veins that bring the blood back, and the bandaged arm with which Harvey proved in 1628 that it goes round.
-story.summary: "Bir pompa, iki döngü ve yaklaşık 100.000 km damar: kalp ve odacıkları, akciğerlerden geçen kısa döngü, aort ve beslediği her arter, kanı geri getiren venler ve Harvey’nin 1628’de kanın döndüğünü kanıtladığı bağlı kol."
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
 
 # The pump
 groups.pump.title: "Pompa"
@@ -19,41 +14,278 @@ groups.long-loop.title: "Uzun döngü"
 # The way back
 groups.way-back.title: "Dönüş yolu"
 
-# Harvey
-groups.harvey.title: "Harvey"
+# Before birth
+groups.before-birth.title: "Doğumdan önce"
+
+# The blood itself
+groups.blood.title: "Kanın kendisi"
+
+# How the circuit was found
+groups.harvey.title: "Dolaşım nasıl bulundu"
+
+# heart
+pages.the-body.labels.0: "kalp"
 
 # A body and its heart
 pages.the-body.title: "Bir beden ve kalbi"
 
+# right atrium
+pages.four-chambers.labels.0: "sağ kulakçık"
+
+# right ventricle
+pages.four-chambers.labels.1: "sağ karıncık"
+
+# left atrium
+pages.four-chambers.labels.2: "sol kulakçık"
+
+# left ventricle
+pages.four-chambers.labels.3: "sol karıncık"
+
 # Four chambers
 pages.four-chambers.title: "Dört odacık"
+
+# left ventricle
+pages.the-beat.labels.0: "sol karıncık"
+
+# right ventricle
+pages.the-beat.labels.1: "sağ karıncık"
+
+# The beat
+pages.the-beat.title: "Kalp atışı"
+
+# tricuspid
+pages.valves.labels.0: "triküspit"
+
+# mitral
+pages.valves.labels.1: "mitral"
+
+# aortic
+pages.valves.labels.2: "aort"
+
+# pulmonary
+pages.valves.labels.3: "pulmoner"
 
 # The valves
 pages.valves.title: "Kapaklar"
 
+# right coronary
+pages.coronaries.labels.0: "sağ koroner"
+
+# anterior interventricular
+pages.coronaries.labels.1: "ön interventriküler"
+
+# circumflex
+pages.coronaries.labels.2: "sirkumfleks"
+
 # The heart's own arteries
 pages.coronaries.title: "Kalbin kendi arterleri"
+
+# coronary sinus
+pages.cardiac-veins.labels.0: "koroner sinüs"
+
+# great cardiac vein
+pages.cardiac-veins.labels.1: "büyük kalp veni"
+
+# middle cardiac vein
+pages.cardiac-veins.labels.2: "orta kalp veni"
+
+# The heart's veins
+pages.cardiac-veins.title: "Kalbin venleri"
+
+# pulmonary trunk
+pages.pulmonary-loop.labels.0: "pulmoner trunkus"
+
+# right pulmonary artery
+pages.pulmonary-loop.labels.1: "sağ pulmoner arter"
+
+# left pulmonary artery
+pages.pulmonary-loop.labels.2: "sol pulmoner arter"
 
 # Through the lungs
 pages.pulmonary-loop.title: "Akciğerlerden"
 
+# pulmonary veins
+pages.lung-vessels.labels.0: "pulmoner venler"
+
+# left atrium
+pages.lung-vessels.labels.1: "sol kulakçık"
+
+# Air and blood
+pages.lung-vessels.title: "Hava ve kan"
+
+# arch
+pages.the-aorta.labels.0: "kemer"
+
+# thoracic aorta
+pages.the-aorta.labels.1: "torasik aort"
+
+# abdominal aorta
+pages.the-aorta.labels.2: "abdominal aort"
+
 # The aorta
 pages.the-aorta.title: "Aort"
+
+# brachiocephalic trunk
+pages.head-and-arms.labels.0: "brakiyosefalik gövde"
+
+# right common carotid
+pages.head-and-arms.labels.1: "sağ ana karotis"
+
+# left common carotid
+pages.head-and-arms.labels.2: "sol ana karotis"
+
+# left subclavian
+pages.head-and-arms.labels.3: "sol subklavyen"
+
+# external carotid
+pages.head-and-arms.labels.4: "dış karotis"
 
 # Head and arms
 pages.head-and-arms.title: "Baş ve kollar"
 
-# The abdomen
-pages.the-abdomen.title: "Karın"
+# internal carotid
+pages.the-brain.labels.0: "iç karotis"
 
-# The legs
-pages.the-legs.title: "Bacaklar"
+# vertebral
+pages.the-brain.labels.1: "vertebral"
+
+# basilar
+pages.the-brain.labels.2: "baziler"
+
+# arterial circle
+pages.the-brain.labels.3: "arteriyel halka"
+
+# The brain's arteries
+pages.the-brain.title: "Beynin arterleri"
+
+# axillary
+pages.the-arms.labels.0: "aksiller"
+
+# brachial
+pages.the-arms.labels.1: "brakiyal"
+
+# radial
+pages.the-arms.labels.2: "radyal"
+
+# ulnar
+pages.the-arms.labels.3: "ulnar"
+
+# The arm
+pages.the-arms.title: "Kol"
+
+# Blood pressure
+pages.blood-pressure.title: "Kan basıncı"
+
+# celiac trunk
+pages.the-abdomen.labels.0: "çölyak gövde"
+
+# splenic
+pages.the-abdomen.labels.1: "dalak arteri"
+
+# superior mesenteric
+pages.the-abdomen.labels.2: "üst mezenterik"
+
+# inferior mesenteric
+pages.the-abdomen.labels.3: "alt mezenterik"
+
+# The gut
+pages.the-abdomen.title: "Bağırsaklar"
+
+# renal arteries
+pages.the-kidneys.labels.0: "renal arterler"
+
+# renal veins
+pages.the-kidneys.labels.1: "renal venler"
+
+# The kidneys
+pages.the-kidneys.title: "Böbrekler"
+
+# common iliac
+pages.the-legs.labels.0: "ana iliyak"
+
+# external iliac
+pages.the-legs.labels.1: "dış iliyak"
+
+# femoral
+pages.the-legs.labels.2: "femoral"
+
+# deep femoral
+pages.the-legs.labels.3: "derin femoral"
+
+# The thigh
+pages.the-legs.title: "Uyluk"
+
+# popliteal
+pages.below-the-knee.labels.0: "popliteal"
+
+# anterior tibial
+pages.below-the-knee.labels.1: "ön tibial"
+
+# posterior tibial
+pages.below-the-knee.labels.2: "arka tibial"
+
+# dorsalis pedis
+pages.below-the-knee.labels.3: "ayak sırtı arteri"
+
+# Below the knee
+pages.below-the-knee.title: "Dizin altı"
 
 # Every artery
 pages.arterial-tree.title: "Bütün arterler"
 
+# Capillaries
+pages.capillaries.title: "Kılcallar"
+
+# superior vena cava
+pages.venae-cavae.labels.0: "üst ana toplardamar"
+
+# inferior vena cava
+pages.venae-cavae.labels.1: "alt ana toplardamar"
+
+# internal jugular
+pages.venae-cavae.labels.2: "iç juguler"
+
+# azygos
+pages.venae-cavae.labels.3: "azigos"
+
 # The venae cavae
 pages.venae-cavae.title: "Ana toplardamarlar"
+
+# cephalic
+pages.superficial-veins.labels.0: "sefalik"
+
+# basilic
+pages.superficial-veins.labels.1: "bazilik"
+
+# great saphenous
+pages.superficial-veins.labels.2: "büyük safen"
+
+# Veins under the skin
+pages.superficial-veins.title: "Derinin altındaki venler"
+
+# popliteal vein
+pages.muscle-pump.labels.0: "popliteal ven"
+
+# posterior tibial veins
+pages.muscle-pump.labels.1: "arka tibial venler"
+
+# calf muscles
+pages.muscle-pump.labels.2: "baldır kasları"
+
+# The muscle pump
+pages.muscle-pump.title: "Kas pompası"
+
+# superior mesenteric vein
+pages.portal-system.labels.0: "üst mezenterik ven"
+
+# splenic vein
+pages.portal-system.labels.1: "dalak veni"
+
+# portal vein
+pages.portal-system.labels.2: "portal ven"
+
+# hepatic veins
+pages.portal-system.labels.3: "hepatik venler"
 
 # The portal system
 pages.portal-system.title: "Portal sistem"
@@ -61,112 +293,120 @@ pages.portal-system.title: "Portal sistem"
 # The whole circuit
 pages.whole-circuit.title: "Bütün devre"
 
-# The bandaged arm
-pages.bandaged-arm.title: "Bağlı kol"
+# ductus arteriosus
+pages.fetal-circulation.labels.0: "duktus arteriyozus"
 
-# heart
-pages.the-body.labels.0: "kalp"
 # right atrium
-pages.four-chambers.labels.0: "sağ kulakçık"
-# right ventricle
-pages.four-chambers.labels.1: "sağ karıncık"
-# left atrium
-pages.four-chambers.labels.2: "sol kulakçık"
-# left ventricle
-pages.four-chambers.labels.3: "sol karıncık"
-# tricuspid
-pages.valves.labels.0: "triküspit"
-# mitral
-pages.valves.labels.1: "mitral"
-# aortic
-pages.valves.labels.2: "aort"
-# pulmonary
-pages.valves.labels.3: "pulmoner"
-# right coronary
-pages.coronaries.labels.0: "sağ koroner"
-# left coronary
-pages.coronaries.labels.1: "sol koroner"
-# pulmonary trunk
-pages.pulmonary-loop.labels.0: "pulmoner trunkus"
-# pulmonary veins
-pages.pulmonary-loop.labels.1: "pulmoner venler"
-# arch
-pages.the-aorta.labels.0: "kemer"
-# thoracic aorta
-pages.the-aorta.labels.1: "torasik aort"
-# abdominal aorta
-pages.the-aorta.labels.2: "abdominal aort"
-# brachiocephalic
-pages.head-and-arms.labels.0: "brakiosefalik"
-# common carotid
-pages.head-and-arms.labels.1: "ana karotis"
-# subclavian
-pages.head-and-arms.labels.2: "subklavyen"
-# brachial
-pages.head-and-arms.labels.3: "brakiyal"
-# radial
-pages.head-and-arms.labels.4: "radyal"
-# celiac trunk
-pages.the-abdomen.labels.0: "çölyak trunkus"
-# superior mesenteric
-pages.the-abdomen.labels.1: "üst mezenterik"
-# renal
-pages.the-abdomen.labels.2: "renal"
-# inferior mesenteric
-pages.the-abdomen.labels.3: "alt mezenterik"
-# common iliac
-pages.the-legs.labels.0: "ana iliyak"
-# femoral
-pages.the-legs.labels.1: "femoral"
-# popliteal
-pages.the-legs.labels.2: "popliteal"
-# posterior tibial
-pages.the-legs.labels.3: "arka tibial"
-# superior vena cava
-pages.venae-cavae.labels.0: "üst ana toplardamar"
-# inferior vena cava
-pages.venae-cavae.labels.1: "alt ana toplardamar"
-# internal jugular
-pages.venae-cavae.labels.2: "iç juguler"
-# femoral
-pages.venae-cavae.labels.3: "femoral"
-# great saphenous
-pages.venae-cavae.labels.4: "büyük safen"
-# superior mesenteric vein
-pages.portal-system.labels.0: "üst mezenterik ven"
-# splenic vein
-pages.portal-system.labels.1: "dalak veni"
-# portal vein
-pages.portal-system.labels.2: "portal ven"
-# hepatic veins
-pages.portal-system.labels.3: "hepatik venler"
-# cephalic
-pages.bandaged-arm.labels.0: "sefalik"
-# basilic
-pages.bandaged-arm.labels.1: "bazilik"
-# median cubital
-pages.bandaged-arm.labels.2: "median kubital"
+pages.fetal-circulation.labels.1: "sağ kulakçık"
 
-# The blood itself
-groups.blood.title: "Kanın kendisi"
+# left atrium
+pages.fetal-circulation.labels.2: "sol kulakçık"
+
+# Before the first breath
+pages.fetal-circulation.title: "İlk nefesten önce"
+
+# ligamentum arteriosum
+pages.first-breath.labels.0: "ligamentum arteriosum"
+
+# pulmonary veins
+pages.first-breath.labels.1: "pulmoner venler"
+
+# The first breath
+pages.first-breath.title: "İlk nefes"
+
+# sternum
+pages.making-blood.labels.0: "göğüs kemiği"
+
+# vertebrae
+pages.making-blood.labels.1: "omurlar"
+
+# pelvis
+pages.making-blood.labels.2: "leğen"
+
+# femur
+pages.making-blood.labels.3: "uyluk kemiği"
 
 # Where blood is made
 pages.making-blood.title: "Kan nerede yapılır"
 
+# spleen
+pages.ending-blood.labels.0: "dalak"
+
+# splenic vein
+pages.ending-blood.labels.1: "dalak veni"
+
+# liver
+pages.ending-blood.labels.2: "karaciğer"
+
 # Where blood ends
 pages.ending-blood.title: "Kan nerede biter"
 
-# sternum
-pages.making-blood.labels.0: "göğüs kemiği"
-# vertebrae
-pages.making-blood.labels.1: "omurlar"
-# pelvis
-pages.making-blood.labels.2: "leğen"
-# femur
-pages.making-blood.labels.3: "uyluk kemiği"
-# spleen
-pages.ending-blood.labels.0: "dalak"
-# splenic vein
-pages.ending-blood.labels.1: "dalak veni"
 # liver
-pages.ending-blood.labels.2: "karaciğer"
+pages.galen.labels.0: "karaciğer"
+
+# right ventricle
+pages.galen.labels.1: "sağ karıncık"
+
+# left ventricle
+pages.galen.labels.2: "sol karıncık"
+
+# 2nd century
+pages.galen.date: "2. yüzyıl"
+
+# Galen
+pages.galen.title: "Galenos"
+
+# pulmonary artery
+pages.ibn-al-nafis.labels.0: "pulmoner arter"
+
+# pulmonary veins
+pages.ibn-al-nafis.labels.1: "pulmoner venler"
+
+# about 1242
+pages.ibn-al-nafis.date: "1242 dolayları"
+
+# Ibn al-Nafis
+pages.ibn-al-nafis.title: "İbnü’n-Nefis"
+
+# cephalic
+pages.bandaged-arm.labels.0: "sefalik"
+
+# basilic
+pages.bandaged-arm.labels.1: "bazilik"
+
+# median cubital
+pages.bandaged-arm.labels.2: "median kubital"
+
+# 1628
+pages.bandaged-arm.date: "1628"
+
+# The bandaged arm
+pages.bandaged-arm.title: "Bağlı kol"
+
+# left ventricle
+pages.harvey-sum.labels.0: "sol karıncık"
+
+# aorta
+pages.harvey-sum.labels.1: "aort"
+
+# 1628
+pages.harvey-sum.date: "1628"
+
+# Harvey's sum
+pages.harvey-sum.title: "Harvey’nin hesabı"
+
+# airways
+pages.malpighi.labels.0: "hava yolları"
+
+# 1661
+pages.malpighi.date: "1661"
+
+# Malpighi's capillaries
+pages.malpighi.title: "Malpighi’nin kılcalları"
+
+# The heart, the arteries, the veins and how the blood moves through them. It follows the blood from the heart to the lungs, around the body and back, and also covers the circulation before birth and how Harvey proved in 1628 that the blood circulates.
+story.summary: "Kalp, arterler, venler ve kanın bunların içinde nasıl dolaştığı. Kanı kalpten akciğerlere, bedenin her yanına ve geri izler, doğumdan önceki dolaşımı ve Harvey’nin 1628’de kanın döndüğünü nasıl kanıtladığını da anlatır."
+
+# The circulatory system
+story.title: "Dolaşım sistemi"
+

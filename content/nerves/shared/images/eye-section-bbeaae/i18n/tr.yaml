@@ -1,0 +1,6 @@
+# tr strings for the image "eye-section-bbeaae".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Horizontal section through the eye, with the cornea, iris, lens, retina and optic nerve
+image.caption: "Gözden geçen yatay kesit, kornea, iris, mercek, retina ve görme siniriyle"

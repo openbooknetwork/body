@@ -1,0 +1,6 @@
+# tr strings for the image "santiago-ramon-y-cajal-612635".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Santiago Ramón y Cajal, in a portrait published by Clark University in 1899
+image.caption: "Clark Üniversitesi’nin 1899’da yayımladığı bir portrede Santiago Ramón y Cajal"

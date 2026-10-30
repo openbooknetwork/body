@@ -1,0 +1,12 @@
+title: "Brain, cord and nerves"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the overview of the nervous system.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 46 and 62.", "Frederico Azevedo et al., Equal numbers of neuronal and nonneuronal cells make the human brain an isometrically scaled-up primate brain, Journal of Comparative Neurology 513 (2009): 532-541."]
+beden:
+  camera: oblique
+  look: skin
+  distance: 2.0
+  layers: [skin, skeleton, cortex, brainstem, cerebellum, cord, roots, limb-nerves, cranial-nerves, autonomic]
+  parts: { highlight: [brain, spinal-cord, peripheral-nerves], ghost: [skin, skeleton] }
+  labels:
+    - { part: left-parietal-gyri, text: "brain" }
+    - { part: spinal-cord, text: "spinal cord" }
+    - { part: sciatic-nerves, text: "sciatic nerve" }

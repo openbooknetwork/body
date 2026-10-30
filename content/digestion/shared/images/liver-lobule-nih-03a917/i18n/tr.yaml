@@ -1,0 +1,6 @@
+# tr strings for the image "liver-lobule-nih-03a917".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A liver lobule: plates of liver cells round a central vein, with portal tracts at its edge
+image.caption: "Bir karaciğer lobülü: merkezdeki venin çevresinde karaciğer hücresi levhaları, kenarında portal alanlar"

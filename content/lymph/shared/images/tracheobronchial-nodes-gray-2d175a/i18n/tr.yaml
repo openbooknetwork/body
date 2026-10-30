@@ -1,0 +1,6 @@
+# tr strings for the image "tracheobronchial-nodes-gray-2d175a".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The tracheobronchial and bronchopulmonary nodes round the fork of the trachea and the paratracheal nodes above, seen from behind, Gray's Anatomy, 1918, figure 622
+image.caption: "Soluk borusunun çatalı çevresindeki trakeobronşiyal ve bronkopulmoner düğümler ve üstte paratrakeal düğümler, arkadan görünüş, Gray’s Anatomy, 1918, şekil 622"

@@ -1,0 +1,15 @@
+title: "The ventricles"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the meninges and ventricular system.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 62."]
+beden:
+  camera: oblique
+  look: ventricles
+  distance: 0.32
+  layers: [ventricles, cortex, brainstem, cerebellum]
+  parts:
+    highlight: [lateral-ventricles, third-ventricle, cerebral-aqueduct, fourth-ventricle, choroid-plexus]
+    ghost: [cerebral-cortex, cerebellum, brainstem]
+    flow: [choroid-plexus, lateral-ventricles, third-ventricle, cerebral-aqueduct, fourth-ventricle]
+  labels:
+    - { part: lateral-ventricles, text: "lateral ventricle" }
+    - { part: third-ventricle, text: "third ventricle" }
+    - { part: fourth-ventricle, text: "fourth ventricle" }

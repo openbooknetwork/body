@@ -1,0 +1,6 @@
+# tr strings for the image "kidney-vessels-gray-46110a".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The kidneys and their vessels: the renal arteries leave the aorta, and the left renal vein crosses in front of the aorta to the inferior vena cava, Gray's Anatomy, 1918, figure 1121
+image.caption: "Böbrekler ve damarları: aorttan çıkan renal arterler ve aortun önünden geçip alt ana toplardamara ulaşan sol renal ven, Gray’s Anatomy, 1918, şekil 1121"

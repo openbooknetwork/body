@@ -1,0 +1,14 @@
+title: "The heart's own arteries"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the heart.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 21."]
+beden:
+  camera: oblique
+  look: heart
+  layers: [heart, coronaries, aorta]
+  parts:
+    highlight: [right-coronary-artery, left-coronary-artery, anterior-interventricular-artery, circumflex-artery]
+    ghost: [heart, ascending-aorta, arch-of-aorta]
+    hide: [descending-aorta, abdominal-aorta]
+  labels:
+    - { part: right-coronary-artery, text: "right coronary" }
+    - { part: anterior-interventricular-artery, text: "anterior interventricular" }
+    - { part: circumflex-artery, text: "circumflex" }

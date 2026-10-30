@@ -1,0 +1,6 @@
+# tr strings for the image "heart-back-gray-98e19b".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The back and underside of the heart: the coronary sinus and the great, middle and small cardiac veins, Gray's Anatomy, 1918, figure 491
+image.caption: "Kalbin arka ve alt yüzü: koroner sinüs ve büyük, orta ve küçük kalp venleri, Gray’s Anatomy, 1918, şekil 491"

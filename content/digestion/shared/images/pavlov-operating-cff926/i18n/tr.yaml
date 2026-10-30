@@ -1,0 +1,6 @@
+# tr strings for the image "pavlov-operating-cff926".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ivan Pavlov, third from left, and colleagues operating on a dog at the Imperial Institute of Experimental Medicine, St Petersburg
+image.caption: "Soldan üçüncü Ivan Pavlov ve meslektaşları St. Petersburg’daki İmparatorluk Deneysel Tıp Enstitüsü’nde bir köpeği ameliyat ederken"

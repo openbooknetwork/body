@@ -1,0 +1,6 @@
+# tr strings for the image "blood-pressure-graph-3df85a".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The blood pressure along the circulation, from the aorta through the arteries, arterioles, capillaries and veins to the venae cavae, OpenStax Anatomy and Physiology
+image.caption: "Dolaşım boyunca kan basıncı: aorttan arterler, arteriyoller, kılcallar ve venler üzerinden ana toplardamarlara, OpenStax Anatomy and Physiology"

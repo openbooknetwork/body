@@ -1,0 +1,13 @@
+title: "Veins under the skin"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapters on the elbow and forearm and on the leg.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 15."]
+beden:
+  camera: front
+  look: skin
+  layers: [skin, veins]
+  parts:
+    highlight: [cephalic-veins, basilic-veins, median-cubital-veins, great-saphenous-veins, small-saphenous-veins]
+    ghost: [skin]
+  labels:
+    - { part: cephalic-veins, text: "cephalic" }
+    - { part: basilic-veins, text: "basilic" }
+    - { part: great-saphenous-veins, text: "great saphenous" }

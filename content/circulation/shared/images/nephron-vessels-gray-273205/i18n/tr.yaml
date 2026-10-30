@@ -1,0 +1,6 @@
+# tr strings for the image "nephron-vessels-gray-273205".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A nephron with its blood vessels: an afferent vessel enters each glomerulus in its capsule, and an efferent vessel leaves it to feed the capillaries around the tubules, Gray's Anatomy, 1918, figure 1128
+image.caption: "Bir nefron ve damarları: kapsülündeki her glomerüle bir getirici damar girer, bir götürücü damar çıkar ve tübüllerin çevresindeki kılcalları besler, Gray’s Anatomy, 1918, şekil 1128"

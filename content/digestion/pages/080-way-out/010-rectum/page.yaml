@@ -1,0 +1,11 @@
+title: "The rectum"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the large intestine.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 64."]
+beden:
+  camera: side
+  look: rectum
+  distance: 0.4
+  layers: [skeleton, tract, pelvic-floor]
+  section: { plane: sagittal, at: 0 }
+  parts: { highlight: [rectum], ghost: [skeleton, descending-colon, puborectalis, external-anal-sphincter] }
+  labels:
+    - { part: rectum, text: "rectum" }

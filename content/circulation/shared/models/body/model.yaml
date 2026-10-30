@@ -1,8 +1,9 @@
-# The whole body model of the circulation story, built from BodyParts3D by `beden model`. Each part names a
-# BodyParts3D concept, and the viewer shows, lights, ghosts or cuts parts by these ids.
+# The whole body model of the circulation story, built by `beden model` from BodyParts3D and, for vessels it lacks
+# or holds only in part, Z-Anatomy. Each part names a BodyParts3D concept or element files, and the viewer shows,
+# lights, ghosts or cuts parts by these ids.
 file: model.glb
-sha256: de7dbe32301991554cf5cf341483eeffcf93c3f92ef1f41dba26dede0c2eaccb
-credit: "BodyParts3D, The Database Center for Life Science, CC BY-SA 2.1 Japan"
+sha256: 1551564ae0bb7466d3c5b466186318f1136b1eaf304860b6812cbad56206fc44
+credit: "BodyParts3D, The Database Center for Life Science, CC BY-SA 2.1 Japan, and Z-Anatomy, Gauthier Kervyn, CC BY-SA 4.0"
 source: https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html
 parts:
   # context
@@ -15,6 +16,9 @@ parts:
   right-kidney:    { concept: FMA7204, layer: organs, family: organ }
   left-kidney:     { concept: FMA7205, layer: organs, family: organ }
   spleen:          { concept: FMA7196, layer: organs, family: organ }
+  trachea:         { concept: FMA7394, layer: airway, family: airway }
+  bronchi:         { concepts: [FMA26661, FMA26662], layer: airway, family: airway }
+  calf-muscles:    { concepts: [FMA45950, FMA22542], layer: muscles, family: muscle }   # the two heads of gastrocnemius and soleus
   # the bones that hold red marrow in an adult
   skull:            { concept: FMA46565, layer: marrow, family: bone }
   sternum:          { concept: FMA7485, layer: marrow, family: bone }
@@ -31,54 +35,96 @@ parts:
   pulmonary-valve: { concept: FMA7246, layer: valves, family: valve }
   mitral-valve:    { concept: FMA7235, layer: valves, family: valve }
   aortic-valve:    { concept: FMA7236, layer: valves, family: valve }
+  # Z-Anatomy (Gauthier Kervyn, CC BY-SA 4.0), moved into this frame by beden z-anatomy as element files za-*
+  papillary-muscles: { elements: ["za-*-papillary-muscle-of-*-ventricle"], layer: valves, family: muscle }
   right-coronary-artery: { concept: FMA50039, layer: coronaries, family: oxygenated }
   left-coronary-artery:  { concept: FMA50040, layer: coronaries, family: oxygenated }
+  anterior-interventricular-artery: { concept: FMA3862, layer: coronaries, family: oxygenated }
+  circumflex-artery:     { concept: FMA3895, layer: coronaries, family: oxygenated }
+  coronary-sinus:        { concept: FMA4706, layer: cardiac-veins, family: deoxygenated }
+  great-cardiac-vein:    { concepts: [FMA4707, FMA66403], layer: cardiac-veins, family: deoxygenated }   # with the anterior interventricular vein it begins as
+  middle-cardiac-vein:   { concept: FMA4713, layer: cardiac-veins, family: deoxygenated }
+  small-cardiac-vein:    { concept: FMA4714, layer: cardiac-veins, family: deoxygenated }
+  # The ductus arteriosus, which BodyParts3D does not hold, drawn as a tube through [x, y, z, radius] in metres of the
+  # glTF frame (x to the left, y up, z forward), from the top of the left pulmonary artery to the underside of the arch
+  ductus-arteriosus:
+    layer: fetal
+    family: fetal
+    tube:
+      - [0.028, 1.287, 0.114, 0.0035]  # inside the left pulmonary artery at its origin from the trunk
+      - [0.027, 1.293, 0.104, 0.0035]
+      - [0.025, 1.298, 0.093, 0.0035]  # inside the arch, on its concave underside left of the midline
   # the pulmonary loop
   pulmonary-trunk:        { concept: FMA8612, layer: pulmonary, family: deoxygenated }
   right-pulmonary-artery: { concept: FMA50872, layer: pulmonary, family: deoxygenated, exclude: [FJ2041, FJ2044] }   # two elements BodyParts3D files here sit 20 cm below the hilum
   left-pulmonary-artery:  { concept: FMA50873, layer: pulmonary, family: deoxygenated }
   pulmonary-veins:        { concept: FMA66643, layer: pulmonary, family: oxygenated }
-  # the aorta and its branches
+  # The aorta and its branches. BodyParts3D files every artery downstream under the trunk it comes from, so the trunks
+  # of the arch and the iliac arteries name their own element files.
   ascending-aorta:  { concept: FMA3736, layer: aorta, family: oxygenated }
   arch-of-aorta:    { concept: FMA3768, layer: aorta, family: oxygenated }
   descending-aorta: { concept: FMA3784, layer: aorta, family: oxygenated }
   abdominal-aorta:  { concept: FMA3789, layer: aorta, family: oxygenated }
-  brachiocephalic-artery:      { concept: FMA3932, layer: arteries, family: oxygenated }
-  right-common-carotid-artery: { concept: FMA3941, layer: arteries, family: oxygenated }
-  left-common-carotid-artery:  { concept: FMA4058, layer: arteries, family: oxygenated }
-  internal-carotid-arteries:   { concept: FMA3947, layer: arteries, family: oxygenated }
-  vertebral-arteries:          { concept: FMA3956, layer: arteries, family: oxygenated }
-  right-subclavian-artery:     { concept: FMA3953, layer: arteries, family: oxygenated }
-  left-subclavian-artery:      { concept: FMA4694, layer: arteries, family: oxygenated }
+  brachiocephalic-artery:      { elements: [FJ3417], layer: arteries, family: oxygenated }
+  right-subclavian-artery:     { elements: [FJ3579], layer: arteries, family: oxygenated }
+  left-subclavian-artery:      { elements: [FJ3479], layer: arteries, family: oxygenated }
+  internal-carotid-arteries:   { concept: FMA3947, layer: arteries, family: oxygenated }   # from the base of the skull to the arterial circle
+  # The neck from Z-Anatomy (Gauthier Kervyn, CC BY-SA 4.0), element files za-*: BodyParts3D stops the common carotids
+  # 4 cm short of their fork and has neither the external carotids nor the neck part of the internal carotids. Its
+  # internal carotids run about 1 cm off this one's, so a page shows one or the other.
+  right-common-carotid-artery: { elements: [za-right-common-carotid-artery], layer: arteries, family: oxygenated }
+  left-common-carotid-artery:  { elements: [za-left-common-carotid-artery], layer: arteries, family: oxygenated }
+  external-carotid-arteries:   { elements: ["za-external-carotid-artery*"], layer: arteries, family: oxygenated }
+  cervical-internal-carotid-arteries: { elements: ["za-internal-carotid-artery*"], layer: arteries, family: oxygenated }   # from the fork in the neck into the skull
+  vertebral-arteries:          { elements: ["za-vertebral-artery*"], layer: arteries, family: oxygenated }   # from the subclavian to the basilar, where BodyParts3D's start 5 cm above the subclavian
+  # the arteries of the brain
+  basilar-artery:              { elements: [FJ1672, FJ1844], layer: brain-arteries, family: oxygenated }
+  arterial-circle:             { concept: FMA50454, layer: brain-arteries, family: oxygenated }   # the communicating arteries and the first part of each posterior cerebral
+  anterior-cerebral-arteries:  { concepts: [FMA50028, FMA50031], exclude: [FJ1655], layer: brain-arteries, family: oxygenated }   # FJ1655 is the anterior communicating artery, in the circle
+  middle-cerebral-arteries:    { concepts: [FMA50365, FMA50368, FMA50081], layer: brain-arteries, family: oxygenated }
+  posterior-cerebral-arteries: { concepts: [FMA50584, FMA50585], layer: brain-arteries, family: oxygenated }
+  # the arm
   axillary-arteries:  { concept: FMA22654, layer: arteries, family: oxygenated }
   brachial-arteries:  { concept: FMA22689, layer: arteries, family: oxygenated }
   radial-arteries:    { concept: FMA22730, layer: arteries, family: oxygenated }
   ulnar-arteries:     { concept: FMA22796, layer: arteries, family: oxygenated }
+  superficial-palmar-arches: { concept: FMA22834, layer: arteries, family: oxygenated }
+  deep-palmar-arches:        { concepts: [FMA22839, FMA22840], layer: arteries, family: oxygenated }
+  # the gut and the kidneys
   celiac-trunk:                { concept: FMA14812, layer: arteries, family: oxygenated }
+  left-gastric-artery:         { concept: FMA14768, layer: arteries, family: oxygenated }
+  common-hepatic-artery:       { concept: FMA14771, layer: arteries, family: oxygenated }   # with its branches into the liver
+  splenic-artery:              { concept: FMA14773, layer: arteries, family: oxygenated }
   superior-mesenteric-artery:  { concept: FMA14749, layer: arteries, family: oxygenated }
   inferior-mesenteric-artery:  { concept: FMA14750, layer: arteries, family: oxygenated }
   renal-arteries:              { concept: FMA14751, layer: arteries, family: oxygenated }
-  common-iliac-arteries:   { concept: FMA14764, layer: arteries, family: oxygenated }
+  # Z-Anatomy (Gauthier Kervyn, CC BY-SA 4.0), element files za-*: the branches inside each kidney
+  intrarenal-arteries:         { elements: ["za-intrarenal-arteries-of-*-kidney"], layer: arteries, family: oxygenated }
+  intrarenal-veins:            { elements: ["za-intrarenal-veins-of-*-kidney"], layer: veins, family: deoxygenated }
+  # the leg
+  common-iliac-arteries:   { elements: [FJ3464, FJ3565], layer: arteries, family: oxygenated }
   internal-iliac-arteries: { concept: FMA18808, layer: arteries, family: oxygenated }
-  external-iliac-arteries: { concept: FMA18805, layer: arteries, family: oxygenated }
+  external-iliac-arteries: { elements: [FJ3466, FJ3567], layer: arteries, family: oxygenated }
   femoral-arteries:        { concept: FMA70248, layer: arteries, family: oxygenated }
+  deep-femoral-arteries:   { concepts: [FMA20796, FMA20797], layer: arteries, family: oxygenated }
   popliteal-arteries:      { concept: FMA77155, layer: arteries, family: oxygenated }
   anterior-tibial-arteries:  { concept: FMA43894, layer: arteries, family: oxygenated }
-  posterior-tibial-arteries: { concept: FMA43895, layer: arteries, family: oxygenated }
+  posterior-tibial-arteries: { elements: [FJ2087, FJ2172], layer: arteries, family: oxygenated }
   dorsalis-pedis-arteries:   { concept: FMA43915, layer: arteries, family: oxygenated }
   plantar-arteries:          { concepts: [FMA43925, FMA43926, FMA43942], layer: arteries, family: oxygenated }   # medial and lateral plantar arteries and the plantar arch
   arteries:         { concept: FMA49894, layer: arterial-tree, family: oxygenated,
-                      plus: [axillary-arteries, brachial-arteries, radial-arteries, ulnar-arteries, internal-carotid-arteries, vertebral-arteries, femoral-arteries, popliteal-arteries, anterior-tibial-arteries, posterior-tibial-arteries, dorsalis-pedis-arteries, plantar-arteries, common-iliac-arteries, external-iliac-arteries, internal-iliac-arteries, renal-arteries] }
+                      plus: [axillary-arteries, brachial-arteries, radial-arteries, ulnar-arteries, superficial-palmar-arches, deep-palmar-arches, internal-carotid-arteries, external-carotid-arteries, vertebral-arteries, basilar-artery, arterial-circle, anterior-cerebral-arteries, middle-cerebral-arteries, posterior-cerebral-arteries, femoral-arteries, popliteal-arteries, anterior-tibial-arteries, posterior-tibial-arteries, dorsalis-pedis-arteries, plantar-arteries, common-iliac-arteries, external-iliac-arteries, internal-iliac-arteries, renal-arteries, intrarenal-arteries] }
   # the veins
   superior-vena-cava:    { concept: FMA4720, layer: veins, family: deoxygenated }
   inferior-vena-cava:    { concept: FMA10951, layer: veins, family: deoxygenated }
   brachiocephalic-veins: { concept: FMA4723, layer: veins, family: deoxygenated }
-  internal-jugular-veins: { concept: FMA4724, layer: veins, family: deoxygenated }
+  internal-jugular-veins: { elements: ["za-internal-jugular-vein*"], layer: veins, family: deoxygenated }   # Z-Anatomy (Gauthier Kervyn, CC BY-SA 4.0): BodyParts3D holds only their lowest 4 cm
   subclavian-veins:      { concept: FMA4725, layer: veins, family: deoxygenated }
   axillary-veins:        { concept: FMA13329, layer: veins, family: deoxygenated }
   cephalic-veins:        { concept: FMA13324, layer: veins, family: deoxygenated }
   basilic-veins:         { concept: FMA22908, layer: veins, family: deoxygenated }
   median-cubital-veins:  { concept: FMA22963, layer: veins, family: deoxygenated }
+  dorsal-venous-networks: { concept: FMA67977, layer: veins, family: deoxygenated }   # on the back of each hand
   azygos-vein:           { concept: FMA4838, layer: veins, family: deoxygenated }
   hepatic-veins:         { concept: FMA14337, layer: veins, family: deoxygenated }
   renal-veins:           { concept: FMA14334, layer: veins, family: deoxygenated }
@@ -86,25 +132,45 @@ parts:
   external-iliac-veins:  { concept: FMA18883, layer: veins, family: deoxygenated }
   femoral-veins:         { concept: FMA21185, layer: veins, family: deoxygenated }
   popliteal-veins:       { concept: FMA44327, layer: veins, family: deoxygenated }
+  anterior-tibial-veins:  { concept: FMA44331, layer: veins, family: deoxygenated }
+  posterior-tibial-veins: { concept: FMA44332, layer: veins, family: deoxygenated }
+  fibular-veins:         { concept: FMA44558, exclude: [FJ2190], layer: veins, family: deoxygenated }   # FJ2190 lies in the left thigh
   great-saphenous-veins: { concept: FMA21376, layer: veins, family: deoxygenated }
+  small-saphenous-veins: { concept: FMA44333, layer: veins, family: deoxygenated }
+  dorsal-venous-arches:  { concept: FMA44356, layer: veins, family: deoxygenated }   # on the back of each foot
   portal-vein:           { concept: FMA50735, layer: portal, family: portal }
   superior-mesenteric-vein: { concept: FMA14332, layer: portal, family: portal }
+  inferior-mesenteric-vein: { concept: FMA15391, layer: portal, family: portal }
   splenic-vein:          { concept: FMA14331, layer: portal, family: portal }
   cardiovascular:        { concept: FMA7161, export: false }   # only derives the veins below
-  veins:                 { from: cardiovascular, minus: [arteries, heart, right-coronary-artery, left-coronary-artery, pulmonary-trunk, right-pulmonary-artery, left-pulmonary-artery, pulmonary-veins, portal-vein, superior-mesenteric-vein, splenic-vein], layer: venous-tree, family: deoxygenated,
-                         plus: [axillary-veins, cephalic-veins, basilic-veins, median-cubital-veins, internal-jugular-veins, subclavian-veins, renal-veins, hepatic-veins, common-iliac-veins, external-iliac-veins, femoral-veins, popliteal-veins, great-saphenous-veins] }
-# Names the viewer shows on hover, a part id per language. English falls back to the id.
+  veins:                 { from: cardiovascular, minus: [arteries, heart, right-coronary-artery, left-coronary-artery, pulmonary-trunk, right-pulmonary-artery, left-pulmonary-artery, pulmonary-veins, portal-vein, superior-mesenteric-vein, inferior-mesenteric-vein, splenic-vein], layer: venous-tree, family: deoxygenated,
+                         plus: [axillary-veins, cephalic-veins, basilic-veins, median-cubital-veins, dorsal-venous-networks, internal-jugular-veins, subclavian-veins, renal-veins, intrarenal-veins, hepatic-veins, common-iliac-veins, external-iliac-veins, femoral-veins, popliteal-veins, anterior-tibial-veins, posterior-tibial-veins, fibular-veins, great-saphenous-veins, small-saphenous-veins, dorsal-venous-arches] }
 groups:
   chambers: [right-atrium, right-ventricle, left-atrium, left-ventricle]
+  ventricles: [right-ventricle, left-ventricle]
   valves: [tricuspid-valve, pulmonary-valve, mitral-valve, aortic-valve]
+  coronaries: [right-coronary-artery, left-coronary-artery]
+  cardiac-veins: [coronary-sinus, great-cardiac-vein, middle-cardiac-vein, small-cardiac-vein]
+  pulmonary-arteries: [pulmonary-trunk, right-pulmonary-artery, left-pulmonary-artery]
+  airway: [trachea, bronchi]
   aorta: [ascending-aorta, arch-of-aorta, descending-aorta, abdominal-aorta]
   arch-branches: [brachiocephalic-artery, right-common-carotid-artery, left-common-carotid-artery, right-subclavian-artery, left-subclavian-artery]
-  arm-arteries: [axillary-arteries, brachial-arteries, radial-arteries, ulnar-arteries]
-  leg-arteries: [common-iliac-arteries, external-iliac-arteries, femoral-arteries, popliteal-arteries, anterior-tibial-arteries, posterior-tibial-arteries, dorsalis-pedis-arteries, plantar-arteries]
-  gut-arteries: [celiac-trunk, superior-mesenteric-artery, inferior-mesenteric-artery]
+  neck-arteries: [right-common-carotid-artery, left-common-carotid-artery, external-carotid-arteries, cervical-internal-carotid-arteries, vertebral-arteries]
+  brain-arteries: [internal-carotid-arteries, vertebral-arteries, basilar-artery, arterial-circle, anterior-cerebral-arteries, middle-cerebral-arteries, posterior-cerebral-arteries]
+  arm-arteries: [axillary-arteries, brachial-arteries, radial-arteries, ulnar-arteries, superficial-palmar-arches, deep-palmar-arches]
+  palmar-arches: [superficial-palmar-arches, deep-palmar-arches]
+  gut-arteries: [celiac-trunk, left-gastric-artery, common-hepatic-artery, splenic-artery, superior-mesenteric-artery, inferior-mesenteric-artery]
+  kidney-vessels: [renal-arteries, intrarenal-arteries, intrarenal-veins, renal-veins]
+  thigh-arteries: [common-iliac-arteries, internal-iliac-arteries, external-iliac-arteries, femoral-arteries, deep-femoral-arteries]
+  lower-leg-arteries: [popliteal-arteries, anterior-tibial-arteries, posterior-tibial-arteries, dorsalis-pedis-arteries, plantar-arteries]
+  leg-arteries: [common-iliac-arteries, external-iliac-arteries, femoral-arteries, deep-femoral-arteries, popliteal-arteries, anterior-tibial-arteries, posterior-tibial-arteries, dorsalis-pedis-arteries, plantar-arteries]
+  trunk-veins: [superior-vena-cava, inferior-vena-cava, brachiocephalic-veins, internal-jugular-veins, subclavian-veins, azygos-vein, hepatic-veins, renal-veins, common-iliac-veins]
+  superficial-veins: [cephalic-veins, basilic-veins, median-cubital-veins, dorsal-venous-networks, great-saphenous-veins, small-saphenous-veins, dorsal-venous-arches]
+  deep-leg-veins: [anterior-tibial-veins, posterior-tibial-veins, fibular-veins, popliteal-veins, femoral-veins]
   leg-veins: [great-saphenous-veins, popliteal-veins, femoral-veins, external-iliac-veins, common-iliac-veins]
   arm-veins: [cephalic-veins, basilic-veins, median-cubital-veins, axillary-veins, subclavian-veins]
+  forearm-veins: [cephalic-veins, basilic-veins, median-cubital-veins]
   lungs: [right-lung, left-lung]
   kidneys: [right-kidney, left-kidney]
-  portal-system: [superior-mesenteric-vein, splenic-vein, portal-vein]
+  portal-system: [superior-mesenteric-vein, inferior-mesenteric-vein, splenic-vein, portal-vein]
   marrow-bones: [skull, sternum, vertebral-column, pelvic-girdle, femurs]

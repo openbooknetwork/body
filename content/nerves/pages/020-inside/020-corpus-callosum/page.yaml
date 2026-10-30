@@ -1,0 +1,10 @@
+title: "The bridge between the halves"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the cerebral hemispheres.", "Roger W. Sperry, Some effects of disconnecting the cerebral hemispheres, Nobel lecture, 8 December 1981."]
+beden:
+  camera: right-side
+  look: brain
+  layers: [cortex, white-matter, deep, ventricles, brainstem, cerebellum]
+  section: { plane: sagittal, at: 0 }
+  parts: { highlight: [corpus-callosum] }
+  labels:
+    - { part: corpus-callosum, text: "corpus callosum" }

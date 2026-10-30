@@ -1,0 +1,6 @@
+# tr strings for the image "pancreatic-islet-e5c73e".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# An islet of Langerhans in the human pancreas, stained for insulin (blue) and glucagon (red)
+image.caption: "İnsan pankreasında bir Langerhans adacığı, insülin (mavi) ve glukagon (kırmızı) için boyanmış"

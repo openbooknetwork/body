@@ -1,0 +1,6 @@
+# tr strings for the image "harvey-portrait-60352f".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# William Harvey, after a portrait by Daniël Mijtens, about 1627
+image.caption: "William Harvey, Daniël Mijtens’in bir portresinden, yaklaşık 1627"

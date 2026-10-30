@@ -1,0 +1,6 @@
+# tr strings for the image "lymph-node-diagram-d6fe05".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A lymph node cut open: afferent vessels with valves enter its rounded side, the lymph passes the nodules of the cortex and leaves by efferent vessels at the hilum, SEER Training, U.S. National Cancer Institute
+image.caption: "Açılmış bir lenf düğümü: kapakçıklı getirici damarlar dışbükey yüzüne girer, lenf korteksin nodüllerinden geçer ve hilustaki götürücü damarlardan çıkar, SEER Training, ABD Ulusal Kanser Enstitüsü"

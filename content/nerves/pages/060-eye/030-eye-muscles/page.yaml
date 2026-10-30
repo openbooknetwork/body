@@ -1,0 +1,14 @@
+title: "Moving the eye"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the orbit and accessory visual apparatus.", "Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the brainstem."]
+beden:
+  camera: above
+  look: eye-muscles
+  distance: 0.16
+  layers: [eyes, orbit, nerves, skeleton]
+  parts: { highlight: [oculomotor-nerves, oculomotor-muscles, trochlear-nerves, superior-oblique-muscles, abducens-nerves, lateral-rectus-muscles], ghost: [skeleton] }
+  labels:
+    - { part: oculomotor-nerves, text: "oculomotor nerve" }
+    - { part: trochlear-nerves, text: "trochlear nerve" }
+    - { part: abducens-nerves, text: "abducens nerve" }
+    - { part: superior-oblique-muscles, text: "superior oblique" }
+    - { part: lateral-rectus-muscles, text: "lateral rectus" }

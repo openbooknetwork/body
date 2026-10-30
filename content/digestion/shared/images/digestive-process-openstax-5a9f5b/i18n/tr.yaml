@@ -1,0 +1,6 @@
+# tr strings for the image "digestive-process-openstax-5a9f5b".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The work of the tract: swallowing and peristalsis, mechanical and chemical digestion, absorption and defecation, OpenStax Anatomy and Physiology
+image.caption: "Kanalın işi: yutma ve peristaltizm, mekanik ve kimyasal sindirim, emilim ve dışkılama, OpenStax Anatomy and Physiology"

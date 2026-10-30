@@ -1,0 +1,6 @@
+# tr strings for the image "femoral-sheath-gray-c9907f".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The groin opened below the inguinal ligament: the femoral nerve, artery and vein side by side, with the great saphenous vein joining the femoral vein, Gray's Anatomy, 1918, figure 545
+image.caption: "Kasık bağının altında açılmış kasık: yan yana femoral sinir, arter ve ven, femoral vene katılan büyük safen ven, Gray’s Anatomy, 1918, şekil 545"

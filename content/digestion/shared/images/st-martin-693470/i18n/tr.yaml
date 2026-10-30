@@ -1,0 +1,6 @@
+# tr strings for the image "st-martin-693470".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Alexis St. Martin in later life, with the healed opening into his stomach below his left breast, from Jesse Myer, Life and Letters of Dr. William Beaumont, 1912
+image.caption: "İleri yaşlarında Alexis St. Martin, sol memesinin altında midesine açılan iyileşmiş delikle, Jesse Myer’ın Life and Letters of Dr. William Beaumont kitabından, 1912"

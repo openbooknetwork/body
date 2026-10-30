@@ -1,0 +1,6 @@
+# tr strings for the image "popliteal-gray-3d3a2d".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The back of the knee and leg: the popliteal artery and the posterior tibial artery running down the calf to behind the inner ankle, Gray's Anatomy, 1918, figure 551
+image.caption: "Dizin ve bacağın arkası: popliteal arter ve baldırdan iç ayak bileğinin arkasına inen arka tibial arter, Gray’s Anatomy, 1918, şekil 551"

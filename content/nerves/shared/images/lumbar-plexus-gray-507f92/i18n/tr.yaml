@@ -1,0 +1,6 @@
+# tr strings for the image "lumbar-plexus-gray-507f92".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Plan of the lumbar plexus: the femoral nerve forms from the second, third and fourth lumbar nerves, Gray's Anatomy, 20th edition, 1918, figure 822
+image.caption: "Lomber pleksusun planı: femoral sinir ikinci, üçüncü ve dördüncü bel sinirlerinden oluşur, Gray’s Anatomy, 20. baskı, 1918, şekil 822"

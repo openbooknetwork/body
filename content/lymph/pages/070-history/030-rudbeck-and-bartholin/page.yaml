@@ -1,0 +1,14 @@
+title: "Rudbeck and Bartholin"
+date: "1653"
+sources: ["Olof Rudbeck, Nova exercitatio anatomica, exhibens ductus hepaticos aquosos et vasa glandularum serosa (Västerås, 1653).", "Thomas Bartholin, Vasa lymphatica, nuper Hafniae in animantibus inventa, et hepatis exsequiae (Copenhagen, 1653)."]
+beden:
+  camera: front
+  look: skin
+  distance: 2.0
+  layers: [skin, organs, ducts, veins, lymphoid]
+  parts:
+    highlight: [liver, thoracic-duct, great-veins]
+    ghost: [skin, stomach, right-kidney, left-kidney, spleen, right-thymic-lobe, left-thymic-lobe]
+  labels:
+    - { part: liver, text: "liver" }
+    - { part: superior-vena-cava, text: "great veins" }

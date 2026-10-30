@@ -1,0 +1,9 @@
+name: "Thymus"
+latin: "Thymus"
+role: "The organ behind the breastbone where T cells mature, large in childhood and mostly fat in old age"
+source: https://en.wikipedia.org/wiki/Thymus
+images: [thymus-gray-baf692]
+facts:
+  - { label: "Weight", value: "About 15 g at birth, 30 to 40 g at puberty" }
+  - { label: "Position", value: "Upper mediastinum, behind the sternum and in front of the great vessels" }
+  - { label: "Lobes", value: "Two, each of many lobules with a cortex and a medulla" }

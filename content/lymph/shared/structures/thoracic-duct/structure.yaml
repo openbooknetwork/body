@@ -1,0 +1,9 @@
+name: "Thoracic duct"
+latin: "Ductus thoracicus"
+role: "The largest lymph vessel, from the cisterna chyli in the abdomen to the left venous angle in the neck"
+source: https://en.wikipedia.org/wiki/Thoracic_duct
+images: [thoracic-duct-gray-007498]
+facts:
+  - { label: "Length", value: "38 to 45 cm" }
+  - { label: "Flow", value: "About 100 ml an hour at rest" }
+  - { label: "Drains", value: "Both legs, the pelvis and abdomen, the left half of the chest, the left arm and the left side of the head and neck" }

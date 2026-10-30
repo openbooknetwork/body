@@ -1,0 +1,6 @@
+# tr strings for the image "villus-gray-d8cdbb".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A villus cut lengthwise, with its central lacteal, from a dog's small intestine, Gray's Anatomy, 1918, figure 1059
+image.caption: "Bir köpeğin ince bağırsağından boyuna kesilmiş bir villus, ortasındaki laktealle, Gray’s Anatomy, 1918, şekil 1059"

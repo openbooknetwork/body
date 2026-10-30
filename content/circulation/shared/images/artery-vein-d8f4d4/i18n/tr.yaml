@@ -1,0 +1,6 @@
+# tr strings for the image "artery-vein-d8f4d4".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The walls of an artery and a vein, drawn and in a micrograph: the artery's thick layer of smooth muscle and elastic fibres against the vein's thinner wall, OpenStax Anatomy and Physiology
+image.caption: "Bir arterin ve bir venin duvarı, çizim ve mikrografta: arterin kalın düz kas ve elastik lif katmanı, venin daha ince duvarı, OpenStax Anatomy and Physiology"

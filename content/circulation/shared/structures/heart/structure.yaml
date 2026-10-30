@@ -1,0 +1,10 @@
+name: "Heart"
+latin: "Cor"
+role: "The pump of the circulation: two atria above two ventricles, the right side for the lungs and the left for the body"
+source: https://en.wikipedia.org/wiki/Heart
+images: [heart-front-gray-97457a]
+facts:
+  - { label: "Weight", value: "About 300 g" }
+  - { label: "Rate at rest", value: "About 70 beats a minute" }
+  - { label: "Stroke volume", value: "About 70 ml" }
+  - { label: "Output at rest", value: "About 5 litres a minute" }

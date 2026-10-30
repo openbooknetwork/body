@@ -1,0 +1,12 @@
+title: "Cecum and appendix"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the large intestine.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 64.", "Dennis Addiss and others, The epidemiology of appendicitis and appendectomy in the United States, American Journal of Epidemiology 132 (1990): 910 to 925."]
+beden:
+  camera: left
+  look: cecum
+  distance: 0.3
+  layers: [skeleton, tract]
+  parts: { highlight: [cecum, appendix], ghost: [skeleton, ileum, ascending-colon] }
+  labels:
+    - { part: cecum, text: "cecum" }
+    - { part: appendix, text: "appendix" }
+    - { part: ileum, text: "ileum" }

@@ -1,5 +1,0 @@
-A red cell has no nucleus and cannot repair itself. After about 120 days and some 300 km of travel its membrane stiffens, and it fails the test of the [spleen](@spleen): to leave the spleen's pulp a cell must squeeze through slits narrower than itself, and a stiff one is caught and eaten by the macrophages waiting there. The liver and the marrow do the same on a smaller scale. A person without a spleen lives, but keeps old cells longer and catches some infections more easily.
-
-@image spleen-gray-6ae2c7
-
-The macrophage takes the haemoglobin apart. The iron is kept and sent back to the marrow, bound to a carrier protein in the blood, so that a body loses only a milligram or two a day and needs that much from food. The rest of the haem becomes bilirubin, a yellow pigment that travels by the [splenic](@splenic-vein) and [portal veins](@portal-vein) to the [liver](@liver), which pulls it out of the blood and sends it into the bile and so into the intestine. Bilirubin and its products colour stool brown and urine yellow, and when the liver fails or cells break faster than it can clear them, the skin turns yellow with it.

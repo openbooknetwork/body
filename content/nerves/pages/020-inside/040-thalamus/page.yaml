@@ -1,0 +1,13 @@
+title: "Thalamus and hypothalamus"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the diencephalon.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 59 and 76."]
+beden:
+  camera: right-side
+  look: thalami
+  distance: 0.25
+  layers: [deep, cortex, white-matter, ventricles, brainstem, cerebellum]
+  section: { plane: sagittal, at: 0 }
+  parts: { highlight: [thalami, hypothalamus, pituitary-gland] }
+  labels:
+    - { part: thalami, text: "thalamus" }
+    - { part: hypothalamus, text: "hypothalamus" }
+    - { part: pituitary-gland, text: "pituitary" }

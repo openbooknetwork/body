@@ -1,2 +1,6 @@
+# tr strings for the image "blood-cells-sem-535b86".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
 # Red cells, white cells and platelets in circulating human blood, scanning electron micrograph
 image.caption: "Dolaşan insan kanında alyuvarlar, akyuvarlar ve trombositler, taramalı elektron mikrografı"

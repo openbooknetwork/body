@@ -1,0 +1,9 @@
+name: "Arterial circle"
+latin: "Circulus arteriosus cerebri"
+role: "The ring of arteries under the base of the brain that joins the two internal carotid arteries and the basilar artery"
+source: https://en.wikipedia.org/wiki/Circle_of_Willis
+images: [circle-willis-gray-91209c]
+facts:
+  - { label: "Also called", value: "Circle of Willis" }
+  - { label: "Described", value: "Thomas Willis, 1664" }
+  - { label: "Feeds", value: "The anterior, middle and posterior cerebral arteries" }

@@ -1,0 +1,6 @@
+# tr strings for the image "thymus-gray-baf692".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The thymus of a baby at full term, exposed in the chest: it lies on the pericardium between the lungs, below the thyroid gland, Gray's Anatomy, 1918, figure 1178
+image.caption: "Zamanında doğmuş bir bebeğin göğüste açığa çıkarılmış timusu: akciğerlerin arasında, perikardın üstünde, tiroit bezinin altında durur, Gray’s Anatomy, 1918, şekil 1178"

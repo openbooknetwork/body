@@ -1,0 +1,11 @@
+title: "The cerebellum"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the cerebellum.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 57.", "Frederico Azevedo et al., Equal numbers of neuronal and nonneuronal cells make the human brain an isometrically scaled-up primate brain, Journal of Comparative Neurology 513 (2009): 532-541."]
+beden:
+  camera: back
+  look: cerebellum
+  distance: 0.3
+  layers: [cerebellum, cortex, brainstem]
+  parts: { highlight: [cerebellum] }
+  structure: cerebellum
+  labels:
+    - { part: cerebellum, text: "cerebellum" }

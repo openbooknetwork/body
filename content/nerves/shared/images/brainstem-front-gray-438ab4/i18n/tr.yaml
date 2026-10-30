@@ -1,0 +1,6 @@
+# tr strings for the image "brainstem-front-gray-438ab4".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The pons and the medulla oblongata from the front, with the pyramids crossing in the decussation below, Gray's Anatomy, 20th edition, 1918, figure 679
+image.caption: "Önden pons ve medulla oblongata, altta çaprazlaşan piramitlerle, Gray’s Anatomy, 20. baskı, 1918, şekil 679"

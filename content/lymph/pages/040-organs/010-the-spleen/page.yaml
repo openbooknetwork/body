@@ -1,0 +1,16 @@
+title: "The spleen"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the spleen.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 34."]
+beden:
+  camera: front
+  look: spleen
+  distance: 0.6
+  layers: [organs, lymphoid, veins, arteries, skeleton]
+  parts:
+    highlight: [spleen, splenic-artery, splenic-vein]
+    ghost: [stomach, liver, right-kidney, left-kidney, skeleton]
+    hide: [right-thymic-lobe, left-thymic-lobe]
+  structure: spleen
+  labels:
+    - { part: spleen, text: "spleen" }
+    - { part: splenic-artery, text: "splenic artery" }
+    - { part: splenic-vein, text: "splenic vein" }

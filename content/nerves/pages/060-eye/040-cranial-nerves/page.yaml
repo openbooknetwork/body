@@ -1,0 +1,24 @@
+title: "Twelve cranial nerves"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the brainstem.", "Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the orbit and accessory visual apparatus."]
+beden:
+  camera: below
+  look: brainstem
+  distance: 0.4
+  layers: [nerves, cranial-nerves, brainstem, cortex, cerebellum, eyes]
+  parts:
+    show: [vagus-nerves]
+    highlight: [olfactory-nerves, optic-nerves, oculomotor-nerves, trochlear-nerves, trigeminal, abducens-nerves, facial-nerves, vestibulocochlear-nerves, glossopharyngeal-nerves, vagus-nerves, accessory-nerves, hypoglossal-nerves]
+    ghost: [cerebral-cortex, cerebellum]
+  labels:
+    - { part: olfactory-nerves, text: "I" }
+    - { part: optic-nerves, text: "II" }
+    - { part: oculomotor-nerves, text: "III" }
+    - { part: trochlear-nerves, text: "IV" }
+    - { part: trigeminal-nerves, text: "V" }
+    - { part: abducens-nerves, text: "VI" }
+    - { part: facial-nerves, text: "VII" }
+    - { part: vestibulocochlear-nerves, text: "VIII" }
+    - { part: glossopharyngeal-nerves, text: "IX" }
+    - { part: vagus-nerves, text: "X" }
+    - { part: accessory-nerves, text: "XI" }
+    - { part: hypoglossal-nerves, text: "XII" }

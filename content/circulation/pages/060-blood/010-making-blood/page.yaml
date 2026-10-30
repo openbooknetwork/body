@@ -1,0 +1,13 @@
+title: "Where blood is made"
+sources: ["Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 33.", "Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), ch. 4."]
+beden:
+  camera: oblique
+  look: skin
+  distance: 2.4
+  layers: [skin, skeleton, marrow, organs]
+  parts: { highlight: [skull, sternum, vertebral-column, pelvic-girdle, femurs], ghost: [skin, skeleton, liver, brain, right-kidney, left-kidney, spleen] }
+  labels:
+    - { part: sternum, text: "sternum" }
+    - { part: vertebral-column, text: "vertebrae" }
+    - { part: pelvic-girdle, text: "pelvis" }
+    - { part: femurs, text: "femur" }

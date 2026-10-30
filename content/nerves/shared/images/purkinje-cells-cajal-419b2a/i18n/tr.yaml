@@ -1,0 +1,6 @@
+# tr strings for the image "purkinje-cells-cajal-419b2a".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Purkinje cells (A) and granule cells (B) from the cerebellum of a pigeon, drawn by Santiago Ramón y Cajal
+image.caption: "Bir güvercinin beyinciğinden Purkinje hücreleri (A) ve granül hücreleri (B), Santiago Ramón y Cajal’ın çizimi"

@@ -1,3 +1,0 @@
-One part of the venous blood takes a detour. The blood that leaves the gut, rich in whatever the meal contained, is gathered by the [superior mesenteric vein](@superior-mesenteric-vein), joined by the [splenic vein](@splenic-vein), and carried by the [portal vein](@portal-vein) into the liver, where it spreads through a second set of capillaries. The liver takes the sugars, stores or releases them, makes proteins, and breaks down what is poisonous, before the blood collects in the [hepatic veins](@hepatic-veins) and joins the inferior vena cava just below the heart.
-
-A vein that runs between two capillary beds is called a portal vein, and this is the largest. Three quarters of the liver's blood arrives this way, and only a quarter by the hepatic artery.

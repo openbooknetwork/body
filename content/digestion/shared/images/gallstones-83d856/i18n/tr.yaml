@@ -1,0 +1,6 @@
+# tr strings for the image "gallstones-83d856".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Gallstones removed from one patient, on a millimetre grid
+image.caption: "Bir hastadan çıkarılan safra taşları, milimetrik kâğıt üzerinde"

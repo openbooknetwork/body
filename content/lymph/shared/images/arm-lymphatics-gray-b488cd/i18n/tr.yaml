@@ -1,0 +1,6 @@
+# tr strings for the image "arm-lymphatics-gray-b488cd".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The superficial lymph vessels of the arm running up to the axillary nodes, with the supratrochlear node above the elbow, Gray's Anatomy, 1918, figure 606
+image.caption: "Kolun koltuk altı düğümlerine çıkan yüzeysel lenf damarları ve dirseğin üstündeki supratroklear düğüm, Gray’s Anatomy, 1918, şekil 606"

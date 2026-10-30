@@ -1,0 +1,6 @@
+# tr strings for the image "brain-median-section-gray-664bfa".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Median section of the brain: the corpus callosum arches over the third ventricle, with the pons, medulla and cerebellum below, Gray's Anatomy, 20th edition, 1918, figure 720
+image.caption: "Beynin orta kesiti: korpus kallozum üçüncü ventrikülün üstünde kemer yapar, altında pons, medulla ve beyincik, Gray’s Anatomy, 20. baskı, 1918, şekil 720"

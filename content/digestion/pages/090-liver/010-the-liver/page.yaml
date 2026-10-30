@@ -1,0 +1,15 @@
+title: "The largest gland"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the liver.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 71."]
+beden:
+  camera: front
+  look: liver
+  distance: 0.55
+  layers: [skeleton, diaphragm, liver, bile, tract]
+  parts:
+    highlight: [liver]
+    ghost: [skeleton, diaphragm]
+    hide: [jejunum, ileum, cecum, appendix, ascending-colon, transverse-colon, descending-colon, rectum]
+  structure: liver
+  labels:
+    - { part: liver, text: "liver" }
+    - { part: gallbladder, text: "gallbladder" }

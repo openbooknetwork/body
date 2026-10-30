@@ -1,0 +1,6 @@
+# tr strings for the image "cisterna-chyli-gray-592d5a".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Three ways the thoracic duct begins, each with a cisterna chyli at its foot fed by trunks from the nodes beside the aorta, schematic, Gray's Anatomy, 1918, figure 600
+image.caption: "Duktus torasikusun başlamasının üç biçimi, her birinin dibinde aortun yanındaki düğümlerden gelen gövdelerle beslenen bir sisterna şili, şematik, Gray’s Anatomy, 1918, şekil 600"

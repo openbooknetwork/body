@@ -1,0 +1,6 @@
+# tr strings for the image "thoracic-duct-gray-007498".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The thoracic duct rising from the cisterna chyli among the lumbar nodes, up the back of the chest beside the oesophagus to the left internal jugular and subclavian veins, with the right lymphatic duct on the other side, Gray's Anatomy, 1918, figure 599
+image.caption: "Bel düğümleri arasındaki sisterna şiliden yükselen, göğsün arka duvarında yemek borusunun yanından sol iç juguler ve subklavyen venlere çıkan duktus torasikus, öbür yanda sağ lenf kanalı, Gray’s Anatomy, 1918, şekil 599"

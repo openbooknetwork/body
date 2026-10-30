@@ -1,0 +1,16 @@
+title: "Nerves of the leg"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), section on the pelvic girdle and lower limb."]
+beden:
+  camera: back
+  look: leg-nerves
+  layers: [skin, skeleton, cord, roots]
+  parts:
+    show: [femoral-nerves, sciatic-nerves, tibial-nerves, common-fibular-nerves]
+    highlight: [sciatic-nerves, tibial-nerves, common-fibular-nerves, femoral-nerves]
+    ghost: [skin, skeleton]
+    flow: [cauda-equina, sciatic-nerves, tibial-nerves]
+  labels:
+    - { part: sciatic-nerves, text: "sciatic" }
+    - { part: tibial-nerves, text: "tibial" }
+    - { part: common-fibular-nerves, text: "common fibular" }
+    - { part: femoral-nerves, text: "femoral" }

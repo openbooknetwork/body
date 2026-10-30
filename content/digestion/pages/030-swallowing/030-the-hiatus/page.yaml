@@ -1,0 +1,14 @@
+title: "Through the diaphragm"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the abdominal oesophagus and stomach.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 64 and 67."]
+beden:
+  camera: above
+  look: stomach
+  distance: 0.45
+  layers: [skeleton, diaphragm, tract]
+  parts:
+    highlight: [diaphragm, esophagus]
+    ghost: [skeleton, stomach]
+    hide: [jejunum, ileum, cecum, appendix, ascending-colon, transverse-colon, descending-colon, rectum]
+  labels:
+    - { part: diaphragm, text: "diaphragm" }
+    - { part: esophagus, text: "esophagus" }

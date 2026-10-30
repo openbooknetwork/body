@@ -1,0 +1,6 @@
+# tr strings for the image "pancreas-duodenum-gray-40e703".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The pancreas and duodenum from behind, the tail of the pancreas reaching the spleen, Gray's Anatomy, 1918, figure 1099
+image.caption: "Arkadan pankreas ve on iki parmak bağırsağı, pankreasın kuyruğu dalağa uzanır, Gray’s Anatomy, 1918, şekil 1099"

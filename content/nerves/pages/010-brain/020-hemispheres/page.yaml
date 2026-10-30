@@ -1,0 +1,11 @@
+title: "Two hemispheres"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the cerebral hemispheres.", "Theodore Rasmussen and Brenda Milner, The role of early left-brain injury in determining lateralization of cerebral speech functions, Annals of the New York Academy of Sciences 299 (1977): 355-369."]
+beden:
+  camera: above
+  look: brain
+  layers: [cortex, brainstem, cerebellum]
+  parts: { highlight: [left-hemisphere, right-hemisphere] }
+  structure: brain
+  labels:
+    - { part: left-parietal-gyri, text: "left hemisphere" }
+    - { part: right-parietal-gyri, text: "right hemisphere" }

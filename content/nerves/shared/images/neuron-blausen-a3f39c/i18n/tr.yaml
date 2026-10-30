@@ -1,0 +1,6 @@
+# tr strings for the image "neuron-blausen-a3f39c".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A neuron: the cell body with its nucleus, branching dendrites, and an axon ending in synaptic terminals on the next cell
+image.caption: "Bir nöron: çekirdeğiyle hücre gövdesi, dallanan dendritler ve sonraki hücrede sinaps uçlarıyla biten bir akson"

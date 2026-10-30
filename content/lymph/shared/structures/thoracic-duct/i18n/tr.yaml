@@ -1,0 +1,29 @@
+# tr strings for the structure "thoracic-duct".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Thoracic duct
+structure.name: "Duktus torasikus"
+
+# The largest lymph vessel, from the cisterna chyli in the abdomen to the left venous angle in the neck
+structure.role: "Karındaki sisterna şiliden boyundaki sol venöz açıya uzanan en büyük lenf damarı"
+
+# Length
+structure.facts.0.label: "Uzunluk"
+
+# Flow
+structure.facts.1.label: "Akış"
+
+# Drains
+structure.facts.2.label: "Boşalttığı bölgeler"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# 38 to 45 cm
+structure.facts.0.value: "38 ila 45 cm"
+
+# About 100 ml an hour at rest
+structure.facts.1.value: "Dinlenmede saatte yaklaşık 100 ml"
+
+# Both legs, the pelvis and abdomen, the left half of the chest, the left arm and the left side of the head and neck
+structure.facts.2.value: "İki bacak, leğen ve karın, göğsün sol yarısı, sol kol ve başın ve boynun sol yarısı"

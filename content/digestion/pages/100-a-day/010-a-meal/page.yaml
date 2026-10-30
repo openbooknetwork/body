@@ -1,0 +1,16 @@
+title: "A meal's journey"
+sources: ["Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 64.", "Thomas Abell and others, Consensus recommendations for gastric emptying scintigraphy, American Journal of Gastroenterology 103 (2008): 753 to 763.", "Arnold Metcalf and others, Simplified assessment of segmental colonic transit, Gastroenterology 92 (1987): 40 to 47."]
+beden:
+  camera: oblique
+  look: tract
+  layers: [skin, pharynx, tract]
+  parts:
+    highlight: [tract]
+    ghost: [skin]
+    flow: [pharynx, esophagus, stomach, duodenum, jejunum, ileum, cecum, ascending-colon, transverse-colon, descending-colon, rectum]
+  flow_seconds: 8
+  labels:
+    - { part: esophagus, text: "10 seconds" }
+    - { part: stomach, text: "about 4 hours" }
+    - { part: ileum, text: "3 to 5 hours" }
+    - { part: transverse-colon, text: "1 to 2 days" }

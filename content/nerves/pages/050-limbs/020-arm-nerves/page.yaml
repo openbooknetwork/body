@@ -1,0 +1,16 @@
+title: "Nerves of the arm"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), section on the pectoral girdle and upper limb."]
+beden:
+  camera: front
+  look: arm-nerves
+  layers: [skin, skeleton, limb-nerves]
+  parts:
+    highlight: [musculocutaneous-nerves, axillary-nerves, radial-nerves, median-nerves, ulnar-nerves]
+    ghost: [skin, skeleton]
+    hide: [intercostal-nerves, femoral-nerves, sciatic-nerves, tibial-nerves, common-fibular-nerves]
+  labels:
+    - { part: musculocutaneous-nerves, text: "musculocutaneous" }
+    - { part: axillary-nerves, text: "axillary" }
+    - { part: radial-nerves, text: "radial" }
+    - { part: median-nerves, text: "median" }
+    - { part: ulnar-nerves, text: "ulnar" }

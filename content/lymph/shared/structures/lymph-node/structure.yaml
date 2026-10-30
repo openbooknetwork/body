@@ -1,0 +1,9 @@
+name: "Lymph node"
+latin: "Nodus lymphoideus"
+role: "A filter on a lymph vessel, where the lymph passes macrophages and lymphocytes on its way to the blood"
+source: https://en.wikipedia.org/wiki/Lymph_node
+images: [lymph-node-gray-b94a43]
+facts:
+  - { label: "Size", value: "A few millimetres to about 2 cm" }
+  - { label: "Number", value: "Several hundred in an adult" }
+  - { label: "Layers", value: "Cortex with B cell follicles, a T cell zone, the medulla" }

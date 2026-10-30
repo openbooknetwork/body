@@ -1,0 +1,15 @@
+title: "The pupil"
+sources: ["Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 52 and 61.", "Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the orbit and accessory visual apparatus."]
+beden:
+  camera: oblique
+  look: ciliary-ganglia
+  distance: 0.13
+  layers: [eyes, orbit, nerves]
+  parts:
+    highlight: [iris, oculomotor-nerves, ciliary-ganglia, short-ciliary-nerves, lacrimal-glands]
+    ghost: [sclera, choroid, retina, vitreous-body, oculomotor-muscles, superior-oblique-muscles, lateral-rectus-muscles]
+    flow: [oculomotor-nerves, ciliary-ganglia, short-ciliary-nerves, iris]
+  labels:
+    - { part: ciliary-ganglia, text: "ciliary ganglion" }
+    - { part: iris, text: "iris" }
+    - { part: lacrimal-glands, text: "lacrimal gland" }

@@ -1,0 +1,6 @@
+# tr strings for the image "glomerulus-gray-895106".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A glomerulus: a tuft of capillaries inside its capsule, with the vessel that brings the blood and the one that takes it away, Gray's Anatomy, 1918, figure 1130
+image.caption: "Bir glomerül: kapsülünün içinde bir kılcal yumağı, kanı getiren ve götüren damarlarıyla, Gray’s Anatomy, 1918, şekil 1130"

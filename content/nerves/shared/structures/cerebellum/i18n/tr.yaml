@@ -1,0 +1,29 @@
+# tr strings for the structure "cerebellum".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Cerebellum
+structure.name: "Beyincik"
+
+# The little brain under the back of the hemispheres, which times and corrects movement
+structure.role: "Yarıkürelerin arka kısmının altındaki, hareketin zamanlamasını ayarlayan ve onu düzelten küçük beyin"
+
+# Weight
+structure.facts.0.label: "Ağırlık"
+
+# Neurons
+structure.facts.1.label: "Nöronlar"
+
+# Connections
+structure.facts.2.label: "Bağlantılar"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# About a tenth of the brain
+structure.facts.0.value: "Beynin yaklaşık onda biri"
+
+# About 69 billion, four fifths of the brain's total
+structure.facts.1.value: "Yaklaşık 69 milyar, beyindeki toplamın beşte dördü"
+
+# Three pairs of peduncles to the midbrain, pons and medulla
+structure.facts.2.value: "Orta beyne, ponsa ve medullaya giden üç çift pedinkül"

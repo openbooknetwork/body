@@ -1,0 +1,284 @@
+# tr strings for the model "body".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# skin
+parts.skin: "deri"
+
+# skeleton
+parts.skeleton: "iskelet"
+
+# pectoralis major
+parts.pectoralis-major: "büyük göğüs kası"
+
+# diaphragm
+parts.diaphragm: "diyafram"
+
+# heart
+parts.heart: "kalp"
+
+# right lung
+parts.right-lung: "sağ akciğer"
+
+# left lung
+parts.left-lung: "sol akciğer"
+
+# trachea
+parts.trachea: "soluk borusu"
+
+# right main bronchus
+parts.right-main-bronchus: "sağ ana bronş"
+
+# left main bronchus
+parts.left-main-bronchus: "sol ana bronş"
+
+# liver
+parts.liver: "karaciğer"
+
+# stomach
+parts.stomach: "mide"
+
+# right kidney
+parts.right-kidney: "sağ böbrek"
+
+# left kidney
+parts.left-kidney: "sol böbrek"
+
+# tongue
+parts.tongue: "dil"
+
+# soft palate
+parts.soft-palate: "yumuşak damak"
+
+# duodenum
+parts.duodenum: "onikiparmak bağırsağı"
+
+# jejunum
+parts.jejunum: "jejunum"
+
+# ileum
+parts.ileum: "ileum"
+
+# appendix
+parts.appendix: "apandis"
+
+# large intestine
+parts.large-intestine: "kalın bağırsak"
+
+# mesentery
+parts.mesentery: "mezenter"
+
+# spleen
+parts.spleen: "dalak"
+
+# right thymic lobe
+parts.right-thymic-lobe: "timusun sağ lobu"
+
+# left thymic lobe
+parts.left-thymic-lobe: "timusun sol lobu"
+
+# head nodes
+parts.head-nodes: "baş lenf düğümleri"
+
+# neck nodes
+parts.neck-nodes: "boyun lenf düğümleri"
+
+# axillary nodes
+parts.axillary-nodes: "koltuk altı lenf düğümleri"
+
+# arm nodes
+parts.arm-nodes: "kol lenf düğümleri"
+
+# chest nodes
+parts.chest-nodes: "göğüs lenf düğümleri"
+
+# lung nodes
+parts.lung-nodes: "akciğer lenf düğümleri"
+
+# aortic nodes
+parts.aortic-nodes: "aort çevresi lenf düğümleri"
+
+# gut nodes
+parts.gut-nodes: "mide ve dalak çevresi lenf düğümleri"
+
+# mesenteric nodes
+parts.mesenteric-nodes: "mezenter lenf düğümleri"
+
+# pelvic nodes
+parts.pelvic-nodes: "leğen lenf düğümleri"
+
+# inguinal nodes
+parts.inguinal-nodes: "kasık lenf düğümleri"
+
+# leg nodes
+parts.leg-nodes: "bacak lenf düğümleri"
+
+# palatine tonsils
+parts.palatine-tonsils: "damak bademcikleri"
+
+# cisterna chyli
+parts.cisterna-chyli: "sisterna şili"
+
+# thoracic duct
+parts.thoracic-duct: "duktus torasikus"
+
+# right lymphatic duct
+parts.right-lymphatic-duct: "sağ lenf kanalı"
+
+# skull
+parts.skull: "kafatası"
+
+# sternum
+parts.sternum: "göğüs kemiği"
+
+# vertebral column
+parts.vertebral-column: "omurga"
+
+# pelvic girdle
+parts.pelvic-girdle: "leğen kemeri"
+
+# femurs
+parts.femurs: "uyluk kemikleri"
+
+# superior vena cava
+parts.superior-vena-cava: "üst ana toplardamar"
+
+# left brachiocephalic vein
+parts.left-brachiocephalic-vein: "sol brakiosefalik ven"
+
+# right brachiocephalic vein
+parts.right-brachiocephalic-vein: "sağ brakiosefalik ven"
+
+# left internal jugular vein
+parts.left-internal-jugular-vein: "sol iç juguler ven"
+
+# right internal jugular vein
+parts.right-internal-jugular-vein: "sağ iç juguler ven"
+
+# left subclavian vein
+parts.left-subclavian-vein: "sol subklavyen ven"
+
+# right subclavian vein
+parts.right-subclavian-vein: "sağ subklavyen ven"
+
+# azygos vein
+parts.azygos-vein: "azigos ven"
+
+# inferior vena cava
+parts.inferior-vena-cava: "alt ana toplardamar"
+
+# axillary veins
+parts.axillary-veins: "aksiller venler"
+
+# common iliac veins
+parts.common-iliac-veins: "ana iliyak venler"
+
+# external iliac veins
+parts.external-iliac-veins: "dış iliyak venler"
+
+# femoral veins
+parts.femoral-veins: "femoral venler"
+
+# great saphenous veins
+parts.great-saphenous-veins: "büyük safen venler"
+
+# superior mesenteric vein
+parts.superior-mesenteric-vein: "üst mezenterik ven"
+
+# splenic vein
+parts.splenic-vein: "dalak veni"
+
+# arch of aorta
+parts.arch-of-aorta: "aort kemeri"
+
+# descending aorta
+parts.descending-aorta: "inen aort"
+
+# abdominal aorta
+parts.abdominal-aorta: "abdominal aort"
+
+# common carotid arteries
+parts.common-carotid-arteries: "ana karotis arterleri"
+
+# axillary arteries
+parts.axillary-arteries: "aksiller arterler"
+
+# common iliac arteries
+parts.common-iliac-arteries: "ana iliyak arterler"
+
+# external iliac arteries
+parts.external-iliac-arteries: "dış iliyak arterler"
+
+# femoral arteries
+parts.femoral-arteries: "femoral arterler"
+
+# superior mesenteric artery
+parts.superior-mesenteric-artery: "üst mezenterik arter"
+
+# splenic artery
+parts.splenic-artery: "dalak arteri"
+
+# thymus
+parts.thymus: "timus"
+
+# lungs
+parts.lungs: "akciğerler"
+
+# airway
+parts.airway: "hava yolu"
+
+# kidneys
+parts.kidneys: "böbrekler"
+
+# small intestine
+parts.small-intestine: "ince bağırsak"
+
+# marrow bones
+parts.marrow-bones: "kırmızı ilikli kemikler"
+
+# aorta
+parts.aorta: "aort"
+
+# internal jugular veins
+parts.internal-jugular-veins: "iç juguler venler"
+
+# subclavian veins
+parts.subclavian-veins: "subklavyen venler"
+
+# brachiocephalic veins
+parts.brachiocephalic-veins: "brakiosefalik venler"
+
+# left venous angle
+parts.left-venous-angle: "sol venöz açı"
+
+# right venous angle
+parts.right-venous-angle: "sağ venöz açı"
+
+# great veins
+parts.great-veins: "boyun kökündeki büyük venler"
+
+# neck vessels
+parts.neck-vessels: "boynun büyük damarları"
+
+# armpit vessels
+parts.armpit-vessels: "aksiller damarlar"
+
+# groin vessels
+parts.groin-vessels: "kasık damarları"
+
+# mesenteric vessels
+parts.mesenteric-vessels: "mezenterik damarlar"
+
+# splenic vessels
+parts.splenic-vessels: "dalak damarları"
+
+# lymphoid organs
+parts.lymphoid-organs: "lenfoid organlar"
+
+# lymph ducts
+parts.lymph-ducts: "lenf kanalları"
+
+# lymph nodes
+parts.lymph-nodes: "lenf düğümleri"

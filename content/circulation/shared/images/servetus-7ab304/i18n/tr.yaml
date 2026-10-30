@@ -1,0 +1,6 @@
+# tr strings for the image "servetus-7ab304".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Michael Servetus, engraving by Christian Fritzsch, about 1740, with his burning at Geneva in 1553 behind him
+image.caption: "Michael Servetus, Christian Fritzsch’in gravürü, yaklaşık 1740, arkada 1553’te Cenevre’de yakılışı"

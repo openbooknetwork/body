@@ -1,0 +1,6 @@
+# tr strings for the image "trigeminal-gray-b0b57f".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The trigeminal nerve: from the semilunar ganglion the maxillary and mandibular divisions spread to the cheek, teeth, jaw and tongue, Gray's Anatomy, 20th edition, 1918, figure 778
+image.caption: "Üçüz sinir: semilunar gangliyondan maksiller ve mandibular dallar yanağa, dişlere, çeneye ve dile yayılır, Gray’s Anatomy, 20. baskı, 1918, şekil 778"

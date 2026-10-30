@@ -1,0 +1,6 @@
+# tr strings for the image "cauda-equina-gray-5ede98".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The lower end of the spinal cord and the nerve roots of the cauda equina, seen from behind with the dura opened, Gray's Anatomy, 20th edition, 1918, figure 662
+image.caption: "Omuriliğin alt ucu ve kauda ekinanın sinir kökleri, dura açılmış olarak arkadan, Gray’s Anatomy, 20. baskı, 1918, şekil 662"

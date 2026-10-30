@@ -1,0 +1,6 @@
+# tr strings for the image "brainstem-side-gray-0bc2b7".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The midbrain, pons and medulla from behind and the side, with the cranial nerves leaving them, Gray's Anatomy, 20th edition, 1918, figure 719
+image.caption: "Arkadan ve yandan orta beyin, pons ve medulla ve onlardan çıkan kafa sinirleri, Gray’s Anatomy, 20. baskı, 1918, şekil 719"

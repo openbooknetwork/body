@@ -1,0 +1,6 @@
+# tr strings for the image "ventricles-gray-c229ff".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The ventricles drawn into the side of the brain: lateral ventricle, third ventricle, cerebral aqueduct and fourth ventricle, Gray's Anatomy, 20th edition, 1918, figure 734
+image.caption: "Beynin yan yüzüne çizilmiş ventriküller: yan ventrikül, üçüncü ventrikül, beyin su kemeri ve dördüncü ventrikül, Gray’s Anatomy, 20. baskı, 1918, şekil 734"

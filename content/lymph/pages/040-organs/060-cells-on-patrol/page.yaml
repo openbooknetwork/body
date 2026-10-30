@@ -1,0 +1,14 @@
+title: "Cells on patrol"
+sources: ["Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 34 and 35.", "Thomas Westermann and Reinhard Pabst, Distribution of lymphocyte subsets and natural killer cells in the human body, The Clinical Investigator 70 (1992), 539-544."]
+beden:
+  camera: front
+  look: skin
+  distance: 2.0
+  layers: [skin, lymphoid, nodes, ducts, veins, heart]
+  parts:
+    highlight: [lymph-nodes, thoracic-duct, spleen, thymus, great-veins]
+    ghost: [skin, heart]
+    flow: [thoracic-duct, left-subclavian-vein, left-brachiocephalic-vein, superior-vena-cava, heart]
+  labels:
+    - { part: spleen, text: "spleen" }
+    - { part: left-thymic-lobe, text: "thymus" }

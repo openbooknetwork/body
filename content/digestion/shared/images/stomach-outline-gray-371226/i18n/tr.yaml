@@ -1,0 +1,6 @@
+# tr strings for the image "stomach-outline-gray-371226".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Outline of the stomach and its parts: fundus, body and pyloric part, Gray's Anatomy, 1918, figure 1046
+image.caption: "Midenin dış çizgisi ve bölümleri: fundus, gövde ve pilor bölümü, Gray’s Anatomy, 1918, şekil 1046"

@@ -1,0 +1,9 @@
+title: "Golgi and Cajal"
+sources: ["Camillo Golgi, Sulla struttura della sostanza grigia del cervello, Gazzetta Medica Italiana, Lombardia 33 (1873): 244-246.", "Santiago Ramón y Cajal, Estructura de los centros nerviosos de las aves, Revista Trimestral de Histología Normal y Patológica 1 (1888): 1-10.", "Camillo Golgi, The neuron doctrine: theory and facts, Nobel lecture, 11 December 1906."]
+beden:
+  camera: right-side
+  look: brain
+  layers: [cortex, cerebellum, brainstem]
+  parts: { highlight: [cerebellum, cerebral-cortex] }
+  labels:
+    - { part: cerebellum, text: "cerebellum" }

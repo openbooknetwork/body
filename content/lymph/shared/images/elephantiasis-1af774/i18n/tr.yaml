@@ -1,0 +1,6 @@
+# tr strings for the image "elephantiasis-1af774".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Elephantiasis of the legs from lymphatic filariasis, Luzon, Philippines, 1962, CDC Public Health Image Library
+image.caption: "Lenfatik filaryaza bağlı bacaklarda fil hastalığı, Luzon, Filipinler, 1962, CDC Halk Sağlığı Görüntü Kütüphanesi"

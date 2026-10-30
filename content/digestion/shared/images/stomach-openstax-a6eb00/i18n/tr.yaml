@@ -1,0 +1,6 @@
+# tr strings for the image "stomach-openstax-a6eb00".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The stomach opened, showing its folds and its three layers of muscle, OpenStax Anatomy and Physiology
+image.caption: "Açılmış mide, kıvrımları ve üç kat kasıyla, OpenStax Anatomy and Physiology"

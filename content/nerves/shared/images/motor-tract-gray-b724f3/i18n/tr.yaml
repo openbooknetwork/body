@@ -1,0 +1,6 @@
+# tr strings for the image "motor-tract-gray-b724f3".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The motor tract: fibres from the motor cortex run through the internal capsule and cross at the decussation of the pyramids into the spinal cord, Gray's Anatomy, 20th edition, 1918, figure 764
+image.caption: "Hareket yolu: motor korteksten çıkan lifler iç kapsülden geçer ve piramitlerin çaprazlaşmasında karşıya geçerek omuriliğe iner, Gray’s Anatomy, 20. baskı, 1918, şekil 764"

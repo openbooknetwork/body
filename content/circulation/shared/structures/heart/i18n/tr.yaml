@@ -1,0 +1,35 @@
+# tr strings for the structure "heart".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Heart
+structure.name: "Kalp"
+
+# The pump of the circulation: two atria above two ventricles, the right side for the lungs and the left for the body
+structure.role: "Dolaşımın pompası: iki karıncığın üstünde iki kulakçık, sağ taraf akciğerler, sol taraf beden için"
+
+# Weight
+structure.facts.0.label: "Ağırlık"
+
+# Rate at rest
+structure.facts.1.label: "Dinlenmede hız"
+
+# Stroke volume
+structure.facts.2.label: "Atım hacmi"
+
+# Output at rest
+structure.facts.3.label: "Dinlenmede debi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# About 300 g
+structure.facts.0.value: "Yaklaşık 300 g"
+
+# About 70 beats a minute
+structure.facts.1.value: "Dakikada yaklaşık 70 atış"
+
+# About 70 ml
+structure.facts.2.value: "Yaklaşık 70 ml"
+
+# About 5 litres a minute
+structure.facts.3.value: "Dakikada yaklaşık 5 litre"

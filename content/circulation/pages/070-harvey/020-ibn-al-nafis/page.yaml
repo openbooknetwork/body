@@ -1,0 +1,15 @@
+title: "Ibn al-Nafis"
+date: "about 1242"
+sources: ["Max Meyerhof, Ibn an-Nafis (XIIIth cent.) and his theory of the lesser circulation, Isis 23 (1935): 100-120.", "John West, Ibn al-Nafis, the pulmonary circulation, and the Islamic Golden Age, Journal of Applied Physiology 105 (2008): 1877-1880."]
+beden:
+  camera: front
+  look: heart
+  distance: 0.5
+  layers: [heart, chambers, pulmonary]
+  parts:
+    highlight: [right-ventricle, pulmonary-trunk, pulmonary-veins, left-atrium]
+    ghost: [heart, right-pulmonary-artery, left-pulmonary-artery]
+    flow: [right-ventricle, pulmonary-trunk, left-pulmonary-artery, pulmonary-veins, left-atrium]
+  labels:
+    - { part: pulmonary-trunk, text: "pulmonary artery" }
+    - { part: pulmonary-veins, text: "pulmonary veins" }

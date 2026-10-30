@@ -1,0 +1,6 @@
+# tr strings for the image "galen-7bc36f".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Galen of Pergamon, an imagined likeness, lithograph by Pierre-Roch Vigneron, 19th century
+image.caption: "Bergamalı Galenos, hayalî bir portre, Pierre-Roch Vigneron’un taş baskısı, 19. yüzyıl"

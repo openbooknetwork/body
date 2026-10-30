@@ -1,0 +1,6 @@
+# tr strings for the image "axillary-nodes-gray-4555ef".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The lymph vessels of the breast and the groups of axillary nodes, semidiagrammatic, Gray's Anatomy, 1918, figure 607
+image.caption: "Memenin lenf damarları ve koltuk altı düğüm grupları, yarı şematik, Gray’s Anatomy, 1918, şekil 607"

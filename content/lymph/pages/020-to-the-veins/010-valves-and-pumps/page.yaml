@@ -1,0 +1,8 @@
+title: "Valves and pumps"
+sources: ["Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 16.", "Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), ch. 6."]
+beden:
+  camera: oblique
+  look: diaphragm
+  layers: [skeleton, muscles, lungs, heart, ducts]
+  parts: { highlight: [diaphragm, thoracic-duct], ghost: [skeleton, right-lung, left-lung, heart], hide: [pectoralis-major] }
+  labels: [{ part: diaphragm, text: "diaphragm" }]

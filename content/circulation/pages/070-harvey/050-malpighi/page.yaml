@@ -1,0 +1,12 @@
+title: "Malpighi's capillaries"
+date: "1661"
+sources: ["Marcello Malpighi, De pulmonibus observationes anatomicae (Bologna, 1661).", "James Young, Malpighi's De pulmonibus, Proceedings of the Royal Society of Medicine 23 (1929): 1-11."]
+beden:
+  camera: back
+  look: lungs
+  layers: [lungs, pulmonary, airway]
+  parts:
+    highlight: [bronchi, right-pulmonary-artery, left-pulmonary-artery, pulmonary-veins]
+    ghost: [right-lung, left-lung, trachea]
+  labels:
+    - { part: bronchi, text: "airways" }

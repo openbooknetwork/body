@@ -1,0 +1,6 @@
+# tr strings for the image "cerebellum-section-gray-ef35be".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Section through the cerebellum beside the brainstem, showing its thin, deeply folded cortex, Gray's Anatomy, 20th edition, 1918, figure 704
+image.caption: "Beyin sapının yanında beyincikten geçen kesit, ince ve derin kıvrımlı korteksiyle, Gray’s Anatomy, 20. baskı, 1918, şekil 704"

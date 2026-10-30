@@ -1,0 +1,11 @@
+title: "The heart's veins"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the heart.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 21."]
+beden:
+  camera: back
+  look: heart
+  layers: [heart, cardiac-veins]
+  parts: { highlight: [coronary-sinus, great-cardiac-vein, middle-cardiac-vein, small-cardiac-vein], ghost: [heart] }
+  labels:
+    - { part: coronary-sinus, text: "coronary sinus" }
+    - { part: great-cardiac-vein, text: "great cardiac vein" }
+    - { part: middle-cardiac-vein, text: "middle cardiac vein" }

@@ -1,0 +1,6 @@
+# tr strings for the image "knee-jerk-reflex-arc-04a458".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The knee jerk: the sensory fibre from the quadriceps enters the cord through the dorsal root ganglion and excites the motor neuron of the same muscle
+image.caption: "Diz refleksi: kuadriseps kasından gelen duyu lifi arka kök gangliyonundan omuriliğe girer ve aynı kasın motor nöronunu uyarır"

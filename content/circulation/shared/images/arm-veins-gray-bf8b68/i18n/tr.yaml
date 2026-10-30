@@ -1,0 +1,6 @@
+# tr strings for the image "arm-veins-gray-bf8b68".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The superficial veins of the arm: the cephalic and basilic veins, joined in front of the elbow by the median cubital vein (vena mediana cubiti), Gray's Anatomy, 1918, figure 574
+image.caption: "Kolun yüzeyel venleri: dirseğin önünde median kubital venle (vena mediana cubiti) birleşen sefalik ve bazilik venler, Gray’s Anatomy, 1918, şekil 574"

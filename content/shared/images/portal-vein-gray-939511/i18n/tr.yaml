@@ -1,0 +1,6 @@
+# tr strings for the image "portal-vein-gray-939511".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The portal vein and the veins that feed it from the stomach, intestines, pancreas and spleen, Gray's Anatomy, 1918, figure 591
+image.caption: "Portal ven ve onu mideden, bağırsaklardan, pankreastan ve dalaktan besleyen venler, Gray’s Anatomy, 1918, şekil 591"

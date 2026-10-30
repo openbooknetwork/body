@@ -1,0 +1,12 @@
+title: "Four lobes"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the cerebral hemispheres.", "John M. Harlow, Recovery from the passage of an iron bar through the head, Publications of the Massachusetts Medical Society 2 (1868): 327-347."]
+beden:
+  camera: left-side
+  look: left-hemisphere
+  layers: [cortex, brainstem, cerebellum]
+  parts: { highlight: [left-frontal-lobe, left-parietal-lobe, left-temporal-lobe, left-occipital-lobe] }
+  labels:
+    - { part: left-frontal-gyri, text: "frontal" }
+    - { part: left-parietal-gyri, text: "parietal" }
+    - { part: left-temporal-gyri, text: "temporal" }
+    - { part: left-occipital-lobe, text: "occipital" }

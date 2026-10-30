@@ -1,0 +1,6 @@
+# tr strings for the image "broca-wernicke-1f9121".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Broca's area in the frontal lobe and Wernicke's area in the temporal lobe, joined by the arcuate fasciculus
+image.caption: "Frontal lobdaki Broca alanı ile temporal lobdaki Wernicke alanı ve onları birleştiren arkuat fasikül"

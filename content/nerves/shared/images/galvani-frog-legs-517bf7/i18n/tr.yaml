@@ -1,0 +1,6 @@
+# tr strings for the image "galvani-frog-legs-517bf7".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Frog legs, joined to the spinal cord by their nerves, twitching when an arc of copper and zinc touches nerve and muscle, from David Ames Wells' The Science of Common Things, 1859
+image.caption: "Sinirleriyle omuriliğe bağlı kurbağa bacakları, bakır ve çinkodan bir kavis siniri ve kası değince seğiriyor, David Ames Wells’in The Science of Common Things’inden, 1859"

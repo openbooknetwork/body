@@ -1,10 +1,11 @@
 title: "Four chambers"
-sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), ch. 57."]
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the heart.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 9."]
 beden:
   camera: oblique
   look: heart
   layers: [heart, chambers]
   parts: { highlight: [right-atrium, right-ventricle, left-atrium, left-ventricle], ghost: [heart] }
+  structure: heart
   labels:
     - { part: right-atrium, text: "right atrium" }
     - { part: right-ventricle, text: "right ventricle" }

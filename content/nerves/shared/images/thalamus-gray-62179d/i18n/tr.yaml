@@ -1,0 +1,6 @@
+# tr strings for the image "thalamus-gray-62179d".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The two thalami exposed from above, with the caudate nucleus curving round each, Gray's Anatomy, 20th edition, 1918, figure 716
+image.caption: "Yukarıdan açılmış iki talamus, her birinin çevresinde kıvrılan kaudat çekirdekle, Gray’s Anatomy, 20. baskı, 1918, şekil 716"

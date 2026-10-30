@@ -1,0 +1,11 @@
+title: "Grey and white matter"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the cerebral hemispheres.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 56."]
+beden:
+  camera: front
+  look: brain
+  layers: [cortex, white-matter, deep, ventricles]
+  section: { plane: coronal, at: 0.095, flip: true }
+  parts: { highlight: [cerebral-cortex, white-matter] }
+  labels:
+    - { part: left-white-matter, text: "white matter" }
+    - { part: internal-capsules, text: "internal capsule" }

@@ -1,0 +1,6 @@
+# tr strings for the image "aortic-valve-gray-ae40be".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The aortic valve laid open: three cusps shaped like pockets, with the openings of the coronary arteries just above them, Gray's Anatomy, 1918, figure 497
+image.caption: "Açılmış aort kapağı: cep biçiminde üç yaprakçık ve hemen üstlerinde koroner arterlerin ağızları, Gray’s Anatomy, 1918, şekil 497"

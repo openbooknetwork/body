@@ -1,0 +1,14 @@
+title: "The esophagus"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the abdominal oesophagus and stomach.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 64."]
+beden:
+  camera: left
+  look: esophagus
+  layers: [skeleton, chest, airway, tract, arteries]
+  parts:
+    highlight: [esophagus]
+    ghost: [skeleton, heart, lungs, trachea, aorta]
+    hide: [celiac-trunk, hepatic-artery, superior-mesenteric-artery, inferior-mesenteric-artery]
+  labels:
+    - { part: esophagus, text: "esophagus" }
+    - { part: trachea, text: "trachea" }
+    - { part: heart, text: "heart" }

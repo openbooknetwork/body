@@ -1,0 +1,6 @@
+# tr strings for the image "lung-roots-gray-f46519".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The heart and lungs from behind: the pulmonary arteries (blue) and veins (red) at the roots of the lungs, the veins opening into the left atrium, Gray's Anatomy, 1918, figure 504
+image.caption: "Arkadan kalp ve akciğerler: akciğer köklerinde pulmoner arterler (mavi) ve venler (kırmızı), venler sol kulakçığa açılıyor, Gray’s Anatomy, 1918, şekil 504"

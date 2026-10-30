@@ -1,0 +1,6 @@
+# tr strings for the image "brain-coronal-slice-048f82".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A human brain cut across from side to side: grey cortex over white matter, the two thalami (2), and below them the midbrain (3), pons (4), medulla (5) and spinal cord (6)
+image.caption: "Yandan yana kesilmiş bir insan beyni: ak maddenin üstünde boz korteks, iki talamus (2) ve altlarında orta beyin (3), pons (4), medulla (5) ve omurilik (6)"

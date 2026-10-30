@@ -1,0 +1,6 @@
+# tr strings for the image "galvani-plate-df1eec".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Plate 1 of Galvani's De viribus electricitatis in motu musculari, Bologna, 1791: prepared frog legs beside an electrical machine
+image.caption: "Galvani’nin De viribus electricitatis in motu musculari’sinin 1. levhası, Bologna, 1791: bir elektrik makinesinin yanında hazırlanmış kurbağa bacakları"

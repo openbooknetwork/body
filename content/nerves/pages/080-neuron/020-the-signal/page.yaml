@@ -1,0 +1,11 @@
+title: "The signal"
+sources: ["Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 5 and 46.", "Lisbeth Marner et al., Marked loss of myelinated nerve fibers in the human brain with age, Journal of Comparative Neurology 462 (2003): 144-152."]
+beden:
+  camera: oblique
+  look: white-matter
+  distance: 0.3
+  layers: [white-matter, deep, brainstem]
+  parts: { highlight: [white-matter] }
+  labels:
+    - { part: left-white-matter, text: "white matter" }
+    - { part: corpus-callosum, text: "corpus callosum" }

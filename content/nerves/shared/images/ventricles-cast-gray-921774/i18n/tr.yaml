@@ -1,0 +1,6 @@
+# tr strings for the image "ventricles-cast-gray-921774".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A cast of the ventricles seen from the side, after Retzius, Gray's Anatomy, 20th edition, 1918, figure 736
+image.caption: "Yandan görülen bir ventrikül kalıbı, Retzius’tan, Gray’s Anatomy, 20. baskı, 1918, şekil 736"

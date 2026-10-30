@@ -1,0 +1,85 @@
+# The whole body model of the digestion story, built from BodyParts3D by `beden model`. Each part names a
+# BodyParts3D concept, and the viewer shows, lights, ghosts or cuts parts by these ids.
+file: model.glb
+sha256: 489aa1ac0a197b7dcdb88838ed93a7b7b21dc9c66ac6f47583b0aa57d449f318
+credit: "BodyParts3D, The Database Center for Life Science, CC BY-SA 2.1 Japan"
+source: https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html
+simplify: 0.5
+parts:
+  # context
+  skin:            { concept: FMA7163, layer: skin, family: skin }
+  skeleton:        { concept: FMA23881, layer: skeleton, family: bone }
+  heart:           { concept: FMA7088, layer: chest, family: organ }
+  right-lung:      { concept: FMA7309, layer: chest, family: lung, exclude: [FJ2041, FJ2044] }
+  left-lung:       { concept: FMA7310, layer: chest, family: lung }
+  diaphragm:       { concept: FMA13295, layer: diaphragm, family: muscle }
+  right-kidney:    { concept: FMA7204, layer: organs, family: organ }
+  left-kidney:     { concept: FMA7205, layer: organs, family: organ }
+  spleen:          { concept: FMA7196, layer: organs, family: organ }
+  # the airway, where it crosses the food path
+  larynx:          { concept: FMA55108, layer: airway, family: airway }
+  epiglottis:      { concept: FMA55130, layer: airway, family: airway }
+  trachea:         { concept: FMA7394, layer: airway, family: airway }
+  # the mouth
+  lips:            { concept: FMA59816, layer: mouth, family: muscle }
+  tongue:          { concept: FMA54640, layer: mouth, family: muscle }
+  soft-palate:     { concept: FMA55021, layer: mouth, family: muscle }
+  incisors:        { concept: FMA84201, layer: teeth, family: tooth }
+  canines:         { concept: FMA84203, layer: teeth, family: tooth }
+  premolars:       { concept: FMA55637, layer: teeth, family: tooth }
+  molars:          { concept: FMA84207, layer: teeth, family: tooth }   # the first and second; BodyParts3D has no third molars
+  submandibular-glands: { concept: FMA55093, layer: salivary, family: gland }
+  sublingual-glands:    { concept: FMA59791, layer: salivary, family: gland }
+  # the tube
+  pharynx:          { concept: FMA46620, layer: pharynx, family: muscle }   # its wall, the three constrictor muscles on each side
+  esophagus:        { concept: FMA7131, layer: tract, family: gut }
+  stomach:          { concept: FMA7148, layer: tract, family: gut }
+  duodenum:         { concept: FMA7206, layer: tract, family: gut }
+  jejunum:          { concept: FMA7207, layer: tract, family: gut }
+  ileum:            { concept: FMA7208, layer: tract, family: gut, exclude: [FJ2599] }   # FJ2599 is the cecum, listed under both
+  cecum:            { concept: FMA14541, layer: tract, family: colon }
+  appendix:         { concept: FMA14542, layer: tract, family: colon }
+  ascending-colon:  { concept: FMA14545, layer: tract, family: colon }
+  transverse-colon: { concept: FMA14546, layer: tract, family: colon }
+  descending-colon: { concept: FMA14547, layer: tract, family: colon }   # runs on into the sigmoid colon, which BodyParts3D does not separate
+  rectum:           { concept: FMA14544, layer: tract, family: colon }
+  taeniae-coli:     { concept: FMA14971, layer: taeniae, family: muscle }
+  mesentery:        { concept: FMA14643, layer: mesentery, family: mesentery }
+  puborectalis:     { concept: FMA19091, layer: pelvic-floor, family: muscle }
+  external-anal-sphincter: { concept: FMA21930, layer: pelvic-floor, family: muscle }
+  # the glands that empty into it
+  liver:            { concepts: [FMA13365, FMA15739, FMA15741, FMA15742, FMA15743, FMA15744, FMA15745, FMA15746], layer: liver, family: liver }   # the eight segments, without the vessels and ducts inside
+  liver-ducts:      { concept: FMA68016, layer: bile, family: bile }   # the ducts inside the liver and the right and left hepatic ducts
+  bile-duct:        { concept: FMA14668, layer: bile, family: bile }   # the common hepatic duct, which BodyParts3D runs on down to the duodenum
+  cystic-duct:      { concept: FMA14539, layer: bile, family: bile }
+  gallbladder:      { concept: FMA7202, layer: bile, family: bile }
+  pancreas:         { concept: FMA63120, layer: pancreas, family: gland }
+  pancreatic-duct:  { concept: FMA10419, layer: pancreas, family: duct }
+  # the vessels of the gut
+  aorta:                      { concept: FMA3734, layer: arteries, family: artery }
+  celiac-trunk:               { concept: FMA14812, layer: arteries, family: artery }
+  hepatic-artery:             { concept: FMA14771, layer: arteries, family: artery }
+  superior-mesenteric-artery: { concept: FMA14749, layer: arteries, family: artery }
+  inferior-mesenteric-artery: { concept: FMA14750, layer: arteries, family: artery }
+  inferior-vena-cava:         { concept: FMA10951, layer: veins, family: vein }
+  hepatic-veins:              { concept: FMA14337, layer: veins, family: vein }
+  portal-vein:                { concept: FMA50735, layer: portal, family: portal }
+  superior-mesenteric-vein:   { concept: FMA14332, layer: portal, family: portal }
+  inferior-mesenteric-vein:   { concept: FMA15391, layer: portal, family: portal }
+  splenic-vein:               { concept: FMA14331, layer: portal, family: portal }
+groups:
+  lungs: [right-lung, left-lung]
+  kidneys: [right-kidney, left-kidney]
+  airway: [larynx, epiglottis, trachea]
+  teeth: [incisors, canines, premolars, molars]
+  salivary-glands: [submandibular-glands, sublingual-glands]
+  mouth: [lips, tongue, soft-palate, incisors, canines, premolars, molars]
+  tract: [pharynx, esophagus, stomach, duodenum, jejunum, ileum, cecum, appendix, ascending-colon, transverse-colon, descending-colon, rectum]
+  small-intestine: [duodenum, jejunum, ileum]
+  large-intestine: [cecum, appendix, ascending-colon, transverse-colon, descending-colon, rectum]
+  colon: [ascending-colon, transverse-colon, descending-colon]
+  anal-sphincters: [puborectalis, external-anal-sphincter]
+  biliary-tree: [liver-ducts, bile-duct, cystic-duct, gallbladder]
+  glands: [submandibular-glands, sublingual-glands, liver, gallbladder, pancreas]
+  gut-arteries: [celiac-trunk, superior-mesenteric-artery, inferior-mesenteric-artery]
+  portal-system: [superior-mesenteric-vein, inferior-mesenteric-vein, splenic-vein, portal-vein]

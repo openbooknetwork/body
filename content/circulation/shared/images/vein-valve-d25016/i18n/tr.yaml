@@ -1,0 +1,6 @@
+# tr strings for the image "vein-valve-d25016".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A valve in a vein: it opens to blood flowing towards the heart and closes against blood flowing back
+image.caption: "Bir vendeki kapakçık: kalbe doğru akan kana açılır, geri akan kana karşı kapanır"

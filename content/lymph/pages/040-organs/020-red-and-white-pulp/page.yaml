@@ -1,0 +1,10 @@
+title: "Red and white pulp"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), ch. 4 and chapter on the spleen.", "Henry Gray, Anatomy of the Human Body, 20th ed. (1918), section XI, The Spleen."]
+beden:
+  camera: above
+  look: spleen
+  distance: 0.5
+  section: { plane: axial, at: 1.09, flip: true }
+  layers: [skin, organs, lymphoid, veins, arteries, skeleton]
+  parts: { highlight: [spleen] }
+  labels: [{ part: spleen, text: "spleen" }]

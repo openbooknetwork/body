@@ -1,0 +1,6 @@
+# tr strings for the image "small-intestine-openstax-a1551f".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The small intestine: duodenum, jejunum and ileum, framed by the large intestine, OpenStax Anatomy and Physiology
+image.caption: "Kalın bağırsağın çerçevelediği ince bağırsak: on iki parmak bağırsağı, jejunum ve ileum, OpenStax Anatomy and Physiology"

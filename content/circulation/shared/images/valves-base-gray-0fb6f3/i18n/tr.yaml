@@ -1,0 +1,6 @@
+# tr strings for the image "valves-base-gray-0fb6f3".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The base of the ventricles with the atria removed: the pulmonary, aortic, mitral (bicuspid) and tricuspid valves, Gray's Anatomy, 1918, figure 495
+image.caption: "Kulakçıkları kaldırılmış karıncıkların tabanı: pulmoner, aort, mitral (biküspit) ve triküspit kapaklar, Gray’s Anatomy, 1918, şekil 495"

@@ -1,0 +1,14 @@
+title: "Inside a node"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), ch. 4 and chapter on the pelvic girdle, hip, gluteal region and thigh.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 34 and 35."]
+beden:
+  camera: above
+  look: [0, 0.795, 0.12]
+  distance: 0.7
+  section: { plane: axial, at: 0.795, flip: true }
+  layers: [skin, skeleton, veins, arteries]
+  parts: { show: [inguinal-nodes], highlight: [inguinal-nodes, femoral-veins, femoral-arteries] }
+  structure: lymph-node
+  labels:
+    - { part: inguinal-nodes, text: "inguinal nodes" }
+    - { part: femoral-veins, text: "femoral vein" }
+    - { part: femoral-arteries, text: "femoral artery" }

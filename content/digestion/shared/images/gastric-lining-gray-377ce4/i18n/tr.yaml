@@ -1,0 +1,6 @@
+# tr strings for the image "gastric-lining-gray-377ce4".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Section of the stomach lining near its entrance, with its glands, Gray's Anatomy, 1918, figure 1053
+image.caption: "Midenin giriş yakınındaki iç yüzünden bir kesit, bezleriyle, Gray’s Anatomy, 1918, şekil 1053"

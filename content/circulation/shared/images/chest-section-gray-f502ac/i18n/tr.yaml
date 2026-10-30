@@ -1,0 +1,6 @@
+# tr strings for the image "chest-section-gray-f502ac".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A cross-section of the chest seen from above: the pulmonary trunk dividing into the right and left pulmonary arteries, which branch into the lungs beside the bronchi, Gray's Anatomy, 1918, figure 503
+image.caption: "Göğsün yukarıdan görülen bir kesiti: sağ ve sol pulmoner arterlere ayrılan pulmoner trunkus ve bronşların yanında akciğerlere dallanan arterler, Gray’s Anatomy, 1918, şekil 503"

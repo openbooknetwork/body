@@ -1,0 +1,18 @@
+title: "The thoracic duct"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the mediastinum.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 16.", "Henry Gray, Anatomy of the Human Body, 20th ed. (1918), section VIII, The Thoracic Duct."]
+beden:
+  camera: oblique
+  look: aorta
+  layers: [skeleton, muscles, ducts, arteries, veins]
+  parts:
+    show: [aortic-nodes, abdominal-aorta, descending-aorta, azygos-vein]
+    highlight: [cisterna-chyli, thoracic-duct, aortic-nodes, left-venous-angle]
+    ghost: [skeleton, diaphragm]
+    hide: [pectoralis-major]
+  structure: thoracic-duct
+  labels:
+    - { part: cisterna-chyli, text: "cisterna chyli" }
+    - { part: thoracic-duct, text: "thoracic duct" }
+    - { part: abdominal-aorta, text: "abdominal aorta" }
+    - { part: azygos-vein, text: "azygos vein" }
+    - { part: left-subclavian-vein, text: "left venous angle" }

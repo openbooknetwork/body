@@ -1,0 +1,10 @@
+name: "Liver"
+latin: "Hepar"
+role: "The largest gland, under the right ribs, which receives the blood from the gut, stores and changes what it carries and makes bile"
+source: https://en.wikipedia.org/wiki/Liver
+images: [liver-lower-gray-db6083]
+facts:
+  - { label: "Weight", value: "About 1.5 kg" }
+  - { label: "Blood flow", value: "About 1.35 litres a minute, three quarters by the portal vein" }
+  - { label: "Bile", value: "600 to 1,000 ml a day" }
+  - { label: "Lobules", value: "50,000 to 100,000" }

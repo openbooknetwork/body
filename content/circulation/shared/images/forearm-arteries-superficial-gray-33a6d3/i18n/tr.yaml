@@ -1,0 +1,6 @@
+# tr strings for the image "forearm-arteries-superficial-gray-33a6d3".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The arteries of the front of the forearm and hand, superficial view, with the superficial palmar arch, Gray's Anatomy, 1918, figure 527
+image.caption: "Önkolun ve elin ön yüzünün arterleri, yüzeyel görünüm, yüzeyel avuç içi kemeriyle, Gray’s Anatomy, 1918, şekil 527"

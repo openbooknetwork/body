@@ -1,0 +1,6 @@
+# tr strings for the image "jaundice-a8be01".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Jaundice: bilirubin colours the skin and the whites of the eyes yellow
+image.caption: "Sarılık: bilirubin deriyi ve gözlerin akını sarıya boyar"

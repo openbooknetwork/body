@@ -1,0 +1,6 @@
+# tr strings for the image "pitting-oedema-a9ff03".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Pitting oedema: a finger pressed into a swollen lower leg leaves a dent
+image.caption: "Gode bırakan ödem: şişmiş bir bacağa bastırılan parmak bir çukur bırakır"

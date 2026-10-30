@@ -1,0 +1,35 @@
+# tr strings for the structure "spleen".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Spleen
+structure.name: "Dalak"
+
+# The largest lymphoid organ, a filter on the bloodstream under the left ribs
+structure.role: "En büyük lenfoid organ, sol kaburgaların altında kan akımı üzerindeki bir süzgeç"
+
+# Weight
+structure.facts.0.label: "Ağırlık"
+
+# Size
+structure.facts.1.label: "Boyut"
+
+# Position
+structure.facts.2.label: "Yeri"
+
+# Vessels
+structure.facts.3.label: "Damarlar"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# About 150 g in an adult
+structure.facts.0.value: "Erişkinde yaklaşık 150 g"
+
+# About 12 by 7 by 3 cm
+structure.facts.1.value: "Yaklaşık 12 x 7 x 3 cm"
+
+# Behind the 9th to 11th left ribs
+structure.facts.2.value: "Sol 9. ila 11. kaburgaların arkasında"
+
+# Splenic artery in, splenic vein out to the portal vein
+structure.facts.3.value: "Dalak arteri girer, dalak veni portal vene çıkar"

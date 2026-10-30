@@ -1,0 +1,6 @@
+# tr strings for the image "levator-ani-gray-e80788".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The levator ani, the muscle of the pelvic floor to which the puborectalis belongs, seen from inside the pelvis, Gray's Anatomy, 1918, figure 404
+image.caption: "Leğenin içinden levator ani, puborektal kasın da ait olduğu leğen tabanı kası, Gray’s Anatomy, 1918, şekil 404"

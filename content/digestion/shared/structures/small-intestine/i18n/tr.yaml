@@ -1,0 +1,35 @@
+# tr strings for the structure "small-intestine".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Small intestine
+structure.name: "İnce bağırsak"
+
+# The tube from the stomach to the large intestine, where digestion ends and most of the food is absorbed
+structure.role: "Mideden kalın bağırsağa uzanan, sindirimin bittiği ve besinin çoğunun emildiği boru"
+
+# Length
+structure.facts.0.label: "Uzunluk"
+
+# Parts
+structure.facts.1.label: "Bölümler"
+
+# Transit
+structure.facts.2.label: "Geçiş süresi"
+
+# Lining
+structure.facts.3.label: "İç yüz"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# About 6 m after death, less in life
+structure.facts.0.value: "Ölümden sonra yaklaşık 6 m, yaşarken daha kısa"
+
+# Duodenum 25 cm, then jejunum two fifths and ileum three fifths of the rest
+structure.facts.1.value: "On iki parmak bağırsağı 25 cm, kalanın beşte ikisi jejunum, beşte üçü ileum"
+
+# 3 to 5 hours from the pylorus to the large intestine
+structure.facts.2.value: "Pilordan kalın bağırsağa 3 ila 5 saat"
+
+# Renewed about every 5 days
+structure.facts.3.value: "Yaklaşık 5 günde bir yenilenir"

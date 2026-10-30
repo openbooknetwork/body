@@ -1,0 +1,6 @@
+# tr strings for the image "cranial-nerves-base-e2bc9b".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The twelve cranial nerves at the base of the brain
+image.caption: "Beynin tabanında on iki kafa siniri"

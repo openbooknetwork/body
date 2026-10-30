@@ -1,0 +1,29 @@
+# tr strings for the structure "arterial-circle".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Arterial circle
+structure.name: "Arteriyel halka"
+
+# The ring of arteries under the base of the brain that joins the two internal carotid arteries and the basilar artery
+structure.role: "Beynin tabanının altında iki iç karotis arterini ve baziler arteri birbirine bağlayan arter halkası"
+
+# Also called
+structure.facts.0.label: "Öbür adı"
+
+# Described
+structure.facts.1.label: "Tanımlayan"
+
+# Feeds
+structure.facts.2.label: "Beslediği"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Circle of Willis
+structure.facts.0.value: "Willis halkası"
+
+# Thomas Willis, 1664
+structure.facts.1.value: "Thomas Willis, 1664"
+
+# The anterior, middle and posterior cerebral arteries
+structure.facts.2.value: "Ön, orta ve arka serebral arterler"

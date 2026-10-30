@@ -1,0 +1,16 @@
+title: "Below the knee"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapters on the knee, the leg, and the ankle and foot.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 15."]
+beden:
+  camera: right
+  look: [-0.08, 0.21, 0.09]
+  distance: 1.0
+  layers: [arteries, skeleton]
+  parts:
+    highlight: [popliteal-arteries, anterior-tibial-arteries, posterior-tibial-arteries, dorsalis-pedis-arteries, plantar-arteries]
+    ghost: [skeleton]
+    flow: [femoral-arteries, popliteal-arteries, posterior-tibial-arteries, plantar-arteries]
+  labels:
+    - { part: popliteal-arteries, text: "popliteal" }
+    - { part: anterior-tibial-arteries, text: "anterior tibial" }
+    - { part: posterior-tibial-arteries, text: "posterior tibial" }
+    - { part: dorsalis-pedis-arteries, text: "dorsalis pedis" }

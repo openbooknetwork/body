@@ -1,0 +1,12 @@
+title: "Memory"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the cerebral hemispheres.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 58 and 59.", "William Beecher Scoville and Brenda Milner, Loss of recent memory after bilateral hippocampal lesions, Journal of Neurology, Neurosurgery and Psychiatry 20 (1957): 11-21."]
+beden:
+  camera: left-side
+  look: hippocampi
+  distance: 0.3
+  layers: [deep, cortex]
+  parts: { show: [fornix], highlight: [hippocampi, amygdalae, fornix], ghost: [cerebral-cortex] }
+  labels:
+    - { part: hippocampi, text: "hippocampus" }
+    - { part: amygdalae, text: "amygdala" }
+    - { part: fornix, text: "fornix" }

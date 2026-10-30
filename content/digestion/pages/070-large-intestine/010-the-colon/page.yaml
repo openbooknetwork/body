@@ -1,0 +1,16 @@
+title: "The colon"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the large intestine.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 64 and 66."]
+beden:
+  camera: front
+  look: large-intestine
+  distance: 0.65
+  layers: [skeleton, tract]
+  parts:
+    highlight: [cecum, ascending-colon, transverse-colon, descending-colon, rectum]
+    ghost: [skeleton, jejunum, ileum]
+    flow: [cecum, ascending-colon, transverse-colon, descending-colon, rectum]
+  labels:
+    - { part: ascending-colon, text: "ascending colon" }
+    - { part: transverse-colon, text: "transverse colon" }
+    - { part: descending-colon, text: "descending colon" }
+    - { part: rectum, text: "rectum" }

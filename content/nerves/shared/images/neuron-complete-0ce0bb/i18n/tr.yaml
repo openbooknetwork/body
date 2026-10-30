@@ -1,0 +1,6 @@
+# tr strings for the image "neuron-complete-0ce0bb".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A neuron in detail: the axon wrapped in myelin with nodes of Ranvier, and a synapse with vesicles of transmitter at the cleft
+image.caption: "Ayrıntılı bir nöron: Ranvier boğumlarıyla miyelin sarılı akson ve aralıkta ileti maddesi kesecikleri olan bir sinaps"

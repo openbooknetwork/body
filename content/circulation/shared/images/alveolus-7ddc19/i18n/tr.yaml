@@ -1,0 +1,6 @@
+# tr strings for the image "alveolus-7ddc19".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Alveoli at the end of an airway, wrapped in capillary beds that a branch of the pulmonary artery feeds and a branch of the pulmonary vein drains
+image.caption: "Bir hava yolunun ucundaki alveoller, pulmoner arterin bir dalının beslediği, pulmoner venin bir dalının boşalttığı kılcal ağlarla sarılı"

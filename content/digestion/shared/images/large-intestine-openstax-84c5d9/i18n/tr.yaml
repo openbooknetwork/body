@@ -1,0 +1,6 @@
+# tr strings for the image "large-intestine-openstax-84c5d9".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The parts of the large intestine from the cecum to the anal canal, OpenStax Anatomy and Physiology
+image.caption: "Kör bağırsaktan anal kanala kalın bağırsağın bölümleri, OpenStax Anatomy and Physiology"

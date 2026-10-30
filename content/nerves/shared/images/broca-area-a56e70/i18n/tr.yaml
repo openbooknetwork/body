@@ -1,0 +1,6 @@
+# tr strings for the image "broca-area-a56e70".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Broca's area, the back of the left inferior frontal gyrus, in red
+image.caption: "Kırmızıyla Broca alanı, sol alt frontal girusun arka kısmı"

@@ -1,0 +1,11 @@
+title: "A second network"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), ch. 4 and 6.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 16."]
+beden:
+  camera: front
+  look: skin
+  layers: [skin, skeleton, marrow, lymphoid, nodes, ducts, veins]
+  parts: { highlight: [lymph-nodes, thoracic-duct, thymus, spleen, great-veins, marrow-bones], ghost: [skin, skeleton] }
+  labels:
+    - { part: left-thymic-lobe, text: "thymus" }
+    - { part: spleen, text: "spleen" }
+    - { part: left-subclavian-vein, text: "venous angle" }

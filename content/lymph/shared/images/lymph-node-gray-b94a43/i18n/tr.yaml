@@ -1,0 +1,6 @@
+# tr strings for the image "lymph-node-gray-b94a43".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A small lymph node in section: the lymphoid tissue of the cortex, the lymph path under the capsule and the lymph paths of the medulla, Gray's Anatomy, 1918, figure 597
+image.caption: "Kesitte küçük bir lenf düğümü: korteksin lenfoid dokusu, kapsülün altındaki lenf yolu ve medullanın lenf yolları, Gray’s Anatomy, 1918, şekil 597"

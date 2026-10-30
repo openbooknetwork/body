@@ -1,0 +1,6 @@
+# tr strings for the image "hippocampus-gray-fde317".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The hippocampus, coloured, in the floor of the opened inferior horn of the left lateral ventricle, after Gray's Anatomy, 20th edition, 1918, figure 739
+image.caption: "Sol yan ventrikülün açılmış alt boynuzunun tabanında boyalı hipokampus, Gray’s Anatomy, 20. baskı, 1918, şekil 739’dan"

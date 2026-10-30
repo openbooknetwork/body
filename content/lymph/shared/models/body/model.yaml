@@ -1,0 +1,142 @@
+# The whole body model of the lymphatic story, built by `beden model` from BodyParts3D and, for the lymph nodes and
+# tonsils, Z-Anatomy. Neither holds the lymph ducts, which are drawn as tubes.
+file: model.glb
+sha256: e09782d20e9bc4cc3accb15ccc5fc34456a33183877da6d5e58c6849104e9605
+credit: "BodyParts3D, The Database Center for Life Science, CC BY-SA 2.1 Japan, and Z-Anatomy, Gauthier Kervyn, CC BY-SA 4.0"
+source: https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html
+parts:
+  # context
+  skin:            { concept: FMA7163, layer: skin, family: skin }
+  skeleton:        { concept: FMA23881, layer: skeleton, family: bone }
+  pectoralis-major: { concepts: [FMA13373, FMA13374], layer: muscles, family: muscle }
+  diaphragm:       { concept: FMA13295, layer: muscles, family: muscle }
+  heart:           { concept: FMA7088, layer: heart, family: muscle }
+  right-lung:      { concept: FMA7309, layer: lungs, family: lung, exclude: [FJ2041, FJ2044] }
+  left-lung:       { concept: FMA7310, layer: lungs, family: lung }
+  trachea:             { concept: FMA7394, layer: airway, family: airway }
+  right-main-bronchus: { concept: FMA7395, layer: airway, family: airway }
+  left-main-bronchus:  { concept: FMA7396, layer: airway, family: airway }
+  liver:           { concept: FMA7197, layer: organs, family: organ }
+  stomach:         { concept: FMA7148, layer: organs, family: organ }
+  right-kidney:    { concept: FMA7204, layer: organs, family: organ }
+  left-kidney:     { concept: FMA7205, layer: organs, family: organ }
+  tongue:          { concept: FMA54640, layer: mouth, family: muscle }
+  soft-palate:     { concept: FMA55021, layer: mouth, family: organ }
+  # the gut, its mesentery and the vessels in it
+  duodenum:        { concept: FMA7206, layer: gut, family: gut }
+  jejunum:         { concept: FMA7207, layer: gut, family: gut }
+  ileum:           { concept: FMA7208, layer: gut, family: gut }
+  appendix:        { concept: FMA14542, layer: gut, family: gut }
+  large-intestine: { concept: FMA7201, layer: gut, family: gut }
+  mesentery:       { concept: FMA14643, layer: mesentery, family: mesentery }
+  # the lymphoid organs
+  spleen:            { concept: FMA7196, layer: lymphoid, family: lymphoid }
+  right-thymic-lobe: { concept: FMA71194, layer: lymphoid, family: lymphoid }
+  left-thymic-lobe:  { concept: FMA71195, layer: lymphoid, family: lymphoid }
+  # lymph nodes and tonsils from Z-Anatomy (Gauthier Kervyn, CC BY-SA 4.0), moved into this frame by beden z-anatomy
+  # (element files za-*). Z-Anatomy marks each node with a 2.5 mm sphere, and `grow` turns it into a bean of the
+  # length typical for its region (normal nodes run a few mm to 1 cm, 1.5 cm in the groin), at the same place
+  head-nodes:       { elements: [za-occipital-nodes*, za-mastoid-nodes*, za-*parotid-nodes*, za-pre-auricular-nodes*, za-infra-auricular-nodes*, za-submental-nodes*, za-submandibular-nodes*, za-mandibular-node*, za-nasolabial-node*, za-bucinator-node*, za-retropharyngeal-nodes*], grow: { length: 0.006 }, layer: nodes, family: node }
+  neck-nodes:       { elements: [za-jugulodigastric-node*, za-lateral-superior-jugular-node*, za-inferior-deep-lateral-cervical-nodes*, za-anterior-inferior-jugular-nodes*, za-superficial-lateral-cervical-nodes*, za-superficial-anterior-cervical-nodes, za-supraclavicular-nodes*, za-thyroid-nodes*, za-pretracheal-nodes*, za-paratracheal-cervical-nodes], grow: { length: 0.009 }, layer: nodes, family: node }
+  axillary-nodes:   { elements: [za-*-axillary-nodes*, za-interpectoral-nodes*, za-infraclavicular-nodes*], grow: { length: 0.010 }, layer: nodes, family: node }
+  arm-nodes:        { elements: [za-cubital-nodes*, za-supratrochlear-nodes*, za-brachial-nodes*], grow: { length: 0.006 }, layer: nodes, family: node }
+  chest-nodes:      { elements: [za-parasternal-nodes*, za-intercostal-nodes*, za-prevertebral-nodes, za-superior-diaphragmatic-nodes, za-prepericardial-nodes, za-lateral-pericardial-nodes, za-brachiocephalic-nodes, za-paratracheal-thoracic-nodes, za-juxta-oesophageal-nodes, za-node-of-*], grow: { length: 0.007 }, layer: nodes, family: node }
+  lung-nodes:       { elements: [za-*-tracheobronchial-nodes, za-intrapulmonary-nodes], grow: { length: 0.006 }, layer: nodes, family: node }
+  aortic-nodes:     { elements: [za-pre-aortic-nodes, za-retro-aortic-nodes, za-lateral-aortic-nodes, za-*caval-nodes, za-intermediate-lumbar-nodes, za-inferior-diaphragmatic-nodes], grow: { length: 0.008 }, layer: nodes, family: node }
+  gut-nodes:        { elements: [za-coeliac-nodes, za-right-gastric-nodes, za-right-gastro-omental-nodes, za-*pyloric-node*, za-*-pancreatic-nodes, za-superior-pancreaticoduodenal-nodes, za-splenic-nodes, za-cystic-node], grow: { length: 0.006 }, layer: nodes, family: node }
+  mesenteric-nodes: { elements: [za-*superior-mesenteric-nodes, za-juxta-intestinal-mesenteric-nodes, za-ileocolic-nodes, za-*caecal-nodes, za-appendicular-nodes, za-*-colic-nodes, za-sigmoid-nodes], grow: { length: 0.007 }, layer: nodes, family: node }
+  pelvic-nodes:     { elements: [za-*-common-iliac-nodes, za-subaortic-nodes, za-*-external-iliac-nodes*, za-inferior-epigastric-nodes*, za-obturator-nodes*, za-*-gluteal-nodes*, za-*-sacral-nodes*, za-pararectal-nodes, za-*vesical-nodes*], grow: { length: 0.008 }, layer: nodes, family: node }
+  inguinal-nodes:   { elements: [za-*-superficial-inguinal-nodes*, za-*-deep-inguinal-node*, za-*-lacunar-node*], grow: { length: 0.012 }, layer: nodes, family: node }
+  leg-nodes:        { elements: [za-*-popliteal-nodes*, za-*-tibial-node*, za-fibular-node*], grow: { length: 0.006 }, layer: nodes, family: node }
+  palatine-tonsils: { elements: [za-palatine-tonsil*], grow: { length: 0.02, shape: [1, 0.6, 0.5] }, layer: nodes, family: node }
+  # The lymph ducts, which neither BodyParts3D nor Z-Anatomy holds, drawn as tubes through [x, y, z, radius] in metres
+  # of the glTF frame (x to the left, y up, z forward), placed on the landmarks measured on BodyParts3D named beside each point
+  cisterna-chyli:
+    layer: ducts
+    family: duct
+    tube:
+      - [-0.006, 1.022, 0.118, 0.003]   # in front of L2, right of the aorta
+      - [-0.006, 1.035, 0.118, 0.006]
+      - [-0.005, 1.052, 0.114, 0.005]   # L1
+      - [-0.005, 1.064, 0.110, 0.003]
+  thoracic-duct:
+    layer: ducts
+    family: duct
+    tube:
+      - [-0.005, 1.060, 0.111, 0.0025]  # inside the top of the cisterna, in front of L1
+      - [-0.004, 1.081, 0.104, 0.0025]  # T12, the aortic hiatus, between the aorta and the azygos vein
+      - [-0.004, 1.135, 0.088, 0.0025]  # T10
+      - [-0.004, 1.193, 0.073, 0.0025]  # T8, behind the esophagus
+      - [0.001, 1.246, 0.067, 0.0025]   # T6
+      - [0.006, 1.273, 0.066, 0.0025]   # T5, across to the left behind the esophagus
+      - [0.009, 1.299, 0.068, 0.0025]   # T4, between the esophagus and the aorta
+      - [0.009, 1.321, 0.076, 0.0025]   # T3, along the left edge of the esophagus
+      - [0.010, 1.342, 0.083, 0.0025]   # T2
+      - [0.010, 1.359, 0.088, 0.0025]   # T1
+      - [0.012, 1.372, 0.092, 0.0025]   # C7, where the arch begins
+      - [0.018, 1.381, 0.102, 0.0025]   # top of the arch, behind the carotid sheath
+      - [0.024, 1.366, 0.111, 0.0028]
+      - [0.022, 1.346, 0.117, 0.003]    # the left venous angle, where the jugular and subclavian veins meet
+  right-lymphatic-duct:
+    layer: ducts
+    family: duct
+    tube:
+      - [-0.031, 1.357, 0.111, 0.002]
+      - [-0.028, 1.350, 0.114, 0.002]
+      - [-0.025, 1.346, 0.117, 0.0022]  # the right venous angle
+  # the bones that hold red marrow in an adult
+  skull:            { concept: FMA46565, layer: marrow, family: marrow }
+  sternum:          { concept: FMA7485, layer: marrow, family: marrow }
+  vertebral-column: { concept: FMA13478, layer: marrow, family: marrow }
+  pelvic-girdle:    { concept: FMA16581, layer: marrow, family: marrow }
+  femurs:           { concept: FMA9611, layer: marrow, family: marrow }
+  # the veins where lymph returns to the blood, and those the node chains follow
+  superior-vena-cava:          { concept: FMA4720, layer: veins, family: vein }
+  left-brachiocephalic-vein:   { concept: FMA4761, layer: veins, family: vein }
+  right-brachiocephalic-vein:  { concept: FMA4723, layer: veins, family: vein, exclude: [FJ3482] }   # FJ3482 is the left one
+  left-internal-jugular-vein:  { concept: FMA4762, layer: veins, family: vein }
+  right-internal-jugular-vein: { concept: FMA4754, layer: veins, family: vein }
+  left-subclavian-vein:        { concept: FMA4763, layer: veins, family: vein }
+  right-subclavian-vein:       { concept: FMA4755, layer: veins, family: vein }
+  azygos-vein:           { concept: FMA4838, layer: veins, family: vein }
+  inferior-vena-cava:    { concept: FMA10951, layer: veins, family: vein }
+  axillary-veins:        { concept: FMA13329, layer: veins, family: vein }
+  common-iliac-veins:    { concept: FMA14333, layer: veins, family: vein }
+  external-iliac-veins:  { concept: FMA18883, layer: veins, family: vein }
+  femoral-veins:         { concept: FMA21185, layer: veins, family: vein }
+  great-saphenous-veins: { concept: FMA21376, layer: veins, family: vein }
+  superior-mesenteric-vein: { concept: FMA14332, layer: veins, family: vein }
+  splenic-vein:          { concept: FMA14331, layer: veins, family: vein }
+  # the arteries the node chains follow
+  arch-of-aorta:           { concept: FMA3768, layer: arteries, family: artery }
+  descending-aorta:        { concept: FMA3784, layer: arteries, family: artery }
+  abdominal-aorta:         { concept: FMA3789, layer: arteries, family: artery }
+  common-carotid-arteries: { concepts: [FMA3941, FMA4058], layer: arteries, family: artery }
+  axillary-arteries:       { concept: FMA22654, layer: arteries, family: artery }
+  common-iliac-arteries:   { concept: FMA14764, layer: arteries, family: artery }
+  external-iliac-arteries: { concept: FMA18805, layer: arteries, family: artery }
+  femoral-arteries:        { concept: FMA70248, layer: arteries, family: artery }
+  superior-mesenteric-artery: { concept: FMA14749, layer: arteries, family: artery }
+  splenic-artery:          { concept: FMA14773, layer: arteries, family: artery }
+groups:
+  thymus: [right-thymic-lobe, left-thymic-lobe]
+  lungs: [right-lung, left-lung]
+  airway: [trachea, right-main-bronchus, left-main-bronchus]
+  kidneys: [right-kidney, left-kidney]
+  small-intestine: [duodenum, jejunum, ileum]
+  marrow-bones: [skull, sternum, vertebral-column, pelvic-girdle, femurs]
+  aorta: [arch-of-aorta, descending-aorta, abdominal-aorta]
+  internal-jugular-veins: [left-internal-jugular-vein, right-internal-jugular-vein]
+  subclavian-veins: [left-subclavian-vein, right-subclavian-vein]
+  brachiocephalic-veins: [left-brachiocephalic-vein, right-brachiocephalic-vein]
+  left-venous-angle: [left-internal-jugular-vein, left-subclavian-vein]
+  right-venous-angle: [right-internal-jugular-vein, right-subclavian-vein]
+  great-veins: [left-internal-jugular-vein, right-internal-jugular-vein, left-subclavian-vein, right-subclavian-vein, left-brachiocephalic-vein, right-brachiocephalic-vein, superior-vena-cava]
+  neck-vessels: [left-internal-jugular-vein, right-internal-jugular-vein, common-carotid-arteries]
+  armpit-vessels: [axillary-veins, axillary-arteries]
+  groin-vessels: [femoral-veins, femoral-arteries, great-saphenous-veins, external-iliac-veins, external-iliac-arteries]
+  mesenteric-vessels: [superior-mesenteric-artery, superior-mesenteric-vein]
+  splenic-vessels: [splenic-artery, splenic-vein]
+  lymphoid-organs: [right-thymic-lobe, left-thymic-lobe, spleen]
+  lymph-ducts: [cisterna-chyli, thoracic-duct, right-lymphatic-duct]
+  lymph-nodes: [head-nodes, neck-nodes, axillary-nodes, arm-nodes, chest-nodes, lung-nodes, aortic-nodes, gut-nodes, mesenteric-nodes, pelvic-nodes, inguinal-nodes, leg-nodes]

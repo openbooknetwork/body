@@ -1,0 +1,6 @@
+# tr strings for the image "diaphragm-openstax-fc3b88".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The diaphragm from below, with the esophagus passing through its hiatus, OpenStax Anatomy and Physiology
+image.caption: "Alttan diyafram, hiatusundan geçen yemek borusuyla, OpenStax Anatomy and Physiology"

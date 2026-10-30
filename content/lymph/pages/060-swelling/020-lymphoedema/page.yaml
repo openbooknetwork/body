@@ -1,0 +1,15 @@
+title: "Blocked lymph"
+sources: ["Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 25.", "Tracey DiSipio and others, Incidence of unilateral arm lymphoedema after breast cancer, The Lancet Oncology 14 (2013), 500-515.", "World Health Organization, Lymphatic filariasis, fact sheet (2023)."]
+beden:
+  camera: armpit
+  look: [0.15, 1.1, 0.08]
+  distance: 1.1
+  layers: [skin, skeleton, muscles, veins, arteries]
+  parts:
+    show: [axillary-nodes]
+    highlight: [axillary-nodes, armpit-vessels]
+    ghost: [skin, skeleton, pectoralis-major]
+    hide: [diaphragm]
+  labels:
+    - { part: axillary-nodes, text: "axillary nodes" }
+    - { part: axillary-veins, text: "axillary vessels" }

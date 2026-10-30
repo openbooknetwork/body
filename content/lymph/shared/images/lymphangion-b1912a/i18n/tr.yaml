@@ -1,0 +1,6 @@
+# tr strings for the image "lymphangion-b1912a".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A lymph vessel as a chain of segments between valves: lymph fills a segment, the segment contracts, the valve ahead opens and the valve behind closes
+image.caption: "Kapakçıklar arasındaki bölümlerden oluşan bir zincir olarak lenf damarı: lenf bir bölümü doldurur, bölüm kasılır, öndeki kapakçık açılır ve arkadaki kapanır"

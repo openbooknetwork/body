@@ -1,0 +1,35 @@
+# tr strings for the structure "brain".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Brain
+structure.name: "Beyin"
+
+# The organ inside the skull: the two cerebral hemispheres, the diencephalon between them, the brainstem and the cerebellum
+structure.role: "Kafatasının içindeki organ: iki beyin yarıküresi, aralarındaki ara beyin, beyin sapı ve beyincik"
+
+# Weight
+structure.facts.0.label: "Ağırlık"
+
+# Neurons
+structure.facts.1.label: "Nöronlar"
+
+# Blood flow
+structure.facts.2.label: "Kan akışı"
+
+# Cortex
+structure.facts.3.label: "Korteks"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# About 1.4 kg in an adult, 2 per cent of the body
+structure.facts.0.value: "Erişkinde yaklaşık 1,4 kg, bedenin yüzde 2’si"
+
+# About 86 billion, 16 billion of them in the cerebral cortex
+structure.facts.1.value: "Yaklaşık 86 milyar, bunların 16 milyarı beyin korteksinde"
+
+# 750 to 900 ml a minute, 15 per cent of the resting cardiac output
+structure.facts.2.value: "Dakikada 750 ila 900 ml, dinlenmedeki kalp debisinin yüzde 15’i"
+
+# 2 to 4 mm thick, two thirds of it hidden in the sulci
+structure.facts.3.value: "2 ila 4 mm kalınlığında, üçte ikisi oluklarda gizli"

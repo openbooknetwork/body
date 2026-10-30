@@ -1,0 +1,6 @@
+# tr strings for the image "palm-nerves-gray-b6de3a".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The nerves of the palm: the median nerve and its branches to the thumb side, the ulnar nerve to the little finger side, Gray's Anatomy, 20th edition, 1918, figure 815
+image.caption: "Avuç içinin sinirleri: başparmak tarafına dallarıyla median sinir, serçe parmak tarafına ulnar sinir, Gray’s Anatomy, 20. baskı, 1918, şekil 815"

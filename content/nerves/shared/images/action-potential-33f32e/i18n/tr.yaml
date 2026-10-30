@@ -1,0 +1,6 @@
+# tr strings for the image "action-potential-33f32e".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# An action potential: a stimulus past the threshold sets off a spike that rises and falls within a few milliseconds
+image.caption: "Bir aksiyon potansiyeli: eşiği aşan bir uyarı birkaç milisaniye içinde yükselip düşen bir sıçramayı başlatır"

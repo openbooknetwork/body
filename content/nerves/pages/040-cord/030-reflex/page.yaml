@@ -1,0 +1,16 @@
+title: "The knee jerk"
+sources: ["Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 55.", "Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the internal organization of the spinal cord.", "Wilhelm Erb, Über Sehnenreflexe bei Gesunden und bei Rückenmarkskranken, and Carl Westphal, Über einige Bewegungs-Erscheinungen an gelähmten Gliedern, Archiv für Psychiatrie und Nervenkrankheiten 5 (1875)."]
+beden:
+  camera: front
+  look: femoral-nerves
+  layers: [skin, skeleton, muscles, cord, roots]
+  parts:
+    show: [femoral-nerves]
+    highlight: [patellae, quadriceps, femoral-nerves]
+    ghost: [skin, skeleton]
+    hide: [diaphragm]
+    flow: [quadriceps, femoral-nerves, cauda-equina, spinal-cord]
+  labels:
+    - { part: quadriceps, text: "quadriceps" }
+    - { part: patellae, text: "kneecap" }
+    - { part: femoral-nerves, text: "femoral nerve" }

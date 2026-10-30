@@ -1,0 +1,10 @@
+name: "Brain"
+latin: "Encephalon"
+role: "The organ inside the skull: the two cerebral hemispheres, the diencephalon between them, the brainstem and the cerebellum"
+source: https://en.wikipedia.org/wiki/Human_brain
+images: [brain-lobes-gray-24c3e1]
+facts:
+  - { label: "Weight", value: "About 1.4 kg in an adult, 2 per cent of the body" }
+  - { label: "Neurons", value: "About 86 billion, 16 billion of them in the cerebral cortex" }
+  - { label: "Blood flow", value: "750 to 900 ml a minute, 15 per cent of the resting cardiac output" }
+  - { label: "Cortex", value: "2 to 4 mm thick, two thirds of it hidden in the sulci" }

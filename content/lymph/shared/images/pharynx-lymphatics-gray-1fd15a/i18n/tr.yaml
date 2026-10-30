@@ -1,0 +1,6 @@
+# tr strings for the image "pharynx-lymphatics-gray-1fd15a".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The lymph vessels of the pharynx seen from behind, running to the retropharyngeal nodes and the chain of deep cervical nodes, Gray's Anatomy, 1918, figure 603
+image.caption: "Arkadan görülen yutağın lenf damarları, retrofaringeal düğümlere ve derin servikal düğüm zincirine uzanır, Gray’s Anatomy, 1918, şekil 603"

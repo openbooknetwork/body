@@ -1,0 +1,6 @@
+# tr strings for the image "right-heart-interior-gray-24da9f".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The right atrium and right ventricle opened: the fossa ovalis in the wall between the atria, and the papillary muscles and cords of the tricuspid valve, Gray's Anatomy, 1918, figure 493
+image.caption: "Açılmış sağ kulakçık ve sağ karıncık: kulakçıklar arasındaki duvarda fossa ovalis, triküspit kapağın papiller kasları ve kirişleri, Gray’s Anatomy, 1918, şekil 493"

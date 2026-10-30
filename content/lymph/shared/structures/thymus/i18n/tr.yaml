@@ -1,0 +1,29 @@
+# tr strings for the structure "thymus".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Thymus
+structure.name: "Timus"
+
+# The organ behind the breastbone where T cells mature, large in childhood and mostly fat in old age
+structure.role: "Göğüs kemiğinin arkasında T hücrelerinin olgunlaştığı organ, çocuklukta büyük, yaşlılıkta çoğu yağ"
+
+# Weight
+structure.facts.0.label: "Ağırlık"
+
+# Position
+structure.facts.1.label: "Yeri"
+
+# Lobes
+structure.facts.2.label: "Loblar"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# About 15 g at birth, 30 to 40 g at puberty
+structure.facts.0.value: "Doğumda yaklaşık 15 g, ergenlikte 30 ila 40 g"
+
+# Upper mediastinum, behind the sternum and in front of the great vessels
+structure.facts.1.value: "Üst mediasten, göğüs kemiğinin arkasında ve büyük damarların önünde"
+
+# Two, each of many lobules with a cortex and a medulla
+structure.facts.2.value: "İki, her biri korteksi ve medullası olan birçok lobçuktan"

@@ -1,0 +1,11 @@
+title: "Folds and villi"
+sources: ["Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 66.", "Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the small intestine.", "Herbert Helander and Lars Fändriks, Surface area of the digestive tract revisited, Scandinavian Journal of Gastroenterology 49 (2014): 681 to 689."]
+beden:
+  camera: above
+  look: jejunum
+  distance: 0.4
+  layers: [tract]
+  section: { plane: axial, at: 0.96, flip: true }
+  parts: { highlight: [jejunum], ghost: [ileum] }
+  labels:
+    - { part: jejunum, text: "jejunum" }

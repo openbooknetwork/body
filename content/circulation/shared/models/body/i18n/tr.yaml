@@ -1,80 +1,425 @@
-# tr names of the model "body": what the viewer shows on hover. English falls back to the part id.
+# tr strings for the model "body".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# skin
 parts.skin: "deri"
+
+# skeleton
 parts.skeleton: "iskelet"
+
+# brain
 parts.brain: "beyin"
+
+# right lung
 parts.right-lung: "sağ akciğer"
+
+# left lung
 parts.left-lung: "sol akciğer"
+
+# liver
 parts.liver: "karaciğer"
+
+# right kidney
 parts.right-kidney: "sağ böbrek"
+
+# left kidney
 parts.left-kidney: "sol böbrek"
-parts.heart: "kalp"
-parts.right-atrium: "sağ kulakçık"
-parts.right-ventricle: "sağ karıncık"
-parts.left-atrium: "sol kulakçık"
-parts.left-ventricle: "sol karıncık"
-parts.tricuspid-valve: "triküspit kapak"
-parts.pulmonary-valve: "pulmoner kapak"
-parts.mitral-valve: "mitral kapak"
-parts.aortic-valve: "aort kapağı"
-parts.right-coronary-artery: "sağ koroner arter"
-parts.left-coronary-artery: "sol koroner arter"
-parts.pulmonary-trunk: "pulmoner trunkus"
-parts.right-pulmonary-artery: "sağ pulmoner arter"
-parts.left-pulmonary-artery: "sol pulmoner arter"
-parts.pulmonary-veins: "pulmoner venler"
-parts.ascending-aorta: "çıkan aort"
-parts.arch-of-aorta: "aort kemeri"
-parts.descending-aorta: "inen aort"
-parts.abdominal-aorta: "abdominal aort"
-parts.brachiocephalic-artery: "brakiosefalik arter"
-parts.right-common-carotid-artery: "sağ ana karotis arteri"
-parts.left-common-carotid-artery: "sol ana karotis arteri"
-parts.internal-carotid-arteries: "iç karotis arterleri"
-parts.vertebral-arteries: "vertebral arterler"
-parts.right-subclavian-artery: "sağ subklavyen arter"
-parts.left-subclavian-artery: "sol subklavyen arter"
-parts.axillary-arteries: "aksiller arterler"
-parts.brachial-arteries: "brakiyal arterler"
-parts.radial-arteries: "radyal arterler"
-parts.ulnar-arteries: "ulnar arterler"
-parts.celiac-trunk: "çölyak trunkus"
-parts.superior-mesenteric-artery: "üst mezenterik arter"
-parts.inferior-mesenteric-artery: "alt mezenterik arter"
-parts.renal-arteries: "renal arterler"
-parts.common-iliac-arteries: "ana iliyak arterler"
-parts.internal-iliac-arteries: "iç iliyak arterler"
-parts.external-iliac-arteries: "dış iliyak arterler"
-parts.femoral-arteries: "femoral arterler"
-parts.popliteal-arteries: "popliteal arterler"
-parts.anterior-tibial-arteries: "ön tibial arterler"
-parts.posterior-tibial-arteries: "arka tibial arterler"
-parts.arteries: "arterler"
-parts.superior-vena-cava: "üst ana toplardamar"
-parts.inferior-vena-cava: "alt ana toplardamar"
-parts.brachiocephalic-veins: "brakiosefalik venler"
-parts.internal-jugular-veins: "iç juguler venler"
-parts.subclavian-veins: "subklavyen venler"
-parts.axillary-veins: "aksiller venler"
-parts.cephalic-veins: "sefalik venler"
-parts.basilic-veins: "bazilik venler"
-parts.median-cubital-veins: "median kubital venler"
-parts.azygos-vein: "azigos ven"
-parts.hepatic-veins: "hepatik venler"
-parts.renal-veins: "renal venler"
-parts.common-iliac-veins: "ana iliyak venler"
-parts.external-iliac-veins: "dış iliyak venler"
-parts.femoral-veins: "femoral venler"
-parts.popliteal-veins: "popliteal venler"
-parts.great-saphenous-veins: "büyük safen venler"
-parts.portal-vein: "portal ven"
-parts.superior-mesenteric-vein: "üst mezenterik ven"
-parts.splenic-vein: "dalak veni"
-parts.veins: "venler"
+
+# spleen
 parts.spleen: "dalak"
+
+# trachea
+parts.trachea: "soluk borusu"
+
+# bronchi
+parts.bronchi: "bronşlar"
+
+# calf muscles
+parts.calf-muscles: "baldır kasları"
+
+# skull
 parts.skull: "kafatası"
+
+# sternum
 parts.sternum: "göğüs kemiği"
+
+# vertebral column
 parts.vertebral-column: "omurga"
+
+# pelvic girdle
 parts.pelvic-girdle: "leğen kemeri"
+
+# femurs
 parts.femurs: "uyluk kemikleri"
+
+# heart
+parts.heart: "kalp"
+
+# right atrium
+parts.right-atrium: "sağ kulakçık"
+
+# right ventricle
+parts.right-ventricle: "sağ karıncık"
+
+# left atrium
+parts.left-atrium: "sol kulakçık"
+
+# left ventricle
+parts.left-ventricle: "sol karıncık"
+
+# tricuspid valve
+parts.tricuspid-valve: "triküspit kapak"
+
+# pulmonary valve
+parts.pulmonary-valve: "pulmoner kapak"
+
+# mitral valve
+parts.mitral-valve: "mitral kapak"
+
+# aortic valve
+parts.aortic-valve: "aort kapağı"
+
+# papillary muscles
+parts.papillary-muscles: "papiller kaslar"
+
+# right coronary artery
+parts.right-coronary-artery: "sağ koroner arter"
+
+# left coronary artery
+parts.left-coronary-artery: "sol koroner arter"
+
+# anterior interventricular artery
+parts.anterior-interventricular-artery: "ön interventriküler dal"
+
+# circumflex artery
+parts.circumflex-artery: "sirkumfleks dal"
+
+# coronary sinus
+parts.coronary-sinus: "koroner sinüs"
+
+# great cardiac vein
+parts.great-cardiac-vein: "büyük kalp veni"
+
+# middle cardiac vein
+parts.middle-cardiac-vein: "orta kalp veni"
+
+# small cardiac vein
+parts.small-cardiac-vein: "küçük kalp veni"
+
+# ductus arteriosus
+parts.ductus-arteriosus: "duktus arteriyozus"
+
+# pulmonary trunk
+parts.pulmonary-trunk: "pulmoner trunkus"
+
+# right pulmonary artery
+parts.right-pulmonary-artery: "sağ pulmoner arter"
+
+# left pulmonary artery
+parts.left-pulmonary-artery: "sol pulmoner arter"
+
+# pulmonary veins
+parts.pulmonary-veins: "pulmoner venler"
+
+# ascending aorta
+parts.ascending-aorta: "çıkan aort"
+
+# arch of aorta
+parts.arch-of-aorta: "aort kemeri"
+
+# descending aorta
+parts.descending-aorta: "inen aort"
+
+# abdominal aorta
+parts.abdominal-aorta: "abdominal aort"
+
+# brachiocephalic artery
+parts.brachiocephalic-artery: "brakiosefalik arter"
+
+# right subclavian artery
+parts.right-subclavian-artery: "sağ subklavyen arter"
+
+# left subclavian artery
+parts.left-subclavian-artery: "sol subklavyen arter"
+
+# internal carotid arteries
+parts.internal-carotid-arteries: "iç karotis arterleri"
+
+# right common carotid artery
+parts.right-common-carotid-artery: "sağ ana karotis arteri"
+
+# left common carotid artery
+parts.left-common-carotid-artery: "sol ana karotis arteri"
+
+# external carotid arteries
+parts.external-carotid-arteries: "dış karotis arterleri"
+
+# cervical internal carotid arteries
+parts.cervical-internal-carotid-arteries: "iç karotis arterlerinin boyun bölümü"
+
+# vertebral arteries
+parts.vertebral-arteries: "vertebral arterler"
+
+# basilar artery
+parts.basilar-artery: "baziler arter"
+
+# arterial circle
+parts.arterial-circle: "arteriyel halka"
+
+# anterior cerebral arteries
+parts.anterior-cerebral-arteries: "ön serebral arterler"
+
+# middle cerebral arteries
+parts.middle-cerebral-arteries: "orta serebral arterler"
+
+# posterior cerebral arteries
+parts.posterior-cerebral-arteries: "arka serebral arterler"
+
+# axillary arteries
+parts.axillary-arteries: "aksiller arterler"
+
+# brachial arteries
+parts.brachial-arteries: "brakiyal arterler"
+
+# radial arteries
+parts.radial-arteries: "radyal arterler"
+
+# ulnar arteries
+parts.ulnar-arteries: "ulnar arterler"
+
+# superficial palmar arches
+parts.superficial-palmar-arches: "yüzeyel avuç içi kemerleri"
+
+# deep palmar arches
+parts.deep-palmar-arches: "derin avuç içi kemerleri"
+
+# celiac trunk
+parts.celiac-trunk: "çölyak trunkus"
+
+# left gastric artery
+parts.left-gastric-artery: "sol mide arteri"
+
+# common hepatic artery
+parts.common-hepatic-artery: "ortak hepatik arter"
+
+# splenic artery
+parts.splenic-artery: "dalak arteri"
+
+# superior mesenteric artery
+parts.superior-mesenteric-artery: "üst mezenterik arter"
+
+# inferior mesenteric artery
+parts.inferior-mesenteric-artery: "alt mezenterik arter"
+
+# renal arteries
+parts.renal-arteries: "renal arterler"
+
+# intrarenal arteries
+parts.intrarenal-arteries: "böbrek içi arterler"
+
+# intrarenal veins
+parts.intrarenal-veins: "böbrek içi venler"
+
+# common iliac arteries
+parts.common-iliac-arteries: "ana iliyak arterler"
+
+# internal iliac arteries
+parts.internal-iliac-arteries: "iç iliyak arterler"
+
+# external iliac arteries
+parts.external-iliac-arteries: "dış iliyak arterler"
+
+# femoral arteries
+parts.femoral-arteries: "femoral arterler"
+
+# deep femoral arteries
+parts.deep-femoral-arteries: "derin femoral arterler"
+
+# popliteal arteries
+parts.popliteal-arteries: "popliteal arterler"
+
+# anterior tibial arteries
+parts.anterior-tibial-arteries: "ön tibial arterler"
+
+# posterior tibial arteries
+parts.posterior-tibial-arteries: "arka tibial arterler"
+
+# dorsalis pedis arteries
 parts.dorsalis-pedis-arteries: "ayak sırtı arterleri"
+
+# plantar arteries
 parts.plantar-arteries: "ayak tabanı arterleri"
+
+# arteries
+parts.arteries: "arterler"
+
+# superior vena cava
+parts.superior-vena-cava: "üst ana toplardamar"
+
+# inferior vena cava
+parts.inferior-vena-cava: "alt ana toplardamar"
+
+# brachiocephalic veins
+parts.brachiocephalic-veins: "brakiosefalik venler"
+
+# internal jugular veins
+parts.internal-jugular-veins: "iç juguler venler"
+
+# subclavian veins
+parts.subclavian-veins: "subklavyen venler"
+
+# axillary veins
+parts.axillary-veins: "aksiller venler"
+
+# cephalic veins
+parts.cephalic-veins: "sefalik venler"
+
+# basilic veins
+parts.basilic-veins: "bazilik venler"
+
+# median cubital veins
+parts.median-cubital-veins: "median kubital venler"
+
+# dorsal venous networks
+parts.dorsal-venous-networks: "el sırtı ven ağları"
+
+# azygos vein
+parts.azygos-vein: "azigos ven"
+
+# hepatic veins
+parts.hepatic-veins: "hepatik venler"
+
+# renal veins
+parts.renal-veins: "renal venler"
+
+# common iliac veins
+parts.common-iliac-veins: "ana iliyak venler"
+
+# external iliac veins
+parts.external-iliac-veins: "dış iliyak venler"
+
+# femoral veins
+parts.femoral-veins: "femoral venler"
+
+# popliteal veins
+parts.popliteal-veins: "popliteal venler"
+
+# anterior tibial veins
+parts.anterior-tibial-veins: "ön tibial venler"
+
+# posterior tibial veins
+parts.posterior-tibial-veins: "arka tibial venler"
+
+# fibular veins
+parts.fibular-veins: "fibular venler"
+
+# great saphenous veins
+parts.great-saphenous-veins: "büyük safen venler"
+
+# small saphenous veins
+parts.small-saphenous-veins: "küçük safen venler"
+
+# dorsal venous arches
+parts.dorsal-venous-arches: "ayak sırtı ven kemerleri"
+
+# portal vein
+parts.portal-vein: "portal ven"
+
+# superior mesenteric vein
+parts.superior-mesenteric-vein: "üst mezenterik ven"
+
+# inferior mesenteric vein
+parts.inferior-mesenteric-vein: "alt mezenterik ven"
+
+# splenic vein
+parts.splenic-vein: "dalak veni"
+
+# veins
+parts.veins: "venler"
+
+# chambers
+parts.chambers: "odacıklar"
+
+# ventricles
+parts.ventricles: "karıncıklar"
+
+# valves
+parts.valves: "kapaklar"
+
+# coronaries
+parts.coronaries: "koroner arterler"
+
+# cardiac veins
+parts.cardiac-veins: "kalp venleri"
+
+# pulmonary arteries
+parts.pulmonary-arteries: "pulmoner arterler"
+
+# airway
+parts.airway: "hava yolu"
+
+# aorta
+parts.aorta: "aort"
+
+# arch branches
+parts.arch-branches: "kemerin dalları"
+
+# neck arteries
+parts.neck-arteries: "boyun arterleri"
+
+# brain arteries
+parts.brain-arteries: "beyin arterleri"
+
+# arm arteries
+parts.arm-arteries: "kol arterleri"
+
+# palmar arches
+parts.palmar-arches: "avuç içi kemerleri"
+
+# gut arteries
+parts.gut-arteries: "bağırsak arterleri"
+
+# kidney vessels
+parts.kidney-vessels: "böbrek damarları"
+
+# thigh arteries
+parts.thigh-arteries: "uyluk arterleri"
+
+# lower leg arteries
+parts.lower-leg-arteries: "alt bacak arterleri"
+
+# leg arteries
+parts.leg-arteries: "bacak arterleri"
+
+# trunk veins
+parts.trunk-veins: "gövde venleri"
+
+# superficial veins
+parts.superficial-veins: "yüzeyel venler"
+
+# deep leg veins
+parts.deep-leg-veins: "bacağın derin venleri"
+
+# leg veins
+parts.leg-veins: "bacak venleri"
+
+# arm veins
+parts.arm-veins: "kol venleri"
+
+# forearm veins
+parts.forearm-veins: "önkol venleri"
+
+# lungs
+parts.lungs: "akciğerler"
+
+# kidneys
+parts.kidneys: "böbrekler"
+
+# portal system
+parts.portal-system: "portal sistem"
+
+# marrow bones
+parts.marrow-bones: "ilikli kemikler"

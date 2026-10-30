@@ -1,0 +1,6 @@
+# tr strings for the image "abdominal-lymphatics-gray-3a38bf".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The lymph vessels and nodes of the chest and abdomen: the preaortic nodes and the intestinal trunks lead to the receptaculum chyli and the thoracic duct, diagrammatic, Gray's Anatomy, 1918, figure 621
+image.caption: "Göğsün ve karnın lenf damarları ve düğümleri: aort önü düğümleri ve bağırsak gövdeleri sisterna şiliye ve duktus torasikusa açılır, şematik, Gray’s Anatomy, 1918, şekil 621"

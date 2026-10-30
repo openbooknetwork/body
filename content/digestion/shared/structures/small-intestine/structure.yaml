@@ -1,0 +1,10 @@
+name: "Small intestine"
+latin: "Intestinum tenue"
+role: "The tube from the stomach to the large intestine, where digestion ends and most of the food is absorbed"
+source: https://en.wikipedia.org/wiki/Small_intestine
+images: [small-intestine-openstax-a1551f]
+facts:
+  - { label: "Length", value: "About 6 m after death, less in life" }
+  - { label: "Parts", value: "Duodenum 25 cm, then jejunum two fifths and ileum three fifths of the rest" }
+  - { label: "Transit", value: "3 to 5 hours from the pylorus to the large intestine" }
+  - { label: "Lining", value: "Renewed about every 5 days" }

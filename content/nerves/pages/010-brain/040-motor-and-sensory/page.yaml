@@ -1,0 +1,10 @@
+title: "Movement and touch"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the cerebral hemispheres.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 48 and 56.", "Wilder Penfield and Edwin Boldrey, Somatic motor and sensory representation in the cerebral cortex of man as studied by electrical stimulation, Brain 60 (1937): 389-443."]
+beden:
+  camera: oblique
+  look: brain
+  layers: [cortex, brainstem, cerebellum]
+  parts: { highlight: [precentral-gyri, postcentral-gyri] }
+  labels:
+    - { part: left-precentral-gyrus, text: "motor cortex" }
+    - { part: left-postcentral-gyrus, text: "sensory cortex" }

@@ -1,0 +1,6 @@
+# tr strings for the image "femoral-artery-gray-8e262f".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The femoral artery down the front of the thigh, with the deep femoral (profunda) branch and its perforating arteries, Gray's Anatomy, 1918, figure 548
+image.caption: "Uyluğun önünden inen femoral arter, derin femoral (profunda) dalı ve onun delici arterleri, Gray’s Anatomy, 1918, şekil 548"

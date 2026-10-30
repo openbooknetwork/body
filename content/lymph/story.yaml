@@ -1,0 +1,34 @@
+id: lymph
+title: "The lymphatic system"
+summary: "The lymphatic system collects fluid from the tissues, filters it through the lymph nodes and returns it to the blood. This story covers the lymph vessels and nodes, the spleen, thymus and bone marrow, the tonsils, and what happens when drainage fails."
+cover: thoracic-duct-gray-007498
+languages: [en, tr]
+default_language: en
+beden:
+  model: body
+  # the overview before the first page: the body with its lymph nodes
+  overview: { camera: front, look: skin, layers: [skin, nodes], parts: { highlight: [lymph-nodes], ghost: [skin] } }
+  cameras:
+    front:      { direction: [0, 0.05, 1] }
+    oblique:    { direction: [0.7, 0.35, 1] }
+    left:       { direction: [-1, 0.1, 0.4] }
+    right:      { direction: [1, 0.1, 0.4] }
+    back:       { direction: [0, 0.05, -1] }
+    right-side: { direction: [-1, 0.05, 0.02] }   # from the body's right, onto a midline cut of its left half
+    above:      { direction: [0, 1, 0.35] }       # down onto an axial cut, the front of the body nearest the viewer
+    armpit:     { direction: [0.9, -0.3, 0.7] }   # from below and to the body's left, into the left armpit
+  families:
+    node:      { color: "#4f8a3c", color_dark: "#8cc47a" }   # the lymph nodes and tonsils, green as the atlases draw lymph
+    duct:      { color: "#6fa05a", color_dark: "#a5d68f" }   # the drawn lymph ducts, a lighter green of the same system
+    lymphoid:  { color: "#8a4f7d", color_dark: "#c58bb8" }   # the thymus and the spleen
+    marrow:    { color: "#c46a4e", color_dark: "#e0937a" }   # the bones that keep red marrow in an adult
+    vein:      { color: "#2f6fb0", color_dark: "#6fa6e0" }
+    artery:    { color: "#b5352a", color_dark: "#e8695c" }
+    muscle:    { color: "#9c5b5b", color_dark: "#c48080" }
+    lung:      { color: "#d9a7a7", color_dark: "#8f6b6b" }
+    airway:    { color: "#c9b79c", color_dark: "#8c7d68" }
+    organ:     { color: "#b08968", color_dark: "#8a6a4f" }
+    gut:       { color: "#d1a08a", color_dark: "#9a7462" }
+    mesentery: { color: "#e3c98a", color_dark: "#a8935f" }   # the fatty fold that carries the vessels and nodes of the small intestine
+    bone:      { color: "#e8e2d2", color_dark: "#6f6a5e" }
+    skin:      { color: "#f2d9c4", color_dark: "#5a5048" }

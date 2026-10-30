@@ -3,7 +3,7 @@ title: Open Body Book
 intro: Step-through models of the human body, one structure at a time. A free educational project. Pick an organ.
 languages: [en, tr]
 default_language: en
-stories: [circulation]
+stories: [circulation, nerves, lymph, digestion]
 
 # The engine that fills the viewport of every story that names none of its own.
 engine: beden

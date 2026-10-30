@@ -1,0 +1,15 @@
+title: "Two systems"
+sources: ["Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 61.", "Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the overview of the nervous system."]
+beden:
+  camera: front
+  look: liver
+  distance: 1.1
+  layers: [skin, skeleton, organs, autonomic]
+  parts: { highlight: [sympathetic-trunks, heart, liver, adrenal-glands, stomach, urinary-bladder], ghost: [skin, skeleton] }
+  labels:
+    - { part: sympathetic-trunks, text: "sympathetic trunk" }
+    - { part: heart, text: "heart" }
+    - { part: liver, text: "liver" }
+    - { part: stomach, text: "stomach" }
+    - { part: adrenal-glands, text: "adrenal glands" }
+    - { part: urinary-bladder, text: "bladder" }

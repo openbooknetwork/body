@@ -1,0 +1,6 @@
+# tr strings for the image "autonomic-plan-gray-f054e9".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Plan of the sympathetic (red) and parasympathetic (blue) outflow from the brainstem and cord to the organs, Gray's Anatomy, 20th edition, 1918, figure 839
+image.caption: "Beyin sapından ve omurilikten organlara sempatik (kırmızı) ve parasempatik (mavi) çıkışın planı, Gray’s Anatomy, 20. baskı, 1918, şekil 839"

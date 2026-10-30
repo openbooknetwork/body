@@ -1,0 +1,9 @@
+name: "Cerebellum"
+latin: "Cerebellum"
+role: "The little brain under the back of the hemispheres, which times and corrects movement"
+source: https://en.wikipedia.org/wiki/Cerebellum
+images: [cerebellum-section-gray-ef35be]
+facts:
+  - { label: "Weight", value: "About a tenth of the brain" }
+  - { label: "Neurons", value: "About 69 billion, four fifths of the brain's total" }
+  - { label: "Connections", value: "Three pairs of peduncles to the midbrain, pons and medulla" }

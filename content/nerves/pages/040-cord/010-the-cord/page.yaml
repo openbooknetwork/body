@@ -1,0 +1,14 @@
+title: "The cord and its nerves"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the gross anatomy of the spinal cord and spinal nerves.", "Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the internal organization of the spinal cord."]
+beden:
+  camera: back
+  look: spinal-cord
+  layers: [skin, skeleton, cord, roots, brainstem, cortex, cerebellum, muscles]
+  parts: { highlight: [spinal-cord, posterior-roots, spinal-ganglia, anterior-roots, diaphragm], ghost: [skin, skeleton, skull, vertebral-column], hide: [quadriceps] }
+  structure: spinal-cord
+  labels:
+    - { part: cervical-vertebrae, text: "8 cervical" }
+    - { part: thoracic-vertebrae, text: "12 thoracic" }
+    - { part: third-lumbar-vertebra, text: "5 lumbar" }
+    - { part: sacrum, text: "5 sacral" }
+    - { part: diaphragm, text: "diaphragm" }

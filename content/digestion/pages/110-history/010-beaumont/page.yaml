@@ -1,0 +1,14 @@
+title: "A window into the stomach"
+date: "1822 to 1833"
+sources: ["William Beaumont, Experiments and Observations on the Gastric Juice, and the Physiology of Digestion (Plattsburgh: F. P. Allen, 1833)."]
+beden:
+  camera: right
+  look: stomach
+  distance: 0.6
+  layers: [skin, skeleton, tract]
+  parts:
+    highlight: [stomach]
+    ghost: [skin, skeleton]
+    hide: [jejunum, ileum, cecum, appendix, ascending-colon, transverse-colon, descending-colon, rectum]
+  labels:
+    - { part: stomach, text: "stomach" }

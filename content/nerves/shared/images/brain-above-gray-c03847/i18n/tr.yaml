@@ -1,0 +1,6 @@
+# tr strings for the image "brain-above-gray-c03847".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The brain from above, with the longitudinal fissure between the two hemispheres marked in red, from Gray's Anatomy
+image.caption: "Yukarıdan beyin, iki yarıküre arasındaki uzunlamasına yarık kırmızıyla işaretli, Gray’s Anatomy’den"

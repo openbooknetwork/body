@@ -1,0 +1,6 @@
+# tr strings for the image "abdominal-aorta-gray-c04289".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The abdominal aorta and the inferior vena cava, with the kidneys and the fork of the aorta into the common iliac arteries, Gray's Anatomy, 1918, figure 531
+image.caption: "Abdominal aort ve alt ana toplardamar, böbrekler ve aortun ana iliyak arterlere ayrıldığı çatal, Gray’s Anatomy, 1918, şekil 531"

@@ -1,0 +1,6 @@
+# tr strings for the image "precentral-gyrus-gray-9c9731".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The precentral gyrus, coloured, in front of the central sulcus of the left hemisphere, after Gray's Anatomy, 20th edition, 1918, figure 726
+image.caption: "Sol yarıkürede merkez oluğunun önündeki presantral girus, boyalı, Gray’s Anatomy, 20. baskı, 1918, şekil 726’dan"

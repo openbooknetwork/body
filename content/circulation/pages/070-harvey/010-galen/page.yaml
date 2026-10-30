@@ -1,0 +1,17 @@
+title: "Galen"
+date: "2nd century"
+sources: ["Galen, On the Usefulness of the Parts of the Body, trans. Margaret Tallmadge May (Ithaca: Cornell University Press, 1968).", "David Furley and J. S. Wilkie, Galen on Respiration and the Arteries (Princeton: Princeton University Press, 1984)."]
+beden:
+  camera: front
+  look: [0.0, 1.17, 0.12]
+  distance: 0.6
+  layers: [organs, heart, chambers]
+  section: { plane: coronal, at: 0.13, flip: true }
+  parts:
+    highlight: [liver, right-ventricle, left-ventricle]
+    ghost: [heart]
+    hide: [brain, right-kidney, left-kidney, spleen]
+  labels:
+    - { part: liver, text: "liver" }
+    - { part: right-ventricle, text: "right ventricle" }
+    - { part: left-ventricle, text: "left ventricle" }

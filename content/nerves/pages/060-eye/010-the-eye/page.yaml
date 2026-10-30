@@ -1,0 +1,15 @@
+title: "The eye"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the eye.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 50 and 51."]
+beden:
+  camera: left-side
+  look: [0.029, 1.518, 0.150]   # the centre of the left eyeball
+  distance: 0.09
+  layers: [eyes, orbit, nerves]
+  section: { plane: sagittal, at: 0.029, flip: true }
+  parts: { highlight: [cornea, iris, lens, retina] }
+  structure: eye
+  labels:
+    - { part: cornea, text: "cornea" }
+    - { part: iris, text: "iris" }
+    - { part: lens, text: "lens" }
+    - { part: retina, text: "retina" }

@@ -1,0 +1,6 @@
+# tr strings for the image "eyeball-section-gray-540997".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Horizontal section of the eyeball: the retina lines its back, and the optic nerve leaves it, Gray's Anatomy, 20th edition, 1918, figure 869
+image.caption: "Göz küresinin yatay kesiti: retina arka yüzünü döşer, görme siniri oradan çıkar, Gray’s Anatomy, 20. baskı, 1918, şekil 869"

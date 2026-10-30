@@ -1,0 +1,29 @@
+# tr strings for the structure "lymph-node".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Lymph node
+structure.name: "Lenf düğümü"
+
+# A filter on a lymph vessel, where the lymph passes macrophages and lymphocytes on its way to the blood
+structure.role: "Bir lenf damarı üzerindeki süzgeç, lenf kana giderken burada makrofajların ve lenfositlerin yanından geçer"
+
+# Size
+structure.facts.0.label: "Boyut"
+
+# Number
+structure.facts.1.label: "Sayı"
+
+# Layers
+structure.facts.2.label: "Katmanlar"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# A few millimetres to about 2 cm
+structure.facts.0.value: "Birkaç milimetreden yaklaşık 2 cm’ye"
+
+# Several hundred in an adult
+structure.facts.1.value: "Erişkinde birkaç yüz"
+
+# Cortex with B cell follicles, a T cell zone, the medulla
+structure.facts.2.value: "B hücresi folikülleriyle korteks, T hücresi bölgesi, medulla"

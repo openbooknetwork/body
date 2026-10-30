@@ -1,0 +1,6 @@
+# tr strings for the image "lymphatic-organs-114500".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The lymphatic system with its organs, the adenoid, tonsil, thymus, spleen and bone marrow, and enlarged, the lymph capillaries in a tissue and a lymph node, OpenStax, Anatomy and Physiology
+image.caption: "Lenf sistemi ve organları, geniz eti, bademcik, timus, dalak ve kemik iliği, büyütülmüş olarak da bir dokudaki lenf kılcalları ve bir lenf düğümü, OpenStax, Anatomy and Physiology"

@@ -1,0 +1,16 @@
+title: "The muscle pump"
+sources: ["Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 15 and 16.", "Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the leg."]
+beden:
+  camera: back
+  look: [0, 0.35, 0.07]
+  distance: 1.1
+  layers: [veins, muscles, skeleton]
+  parts:
+    highlight: [posterior-tibial-veins, popliteal-veins, femoral-veins]
+    ghost: [calf-muscles, skeleton]
+    hide: [superficial-veins]
+    flow: [posterior-tibial-veins, popliteal-veins, femoral-veins, external-iliac-veins]
+  labels:
+    - { part: popliteal-veins, text: "popliteal vein" }
+    - { part: posterior-tibial-veins, text: "posterior tibial veins" }
+    - { part: calf-muscles, text: "calf muscles" }

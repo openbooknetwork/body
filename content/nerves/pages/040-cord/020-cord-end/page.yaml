@@ -1,0 +1,14 @@
+title: "Where the cord ends"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the gross anatomy of the spinal cord and spinal nerves.", "Heinrich Quincke, Die Lumbalpunction des Hydrocephalus, Berliner klinische Wochenschrift 28 (1891): 929-933 and 965-968."]
+beden:
+  camera: left-side
+  look: lumbar-vertebrae
+  distance: 0.6
+  layers: [skin, skeleton, cord, roots]
+  parts: { highlight: [spinal-cord, cauda-equina, first-lumbar-vertebra, second-lumbar-vertebra, third-lumbar-vertebra, fourth-lumbar-vertebra], ghost: [skin, skeleton] }
+  labels:
+    - { part: first-lumbar-vertebra, text: "L1" }
+    - { part: second-lumbar-vertebra, text: "L2" }
+    - { part: third-lumbar-vertebra, text: "L3" }
+    - { part: fourth-lumbar-vertebra, text: "L4" }
+    - { part: cauda-equina, text: "cauda equina" }

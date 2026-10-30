@@ -4,8 +4,13 @@ Working notes for coding agents in this repository. `README.md` covers the proje
 
 ## Story size
 
-A story is one organ or one system. A page earns its place when the model changes on it: a layer is peeled, a
-structure is lit, the camera turns, or the clip runs to a new phase. Five to twelve pages is the usual size.
+A story is one organ or one system, at least 20 pages long. A page earns its place when the model changes on it: a
+layer is peeled, a structure is lit, the camera turns, or the clip runs to a new phase.
+
+## A page's text
+
+The reader takes a page in bite-sized chunks: two or three paragraphs of up to about 60 words each. Each page shows
+at least one image with `@image <id>`, two where a second one shows something the text describes.
 
 ## Checking a story
 

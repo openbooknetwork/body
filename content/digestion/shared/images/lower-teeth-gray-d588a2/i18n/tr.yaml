@@ -1,0 +1,6 @@
+# tr strings for the image "lower-teeth-gray-d588a2".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The permanent teeth of the right half of the lower jaw seen from above: two incisors, a canine, two premolars and three molars, Gray's Anatomy, 1918, figure 997
+image.caption: "Alt çenenin sağ yarısındaki kalıcı dişler, yukarıdan: iki kesici, bir köpek dişi, iki küçük azı ve üç büyük azı, Gray’s Anatomy, 1918, şekil 997"

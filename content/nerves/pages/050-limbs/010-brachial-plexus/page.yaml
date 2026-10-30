@@ -1,0 +1,16 @@
+title: "The brachial plexus"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), section on the pectoral girdle and upper limb.", "Wilhelm Erb, Über eine eigenthümliche Localisation von Lähmungen im Plexus brachialis, Verhandlungen des naturhistorisch-medicinischen Vereins zu Heidelberg (1874)."]
+beden:
+  camera: front
+  look: brachial-plexus
+  distance: 0.5
+  layers: [skin, skeleton, cord, roots, limb-nerves]
+  parts:
+    highlight: [brachial-plexus-roots, brachial-plexus-trunks, brachial-plexus-divisions, brachial-plexus-cords]
+    ghost: [skin, skeleton]
+    hide: [intercostal-nerves]
+  labels:
+    - { part: brachial-plexus-roots, text: "roots" }
+    - { part: brachial-plexus-trunks, text: "trunks" }
+    - { part: brachial-plexus-divisions, text: "divisions" }
+    - { part: brachial-plexus-cords, text: "posterior cord" }

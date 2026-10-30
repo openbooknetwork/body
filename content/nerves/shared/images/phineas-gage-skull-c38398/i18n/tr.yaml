@@ -1,0 +1,6 @@
+# tr strings for the image "phineas-gage-skull-c38398".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The path of the iron rod through the skull of Phineas Gage, from John Harlow's report of 1868
+image.caption: "Demir çubuğun Phineas Gage’in kafatasından geçtiği yol, John Harlow’un 1868 raporundan"

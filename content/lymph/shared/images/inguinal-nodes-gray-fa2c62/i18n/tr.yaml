@@ -1,0 +1,6 @@
+# tr strings for the image "inguinal-nodes-gray-fa2c62".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The superficial lymph vessels of the leg climbing beside the great saphenous vein to the superficial inguinal nodes, Gray's Anatomy, 1918, figure 610
+image.caption: "Bacağın büyük safen venin yanından yüzeysel kasık düğümlerine tırmanan yüzeysel lenf damarları, Gray’s Anatomy, 1918, şekil 610"

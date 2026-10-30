@@ -1,0 +1,16 @@
+title: "The chest"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapters on the pleura, lungs, trachea and bronchi and on the mediastinum.", "Henry Gray, Anatomy of the Human Body, 20th ed. (1918), section VIII, The Lymphatics of the Thorax."]
+beden:
+  camera: front
+  look: airway
+  distance: 0.5
+  layers: [lungs, airway, heart, skeleton]
+  parts:
+    show: [lung-nodes, chest-nodes]
+    highlight: [lung-nodes, chest-nodes, trachea, right-main-bronchus, left-main-bronchus]
+    ghost: [right-lung, left-lung, heart, skeleton]
+  labels:
+    - { part: lung-nodes, text: "tracheobronchial nodes" }
+    - { part: trachea, text: "trachea" }
+    - { part: right-main-bronchus, text: "right main bronchus" }
+    - { part: left-main-bronchus, text: "left main bronchus" }

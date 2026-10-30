@@ -1,0 +1,467 @@
+# tr strings for the model "body".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# skin
+parts.skin: "deri"
+
+# skull
+parts.skull: "kafatası"
+
+# cervical vertebrae
+parts.cervical-vertebrae: "boyun omurları"
+
+# thoracic vertebrae
+parts.thoracic-vertebrae: "göğüs omurları"
+
+# first lumbar vertebra
+parts.first-lumbar-vertebra: "birinci bel omuru"
+
+# second lumbar vertebra
+parts.second-lumbar-vertebra: "ikinci bel omuru"
+
+# third lumbar vertebra
+parts.third-lumbar-vertebra: "üçüncü bel omuru"
+
+# fourth lumbar vertebra
+parts.fourth-lumbar-vertebra: "dördüncü bel omuru"
+
+# fifth lumbar vertebra
+parts.fifth-lumbar-vertebra: "beşinci bel omuru"
+
+# sacrum
+parts.sacrum: "sakrum"
+
+# patellae
+parts.patellae: "diz kapakları"
+
+# skeleton
+parts.skeleton: "iskelet"
+
+# quadriceps
+parts.quadriceps: "kuadriseps"
+
+# diaphragm
+parts.diaphragm: "diyafram"
+
+# heart
+parts.heart: "kalp"
+
+# liver
+parts.liver: "karaciğer"
+
+# stomach
+parts.stomach: "mide"
+
+# urinary bladder
+parts.urinary-bladder: "idrar torbası"
+
+# adrenal glands
+parts.adrenal-glands: "böbreküstü bezleri"
+
+# left frontal gyri
+parts.left-frontal-gyri: "sol üst ve orta frontal girus"
+
+# right frontal gyri
+parts.right-frontal-gyri: "sağ üst ve orta frontal girus"
+
+# left inferior frontal gyrus
+parts.left-inferior-frontal-gyrus: "sol alt frontal girus"
+
+# right inferior frontal gyrus
+parts.right-inferior-frontal-gyrus: "sağ alt frontal girus"
+
+# left precentral gyrus
+parts.left-precentral-gyrus: "sol presantral girus"
+
+# right precentral gyrus
+parts.right-precentral-gyrus: "sağ presantral girus"
+
+# left postcentral gyrus
+parts.left-postcentral-gyrus: "sol postsantral girus"
+
+# right postcentral gyrus
+parts.right-postcentral-gyrus: "sağ postsantral girus"
+
+# left parietal gyri
+parts.left-parietal-gyri: "sol parietal giruslar"
+
+# right parietal gyri
+parts.right-parietal-gyri: "sağ parietal giruslar"
+
+# left temporal gyri
+parts.left-temporal-gyri: "sol temporal giruslar"
+
+# right temporal gyri
+parts.right-temporal-gyri: "sağ temporal giruslar"
+
+# left posterior superior temporal gyrus
+parts.left-posterior-superior-temporal-gyrus: "sol üst temporal girusun arka kısmı"
+
+# right posterior superior temporal gyrus
+parts.right-posterior-superior-temporal-gyrus: "sağ üst temporal girusun arka kısmı"
+
+# left occipital lobe
+parts.left-occipital-lobe: "sol oksipital lob"
+
+# right occipital lobe
+parts.right-occipital-lobe: "sağ oksipital lob"
+
+# left insula
+parts.left-insula: "sol insula"
+
+# right insula
+parts.right-insula: "sağ insula"
+
+# left cingulate gyrus
+parts.left-cingulate-gyrus: "sol singulat girus"
+
+# right cingulate gyrus
+parts.right-cingulate-gyrus: "sağ singulat girus"
+
+# left white matter
+parts.left-white-matter: "sol yarıkürenin ak maddesi"
+
+# right white matter
+parts.right-white-matter: "sağ yarıkürenin ak maddesi"
+
+# internal capsules
+parts.internal-capsules: "iç kapsüller"
+
+# corpus callosum
+parts.corpus-callosum: "korpus kallozum"
+
+# fornix
+parts.fornix: "forniks"
+
+# caudate nuclei
+parts.caudate-nuclei: "kaudat çekirdekler"
+
+# putamen
+parts.putamen: "putamen"
+
+# globus pallidus
+parts.globus-pallidus: "globus pallidus"
+
+# thalami
+parts.thalami: "talamuslar"
+
+# hypothalamus
+parts.hypothalamus: "hipotalamus"
+
+# pituitary gland
+parts.pituitary-gland: "hipofiz"
+
+# pineal gland
+parts.pineal-gland: "epifiz"
+
+# hippocampi
+parts.hippocampi: "hipokampuslar"
+
+# amygdalae
+parts.amygdalae: "amigdalalar"
+
+# lateral ventricles
+parts.lateral-ventricles: "yan ventriküller"
+
+# third ventricle
+parts.third-ventricle: "üçüncü ventrikül"
+
+# cerebral aqueduct
+parts.cerebral-aqueduct: "beyin su kemeri"
+
+# fourth ventricle
+parts.fourth-ventricle: "dördüncü ventrikül"
+
+# choroid plexus
+parts.choroid-plexus: "koroid pleksus"
+
+# midbrain
+parts.midbrain: "orta beyin"
+
+# cerebral peduncles
+parts.cerebral-peduncles: "serebral pedinküller"
+
+# pons
+parts.pons: "pons"
+
+# medulla oblongata
+parts.medulla-oblongata: "medulla oblongata"
+
+# cerebellum
+parts.cerebellum: "beyincik"
+
+# sclera
+parts.sclera: "sklera"
+
+# choroid
+parts.choroid: "koroid"
+
+# retina
+parts.retina: "retina"
+
+# cornea
+parts.cornea: "kornea"
+
+# iris
+parts.iris: "iris"
+
+# ciliary body
+parts.ciliary-body: "siliyer cisim"
+
+# lens
+parts.lens: "mercek"
+
+# vitreous body
+parts.vitreous-body: "camsı cisim"
+
+# oculomotor muscles
+parts.oculomotor-muscles: "göz hareket sinirinin kasları"
+
+# superior oblique muscles
+parts.superior-oblique-muscles: "üst eğik kaslar"
+
+# lateral rectus muscles
+parts.lateral-rectus-muscles: "dış düz kaslar"
+
+# lacrimal glands
+parts.lacrimal-glands: "gözyaşı bezleri"
+
+# optic nerves
+parts.optic-nerves: "görme sinirleri"
+
+# optic chiasm
+parts.optic-chiasm: "optik kiyazma"
+
+# optic tracts
+parts.optic-tracts: "optik yollar"
+
+# lateral geniculate bodies
+parts.lateral-geniculate-bodies: "lateral genikulat cisimler"
+
+# oculomotor nerves
+parts.oculomotor-nerves: "göz hareket sinirleri"
+
+# trochlear nerves
+parts.trochlear-nerves: "makara sinirleri"
+
+# ophthalmic nerves
+parts.ophthalmic-nerves: "oftalmik sinirler"
+
+# ciliary ganglia
+parts.ciliary-ganglia: "siliyer gangliyonlar"
+
+# short ciliary nerves
+parts.short-ciliary-nerves: "kısa siliyer sinirler"
+
+# spinal cord
+parts.spinal-cord: "omurilik"
+
+# spinal grey matter
+parts.spinal-grey-matter: "omuriliğin boz maddesi"
+
+# corticospinal tracts
+parts.corticospinal-tracts: "kortikospinal yollar"
+
+# spinal dura
+parts.spinal-dura: "omurilik durası"
+
+# anterior roots
+parts.anterior-roots: "ön kökler"
+
+# posterior roots
+parts.posterior-roots: "arka kökler"
+
+# spinal ganglia
+parts.spinal-ganglia: "spinal gangliyonlar"
+
+# cauda equina
+parts.cauda-equina: "kauda ekina"
+
+# brachial plexus roots
+parts.brachial-plexus-roots: "brakiyal pleksus kökleri"
+
+# brachial plexus trunks
+parts.brachial-plexus-trunks: "brakiyal pleksus gövdeleri"
+
+# brachial plexus divisions
+parts.brachial-plexus-divisions: "brakiyal pleksus dalları"
+
+# brachial plexus cords
+parts.brachial-plexus-cords: "brakiyal pleksusun arka kordonu"
+
+# musculocutaneous nerves
+parts.musculocutaneous-nerves: "muskulokutan sinirler"
+
+# axillary nerves
+parts.axillary-nerves: "aksiller sinirler"
+
+# radial nerves
+parts.radial-nerves: "radyal sinirler"
+
+# median nerves
+parts.median-nerves: "median sinirler"
+
+# ulnar nerves
+parts.ulnar-nerves: "ulnar sinirler"
+
+# intercostal nerves
+parts.intercostal-nerves: "kaburgalar arası sinirler"
+
+# femoral nerves
+parts.femoral-nerves: "femoral sinirler"
+
+# sciatic nerves
+parts.sciatic-nerves: "siyatik sinirler"
+
+# tibial nerves
+parts.tibial-nerves: "tibial sinirler"
+
+# common fibular nerves
+parts.common-fibular-nerves: "ortak fibular sinirler"
+
+# vagus nerves
+parts.vagus-nerves: "vagus sinirleri"
+
+# sympathetic trunks
+parts.sympathetic-trunks: "sempatik zincirler"
+
+# olfactory nerves
+parts.olfactory-nerves: "koku sinirleri"
+
+# trigeminal nerves
+parts.trigeminal-nerves: "üçüz sinirler"
+
+# maxillary nerves
+parts.maxillary-nerves: "maksiller sinirler"
+
+# mandibular nerves
+parts.mandibular-nerves: "mandibular sinirler"
+
+# abducens nerves
+parts.abducens-nerves: "uzaklaştırıcı sinirler"
+
+# facial nerves
+parts.facial-nerves: "yüz sinirleri"
+
+# vestibulocochlear nerves
+parts.vestibulocochlear-nerves: "işitme ve denge sinirleri"
+
+# glossopharyngeal nerves
+parts.glossopharyngeal-nerves: "dil-yutak sinirleri"
+
+# accessory nerves
+parts.accessory-nerves: "aksesuar sinirler"
+
+# hypoglossal nerves
+parts.hypoglossal-nerves: "dil altı sinirleri"
+
+# lumbar vertebrae
+parts.lumbar-vertebrae: "bel omurları"
+
+# vertebral column
+parts.vertebral-column: "omurga"
+
+# left frontal lobe
+parts.left-frontal-lobe: "sol frontal lob"
+
+# right frontal lobe
+parts.right-frontal-lobe: "sağ frontal lob"
+
+# left parietal lobe
+parts.left-parietal-lobe: "sol parietal lob"
+
+# right parietal lobe
+parts.right-parietal-lobe: "sağ parietal lob"
+
+# left temporal lobe
+parts.left-temporal-lobe: "sol temporal lob"
+
+# right temporal lobe
+parts.right-temporal-lobe: "sağ temporal lob"
+
+# frontal lobes
+parts.frontal-lobes: "frontal loblar"
+
+# parietal lobes
+parts.parietal-lobes: "parietal loblar"
+
+# temporal lobes
+parts.temporal-lobes: "temporal loblar"
+
+# occipital lobes
+parts.occipital-lobes: "oksipital loblar"
+
+# precentral gyri
+parts.precentral-gyri: "presantral giruslar"
+
+# postcentral gyri
+parts.postcentral-gyri: "postsantral giruslar"
+
+# insulae
+parts.insulae: "insulalar"
+
+# cingulate gyri
+parts.cingulate-gyri: "singulat giruslar"
+
+# left hemisphere
+parts.left-hemisphere: "sol yarıküre"
+
+# right hemisphere
+parts.right-hemisphere: "sağ yarıküre"
+
+# cerebral cortex
+parts.cerebral-cortex: "beyin korteksi"
+
+# white matter
+parts.white-matter: "ak madde"
+
+# basal ganglia
+parts.basal-ganglia: "bazal çekirdekler"
+
+# ventricles
+parts.ventricles: "ventriküller"
+
+# brainstem
+parts.brainstem: "beyin sapı"
+
+# brain
+parts.brain: "beyin"
+
+# eyeballs
+parts.eyeballs: "göz küreleri"
+
+# eye muscles
+parts.eye-muscles: "göz kasları"
+
+# visual pathway
+parts.visual-pathway: "görme yolu"
+
+# orbit nerves
+parts.orbit-nerves: "göz çukuru sinirleri"
+
+# motor pathway
+parts.motor-pathway: "hareket yolu"
+
+# spinal roots
+parts.spinal-roots: "omurilik kökleri"
+
+# brachial plexus
+parts.brachial-plexus: "brakiyal pleksus"
+
+# arm nerves
+parts.arm-nerves: "kol sinirleri"
+
+# leg nerves
+parts.leg-nerves: "bacak sinirleri"
+
+# peripheral nerves
+parts.peripheral-nerves: "çevresel sinirler"
+
+# trigeminal
+parts.trigeminal: "üçüz sinir"
+
+# cranial nerves
+parts.cranial-nerves: "kafa sinirleri"

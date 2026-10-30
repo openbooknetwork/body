@@ -1,13 +1,15 @@
 title: "Through the lungs"
-sources: ["Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 38.", "Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), ch. 56."]
+sources: ["Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 39.", "Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapters on the heart and the lungs."]
 beden:
   camera: front
   look: lungs
-  layers: [heart, chambers, pulmonary, lungs]
+  layers: [heart, chambers, pulmonary, lungs, airway]
   parts:
-    highlight: [pulmonary-trunk, right-pulmonary-artery, left-pulmonary-artery, pulmonary-veins]
-    ghost: [heart, right-lung, left-lung]
-    flow: [right-atrium, right-ventricle, pulmonary-trunk, right-pulmonary-artery, pulmonary-veins, left-atrium]
+    highlight: [pulmonary-trunk, right-pulmonary-artery, left-pulmonary-artery]
+    ghost: [heart, right-lung, left-lung, trachea, bronchi]
+    hide: [pulmonary-veins]
+    flow: [right-atrium, right-ventricle, pulmonary-trunk, right-pulmonary-artery, left-pulmonary-artery]
   labels:
     - { part: pulmonary-trunk, text: "pulmonary trunk" }
-    - { part: pulmonary-veins, text: "pulmonary veins" }
+    - { part: right-pulmonary-artery, text: "right pulmonary artery" }
+    - { part: left-pulmonary-artery, text: "left pulmonary artery" }

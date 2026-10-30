@@ -1,0 +1,13 @@
+title: "The tonsils"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the pharynx.", "Henry Gray, Anatomy of the Human Body, 20th ed. (1918), section XI, The Pharynx."]
+beden:
+  camera: right-side
+  look: palatine-tonsils
+  distance: 0.3
+  section: { plane: sagittal, at: 0 }
+  layers: [skin, skeleton, mouth]
+  parts: { show: [palatine-tonsils], highlight: [palatine-tonsils, tongue, soft-palate] }
+  labels:
+    - { part: palatine-tonsils, text: "palatine tonsil" }
+    - { part: soft-palate, text: "soft palate" }
+    - { part: tongue, text: "tongue" }

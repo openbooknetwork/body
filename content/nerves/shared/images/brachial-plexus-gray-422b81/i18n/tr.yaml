@@ -1,0 +1,6 @@
+# tr strings for the image "brachial-plexus-gray-422b81".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Plan of the brachial plexus: the fifth cervical to first thoracic nerves join into lateral, posterior and medial cords that end in the musculocutaneous, axillary, radial, median and ulnar nerves, Gray's Anatomy, 20th edition, 1918, figure 807
+image.caption: "Brakiyal pleksusun planı: beşinci boyun sinirinden birinci göğüs sinirine kadar olan sinirler lateral, arka ve medial kordonlarda birleşir, bunlar muskulokutan, aksiller, radyal, median ve ulnar sinirlerde sona erer, Gray’s Anatomy, 20. baskı, 1918, şekil 807"

@@ -1,0 +1,6 @@
+# tr strings for the image "barium-enema-426a74".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The large intestine on an X-ray, outlined by barium and air, with its pouches visible
+image.caption: "Baryum ve havayla belirginleşen kalın bağırsağın röntgeni, cepleri görünür"

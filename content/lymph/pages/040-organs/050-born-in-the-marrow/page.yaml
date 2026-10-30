@@ -1,0 +1,12 @@
+title: "Born in the marrow"
+sources: ["Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 33 and 35.", "Bruce Glick, T. S. Chang and R. George Jaap, The bursa of Fabricius and antibody production, Poultry Science 35 (1956), 224-225."]
+beden:
+  camera: oblique
+  look: skin
+  distance: 2.4
+  layers: [skin, skeleton, marrow]
+  parts: { highlight: [marrow-bones], ghost: [skin, skeleton] }
+  labels:
+    - { part: sternum, text: "sternum" }
+    - { part: pelvic-girdle, text: "pelvis" }
+    - { part: femurs, text: "femur" }

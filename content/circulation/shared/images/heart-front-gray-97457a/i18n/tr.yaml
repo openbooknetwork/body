@@ -1,4 +1,6 @@
 # tr strings for the image "heart-front-gray-97457a".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
 
 # The heart and great vessels from the front, Gray's Anatomy, 20th edition, 1918, figure 490
 image.caption: "Kalp ve büyük damarlar önden, Gray’s Anatomy, 20. baskı, 1918, şekil 490"

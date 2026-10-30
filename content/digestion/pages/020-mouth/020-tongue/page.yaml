@@ -1,0 +1,11 @@
+title: "The tongue"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the mouth.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 54 and 64."]
+beden:
+  camera: side
+  look: tongue
+  distance: 0.35
+  layers: [skin, skeleton, mouth, teeth, pharynx]
+  section: { plane: sagittal, at: 0 }
+  parts: { highlight: [tongue], ghost: [skin, skeleton] }
+  labels:
+    - { part: tongue, text: "tongue" }

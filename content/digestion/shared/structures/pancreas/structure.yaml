@@ -1,0 +1,9 @@
+name: "Pancreas"
+latin: "Pancreas"
+role: "A gland behind the stomach that sends digestive juice into the duodenum and insulin and glucagon into the blood"
+source: https://en.wikipedia.org/wiki/Pancreas
+images: [pancreas-blausen-99805e]
+facts:
+  - { label: "Length", value: "12 to 15 cm" }
+  - { label: "Juice", value: "About 1 litre a day, pH about 8" }
+  - { label: "Islets", value: "1 to 2 million, one or two percent of its mass" }

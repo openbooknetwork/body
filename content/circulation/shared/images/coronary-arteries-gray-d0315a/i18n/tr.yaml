@@ -1,0 +1,6 @@
+# tr strings for the image "coronary-arteries-gray-d0315a".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The heart from the front with the right coronary artery and the anterior descending branch of the left coronary artery, Gray's Anatomy, 1918, figure 492
+image.caption: "Önden kalp: sağ koroner arter ve sol koroner arterin ön inen dalı, Gray’s Anatomy, 1918, şekil 492"

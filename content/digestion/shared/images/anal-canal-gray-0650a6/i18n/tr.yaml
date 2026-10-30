@@ -1,0 +1,6 @@
+# tr strings for the image "anal-canal-gray-0650a6".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The lining of the lower rectum and anal canal, with the internal sphincter in its wall, Gray's Anatomy, 1918, figure 1080
+image.caption: "Rektumun alt bölümünün ve anal kanalın iç yüzü, duvarındaki iç sfinkterle, Gray’s Anatomy, 1918, şekil 1080"

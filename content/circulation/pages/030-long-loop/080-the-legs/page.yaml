@@ -1,0 +1,16 @@
+title: "The thigh"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapters on the true pelvis and on the pelvic girdle, gluteal region and thigh."]
+beden:
+  camera: front
+  look: thigh-arteries
+  layers: [aorta, arteries, skeleton]
+  parts:
+    highlight: [common-iliac-arteries, internal-iliac-arteries, external-iliac-arteries, femoral-arteries, deep-femoral-arteries]
+    ghost: [skeleton]
+    hide: [arch-branches, neck-arteries, internal-carotid-arteries, arm-arteries, gut-arteries, renal-arteries, intrarenal-arteries]
+    flow: [abdominal-aorta, common-iliac-arteries, external-iliac-arteries, femoral-arteries, popliteal-arteries]
+  labels:
+    - { part: common-iliac-arteries, text: "common iliac" }
+    - { part: external-iliac-arteries, text: "external iliac" }
+    - { part: femoral-arteries, text: "femoral" }
+    - { part: deep-femoral-arteries, text: "deep femoral" }

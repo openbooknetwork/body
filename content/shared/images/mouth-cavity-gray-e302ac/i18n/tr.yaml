@@ -1,0 +1,6 @@
+# tr strings for the image "mouth-cavity-gray-e302ac".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The mouth opened wide, with the tongue pulled forward under the soft palate and uvula, and the palatine tonsils at the sides of the throat, Gray's Anatomy, 1918, figure 1014
+image.caption: "Sonuna kadar açılmış ağız, yumuşak damak ve küçük dilin altında öne çekilmiş dil ve boğazın yanlarında damak bademcikleri, Gray’s Anatomy, 1918, şekil 1014"

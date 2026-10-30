@@ -1,0 +1,12 @@
+title: "The basal ganglia"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the basal ganglia.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 57.", "James Parkinson, An Essay on the Shaking Palsy (London, 1817)."]
+beden:
+  camera: oblique
+  look: basal-ganglia
+  distance: 0.3
+  layers: [deep, cortex, brainstem]
+  parts: { highlight: [caudate-nuclei, putamen, globus-pallidus], ghost: [cerebral-cortex] }
+  labels:
+    - { part: caudate-nuclei, text: "caudate nucleus" }
+    - { part: putamen, text: "putamen" }
+    - { part: globus-pallidus, text: "globus pallidus" }

@@ -1,0 +1,10 @@
+name: "Spleen"
+latin: "Splen"
+role: "The largest lymphoid organ, a filter on the bloodstream under the left ribs"
+source: https://en.wikipedia.org/wiki/Spleen
+images: [spleen-gray-6ae2c7]
+facts:
+  - { label: "Weight", value: "About 150 g in an adult" }
+  - { label: "Size", value: "About 12 by 7 by 3 cm" }
+  - { label: "Position", value: "Behind the 9th to 11th left ribs" }
+  - { label: "Vessels", value: "Splenic artery in, splenic vein out to the portal vein" }

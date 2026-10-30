@@ -1,0 +1,6 @@
+# tr strings for the image "gallbladder-ducts-gray-c7a78e".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The gallbladder and bile ducts laid open: the cystic duct with its spiral folds, the hepatic duct and the common bile duct, Gray's Anatomy, 1918, figure 1095
+image.caption: "Açılmış safra kesesi ve safra yolları: sarmal kıvrımlı sistik kanal, hepatik kanal ve ana safra kanalı, Gray’s Anatomy, 1918, şekil 1095"

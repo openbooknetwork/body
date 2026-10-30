@@ -1,0 +1,16 @@
+title: "Pecquet's cistern"
+date: "1651"
+sources: ["Jean Pecquet, Experimenta nova anatomica (Paris, 1651)."]
+beden:
+  camera: oblique
+  look: great-veins
+  distance: 0.9
+  layers: [ducts, veins, arteries, organs, heart, skeleton]
+  parts:
+    highlight: [cisterna-chyli, thoracic-duct, left-subclavian-vein, superior-vena-cava]
+    ghost: [liver, heart, skeleton]
+    flow: [cisterna-chyli, thoracic-duct, left-subclavian-vein, left-brachiocephalic-vein, superior-vena-cava, heart]
+  labels:
+    - { part: cisterna-chyli, text: "receptacle of the chyle" }
+    - { part: left-subclavian-vein, text: "left subclavian vein" }
+    - { part: superior-vena-cava, text: "superior vena cava" }

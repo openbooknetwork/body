@@ -1,0 +1,16 @@
+title: "Pavlov's dogs"
+date: "1904"
+sources: ["Ivan Pavlov, The Work of the Digestive Glands, translated by W. H. Thompson (London: Charles Griffin, 1902).", "Ivan Pavlov, Physiology of digestion, Nobel lecture, 12 December 1904.", "Daniel Todes, Pavlov's Physiology Factory (Baltimore: Johns Hopkins University Press, 2002).", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 65."]
+beden:
+  camera: left
+  look: esophagus
+  distance: 0.9
+  layers: [skin, skeleton, salivary, tract]
+  parts:
+    highlight: [salivary-glands, esophagus, stomach]
+    ghost: [skin, skeleton]
+    hide: [jejunum, ileum, cecum, appendix, ascending-colon, transverse-colon, descending-colon, rectum]
+  labels:
+    - { part: submandibular-glands, text: "salivary glands" }
+    - { part: esophagus, text: "esophagus" }
+    - { part: stomach, text: "stomach" }

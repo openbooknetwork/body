@@ -1,3 +1,9 @@
-Kan sağ karıncıktan [pulmoner trunkusla](@pulmonary-trunk) çıkar; trunkus beş santimetre sonra her akciğere bir tane olmak üzere [sağ](@right-pulmonary-artery) ve [sol pulmoner artere](@left-pulmonary-artery) ayrılır. Bunlar oksijeni düşük kan taşıyan tek arterlerdir. Akciğerlerin içinde hava yollarıyla birlikte dallanarak 300 milyon hava keseciğini saran kılcallara inerler; kan burada binde bir milimetre kalınlığındaki bir duvardan karbondioksit verir ve oksijen alır.
+Kan sağ karıncıktan [pulmoner trunkusla](@pulmonary-trunk) çıkar. Trunkus yaklaşık beş santimetre sonra her akciğere bir tane olmak üzere [sağ](@right-pulmonary-artery) ve [sol pulmoner artere](@left-pulmonary-artery) ayrılır. Yetişkinde oksijeni düşük kan taşıyan tek arterler bunlardır.
 
-Kılcallar her akciğerden ikişer olmak üzere dört [pulmoner vende](@pulmonary-veins) toplanır, bunlar sol kulakçığa açılır. Kısa döngü budur. Akciğerler yakın ve damarları geniştir, bu yüzden sağ karıncık bu döngüyü solun beden için gerek duyduğu basıncın beşte biriyle sürer.
+@image chest-section-gray-f502ac
+
+Her akciğerin içinde arterler [hava yollarıyla](@bronchi) birlikte dallanır, her bronşun yanında bir arter bulunur. Dallar, sayısı 300 milyon kadar olan hava keseciklerinin, alveollerin duvarlarındaki kılcallara kadar iner.
+
+@image bronchiole-alveoli-f3da4c
+
+Akciğerler kalbe yakındır ve damarları geniştir, bu yüzden sağ karıncık bu döngüyü düşük bir basınçla sürer: her atışın tepesinde yaklaşık 25 milimetre cıva, sol karıncığın beden için gereksindiğinin beşte biri.

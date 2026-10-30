@@ -1,0 +1,14 @@
+title: "Aselli's milky veins"
+date: "1622"
+sources: ["Gaspare Aselli, De lactibus sive lacteis venis (Milan, 1627)."]
+beden:
+  camera: front
+  look: mesentery
+  distance: 0.8
+  layers: [gut, mesentery, organs, skeleton]
+  parts:
+    highlight: [mesentery, liver]
+    ghost: [duodenum, jejunum, ileum, large-intestine, appendix, stomach, right-kidney, left-kidney, skeleton]
+  labels:
+    - { part: mesentery, text: "mesentery" }
+    - { part: liver, text: "liver" }
