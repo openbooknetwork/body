@@ -1,0 +1,11 @@
+title: "The femur"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the pelvic girdle, gluteal region and thigh."]
+beden:
+  camera: right-front
+  look: right-femur
+  layers: [bones]
+  parts: { highlight: [right-femur] }
+  structure: femur
+  labels:
+    - { part: right-femur, text: "femur" }
+    - { part: right-patella, text: "patella" }

@@ -1,0 +1,6 @@
+# tr strings for the image "disc-herniation-mri-e0dd24".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# MRI of the lower back from the side: the disc between the fourth and fifth lumbar vertebrae has pushed backward into the spinal canal
+image.caption: "Yandan belin MR görüntüsü: dördüncü ve beşinci bel omurları arasındaki disk arkaya, omurilik kanalına taşmış"

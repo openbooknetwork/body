@@ -1,0 +1,8 @@
+title: "Compact and spongy bone"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on bone and cartilage.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 80."]
+beden:
+  camera: front
+  look: [-0.09, 0.76, 0.09]
+  distance: 0.38
+  layers: [bones]
+  parts: { highlight: [right-femur], ghost: [right-hip-bone] }

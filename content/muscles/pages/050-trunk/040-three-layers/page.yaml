@@ -1,0 +1,14 @@
+title: "Three layers"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapters on the anterior abdominal wall and the posterior abdominal wall.", "Paul Hodges and Carolyn Richardson, Contraction of the abdominal muscles associated with movement of the lower limb, Physical Therapy 77 (1997): 132-142."]
+beden:
+  camera: front
+  look: rectus-abdominis
+  distance: 0.95
+  layers: [skeleton, superficial, middle, deep]
+  parts:
+    highlight: [rectus-abdominis, right-internal-oblique, left-transversus-abdominis]
+    hide: [external-oblique, left-internal-oblique, pectoralis-major, serratus-anterior, latissimus-dorsi]
+  labels:
+    - { part: right-internal-oblique, text: "internal oblique" }
+    - { part: left-transversus-abdominis, text: "transversus abdominis" }
+    - { part: left-rectus-abdominis, text: "rectus abdominis" }

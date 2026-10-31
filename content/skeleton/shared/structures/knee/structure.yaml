@@ -1,0 +1,10 @@
+name: "Knee joint"
+latin: "Articulatio genus"
+role: "The joint between the femur, the tibia and the patella, the largest joint in the body"
+source: https://en.wikipedia.org/wiki/Knee
+images: [knee-menisci-gray-4e7cb3]
+facts:
+  - { label: "Kind", value: "Synovial, mainly a hinge" }
+  - { label: "Menisci", value: "2, medial and lateral, of fibrous cartilage" }
+  - { label: "Ligaments", value: "2 cruciate inside, 2 collateral at the sides" }
+  - { label: "Sesamoid", value: "The patella, in the quadriceps tendon" }

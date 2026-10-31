@@ -1,0 +1,26 @@
+id: skeleton
+title: "The skeletal system"
+summary: "The 206 bones of the adult body and the joints between them. The pages cover bone as a living tissue, the skull, the spine, the rib cage, the arms and legs, the kinds of joint, and how bones grow, heal and thin with age. They end with the anatomy of Vesalius and the first X-rays of Röntgen."
+cover: skeleton-front-diagram-e4f160
+languages: [en, tr]
+default_language: en
+beden:
+  model: body
+  # the overview before the first page: the skeleton inside the outline of the skin
+  overview: { camera: front, look: skeleton, layers: [skin, bones, teeth, cartilage], parts: { ghost: [skin] } }
+  cameras:
+    front:       { direction: [0, 0.05, 1] }
+    back:        { direction: [0, 0.05, -1] }
+    right-front: { direction: [-0.8, 0.25, 1] }    # from the body's right and in front, a little above
+    face:        { direction: [-0.35, 0.1, 1] }     # onto the face, a little from its right
+    left-front:  { direction: [0.8, 0.25, 1] }
+    right-back:  { direction: [-0.7, 0.3, -1] }
+    right-side:  { direction: [-1, 0.05, 0.02] }   # straight from the body's right
+    right-above: { direction: [-1, 0.6, 0.5] }     # down onto the outer side of the right foot
+    left-side:   { direction: [1, 0.05, 0.02] }    # straight from the body's left, onto the inner side of the right foot
+    above:       { direction: [0, 1, -0.15] }      # down onto the crown or a cut, the front at the top
+    above-front: { direction: [0, 0.8, 0.6] }      # down and in through the ring of the pelvis
+  families:
+    ligament: { color: "#3f8f86", color_dark: "#6cc0b6" }
+    capsule:  { color: "#8fb3c9", color_dark: "#6f93a8" }   # the joint capsules with the ligaments woven into them
+    nucleus:  { color: "#5b8fd0", color_dark: "#86b2e8" }   # the gel at the centre of an intervertebral disc

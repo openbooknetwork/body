@@ -1,0 +1,12 @@
+title: "The chest"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapters on the chest wall and on the shoulder girdle and arm."]
+beden:
+  camera: left
+  look: [0.06, 1.2, 0.1]
+  distance: 0.85
+  layers: [skeleton, superficial, middle]
+  parts:
+    highlight: [pectoralis-major, serratus-anterior]
+  labels:
+    - { part: left-pectoralis-major, text: "pectoralis major" }
+    - { part: left-serratus-anterior, text: "serratus anterior" }

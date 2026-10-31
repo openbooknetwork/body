@@ -1,0 +1,13 @@
+title: "Marrow"
+sources: ["Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 33.", "Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on bone and cartilage."]
+beden:
+  camera: front
+  look: axial-skeleton
+  layers: [bones, cartilage]
+  parts: { highlight: [cranium, vertebral-column, sternum, ribs, hip-bones] }
+  labels:
+    - { part: parietal-bones, text: "skull" }
+    - { part: sternum-body, text: "sternum" }
+    - { part: right-false-ribs, text: "ribs" }
+    - { part: second-lumbar-vertebra, text: "vertebrae" }
+    - { part: right-hip-bone, text: "hip bone" }

@@ -1,0 +1,13 @@
+title: "The sliding filaments"
+date: "1954"
+sources: ["A. F. Huxley and R. Niedergerke, Structural changes in muscle during contraction, Nature 173 (1954): 971-973.", "H. E. Huxley and J. Hanson, Changes in the cross-striations of muscle during contraction and stretch and their structural interpretation, Nature 173 (1954): 973-976.", "A. F. Huxley, Muscle structure and theories of contraction, Progress in Biophysics and Biophysical Chemistry 7 (1957): 255-318."]
+beden:
+  camera: oblique
+  look: iliopsoas
+  distance: 1.0
+  layers: [skeleton, deep]
+  parts:
+    highlight: [psoas-major]
+    hide: [transversus-abdominis, external-intercostals, internal-intercostals, diaphragm, vastus-intermedius, subscapularis, deep-finger-flexors, supinator]
+  labels:
+    - { part: right-psoas-major, text: "psoas major" }

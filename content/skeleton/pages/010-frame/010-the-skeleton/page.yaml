@@ -1,0 +1,13 @@
+title: "206 bones"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the functional anatomy of the musculoskeletal system.", "International Commission on Radiological Protection, Report of the Task Group on Reference Man, ICRP Publication 23 (Oxford: Pergamon, 1975)."]
+beden:
+  camera: front
+  look: skeleton
+  layers: [skin, bones, teeth, cartilage]
+  parts: { highlight: [axial-skeleton], ghost: [skin] }
+  labels:
+    - { part: parietal-bones, text: "skull" }
+    - { part: right-false-ribs, text: "ribs" }
+    - { part: third-lumbar-vertebra, text: "vertebral column" }
+    - { part: right-humerus, text: "arm" }
+    - { part: right-femur, text: "leg" }

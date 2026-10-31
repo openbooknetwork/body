@@ -1,0 +1,6 @@
+# tr strings for the image "sarcomere-em-eade3f".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Human skeletal muscle under the electron microscope, its myofibrils banded by the repeated sarcomeres, Dartmouth Electron Microscope Facility
+image.caption: "Elektron mikroskobunda insan iskelet kası, miyofibrilleri yinelenen sarkomerlerle bantlı, Dartmouth Electron Microscope Facility"

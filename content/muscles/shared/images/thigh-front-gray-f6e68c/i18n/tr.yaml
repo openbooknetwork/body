@@ -1,0 +1,6 @@
+# tr strings for the image "thigh-front-gray-f6e68c".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Muscles of the iliac region and the front of the thigh, with the psoas major and the iliacus, the sartorius and the quadriceps, Gray's Anatomy, 1918, figure 430
+image.caption: "İliak bölgenin ve uyluğun önünün kasları, büyük bel kası ve iliak kas, terzi kası ve kuadriseps, Gray’s Anatomy, 1918, şekil 430"

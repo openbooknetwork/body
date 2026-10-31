@@ -1,0 +1,6 @@
+# tr strings for the image "levers-body-0a1fcb".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The three classes of lever in the body, the head balanced on the neck as the first class, rising onto the toes as the second and the forearm lifting a weight as the third
+image.caption: "Bedendeki üç sınıf kaldıraç, birinci sınıf olarak boyun üzerinde dengede duran baş, ikinci olarak parmak ucuna kalkmak, üçüncü olarak ağırlık kaldıran önkol"

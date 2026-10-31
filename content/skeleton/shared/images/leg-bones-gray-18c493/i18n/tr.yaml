@@ -1,0 +1,6 @@
+# tr strings for the image "leg-bones-gray-18c493".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The bones of the right leg from the front, the tibia and the fibula, Gray's Anatomy, 1918, figure 258
+image.caption: "Önden sağ bacağın kemikleri, kaval ve kamış kemikleri, Gray’s Anatomy, 1918, şekil 258"

@@ -1,0 +1,6 @@
+# tr strings for the image "thoracic-vertebra-gray-e1cc81".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A thoracic vertebra from the side, with the facets for the head and the tubercle of a rib, Gray's Anatomy, 1918, figure 90
+image.caption: "Yandan bir göğüs omuru, kaburga başı ve kaburga tümseği için eklem yüzleriyle, Gray’s Anatomy, 1918, şekil 90"

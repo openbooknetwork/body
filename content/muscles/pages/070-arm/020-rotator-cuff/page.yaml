@@ -1,0 +1,16 @@
+title: "The rotator cuff"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the shoulder girdle and arm."]
+beden:
+  camera: back
+  look: right-infraspinatus
+  distance: 0.55
+  layers: [skeleton, middle]
+  parts:
+    show: [subscapularis]
+    highlight: [supraspinatus, infraspinatus, teres-minor, subscapularis]
+    hide: [rhomboids, splenius, levator-scapulae, iliocostalis, longissimus, spinalis, scalenes, hyoid-muscles, pectoralis-minor, coracobrachialis, brachialis]
+  labels:
+    - { part: right-supraspinatus, text: "supraspinatus" }
+    - { part: right-infraspinatus, text: "infraspinatus" }
+    - { part: right-teres-minor, text: "teres minor" }
+    - { part: right-subscapularis, text: "subscapularis" }

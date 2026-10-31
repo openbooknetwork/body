@@ -1,0 +1,11 @@
+title: "The shoulder girdle"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the shoulder girdle and arm."]
+beden:
+  camera: right-back
+  look: scapulae
+  layers: [bones, cartilage, ligaments]
+  parts: { highlight: [clavicles, scapulae, sternoclavicular-joints], hide: [back-ligaments, rib-joint-ligaments, anterior-longitudinal-ligament, posterior-longitudinal-ligament, pelvic-ligaments] }
+  labels:
+    - { part: right-clavicle, text: "clavicle" }
+    - { part: right-scapula, text: "scapula" }
+    - { part: sternoclavicular-joints, text: "sternoclavicular joint" }

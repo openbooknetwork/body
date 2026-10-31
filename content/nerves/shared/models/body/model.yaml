@@ -2,12 +2,12 @@
 # cord, the spinal, limb and autonomic nerves and the cranial nerves BodyParts3D lacks name Z-Anatomy element files,
 # fitted to BodyParts3D's skeleton. The viewer shows, lights, ghosts or cuts parts by these ids.
 file: model.glb
-sha256: 95aff63372204da584019d8fd24faa77bf3f7d63ccc4ee00958a1387e48b9bb7
+sha256: b24876b8e0545414c8f474ef991a9e3bb2d68966d64cdcf7d9745859c8e6f265
 credit: "BodyParts3D, The Database Center for Life Science, CC BY-SA 2.1 Japan; Z-Anatomy, Gauthier Kervyn, CC BY-SA 4.0; Cranial Nerves and Foramina, University of Dundee, CAHID, CC BY 4.0"
 source: https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html
 parts:
   # context
-  skin:             { concept: FMA7163, layer: skin, family: skin }
+  skin:             { concept: FMA7163, layer: skin, family: skin, trim: [[-0.04, 0.683, 0.112], [0.04, 0.8, 0.26]] }   # without the genitals
   skeletal-system:  { concept: FMA23881, export: false }   # only derives the skeleton below
   skull:            { concept: FMA46565, layer: skeleton, family: bone }
   cervical-vertebrae: { concept: FMA24138, layer: skeleton, family: bone }

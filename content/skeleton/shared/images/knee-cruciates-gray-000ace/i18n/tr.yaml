@@ -1,0 +1,6 @@
+# tr strings for the image "knee-cruciates-gray-000ace".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The left knee from behind, opened to show the cruciate ligaments and the menisci, Gray's Anatomy, 1918, figure 348
+image.caption: "Arkadan açılmış sol diz, çapraz bağlar ve menisküslerle, Gray’s Anatomy, 1918, şekil 348"

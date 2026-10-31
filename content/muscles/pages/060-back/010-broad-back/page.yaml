@@ -1,0 +1,12 @@
+title: "The broad muscles of the back"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapters on the back and on the shoulder girdle and arm."]
+beden:
+  camera: back
+  look: [0, 1.2, 0.03]
+  distance: 1.25
+  layers: [skeleton, superficial]
+  parts:
+    highlight: [trapezius, latissimus-dorsi]
+  labels:
+    - { part: right-trapezius, text: "trapezius" }
+    - { part: right-latissimus-dorsi, text: "latissimus dorsi" }

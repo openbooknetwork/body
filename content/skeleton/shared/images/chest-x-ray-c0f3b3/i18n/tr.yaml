@@ -1,0 +1,6 @@
+# tr strings for the image "chest-x-ray-c0f3b3".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A normal chest X-ray from the front, with the ribs, the clavicles and the heart's shadow between the lungs
+image.caption: "Önden normal bir göğüs röntgeni: kaburgalar, köprücük kemikleri ve akciğerler arasında kalbin gölgesi"

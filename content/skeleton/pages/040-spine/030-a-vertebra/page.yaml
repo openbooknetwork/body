@@ -1,0 +1,12 @@
+title: "A vertebra"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the back."]
+beden:
+  camera: above
+  look: third-lumbar-vertebra
+  distance: 0.28
+  layers: []
+  section: { plane: axial, at: 1.012, flip: true }
+  parts: { show: [third-lumbar-vertebra, fourth-lumbar-vertebra, cauda-equina], highlight: [third-lumbar-vertebra, cauda-equina] }
+  structure: vertebra
+  labels:
+    - { part: third-lumbar-vertebra, text: "third lumbar vertebra" }

@@ -1,0 +1,6 @@
+# tr strings for the image "first-x-ray-hand-a8af6e".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Röntgen's X-ray of his wife's left hand with her ring, 22 December 1895
+image.caption: "Röntgen’in karısının yüzüklü sol elinin X ışını fotoğrafı, 22 Aralık 1895"

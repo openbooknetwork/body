@@ -1,0 +1,6 @@
+# tr strings for the image "humerus-muscles-openstax-81f9e7".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Muscles that move the humerus, from the pectoralis major, the latissimus dorsi and the deltoid to the deep muscles of the shoulder blade, OpenStax Anatomy and Physiology
+image.caption: "Kol kemiğini hareket ettiren kaslar, büyük göğüs kası, geniş sırt kası ve deltoidden kürek kemiğinin derin kaslarına, OpenStax Anatomy and Physiology"

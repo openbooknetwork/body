@@ -1,0 +1,6 @@
+# tr strings for the image "head-neck-muscles-gray-2999a3".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Muscles of the head, face and neck from the side, among them the frontalis, the orbicularis oculi and oris, the zygomaticus, the masseter and the platysma, Gray's Anatomy, 1918, figure 378
+image.caption: "Yandan baş, yüz ve boyun kasları, aralarında alın kası, göz ve ağız çevresi halka kasları, elmacık kası, masseter ve platisma, Gray’s Anatomy, 1918, şekil 378"

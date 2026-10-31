@@ -1,0 +1,6 @@
+# tr strings for the image "foot-medial-gray-4bdf72".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The skeleton of the foot from the inner side, with the arch from the calcaneus to the first metatarsal, Gray's Anatomy, 1918, figure 290
+image.caption: "İç yandan ayak iskeleti, topuk kemiğinden birinci ayak tarağı kemiğine uzanan kemerle, Gray’s Anatomy, 1918, şekil 290"

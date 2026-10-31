@@ -1,0 +1,6 @@
+# tr strings for the image "distal-radius-fracture-x-ray-c9ad4e".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# X-ray of a broken lower end of the radius from the front, with lines that measure the tilt of its joint surface
+image.caption: "Önden, döner kemiğin alt ucundaki bir kırığın röntgeni, eklem yüzünün eğimini ölçen çizgilerle"

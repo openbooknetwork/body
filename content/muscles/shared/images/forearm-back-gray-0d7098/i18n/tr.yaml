@@ -1,0 +1,6 @@
+# tr strings for the image "forearm-back-gray-0d7098".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Superficial muscles on the back of the forearm, the wrist and finger extensors with their tendons running into the hand, Gray's Anatomy, 1918, figure 418
+image.caption: "Önkolun arka yüzünün yüzeyel kasları, kirişleri ele uzanan bilek ve parmak açıcıları, Gray’s Anatomy, 1918, şekil 418"

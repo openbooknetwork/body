@@ -1,0 +1,14 @@
+title: "The hamstrings"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the pelvic girdle, gluteal region and thigh."]
+beden:
+  camera: back
+  look: hamstrings
+  distance: 1.35
+  layers: [skeleton, superficial, middle]
+  parts:
+    highlight: [biceps-femoris, semitendinosus, semimembranosus]
+    ghost: [gluteus-maximus]
+  labels:
+    - { part: right-biceps-femoris, text: "biceps femoris" }
+    - { part: left-semitendinosus, text: "semitendinosus" }
+    - { part: left-semimembranosus, text: "semimembranosus" }

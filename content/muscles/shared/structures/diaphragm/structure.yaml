@@ -1,0 +1,9 @@
+name: "Diaphragm"
+latin: "Diaphragma"
+role: "The dome of muscle and tendon between the chest and the abdomen, the main muscle of breathing"
+source: https://en.wikipedia.org/wiki/Thoracic_diaphragm
+images: [diaphragm-openstax-fc3b88]
+facts:
+  - { label: "Nerve", value: "Phrenic nerve, spinal segments C3 to C5" }
+  - { label: "Openings", value: "Inferior vena cava at T8, esophagus at T10, aorta at T12" }
+  - { label: "Movement", value: "1 to 2 cm in quiet breathing, up to about 10 cm in the deepest breaths" }

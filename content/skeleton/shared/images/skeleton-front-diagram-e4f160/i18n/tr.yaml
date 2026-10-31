@@ -1,0 +1,6 @@
+# tr strings for the image "skeleton-front-diagram-e4f160".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A woman's skeleton from the front, with its main bones and groups named
+image.caption: "Bir kadının iskeleti önden, başlıca kemikleri ve kemik grupları adlarıyla"

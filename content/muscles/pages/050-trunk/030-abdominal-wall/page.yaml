@@ -1,0 +1,14 @@
+title: "The abdominal wall"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the anterior abdominal wall."]
+beden:
+  camera: front
+  look: rectus-abdominis
+  distance: 0.95
+  layers: [skeleton, superficial]
+  parts:
+    highlight: [rectus-abdominis, linea-alba, right-external-oblique]
+    hide: [left-external-oblique]
+  labels:
+    - { part: right-rectus-abdominis, text: "rectus abdominis" }
+    - { part: linea-alba, text: "linea alba" }
+    - { part: right-external-oblique, text: "external oblique" }

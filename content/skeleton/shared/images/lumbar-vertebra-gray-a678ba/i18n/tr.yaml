@@ -1,0 +1,6 @@
+# tr strings for the image "lumbar-vertebra-gray-a678ba".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A lumbar vertebra from above, with the body in front and the arch and its processes behind, Gray's Anatomy, 1918, figure 94
+image.caption: "Yukarıdan bir bel omuru, önde gövde, arkada yay ve çıkıntıları, Gray’s Anatomy, 1918, şekil 94"

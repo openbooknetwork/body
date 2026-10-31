@@ -1,0 +1,14 @@
+title: "Sutures"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the skull."]
+beden:
+  camera: right-side
+  look: skull
+  distance: 0.55
+  layers: [bones, teeth]
+  parts: { highlight: [frontal-bone, parietal-bones, occipital-bone, temporal-bones, sphenoid-bone] }
+  labels:
+    - { part: frontal-bone, text: "frontal bone" }
+    - { part: parietal-bones, text: "parietal bone" }
+    - { part: occipital-bone, text: "occipital bone" }
+    - { part: temporal-bones, text: "temporal bone" }
+    - { part: sphenoid-bone, text: "sphenoid" }

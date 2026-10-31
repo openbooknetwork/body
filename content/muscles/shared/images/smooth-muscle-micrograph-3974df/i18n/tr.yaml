@@ -1,0 +1,6 @@
+# tr strings for the image "smooth-muscle-micrograph-3974df".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Smooth muscle under the light microscope at 400 times, its spindle-shaped cells each with one long nucleus
+image.caption: "Işık mikroskobunda 400 kez büyütülmüş düz kas, iğ biçimli hücrelerinin her birinde uzun bir çekirdek"

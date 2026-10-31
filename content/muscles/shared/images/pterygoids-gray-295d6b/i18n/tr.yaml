@@ -1,0 +1,6 @@
+# tr strings for the image "pterygoids-gray-295d6b".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The lateral and medial pterygoid muscles inside the ramus of the mandible, with part of the ramus removed, Gray's Anatomy, 1918, figure 383
+image.caption: "Alt çenenin dalının iç yanındaki dış ve iç pterigoid kaslar, dalın bir kısmı kaldırılmış, Gray’s Anatomy, 1918, şekil 383"

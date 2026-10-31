@@ -1,0 +1,6 @@
+# tr strings for the image "neck-muscles-openstax-8a8ed7".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Muscles of the neck from the side and from behind, with the sternocleidomastoid, the trapezius and the deeper muscles under them, OpenStax Anatomy and Physiology
+image.caption: "Yandan ve arkadan boyun kasları, sternokleidomastoid, trapez ve altlarındaki daha derin kaslar, OpenStax Anatomy and Physiology"

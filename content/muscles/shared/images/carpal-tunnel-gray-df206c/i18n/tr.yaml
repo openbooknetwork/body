@@ -1,0 +1,6 @@
+# tr strings for the image "carpal-tunnel-gray-df206c".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A cut across the wrist, with the flexor tendons and the median nerve passing through the carpal tunnel under the transverse carpal ligament, Gray's Anatomy, 1918, figure 422
+image.caption: "Bilekten geçen bir kesit, enine karpal bağın altında karpal tünelden geçen bükücü kirişler ve median sinir, Gray’s Anatomy, 1918, şekil 422"

@@ -1,0 +1,6 @@
+# tr strings for the image "ossicles-diagram-ce4c54".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The three ossicles of the middle ear: the malleus, the incus and the stapes
+image.caption: "Orta kulağın üç kemikçiği: çekiç, örs ve üzengi"

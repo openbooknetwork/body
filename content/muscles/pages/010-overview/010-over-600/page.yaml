@@ -1,0 +1,12 @@
+title: "Over 600 muscles"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the functional anatomy of the musculoskeletal system.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 6."]
+beden:
+  camera: front
+  look: skin
+  layers: [skeleton, superficial, middle, deep]
+  labels:
+    - { part: right-deltoid, text: "deltoid" }
+    - { part: right-pectoralis-major, text: "pectoralis major" }
+    - { part: right-rectus-abdominis, text: "rectus abdominis" }
+    - { part: right-quadriceps, text: "quadriceps" }
+    - { part: right-tibialis-anterior, text: "tibialis anterior" }

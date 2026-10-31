@@ -1,0 +1,6 @@
+# tr strings for the image "compact-bone-gray-915b2d".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Compact bone cut across and magnified: osteons, each a set of rings around a central canal, with the spaces of the bone cells between the rings, Gray's Anatomy, 1918, figure 73
+image.caption: "Enine kesilip büyütülmüş sıkı kemik: her biri bir merkez kanalı saran halkalardan oluşan osteonlar ve halkalar arasında kemik hücrelerinin boşlukları, Gray’s Anatomy, 1918, şekil 73"

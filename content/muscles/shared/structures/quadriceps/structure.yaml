@@ -1,0 +1,10 @@
+name: "Quadriceps femoris"
+latin: "Musculus quadriceps femoris"
+role: "The four-headed muscle on the front of the thigh, which straightens the knee"
+source: https://en.wikipedia.org/wiki/Quadriceps_femoris_muscle
+images: [thigh-front-gray-f6e68c]
+facts:
+  - { label: "Heads", value: "Rectus femoris, vastus lateralis, vastus medialis and vastus intermedius" }
+  - { label: "Insertion", value: "The patella, and through the patellar ligament the tibial tuberosity" }
+  - { label: "Nerve", value: "Femoral nerve, spinal segments L2 to L4" }
+  - { label: "Actions", value: "Straightens the knee, and the rectus femoris also bends the hip" }

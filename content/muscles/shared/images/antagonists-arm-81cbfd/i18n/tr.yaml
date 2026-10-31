@@ -1,0 +1,6 @@
+# tr strings for the image "antagonists-arm-81cbfd".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Lifting a glass, the biceps brachii works as the prime mover and the triceps brachii on the back of the arm as its antagonist, with the brachioradialis and the subscapularis helping
+image.caption: "Bir bardak kaldırırken iki başlı kol kası ana hareketi yapar, kolun arkasındaki üç başlı kol kası ona karşı koyar, brakioradial kas ve kürek altı kası yardım eder"

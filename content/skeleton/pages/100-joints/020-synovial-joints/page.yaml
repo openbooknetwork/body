@@ -1,0 +1,11 @@
+title: "Inside a synovial joint"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapters on the functional anatomy of the musculoskeletal system and on the hip.", "J. Gordon Betts and others, Anatomy and Physiology (Houston: OpenStax, 2013), section 9.4."]
+beden:
+  camera: front
+  look: right-hip-capsule
+  distance: 0.38
+  layers: [bones, capsules]
+  parts: { highlight: [right-hip-capsule] }
+  labels:
+    - { part: right-hip-capsule, text: "capsule" }
+    - { part: right-hip-bone, text: "hip bone" }

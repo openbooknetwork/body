@@ -1,0 +1,6 @@
+# tr strings for the image "newborn-skull-side-gray-9504a4".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A newborn's skull from the side, with the smaller sphenoidal and mastoid fontanelles, Gray's Anatomy, 1918, figure 198
+image.caption: "Yandan bir yeni doğanın kafatası, daha küçük sfenoid ve mastoid bıngıldaklarıyla, Gray’s Anatomy, 1918, şekil 198"

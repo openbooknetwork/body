@@ -1,0 +1,6 @@
+# tr strings for the image "muscle-tissue-types-openstax-df35f0".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Skeletal, smooth and cardiac muscle under the light microscope, from top to bottom, OpenStax Anatomy and Physiology
+image.caption: "Işık mikroskobunda yukarıdan aşağıya iskelet kası, düz kas ve kalp kası, OpenStax Anatomy and Physiology"

@@ -1,0 +1,29 @@
+id: muscles
+title: "The muscular system"
+summary: "The muscles that move the skeleton, from the face to the feet. The story looks inside a muscle at its fibres and filaments, shows how muscles pull on bones in pairs, goes through the head, trunk, arms and legs layer by layer, and ends with Vesalius, Duchenne and the discovery of the sliding filaments."
+cover: muscles-front-back-drawing-736786
+languages: [en, tr]
+default_language: en
+beden:
+  model: body
+  # the overview before the first page: the body's outer layer of muscles under the skin
+  overview: { camera: front, look: skin, layers: [skin, skeleton, superficial, middle, deep], parts: { ghost: [skin] } }
+  # BodyParts3D's +x is the body's left, so the left cameras stand at +x
+  cameras:
+    front:       { direction: [0, 0.05, 1] }
+    back:        { direction: [0, 0.05, -1] }
+    oblique:     { direction: [0.7, 0.35, 1] }
+    left:        { direction: [1, 0.1, 0.4] }
+    right:       { direction: [-1, 0.1, 0.4] }
+    right-front: { direction: [-0.5, 0.08, 1] }   # onto the right arm, beside the trunk
+    left-side:   { direction: [1, 0.05, 0.02] }
+    right-side:  { direction: [-1, 0.05, 0.02] }
+    right-back:  { direction: [-0.8, 0.15, -1] }
+    left-back:   { direction: [0.8, 0.15, -1] }
+    above:       { direction: [0, 1, 0.35] }
+    above-front: { direction: [0, 1, 0.75] }      # down onto a cut through the waist
+    top:         { direction: [0, 1, 0.12] }      # straight down onto a cut through the arm
+    below:       { direction: [0, -0.6, 1] }
+  families:
+    muscle-shade: { color: "#86303f", color_dark: "#c46a7c" }   # a second muscle red, so neighbouring muscles read apart
+    tendon:       { color: "#cfd8de", color_dark: "#9aa7b0" }   # tendons, aponeuroses and retinacula

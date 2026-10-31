@@ -1,0 +1,6 @@
+# tr strings for the image "ankle-tendons-gray-44b04c".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Tendons crossing the inner side of the ankle in their sheaths, the tibialis anterior under the cruciate ligament and the tendo calcaneus behind, Gray's Anatomy, 1918, figure 442
+image.caption: "Bileğin iç yanından kılıfları içinde geçen kirişler, çapraz bağın altında tibialis anterior, arkada tendo calcaneus, Gray’s Anatomy, 1918, şekil 442"

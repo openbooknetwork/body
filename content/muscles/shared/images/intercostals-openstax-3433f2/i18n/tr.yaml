@@ -1,0 +1,6 @@
+# tr strings for the image "intercostals-openstax-3433f2".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The muscles of the chest wall, with the external, internal and innermost intercostals between the ribs, OpenStax Anatomy and Physiology
+image.caption: "Göğüs duvarının kasları, kaburgaların arasında dış, iç ve en içteki kaburgalar arası kaslar, OpenStax Anatomy and Physiology"

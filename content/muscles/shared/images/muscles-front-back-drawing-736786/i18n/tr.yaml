@@ -1,0 +1,6 @@
+# tr strings for the image "muscles-front-back-drawing-736786".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Outline of the superficial muscles from the front and from the back, drawn after OpenStax
+image.caption: "OpenStax’tan yeniden çizilmiş, önden ve arkadan yüzeyel kasların ana hatları"

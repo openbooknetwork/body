@@ -1,0 +1,6 @@
+# tr strings for the image "neck-side-gray-4f18ee".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Muscles of the neck from the side, with the sternocleidomastoid running from the sternum and clavicle to the mastoid process and the trapezius behind it, Gray's Anatomy, 1918, figure 385
+image.caption: "Yandan boyun kasları, göğüs kemiği ve köprücük kemiğinden meme çıkıntısına uzanan sternokleidomastoid ve arkasında trapez kası, Gray’s Anatomy, 1918, şekil 385"

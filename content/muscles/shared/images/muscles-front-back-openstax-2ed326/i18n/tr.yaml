@@ -1,0 +1,6 @@
+# tr strings for the image "muscles-front-back-openstax-2ed326".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The major muscles of the body from the front and the back, with the superficial layer on the body's right side and a deeper layer on its left, OpenStax Anatomy and Physiology
+image.caption: "Önden ve arkadan bedenin başlıca kasları, bedenin sağ yanında yüzeyel kat, sol yanında daha derin bir kat, OpenStax Anatomy and Physiology"

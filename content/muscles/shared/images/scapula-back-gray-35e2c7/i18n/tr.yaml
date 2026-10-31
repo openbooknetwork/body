@@ -1,0 +1,6 @@
+# tr strings for the image "scapula-back-gray-35e2c7".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Muscles on the back of the scapula, the supraspinatus, infraspinatus and teres minor of the rotator cuff, with the teres major and the triceps brachii, Gray's Anatomy, 1918, figure 412
+image.caption: "Kürek kemiğinin arka yüzündeki kaslar, rotator manşetin diken üstü, diken altı ve küçük yuvarlak kasları ile büyük yuvarlak kas ve üç başlı kol kası, Gray’s Anatomy, 1918, şekil 412"

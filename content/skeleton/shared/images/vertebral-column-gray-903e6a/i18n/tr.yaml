@@ -1,0 +1,6 @@
+# tr strings for the image "vertebral-column-gray-903e6a".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The vertebral column from the side, its regions coloured: cervical, thoracic, lumbar, sacrum and coccyx, after Gray's Anatomy, 1918, figure 111
+image.caption: "Yandan omurga, bölgeleri renkli: boyun, göğüs, bel, sağrı ve kuyruk sokumu, Gray’s Anatomy, 1918, şekil 111 örnek alınarak"

@@ -1,0 +1,6 @@
+# tr strings for the image "skull-side-gray-060ee8".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The skull from the side, with the coronal and squamosal sutures, Gray's Anatomy, 1918, figure 188
+image.caption: "Yandan kafatası, taç dikişi ve pullu dikişle, Gray’s Anatomy, 1918, şekil 188"

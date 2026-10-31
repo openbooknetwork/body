@@ -1,0 +1,6 @@
+# tr strings for the image "andrew-huxley-c8429b".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Andrew Huxley, who shared the Nobel Prize in Physiology or Medicine in 1963 for his work on the nerve impulse
+image.caption: "Sinir uyarısı üzerine çalışmasıyla 1963 Nobel Fizyoloji veya Tıp Ödülü’nü paylaşan Andrew Huxley"

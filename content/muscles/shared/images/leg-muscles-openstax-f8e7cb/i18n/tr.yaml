@@ -1,0 +1,6 @@
+# tr strings for the image "leg-muscles-openstax-f8e7cb".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Muscles of the right lower leg, from the front with the tibialis anterior and from behind with the gastrocnemius, the soleus and the Achilles tendon, OpenStax Anatomy and Physiology
+image.caption: "Sağ bacağın kasları, önden tibialis anterior, arkadan gastroknemius, soleus ve Aşil tendonu, OpenStax Anatomy and Physiology"

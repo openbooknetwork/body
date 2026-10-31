@@ -1,0 +1,6 @@
+# tr strings for the image "motor-unit-diagram-b3909c".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Three motor units, each a motor neuron in the spinal cord with its own scattered set of fibres in the muscle
+image.caption: "Üç motor ünite, her biri omurilikte bir motor nöron ve kasın içinde ona ait dağınık lifler"

@@ -1,0 +1,13 @@
+title: "The discs"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the back.", "Thomas Reilly, Andrew Tyrrell and John Troup, Circadian variation in human stature, Chronobiology International 1 (1984): 121 to 126."]
+beden:
+  camera: right-side
+  look: lumbar-vertebrae
+  distance: 0.45
+  layers: [bones, cartilage]
+  section: { plane: sagittal, at: 0 }
+  parts: { highlight: [discs, nuclei, lumbar-vertebrae], ghost: [ribs, costal-cartilages, hip-bones] }
+  labels:
+    - { part: disc-l4-l5, text: "intervertebral disc" }
+    - { part: nuclei-pulposi, text: "nucleus pulposus" }
+    - { part: third-lumbar-vertebra, text: "vertebral body" }

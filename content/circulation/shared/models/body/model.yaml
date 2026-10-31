@@ -2,12 +2,12 @@
 # or holds only in part, Z-Anatomy. Each part names a BodyParts3D concept or element files, and the viewer shows,
 # lights, ghosts or cuts parts by these ids.
 file: model.glb
-sha256: 1551564ae0bb7466d3c5b466186318f1136b1eaf304860b6812cbad56206fc44
+sha256: fd12327a9397d0bea63d354c5bc8439dbadc0ff2e8fc1a03e2eb40ee320ab6b2
 credit: "BodyParts3D, The Database Center for Life Science, CC BY-SA 2.1 Japan, and Z-Anatomy, Gauthier Kervyn, CC BY-SA 4.0"
 source: https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html
 parts:
   # context
-  skin:            { concept: FMA7163, layer: skin, family: skin }
+  skin:            { concept: FMA7163, layer: skin, family: skin, trim: [[-0.04, 0.683, 0.112], [0.04, 0.8, 0.26]] }   # without the genitals
   skeleton:        { concept: FMA23881, layer: skeleton, family: bone }
   brain:           { concept: FMA50801, layer: organs, family: brain }
   right-lung:      { concept: FMA7309, layer: lungs, family: lung, exclude: [FJ2041, FJ2044] }

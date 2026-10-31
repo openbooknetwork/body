@@ -1,0 +1,474 @@
+# tr strings for the story "skeleton".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The frame
+groups.frame.title: "Çatı"
+
+# Living bone
+groups.living-bone.title: "Canlı kemik"
+
+# The skull
+groups.skull.title: "Kafatası"
+
+# The spine
+groups.spine.title: "Omurga"
+
+# The rib cage
+groups.rib-cage.title: "Göğüs kafesi"
+
+# Shoulder and arm
+groups.arm.title: "Omuz ve kol"
+
+# The pelvis
+groups.pelvis.title: "Leğen"
+
+# The leg
+groups.leg.title: "Bacak"
+
+# The foot
+groups.foot.title: "Ayak"
+
+# Joints
+groups.joints.title: "Eklemler"
+
+# Growth and repair
+groups.growth.title: "Büyüme ve onarım"
+
+# Seeing the skeleton
+groups.history.title: "İskeleti görmek"
+
+# skull
+pages.the-skeleton.labels.0: "kafatası"
+
+# ribs
+pages.the-skeleton.labels.1: "kaburgalar"
+
+# vertebral column
+pages.the-skeleton.labels.2: "omurga"
+
+# arm
+pages.the-skeleton.labels.3: "kol"
+
+# leg
+pages.the-skeleton.labels.4: "bacak"
+
+# 206 bones
+pages.the-skeleton.title: "206 kemik"
+
+# flat
+pages.bone-shapes.labels.0: "yassı"
+
+# irregular
+pages.bone-shapes.labels.1: "düzensiz"
+
+# short
+pages.bone-shapes.labels.2: "kısa"
+
+# long
+pages.bone-shapes.labels.3: "uzun"
+
+# sesamoid
+pages.bone-shapes.labels.4: "sesamoid"
+
+# Long, short, flat and irregular
+pages.bone-shapes.title: "Uzun, kısa, yassı ve düzensiz"
+
+# Compact and spongy bone
+pages.compact-and-spongy.title: "Sıkı ve süngerimsi kemik"
+
+# tibia
+pages.bone-cells.labels.0: "kaval kemiği"
+
+# Cells that build and remove bone
+pages.bone-cells.title: "Kemik yapan ve yıkan hücreler"
+
+# skull
+pages.marrow.labels.0: "kafatası"
+
+# sternum
+pages.marrow.labels.1: "göğüs kemiği"
+
+# ribs
+pages.marrow.labels.2: "kaburgalar"
+
+# vertebrae
+pages.marrow.labels.3: "omurlar"
+
+# hip bone
+pages.marrow.labels.4: "kalça kemiği"
+
+# Marrow
+pages.marrow.title: "Kemik iliği"
+
+# cranium
+pages.cranium-and-face.labels.0: "beyin kafatası"
+
+# face
+pages.cranium-and-face.labels.1: "yüz"
+
+# mandible
+pages.cranium-and-face.labels.2: "alt çene kemiği"
+
+# Cranium and face
+pages.cranium-and-face.title: "Beyin kafatası ve yüz"
+
+# frontal bone
+pages.sutures.labels.0: "alın kemiği"
+
+# parietal bone
+pages.sutures.labels.1: "yan kafa kemiği"
+
+# occipital bone
+pages.sutures.labels.2: "art kafa kemiği"
+
+# temporal bone
+pages.sutures.labels.3: "şakak kemiği"
+
+# sphenoid
+pages.sutures.labels.4: "kama kemiği"
+
+# Sutures
+pages.sutures.title: "Dikişler"
+
+# frontal bone
+pages.fontanelles.labels.0: "alın kemiği"
+
+# parietal bones
+pages.fontanelles.labels.1: "yan kafa kemikleri"
+
+# occipital bone
+pages.fontanelles.labels.2: "art kafa kemiği"
+
+# A newborn's soft spots
+pages.fontanelles.title: "Yeni doğanın bıngıldakları"
+
+# mandible
+pages.jaw.labels.0: "alt çene kemiği"
+
+# articular disc
+pages.jaw.labels.1: "eklem diski"
+
+# temporal bone
+pages.jaw.labels.2: "şakak kemiği"
+
+# The jaw
+pages.jaw.title: "Çene"
+
+# cervical
+pages.the-column.labels.0: "boyun"
+
+# thoracic
+pages.the-column.labels.1: "göğüs"
+
+# lumbar
+pages.the-column.labels.2: "bel"
+
+# sacrum
+pages.the-column.labels.3: "sağrı kemiği"
+
+# 33 vertebrae
+pages.the-column.title: "33 omur"
+
+# cervical curve
+pages.curves.labels.0: "boyun eğriliği"
+
+# thoracic curve
+pages.curves.labels.1: "göğüs eğriliği"
+
+# lumbar curve
+pages.curves.labels.2: "bel eğriliği"
+
+# sacral curve
+pages.curves.labels.3: "sağrı eğriliği"
+
+# Four curves
+pages.curves.title: "Dört eğrilik"
+
+# third lumbar vertebra
+pages.a-vertebra.labels.0: "üçüncü bel omuru"
+
+# A vertebra
+pages.a-vertebra.title: "Bir omur"
+
+# intervertebral disc
+pages.discs.labels.0: "omurlar arası disk"
+
+# nucleus pulposus
+pages.discs.labels.1: "çekirdek"
+
+# vertebral body
+pages.discs.labels.2: "omur gövdesi"
+
+# The discs
+pages.discs.title: "Diskler"
+
+# nucleus pulposus
+pages.slipped-disc.labels.0: "çekirdek"
+
+# cauda equina
+pages.slipped-disc.labels.1: "at kuyruğu"
+
+# A slipped disc
+pages.slipped-disc.title: "Disk fıtığı"
+
+# true ribs
+pages.ribs.labels.0: "gerçek kaburgalar"
+
+# false ribs
+pages.ribs.labels.1: "yalancı kaburgalar"
+
+# floating ribs
+pages.ribs.labels.2: "serbest kaburgalar"
+
+# Twelve pairs of ribs
+pages.ribs.title: "On iki çift kaburga"
+
+# manubrium
+pages.sternum.labels.0: "sap"
+
+# body
+pages.sternum.labels.1: "gövde"
+
+# xiphoid process
+pages.sternum.labels.2: "ksifoid çıkıntı"
+
+# costal cartilages
+pages.sternum.labels.3: "kaburga kıkırdakları"
+
+# The sternum
+pages.sternum.title: "Göğüs kemiği"
+
+# clavicle
+pages.shoulder-girdle.labels.0: "köprücük kemiği"
+
+# scapula
+pages.shoulder-girdle.labels.1: "kürek kemiği"
+
+# sternoclavicular joint
+pages.shoulder-girdle.labels.2: "göğüs-köprücük eklemi"
+
+# The shoulder girdle
+pages.shoulder-girdle.title: "Omuz kuşağı"
+
+# humerus
+pages.arm-and-forearm.labels.0: "pazu kemiği"
+
+# ulna
+pages.arm-and-forearm.labels.1: "dirsek kemiği"
+
+# radius
+pages.arm-and-forearm.labels.2: "döner kemik"
+
+# interosseous membrane
+pages.arm-and-forearm.labels.3: "kemikler arası zar"
+
+# Arm and forearm
+pages.arm-and-forearm.title: "Kol ve önkol"
+
+# carpals
+pages.hand.labels.0: "el bileği kemikleri"
+
+# metacarpals
+pages.hand.labels.1: "el tarağı kemikleri"
+
+# phalanges
+pages.hand.labels.2: "parmak kemikleri"
+
+# Hand and wrist
+pages.hand.title: "El ve bilek"
+
+# hip bone
+pages.hip-bones.labels.0: "kalça kemiği"
+
+# sacrum
+pages.hip-bones.labels.1: "sağrı kemiği"
+
+# pubic symphysis
+pages.hip-bones.labels.2: "çatı kemikleri bitişimi"
+
+# Hip bones and sacrum
+pages.hip-bones.title: "Kalça kemikleri ve sağrı"
+
+# sacrum
+pages.female-pelvis.labels.0: "sağrı kemiği"
+
+# hip bone
+pages.female-pelvis.labels.1: "kalça kemiği"
+
+# pubic symphysis
+pages.female-pelvis.labels.2: "çatı kemikleri bitişimi"
+
+# A man's and a woman's pelvis
+pages.female-pelvis.title: "Erkek ve kadın leğeni"
+
+# femur
+pages.femur.labels.0: "uyluk kemiği"
+
+# patella
+pages.femur.labels.1: "diz kapağı kemiği"
+
+# The femur
+pages.femur.title: "Uyluk kemiği"
+
+# menisci
+pages.knee.labels.0: "menisküsler"
+
+# anterior cruciate
+pages.knee.labels.1: "ön çapraz bağ"
+
+# posterior cruciate
+pages.knee.labels.2: "arka çapraz bağ"
+
+# collateral ligaments
+pages.knee.labels.3: "yan bağlar"
+
+# patella
+pages.knee.labels.4: "diz kapağı kemiği"
+
+# The knee
+pages.knee.title: "Diz"
+
+# tibia
+pages.tibia-and-fibula.labels.0: "kaval kemiği"
+
+# fibula
+pages.tibia-and-fibula.labels.1: "kamış kemiği"
+
+# interosseous membrane
+pages.tibia-and-fibula.labels.2: "kemikler arası zar"
+
+# ankle ligaments
+pages.tibia-and-fibula.labels.3: "ayak bileği bağları"
+
+# Tibia and fibula
+pages.tibia-and-fibula.title: "Kaval ve kamış kemikleri"
+
+# talus
+pages.foot-bones.labels.0: "aşık kemiği"
+
+# calcaneus
+pages.foot-bones.labels.1: "topuk kemiği"
+
+# other tarsals
+pages.foot-bones.labels.2: "öteki ayak bileği kemikleri"
+
+# metatarsals
+pages.foot-bones.labels.3: "ayak tarağı kemikleri"
+
+# phalanges
+pages.foot-bones.labels.4: "parmak kemikleri"
+
+# 26 bones of the foot
+pages.foot-bones.title: "Ayağın 26 kemiği"
+
+# spring ligament
+pages.arches.labels.0: "yay bağı"
+
+# long plantar ligament
+pages.arches.labels.1: "uzun taban bağı"
+
+# talus
+pages.arches.labels.2: "aşık kemiği"
+
+# calcaneus
+pages.arches.labels.3: "topuk kemiği"
+
+# The arches of the foot
+pages.arches.title: "Ayağın kemerleri"
+
+# intervertebral discs
+pages.three-kinds.labels.0: "omurlar arası diskler"
+
+# pubic symphysis
+pages.three-kinds.labels.1: "çatı kemikleri bitişimi"
+
+# shoulder
+pages.three-kinds.labels.2: "omuz"
+
+# elbow
+pages.three-kinds.labels.3: "dirsek"
+
+# knee
+pages.three-kinds.labels.4: "diz"
+
+# Three kinds of joint
+pages.three-kinds.title: "Üç tür eklem"
+
+# capsule
+pages.synovial-joints.labels.0: "kapsül"
+
+# hip bone
+pages.synovial-joints.labels.1: "kalça kemiği"
+
+# Inside a synovial joint
+pages.synovial-joints.title: "Sinovyal eklemin içi"
+
+# ball and socket
+pages.joint-shapes.labels.0: "küresel eklem"
+
+# hinge
+pages.joint-shapes.labels.1: "menteşe"
+
+# pivot
+pages.joint-shapes.labels.2: "mil"
+
+# Ball, hinge and pivot
+pages.joint-shapes.title: "Küre, menteşe ve mil"
+
+# femur
+pages.growth-plates.labels.0: "uyluk kemiği"
+
+# tibia
+pages.growth-plates.labels.1: "kaval kemiği"
+
+# How bones grow
+pages.growth-plates.title: "Kemikler nasıl büyür"
+
+# radius
+pages.fracture.labels.0: "döner kemik"
+
+# ulna
+pages.fracture.labels.1: "dirsek kemiği"
+
+# A broken bone heals
+pages.fracture.title: "Kırık bir kemik iyileşir"
+
+# vertebrae
+pages.osteoporosis.labels.0: "omurlar"
+
+# femur
+pages.osteoporosis.labels.1: "uyluk kemiği"
+
+# radius
+pages.osteoporosis.labels.2: "döner kemik"
+
+# Thinning bone
+pages.osteoporosis.title: "İncelen kemik"
+
+# mandible
+pages.vesalius.labels.0: "alt çene kemiği"
+
+# sternum
+pages.vesalius.labels.1: "göğüs kemiği"
+
+# 1543
+pages.vesalius.date: "1543"
+
+# Vesalius and the Fabrica
+pages.vesalius.title: "Vesalius ve Fabrica"
+
+# left hand
+pages.roentgen.labels.0: "sol el"
+
+# 1895
+pages.roentgen.date: "1895"
+
+# Röntgen's rays
+pages.roentgen.title: "Röntgen’in ışınları"
+
+# The 206 bones of the adult body and the joints between them. The pages cover bone as a living tissue, the skull, the spine, the rib cage, the arms and legs, the kinds of joint, and how bones grow, heal and thin with age. They end with the anatomy of Vesalius and the first X-rays of Röntgen.
+story.summary: "Yetişkin bedenin 206 kemiği ve aralarındaki eklemler. Sayfalar canlı bir doku olarak kemiği, kafatasını, omurgayı, göğüs kafesini, kolları ve bacakları, eklem türlerini ve kemiklerin nasıl büyüyüp iyileştiğini ve yaşla nasıl inceldiğini anlatır. Vesalius’un anatomisi ve Röntgen’in ilk X ışınlarıyla biter."
+
+# The skeletal system
+story.title: "İskelet sistemi"

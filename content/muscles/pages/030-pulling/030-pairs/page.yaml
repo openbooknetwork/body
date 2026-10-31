@@ -1,0 +1,13 @@
+title: "Muscles in pairs"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the shoulder girdle and arm.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 55."]
+beden:
+  camera: right
+  look: [-0.18, 1.12, 0.06]
+  distance: 0.8
+  layers: [skeleton, superficial]
+  parts:
+    highlight: [biceps-brachii, triceps-brachii]
+    ghost: [pectoralis-major, latissimus-dorsi, serratus-anterior, external-oblique, trapezius, deltoid, rectus-abdominis]
+  labels:
+    - { part: right-biceps-brachii, text: "biceps" }
+    - { part: right-triceps-brachii, text: "triceps" }

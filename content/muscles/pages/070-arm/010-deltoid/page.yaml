@@ -1,0 +1,11 @@
+title: "The deltoid"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the shoulder girdle and arm."]
+beden:
+  camera: right-front
+  look: right-deltoid
+  distance: 0.6
+  layers: [skeleton, superficial]
+  parts:
+    highlight: [deltoid]
+  labels:
+    - { part: right-deltoid, text: "deltoid" }

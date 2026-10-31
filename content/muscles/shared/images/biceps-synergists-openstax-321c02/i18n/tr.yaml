@@ -1,0 +1,6 @@
+# tr strings for the image "biceps-synergists-openstax-321c02".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The biceps brachii bending the elbow to lift a glass, helped by the brachioradialis and by the brachialis beneath it, OpenStax Anatomy and Physiology
+image.caption: "Bir bardak kaldırmak için dirseği büken iki başlı kol kası, ona brakioradial kas ve altındaki brakialis yardım eder, OpenStax Anatomy and Physiology"

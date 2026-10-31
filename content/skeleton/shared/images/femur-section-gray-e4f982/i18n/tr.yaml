@@ -1,0 +1,6 @@
+# tr strings for the image "femur-section-gray-e4f982".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The upper end of a femur sawn lengthwise: spongy bone fills the head and neck, and a shell of compact bone runs down the shaft, Gray's Anatomy, 1918, figure 247
+image.caption: "Boyuna kesilmiş bir uyluk kemiğinin üst ucu: baş ve boyun süngerimsi kemikle dolu, gövde boyunca sıkı kemikten bir kabuk uzanır, Gray’s Anatomy, 1918, şekil 247"

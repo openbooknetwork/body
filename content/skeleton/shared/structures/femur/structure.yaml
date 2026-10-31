@@ -1,0 +1,10 @@
+name: "Femur"
+latin: "Os femoris"
+role: "The bone of the thigh, the longest and strongest in the body, between the hip and the knee"
+source: https://en.wikipedia.org/wiki/Femur
+images: [femur-gray-94019d]
+facts:
+  - { label: "Length", value: "About a quarter of body height" }
+  - { label: "Neck angle", value: "About 125 degrees to the shaft" }
+  - { label: "Joints", value: "The hip above, the knee below" }
+  - { label: "Growth", value: "The plate at its lower end adds most of its length" }

@@ -1,0 +1,6 @@
+# tr strings for the image "lumbar-disc-section-gray-1ac3d8".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Two lumbar vertebrae cut down the middle, with the disc between their bodies and the ligaments of the column, Gray's Anatomy, 1918, figure 301
+image.caption: "Ortadan kesilmiş iki bel omuru, gövdeleri arasındaki disk ve omurganın bağlarıyla, Gray’s Anatomy, 1918, şekil 301"

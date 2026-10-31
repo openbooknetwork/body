@@ -1,0 +1,13 @@
+title: "The sternum"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the chest wall and breast.", "Gavin Perkins and others, European Resuscitation Council Guidelines 2021: adult basic life support, Resuscitation 161 (2021): 98 to 114."]
+beden:
+  camera: front
+  look: sternum
+  distance: 0.5
+  layers: [bones, cartilage, organs]
+  parts: { highlight: [manubrium, sternum-body, xiphoid-process, costal-cartilages], ghost: [lungs, heart], hide: [brain, spinal-cord, cauda-equina] }
+  labels:
+    - { part: manubrium, text: "manubrium" }
+    - { part: sternum-body, text: "body" }
+    - { part: xiphoid-process, text: "xiphoid process" }
+    - { part: costal-cartilages, text: "costal cartilages" }

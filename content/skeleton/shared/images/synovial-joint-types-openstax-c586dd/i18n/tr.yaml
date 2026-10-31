@@ -1,0 +1,6 @@
+# tr strings for the image "synovial-joint-types-openstax-c586dd".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Six kinds of synovial joint: pivot, hinge, saddle, plane, condyloid, and ball and socket
+image.caption: "Altı tür sinovyal eklem: mil, menteşe, eyer, düz, kondiloid ve küresel eklem"

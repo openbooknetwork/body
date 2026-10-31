@@ -1,0 +1,6 @@
+# tr strings for the image "ankle-ligaments-gray-9c05cb".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The left ankle from the outer side, with the anterior and posterior talofibular ligaments and the calcaneofibular ligament, Gray's Anatomy, 1918, figure 356
+image.caption: "Dış yandan sol ayak bileği, ön ve arka talofibular bağlar ve kalkaneofibular bağla, Gray’s Anatomy, 1918, şekil 356"

@@ -1,0 +1,15 @@
+title: "Into the hand"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapters on the elbow and forearm and on the wrist and hand."]
+beden:
+  camera: front
+  look: [-0.25, 0.84, 0.12]
+  distance: 0.75
+  layers: [skeleton, middle, deep]
+  parts:
+    highlight: [flexor-digitorum-superficialis, deep-finger-flexors]
+    show: [thenar-muscles, hypothenar-muscles, wrist-retinacula]
+  labels:
+    - { part: right-flexor-digitorum-superficialis, text: "flexor digitorum superficialis" }
+    - { part: right-deep-finger-flexors, text: "flexor digitorum profundus" }
+    - { part: right-thenar-muscles, text: "thenar muscles" }
+    - { part: right-hypothenar-muscles, text: "hypothenar muscles" }

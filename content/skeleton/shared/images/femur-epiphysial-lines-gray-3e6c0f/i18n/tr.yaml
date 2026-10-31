@@ -1,0 +1,6 @@
+# tr strings for the image "femur-epiphysial-lines-gray-3e6c0f".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The ends of a young adult's femur, with the lines where the growth plates closed in black, Gray's Anatomy, 1918, figure 253
+image.caption: "Genç bir yetişkinin uyluk kemiğinin uçları, büyüme plaklarının kapandığı çizgiler siyah, Gray’s Anatomy, 1918, şekil 253"

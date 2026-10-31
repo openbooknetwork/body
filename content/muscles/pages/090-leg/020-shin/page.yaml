@@ -1,0 +1,14 @@
+title: "The front of the leg"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapters on the leg and on the ankle and foot."]
+beden:
+  camera: right
+  look: [-0.08, 0.16, 0.1]
+  distance: 0.95
+  layers: [skeleton, superficial]
+  parts:
+    highlight: [tibialis-anterior, toe-extensors, fibularis]
+  labels:
+    - { part: right-tibialis-anterior, text: "tibialis anterior" }
+    - { part: left-toe-extensors, text: "toe extensors" }
+    - { part: right-fibularis, text: "fibularis longus and brevis" }
+    - { part: right-ankle-retinacula, text: "retinacula" }

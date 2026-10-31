@@ -1,0 +1,12 @@
+title: "A slipped disc"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the back.", "Allan Ropper and Ross Zafonte, Sciatica, New England Journal of Medicine 372 (2015): 1240 to 1248."]
+beden:
+  camera: above
+  look: disc-l4-l5
+  distance: 0.2
+  layers: [bones, cartilage, ligaments]
+  section: { plane: axial, at: 0.94, flip: true }
+  parts: { show: [cauda-equina], highlight: [disc-l4-l5, nucleus-l4-l5, cauda-equina], ghost: [posterior-longitudinal-ligament], hide: [anterior-longitudinal-ligament, back-ligaments, pelvic-ligaments] }
+  labels:
+    - { part: nucleus-l4-l5, text: "nucleus pulposus" }
+    - { part: cauda-equina, text: "cauda equina" }

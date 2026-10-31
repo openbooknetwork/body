@@ -1,0 +1,12 @@
+title: "Ball, hinge and pivot"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapters on the shoulder girdle and arm and on the elbow and forearm.", "J. Gordon Betts and others, Anatomy and Physiology (Houston: OpenStax, 2013), section 9.5."]
+beden:
+  camera: right-front
+  look: [-0.2, 1.15, 0.07]
+  distance: 0.72
+  layers: [bones, capsules, ligaments]
+  parts: { highlight: [right-shoulder-capsule, right-elbow-capsule, right-annular-ligament], hide: [back-ligaments, rib-joint-ligaments, anterior-longitudinal-ligament, posterior-longitudinal-ligament, pelvic-ligaments, right-forearm-membrane, left-forearm-membrane] }
+  labels:
+    - { part: right-shoulder-capsule, text: "ball and socket" }
+    - { part: right-elbow-capsule, text: "hinge" }
+    - { part: right-annular-ligament, text: "pivot" }

@@ -1,0 +1,6 @@
+# tr strings for the image "foot-ligaments-gray-64da96".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The ligaments on the inner side of the foot, with the plantar calcaneonavicular (spring) ligament and the long plantar ligament, Gray's Anatomy, 1918, figure 354
+image.caption: "Ayağın iç yanındaki bağlar, yay bağı ve uzun taban bağıyla, Gray’s Anatomy, 1918, şekil 354"

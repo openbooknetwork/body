@@ -1,0 +1,6 @@
+# tr strings for the image "newborn-skull-above-gray-65298a".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A newborn's skull from above, with the anterior (frontal) and posterior (occipital) fontanelles, Gray's Anatomy, 1918, figure 197
+image.caption: "Yukarıdan bir yeni doğanın kafatası, ön (alın) ve arka (art kafa) bıngıldaklarıyla, Gray’s Anatomy, 1918, şekil 197"

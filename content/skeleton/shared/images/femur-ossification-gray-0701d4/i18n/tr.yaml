@@ -1,0 +1,6 @@
+# tr strings for the image "femur-ossification-gray-0701d4".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The femur's five centres of bone, with the age at which each appears and joins the shaft, Gray's Anatomy, 1918, figure 252
+image.caption: "Uyluk kemiğinin beş kemikleşme merkezi, her birinin belirdiği ve gövdeyle kaynaştığı yaşlarla, Gray’s Anatomy, 1918, şekil 252"

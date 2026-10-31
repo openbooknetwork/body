@@ -1,0 +1,35 @@
+# tr strings for the structure "biceps-brachii".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Biceps brachii
+structure.name: "İki başlı kol kası"
+
+# The two-headed muscle on the front of the arm, which bends the elbow and turns the palm up
+structure.role: "Kolun önündeki, dirseği büken ve avucu yukarı çeviren iki başlı kas"
+
+# Heads
+structure.facts.0.label: "Başlar"
+
+# Insertion
+structure.facts.1.label: "Tutunma yeri"
+
+# Nerve
+structure.facts.2.label: "Sinir"
+
+# Actions
+structure.facts.3.label: "İşlevleri"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Long head from above the shoulder socket, short head from the coracoid process of the scapula
+structure.facts.0.value: "Uzun baş omuz yuvasının üstünden, kısa baş kürek kemiğinin korakoid çıkıntısından"
+
+# The radial tuberosity, and through the bicipital aponeurosis the fascia of the forearm
+structure.facts.1.value: "Radius tüberozitesi, bisipital aponevroz aracılığıyla da önkol fasyası"
+
+# Musculocutaneous nerve, spinal segments C5 and C6
+structure.facts.2.value: "Muskulokutan sinir, C5 ve C6 omurilik bölütleri"
+
+# Bends the elbow, turns the palm up, helps lift the arm forward
+structure.facts.3.value: "Dirseği büker, avucu yukarı çevirir, kolu öne kaldırmaya yardım eder"

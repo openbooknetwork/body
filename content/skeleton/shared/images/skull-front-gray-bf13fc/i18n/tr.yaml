@@ -1,0 +1,6 @@
+# tr strings for the image "skull-front-gray-bf13fc".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The skull from the front, with the bones of the face coloured, Gray's Anatomy, 1918, figure 190
+image.caption: "Önden kafatası, yüz kemikleri renkli, Gray’s Anatomy, 1918, şekil 190"

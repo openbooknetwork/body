@@ -1,0 +1,6 @@
+# tr strings for the image "vesalius-skeleton-45a3f4".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The skeleton from the side, leaning on a tomb with one hand on a skull, from the Fabrica, 1543
+image.caption: "Yandan iskelet, bir mezar taşına yaslanmış, bir eli bir kafatasının üzerinde, Fabrica’dan, 1543"

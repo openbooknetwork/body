@@ -1,0 +1,6 @@
+# tr strings for the image "diaphragm-below-gray-97f7cc".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The diaphragm from below, its muscle arranged round the central tendon, with the openings for the inferior vena cava, the esophagus and the aorta, Gray's Anatomy, 1918, figure 391
+image.caption: "Alttan diyafram, ortadaki kirişin çevresine dizilmiş kası ile alt ana toplardamar, yemek borusu ve aort için açıklıklar, Gray’s Anatomy, 1918, şekil 391"

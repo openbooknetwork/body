@@ -1,0 +1,15 @@
+title: "The inner thigh"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the pelvic girdle, gluteal region and thigh."]
+beden:
+  camera: front
+  look: adductors
+  distance: 1.35
+  layers: [skeleton, superficial, middle]
+  parts:
+    highlight: [adductor-longus, adductor-magnus, gracilis, sartorius, pectineus, adductor-brevis]
+    ghost: [rectus-femoris, vastus-lateralis, vastus-medialis, tensor-fasciae-latae, iliotibial-tract]
+  labels:
+    - { part: right-sartorius, text: "sartorius" }
+    - { part: right-adductor-longus, text: "adductor longus" }
+    - { part: left-gracilis, text: "gracilis" }
+    - { part: left-adductor-magnus, text: "adductor magnus" }

@@ -1,0 +1,6 @@
+# tr strings for the image "osteoporosis-blausen-847ea1".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Healthy bone on the left and osteoporotic bone on the right, with thinner trabeculae and a back bent forward by collapsed vertebrae
+image.caption: "Solda sağlıklı, sağda kemik erimesine uğramış kemik: trabeküller daha ince, çöken omurlar sırtı öne bükmüş"

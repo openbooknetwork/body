@@ -1,0 +1,15 @@
+title: "The quadriceps"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapters on the pelvic girdle, gluteal region and thigh and on the knee."]
+beden:
+  camera: front
+  look: quadriceps
+  distance: 1.35
+  layers: [skeleton, superficial, deep]
+  parts:
+    highlight: [rectus-femoris, vastus-lateralis, vastus-medialis, vastus-intermedius]
+  structure: quadriceps
+  labels:
+    - { part: right-rectus-femoris, text: "rectus femoris" }
+    - { part: left-vastus-lateralis, text: "vastus lateralis" }
+    - { part: right-vastus-medialis, text: "vastus medialis" }
+    - { part: patellae, text: "patella" }

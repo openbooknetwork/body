@@ -1,0 +1,11 @@
+title: "Röntgen's rays"
+date: "1895"
+sources: ["Wilhelm Conrad Röntgen, Über eine neue Art von Strahlen, Sitzungsberichte der Physikalisch-Medizinischen Gesellschaft zu Würzburg (1895): 132 to 141.", "Otto Glasser, Wilhelm Conrad Röntgen and the Early History of the Roentgen Rays (Springfield: Charles C. Thomas, 1934)."]
+beden:
+  camera: front
+  look: left-hand-bones
+  distance: 0.32
+  layers: [skin, bones]
+  parts: { highlight: [left-hand-bones], ghost: [skin] }
+  labels:
+    - { part: left-metacarpals, text: "left hand" }

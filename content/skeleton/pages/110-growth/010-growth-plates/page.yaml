@@ -1,0 +1,11 @@
+title: "How bones grow"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on bone and cartilage.", "J. Gordon Betts and others, Anatomy and Physiology (Houston: OpenStax, 2013), section 6.4."]
+beden:
+  camera: right-front
+  look: [-0.075, 0.42, 0.08]
+  distance: 0.85
+  layers: [bones]
+  parts: { highlight: [right-femur, right-tibia] }
+  labels:
+    - { part: right-femur, text: "femur" }
+    - { part: right-tibia, text: "tibia" }

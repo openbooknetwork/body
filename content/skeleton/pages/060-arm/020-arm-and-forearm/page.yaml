@@ -1,0 +1,13 @@
+title: "Arm and forearm"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapters on the shoulder girdle and arm, the elbow and forearm."]
+beden:
+  camera: front
+  look: [-0.21, 1.05, 0.08]
+  distance: 0.9
+  layers: [bones, ligaments]
+  parts: { highlight: [right-humerus, right-radius, right-ulna, right-forearm-membrane], hide: [back-ligaments, rib-joint-ligaments, anterior-longitudinal-ligament, posterior-longitudinal-ligament, pelvic-ligaments] }
+  labels:
+    - { part: right-humerus, text: "humerus" }
+    - { part: right-ulna, text: "ulna" }
+    - { part: right-radius, text: "radius" }
+    - { part: right-forearm-membrane, text: "interosseous membrane" }

@@ -1,0 +1,6 @@
+# tr strings for the image "sternum-gray-e12a99".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The sternum and costal cartilages from the front, with the attachments of muscles in red, Gray's Anatomy, 1918, figure 115
+image.caption: "Önden göğüs kemiği ve kaburga kıkırdakları, kasların tutunma yerleri kırmızı, Gray’s Anatomy, 1918, şekil 115"

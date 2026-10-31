@@ -1,0 +1,6 @@
+# tr strings for the image "sliding-filament-openstax-f67064".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A sarcomere relaxed, above, and contracted, below, with the actin filaments slid over the myosin toward the middle and the Z discs drawn closer, OpenStax Anatomy and Physiology
+image.caption: "Üstte gevşek, altta kasılmış bir sarkomer, aktin filamentleri miyozin üzerinden ortaya doğru kaymış ve Z diskleri yaklaşmış, OpenStax Anatomy and Physiology"

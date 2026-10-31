@@ -1,0 +1,6 @@
+# tr strings for the image "hand-bones-gray-4ee1cc".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The bones of the left hand from the palm side, Gray's Anatomy, 1918, figure 219
+image.caption: "Avuç tarafından sol elin kemikleri, Gray’s Anatomy, 1918, şekil 219"

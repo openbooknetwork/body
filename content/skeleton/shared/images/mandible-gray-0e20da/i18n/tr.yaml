@@ -1,0 +1,6 @@
+# tr strings for the image "mandible-gray-0e20da".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The mandible from the side, with its body, ramus, condyle and coronoid process and the attachments of muscles in red, Gray's Anatomy, 1918, figure 176
+image.caption: "Yandan alt çene kemiği, gövdesi, dalı, kondili ve koronoid çıkıntısıyla, kasların tutunma yerleri kırmızı, Gray’s Anatomy, 1918, şekil 176"

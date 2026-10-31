@@ -1,0 +1,6 @@
+# tr strings for the image "forearm-bones-gray-0481bc".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The bones of the left forearm from the front, the ulna and the radius, Gray's Anatomy, 1918, figure 213
+image.caption: "Önden sol önkolun kemikleri, dirsek kemiği ve döner kemik, Gray’s Anatomy, 1918, şekil 213"

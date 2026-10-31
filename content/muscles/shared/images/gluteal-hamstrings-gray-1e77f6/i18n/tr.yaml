@@ -1,0 +1,6 @@
+# tr strings for the image "gluteal-hamstrings-gray-1e77f6".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Muscles of the buttock and the back of the thigh, with the gluteus maximus and medius cut to show the deep muscles beneath, and the hamstrings below, Gray's Anatomy, 1918, figure 434
+image.caption: "Kalçanın ve uyluğun arkasının kasları, alttaki derin kaslar görünsün diye kesilmiş büyük ve orta kalça kasları, aşağıda arka uyluk kasları, Gray’s Anatomy, 1918, şekil 434"

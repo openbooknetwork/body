@@ -1,0 +1,6 @@
+# tr strings for the image "back-muscles-gray-143cc8".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Muscles joining the arm to the spine, the trapezius and the latissimus dorsi on one side and the deeper rhomboids and levator scapulae on the other, Gray's Anatomy, 1918, figure 409
+image.caption: "Kolu omurgaya bağlayan kaslar, bir yanda trapez ve geniş sırt kası, öbür yanda daha derindeki rhomboid kaslar ve kürek kaldırıcı kas, Gray’s Anatomy, 1918, şekil 409"

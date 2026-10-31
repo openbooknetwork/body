@@ -1,0 +1,497 @@
+# tr strings for the model "body".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# skin
+parts.skin: "deri"
+
+# brain
+parts.brain: "beyin"
+
+# right lung
+parts.right-lung: "sağ akciğer"
+
+# left lung
+parts.left-lung: "sol akciğer"
+
+# heart
+parts.heart: "kalp"
+
+# spinal cord
+parts.spinal-cord: "omurilik"
+
+# cauda equina
+parts.cauda-equina: "at kuyruğu"
+
+# frontal bone
+parts.frontal-bone: "alın kemiği"
+
+# parietal bones
+parts.parietal-bones: "yan kafa kemikleri"
+
+# occipital bone
+parts.occipital-bone: "art kafa kemiği"
+
+# temporal bones
+parts.temporal-bones: "şakak kemikleri"
+
+# sphenoid bone
+parts.sphenoid-bone: "kama kemiği"
+
+# ethmoid bone
+parts.ethmoid-bone: "kalbur kemiği"
+
+# nasal bones
+parts.nasal-bones: "burun kemikleri"
+
+# zygomatic bones
+parts.zygomatic-bones: "elmacık kemikleri"
+
+# maxillae
+parts.maxillae: "üst çene kemikleri"
+
+# inner facial bones
+parts.inner-facial-bones: "iç yüz kemikleri"
+
+# mandible
+parts.mandible: "alt çene kemiği"
+
+# hyoid bone
+parts.hyoid-bone: "dil kemiği"
+
+# teeth
+parts.teeth: "dişler"
+
+# atlas
+parts.atlas: "atlas"
+
+# axis
+parts.axis: "aksis"
+
+# lower cervical vertebrae
+parts.lower-cervical-vertebrae: "alt boyun omurları"
+
+# thoracic vertebrae
+parts.thoracic-vertebrae: "göğüs omurları"
+
+# first lumbar vertebra
+parts.first-lumbar-vertebra: "birinci bel omuru"
+
+# second lumbar vertebra
+parts.second-lumbar-vertebra: "ikinci bel omuru"
+
+# third lumbar vertebra
+parts.third-lumbar-vertebra: "üçüncü bel omuru"
+
+# fourth lumbar vertebra
+parts.fourth-lumbar-vertebra: "dördüncü bel omuru"
+
+# fifth lumbar vertebra
+parts.fifth-lumbar-vertebra: "beşinci bel omuru"
+
+# sacrum
+parts.sacrum: "sağrı kemiği"
+
+# manubrium
+parts.manubrium: "göğüs kemiği sapı"
+
+# sternum body
+parts.sternum-body: "göğüs kemiği gövdesi"
+
+# xiphoid process
+parts.xiphoid-process: "ksifoid çıkıntı"
+
+# right true ribs
+parts.right-true-ribs: "sağ gerçek kaburgalar"
+
+# left true ribs
+parts.left-true-ribs: "sol gerçek kaburgalar"
+
+# right false ribs
+parts.right-false-ribs: "sağ yalancı kaburgalar"
+
+# left false ribs
+parts.left-false-ribs: "sol yalancı kaburgalar"
+
+# right floating ribs
+parts.right-floating-ribs: "sağ serbest kaburgalar"
+
+# left floating ribs
+parts.left-floating-ribs: "sol serbest kaburgalar"
+
+# costal cartilages
+parts.costal-cartilages: "kaburga kıkırdakları"
+
+# right clavicle
+parts.right-clavicle: "sağ köprücük kemiği"
+
+# left clavicle
+parts.left-clavicle: "sol köprücük kemiği"
+
+# right scapula
+parts.right-scapula: "sağ kürek kemiği"
+
+# left scapula
+parts.left-scapula: "sol kürek kemiği"
+
+# right humerus
+parts.right-humerus: "sağ pazu kemiği"
+
+# left humerus
+parts.left-humerus: "sol pazu kemiği"
+
+# right radius
+parts.right-radius: "sağ döner kemik"
+
+# left radius
+parts.left-radius: "sol döner kemik"
+
+# right ulna
+parts.right-ulna: "sağ dirsek kemiği"
+
+# left ulna
+parts.left-ulna: "sol dirsek kemiği"
+
+# right carpals
+parts.right-carpals: "sağ el bileği kemikleri"
+
+# left carpals
+parts.left-carpals: "sol el bileği kemikleri"
+
+# right metacarpals
+parts.right-metacarpals: "sağ el tarağı kemikleri"
+
+# left metacarpals
+parts.left-metacarpals: "sol el tarağı kemikleri"
+
+# right finger bones
+parts.right-finger-bones: "sağ el parmak kemikleri"
+
+# left finger bones
+parts.left-finger-bones: "sol el parmak kemikleri"
+
+# right hip bone
+parts.right-hip-bone: "sağ kalça kemiği"
+
+# left hip bone
+parts.left-hip-bone: "sol kalça kemiği"
+
+# right femur
+parts.right-femur: "sağ uyluk kemiği"
+
+# left femur
+parts.left-femur: "sol uyluk kemiği"
+
+# right patella
+parts.right-patella: "sağ diz kapağı kemiği"
+
+# left patella
+parts.left-patella: "sol diz kapağı kemiği"
+
+# right tibia
+parts.right-tibia: "sağ kaval kemiği"
+
+# left tibia
+parts.left-tibia: "sol kaval kemiği"
+
+# right fibula
+parts.right-fibula: "sağ kamış kemiği"
+
+# left fibula
+parts.left-fibula: "sol kamış kemiği"
+
+# right talus
+parts.right-talus: "sağ aşık kemiği"
+
+# left talus
+parts.left-talus: "sol aşık kemiği"
+
+# right calcaneus
+parts.right-calcaneus: "sağ topuk kemiği"
+
+# left calcaneus
+parts.left-calcaneus: "sol topuk kemiği"
+
+# right midfoot tarsals
+parts.right-midfoot-tarsals: "sağ orta ayak kemikleri"
+
+# left midfoot tarsals
+parts.left-midfoot-tarsals: "sol orta ayak kemikleri"
+
+# right metatarsals
+parts.right-metatarsals: "sağ ayak tarağı kemikleri"
+
+# left metatarsals
+parts.left-metatarsals: "sol ayak tarağı kemikleri"
+
+# right toe bones
+parts.right-toe-bones: "sağ ayak parmak kemikleri"
+
+# left toe bones
+parts.left-toe-bones: "sol ayak parmak kemikleri"
+
+# foot sesamoids
+parts.foot-sesamoids: "ayak sesamoid kemikleri"
+
+# intervertebral discs
+parts.intervertebral-discs: "omurlar arası diskler"
+
+# disc l4 l5
+parts.disc-l4-l5: "L4-L5 diski"
+
+# nuclei pulposi
+parts.nuclei-pulposi: "disk çekirdekleri"
+
+# nucleus l4 l5
+parts.nucleus-l4-l5: "L4-L5 disk çekirdeği"
+
+# anterior longitudinal ligament
+parts.anterior-longitudinal-ligament: "ön uzunlamasına bağ"
+
+# posterior longitudinal ligament
+parts.posterior-longitudinal-ligament: "arka uzunlamasına bağ"
+
+# back ligaments
+parts.back-ligaments: "sırt bağları"
+
+# rib joint ligaments
+parts.rib-joint-ligaments: "kaburga eklemi bağları"
+
+# pubic symphysis
+parts.pubic-symphysis: "çatı kemikleri bitişimi"
+
+# pelvic ligaments
+parts.pelvic-ligaments: "leğen bağları"
+
+# jaw joint capsules
+parts.jaw-joint-capsules: "çene eklemi kapsülleri"
+
+# right jaw joint disc
+parts.right-jaw-joint-disc: "sağ çene eklemi diski"
+
+# left jaw joint disc
+parts.left-jaw-joint-disc: "sol çene eklemi diski"
+
+# sternoclavicular joints
+parts.sternoclavicular-joints: "göğüs-köprücük eklemleri"
+
+# acromioclavicular joints
+parts.acromioclavicular-joints: "omuz-köprücük eklemleri"
+
+# right shoulder capsule
+parts.right-shoulder-capsule: "sağ omuz eklemi kapsülü"
+
+# left shoulder capsule
+parts.left-shoulder-capsule: "sol omuz eklemi kapsülü"
+
+# right glenoid labrum
+parts.right-glenoid-labrum: "sağ glenoid labrum"
+
+# left glenoid labrum
+parts.left-glenoid-labrum: "sol glenoid labrum"
+
+# right elbow capsule
+parts.right-elbow-capsule: "sağ dirsek eklemi kapsülü"
+
+# left elbow capsule
+parts.left-elbow-capsule: "sol dirsek eklemi kapsülü"
+
+# right annular ligament
+parts.right-annular-ligament: "sağ halka bağ"
+
+# left annular ligament
+parts.left-annular-ligament: "sol halka bağ"
+
+# right forearm membrane
+parts.right-forearm-membrane: "sağ önkol kemikler arası zarı"
+
+# left forearm membrane
+parts.left-forearm-membrane: "sol önkol kemikler arası zarı"
+
+# right hip capsule
+parts.right-hip-capsule: "sağ kalça eklemi kapsülü"
+
+# left hip capsule
+parts.left-hip-capsule: "sol kalça eklemi kapsülü"
+
+# right acetabular labrum
+parts.right-acetabular-labrum: "sağ asetabular labrum"
+
+# left acetabular labrum
+parts.left-acetabular-labrum: "sol asetabular labrum"
+
+# right femoral head ligament
+parts.right-femoral-head-ligament: "sağ uyluk başı bağı"
+
+# left femoral head ligament
+parts.left-femoral-head-ligament: "sol uyluk başı bağı"
+
+# right knee capsule
+parts.right-knee-capsule: "sağ diz eklemi kapsülü"
+
+# left knee capsule
+parts.left-knee-capsule: "sol diz eklemi kapsülü"
+
+# right menisci
+parts.right-menisci: "sağ menisküsler"
+
+# left menisci
+parts.left-menisci: "sol menisküsler"
+
+# right anterior cruciate ligament
+parts.right-anterior-cruciate-ligament: "sağ ön çapraz bağ"
+
+# left anterior cruciate ligament
+parts.left-anterior-cruciate-ligament: "sol ön çapraz bağ"
+
+# right posterior cruciate ligament
+parts.right-posterior-cruciate-ligament: "sağ arka çapraz bağ"
+
+# left posterior cruciate ligament
+parts.left-posterior-cruciate-ligament: "sol arka çapraz bağ"
+
+# right knee collateral ligaments
+parts.right-knee-collateral-ligaments: "sağ diz yan bağları"
+
+# left knee collateral ligaments
+parts.left-knee-collateral-ligaments: "sol diz yan bağları"
+
+# right leg membrane
+parts.right-leg-membrane: "sağ bacak kemikler arası zarı"
+
+# left leg membrane
+parts.left-leg-membrane: "sol bacak kemikler arası zarı"
+
+# right ankle ligaments
+parts.right-ankle-ligaments: "sağ ayak bileği bağları"
+
+# left ankle ligaments
+parts.left-ankle-ligaments: "sol ayak bileği bağları"
+
+# right spring ligament
+parts.right-spring-ligament: "sağ yay bağı"
+
+# left spring ligament
+parts.left-spring-ligament: "sol yay bağı"
+
+# right long plantar ligament
+parts.right-long-plantar-ligament: "sağ uzun taban bağı"
+
+# left long plantar ligament
+parts.left-long-plantar-ligament: "sol uzun taban bağı"
+
+# cranium
+parts.cranium: "beyin kafatası"
+
+# face
+parts.face: "yüz kemikleri"
+
+# skull
+parts.skull: "kafatası"
+
+# cervical vertebrae
+parts.cervical-vertebrae: "boyun omurları"
+
+# lumbar vertebrae
+parts.lumbar-vertebrae: "bel omurları"
+
+# vertebral column
+parts.vertebral-column: "omurga"
+
+# sternum
+parts.sternum: "göğüs kemiği"
+
+# true ribs
+parts.true-ribs: "gerçek kaburgalar"
+
+# false ribs
+parts.false-ribs: "yalancı kaburgalar"
+
+# floating ribs
+parts.floating-ribs: "serbest kaburgalar"
+
+# ribs
+parts.ribs: "kaburgalar"
+
+# rib cage
+parts.rib-cage: "göğüs kafesi"
+
+# axial skeleton
+parts.axial-skeleton: "eksen iskeleti"
+
+# clavicles
+parts.clavicles: "köprücük kemikleri"
+
+# scapulae
+parts.scapulae: "kürek kemikleri"
+
+# humeri
+parts.humeri: "pazu kemikleri"
+
+# radii
+parts.radii: "döner kemikler"
+
+# ulnae
+parts.ulnae: "dirsek kemikleri"
+
+# right hand bones
+parts.right-hand-bones: "sağ el kemikleri"
+
+# left hand bones
+parts.left-hand-bones: "sol el kemikleri"
+
+# hip bones
+parts.hip-bones: "kalça kemikleri"
+
+# pelvis
+parts.pelvis: "leğen"
+
+# femurs
+parts.femurs: "uyluk kemikleri"
+
+# patellae
+parts.patellae: "diz kapağı kemikleri"
+
+# tibiae
+parts.tibiae: "kaval kemikleri"
+
+# fibulae
+parts.fibulae: "kamış kemikleri"
+
+# right tarsals
+parts.right-tarsals: "sağ ayak bileği kemikleri"
+
+# right foot bones
+parts.right-foot-bones: "sağ ayak kemikleri"
+
+# appendicular skeleton
+parts.appendicular-skeleton: "üye iskeleti"
+
+# skeleton
+parts.skeleton: "iskelet"
+
+# discs
+parts.discs: "omurlar arası diskler"
+
+# nuclei
+parts.nuclei: "disk çekirdekleri"
+
+# jaw joint discs
+parts.jaw-joint-discs: "çene eklemi diskleri"
+
+# lungs
+parts.lungs: "akciğerler"
+
+# shoulder capsules
+parts.shoulder-capsules: "omuz eklemi kapsülleri"
+
+# elbow capsules
+parts.elbow-capsules: "dirsek eklemi kapsülleri"
+
+# hip capsules
+parts.hip-capsules: "kalça eklemi kapsülleri"
+
+# knee capsules
+parts.knee-capsules: "diz eklemi kapsülleri"

@@ -1,0 +1,6 @@
+# tr strings for the image "axial-skeleton-diagram-8d1ed0".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The axial skeleton in blue: the skull, the ear ossicles, the hyoid, the vertebral column and the rib cage
+image.caption: "Mavi renkte eksen iskeleti: kafatası, kulak kemikçikleri, dil kemiği, omurga ve göğüs kafesi"

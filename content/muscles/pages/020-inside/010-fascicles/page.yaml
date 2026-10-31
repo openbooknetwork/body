@@ -1,0 +1,15 @@
+title: "Bundles of fibres"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the functional anatomy of the musculoskeletal system.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 6."]
+beden:
+  camera: top
+  look: [-0.18, 1.16, 0.06]
+  distance: 0.32
+  layers: [skeleton, superficial, middle]
+  section: { plane: axial, at: 1.16, flip: true }
+  parts:
+    highlight: [biceps-brachii, brachialis, triceps-brachii, humeri]
+  labels:
+    - { part: right-biceps-brachii, text: "biceps" }
+    - { part: right-brachialis, text: "brachialis" }
+    - { part: right-triceps-brachii, text: "triceps" }
+    - { part: humeri, text: "humerus" }

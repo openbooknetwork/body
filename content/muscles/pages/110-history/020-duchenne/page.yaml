@@ -1,0 +1,14 @@
+title: "Duchenne's faces"
+date: "1862"
+sources: ["Guillaume-Benjamin Duchenne de Boulogne, Mécanisme de la physionomie humaine (Paris: Renouard, 1862).", "Charles Darwin, The Expression of the Emotions in Man and Animals (London: John Murray, 1872).", "Paul Ekman, Richard Davidson and Wallace Friesen, The Duchenne smile, Journal of Personality and Social Psychology 58 (1990): 342-353."]
+beden:
+  camera: right
+  look: muscles-of-expression
+  distance: 0.45
+  layers: [skeleton, superficial]
+  parts:
+    highlight: [zygomaticus-major, orbicularis-oculi]
+    hide: [platysma, sternocleidomastoid, trapezius]
+  labels:
+    - { part: right-zygomaticus-major, text: "zygomaticus major" }
+    - { part: right-orbicularis-oculi, text: "orbicularis oculi" }

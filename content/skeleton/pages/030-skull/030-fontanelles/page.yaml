@@ -1,0 +1,12 @@
+title: "A newborn's soft spots"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapters on the skull and on the development of the head."]
+beden:
+  camera: above
+  look: cranium
+  distance: 0.5
+  layers: [bones, teeth]
+  parts: { highlight: [frontal-bone, parietal-bones, occipital-bone] }
+  labels:
+    - { part: frontal-bone, text: "frontal bone" }
+    - { part: parietal-bones, text: "parietal bones" }
+    - { part: occipital-bone, text: "occipital bone" }

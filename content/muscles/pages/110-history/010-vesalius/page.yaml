@@ -1,0 +1,9 @@
+title: "Vesalius's muscle men"
+date: "1543"
+sources: ["Andreas Vesalius, De humani corporis fabrica libri septem (Basel: Johannes Oporinus, 1543), book II.", "Daniel Garrison and Malcolm Hast (trans.), The Fabric of the Human Body (Basel: Karger, 2014)."]
+beden:
+  camera: oblique
+  look: skin
+  layers: [skeleton, superficial]
+  parts:
+    ghost: [skeleton]

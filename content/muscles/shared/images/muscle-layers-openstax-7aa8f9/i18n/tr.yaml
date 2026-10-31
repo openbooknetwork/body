@@ -1,0 +1,6 @@
+# tr strings for the image "muscle-layers-openstax-7aa8f9".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A skeletal muscle opened layer by layer, from the epimysium round the muscle to the fascicles in their perimysium and the fibres in their endomysium, OpenStax Anatomy and Physiology
+image.caption: "Kat kat açılmış bir iskelet kası, kası saran epimizyumdan perimizyum içindeki demetlere ve endomizyum içindeki liflere, OpenStax Anatomy and Physiology"

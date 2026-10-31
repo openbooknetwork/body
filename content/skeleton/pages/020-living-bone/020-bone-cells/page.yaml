@@ -1,0 +1,10 @@
+title: "Cells that build and remove bone"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on bone and cartilage.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 80."]
+beden:
+  camera: right-front
+  look: right-tibia
+  distance: 0.75
+  layers: [bones]
+  parts: { highlight: [right-tibia] }
+  labels:
+    - { part: right-tibia, text: "tibia" }

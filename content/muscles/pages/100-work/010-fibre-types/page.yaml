@@ -1,0 +1,13 @@
+title: "Fast and slow fibres"
+sources: ["Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 6 and 85.", "M. A. Johnson, J. Polgar, D. Weightman and D. Appleton, Data on the distribution of fibre types in thirty-six human muscles, Journal of the Neurological Sciences 18 (1973): 111-129."]
+beden:
+  camera: right-side
+  look: [-0.08, 0.25, 0.05]
+  distance: 1.0
+  layers: [skeleton, superficial, middle]
+  parts:
+    highlight: [soleus, gastrocnemius, tibialis-anterior]
+  labels:
+    - { part: right-soleus, text: "soleus" }
+    - { part: right-gastrocnemius, text: "gastrocnemius" }
+    - { part: right-tibialis-anterior, text: "tibialis anterior" }

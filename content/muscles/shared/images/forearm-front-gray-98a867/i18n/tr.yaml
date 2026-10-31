@@ -1,0 +1,6 @@
+# tr strings for the image "forearm-front-gray-98a867".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Superficial muscles on the front of the left forearm, among them the pronator teres, the flexor carpi radialis, the palmaris longus, the flexor carpi ulnaris and the brachioradialis, Gray's Anatomy, 1918, figure 414
+image.caption: "Sol önkolun ön yüzünün yüzeyel kasları, aralarında pronator teres, fleksör karpi radialis, palmaris longus, fleksör karpi ulnaris ve brakioradial kas, Gray’s Anatomy, 1918, şekil 414"

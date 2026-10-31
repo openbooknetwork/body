@@ -1,0 +1,13 @@
+title: "Iliopsoas"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapters on the posterior abdominal wall and on the pelvic girdle, gluteal region and thigh."]
+beden:
+  camera: front
+  look: iliopsoas
+  distance: 0.9
+  layers: [skeleton, deep]
+  parts:
+    highlight: [psoas-major, iliacus]
+    hide: [transversus-abdominis, external-intercostals, internal-intercostals, diaphragm, vastus-intermedius, subscapularis, deep-finger-flexors, supinator]
+  labels:
+    - { part: right-psoas-major, text: "psoas major" }
+    - { part: right-iliacus, text: "iliacus" }

@@ -1,0 +1,6 @@
+# tr strings for the image "knee-menisci-gray-4e7cb3".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The top of the right tibia from above, with the medial and lateral menisci and the ends of the cruciate ligaments, Gray's Anatomy, 1918, figure 349
+image.caption: "Yukarıdan sağ kaval kemiğinin üst yüzü, iç ve dış menisküsler ve çapraz bağların uçlarıyla, Gray’s Anatomy, 1918, şekil 349"

@@ -1,0 +1,6 @@
+# tr strings for the image "axis-gray-7753ed".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The axis, the second cervical vertebra, from above, with the dens that rises into the ring of the atlas, Gray's Anatomy, 1918, figure 87
+image.caption: "Yukarıdan ikinci boyun omuru aksis, atlasın halkasına yükselen dişiyle, Gray’s Anatomy, 1918, şekil 87"

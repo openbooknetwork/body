@@ -1,0 +1,6 @@
+# tr strings for the image "muscle-fibre-openstax-a9fd79".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A muscle fibre packed with myofibrils, and one myofibril with its sarcomeres, Z discs, light I bands and dark A bands, OpenStax Anatomy and Physiology
+image.caption: "Miyofibrillerle dolu bir kas lifi ve sarkomerleri, Z diskleri, açık I bantları ve koyu A bantlarıyla tek bir miyofibril, OpenStax Anatomy and Physiology"

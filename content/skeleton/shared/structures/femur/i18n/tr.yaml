@@ -1,0 +1,35 @@
+# tr strings for the structure "femur".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Femur
+structure.name: "Uyluk kemiği"
+
+# The bone of the thigh, the longest and strongest in the body, between the hip and the knee
+structure.role: "Kalça ile diz arasındaki uyluğun kemiği, bedenin en uzun ve en güçlü kemiği"
+
+# Length
+structure.facts.0.label: "Uzunluk"
+
+# Neck angle
+structure.facts.1.label: "Boyun açısı"
+
+# Joints
+structure.facts.2.label: "Eklemler"
+
+# Growth
+structure.facts.3.label: "Büyüme"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# About a quarter of body height
+structure.facts.0.value: "Boyun yaklaşık dörtte biri"
+
+# About 125 degrees to the shaft
+structure.facts.1.value: "Gövdeyle yaklaşık 125 derece"
+
+# The hip above, the knee below
+structure.facts.2.value: "Yukarıda kalça, aşağıda diz"
+
+# The plate at its lower end adds most of its length
+structure.facts.3.value: "Alt ucundaki plak boyunun çoğunu ekler"

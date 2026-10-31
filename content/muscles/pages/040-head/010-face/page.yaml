@@ -1,0 +1,15 @@
+title: "The face"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the face and scalp."]
+beden:
+  camera: front
+  look: muscles-of-expression
+  distance: 0.52
+  layers: [skeleton, superficial]
+  parts:
+    highlight: [frontalis, orbicularis-oculi, orbicularis-oris, zygomaticus-major]
+    hide: [platysma, sternocleidomastoid, trapezius]
+  labels:
+    - { part: right-frontalis, text: "frontalis" }
+    - { part: right-orbicularis-oculi, text: "orbicularis oculi" }
+    - { part: right-zygomaticus-major, text: "zygomaticus major" }
+    - { part: right-orbicularis-oris, text: "orbicularis oris" }

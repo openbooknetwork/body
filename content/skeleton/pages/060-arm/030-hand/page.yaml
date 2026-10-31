@@ -1,0 +1,12 @@
+title: "Hand and wrist"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the wrist and hand."]
+beden:
+  camera: front
+  look: right-hand-bones
+  distance: 0.36
+  layers: [skin, bones]
+  parts: { highlight: [right-carpals, right-metacarpals, right-finger-bones], ghost: [skin] }
+  labels:
+    - { part: right-carpals, text: "carpals" }
+    - { part: right-metacarpals, text: "metacarpals" }
+    - { part: right-finger-bones, text: "phalanges" }

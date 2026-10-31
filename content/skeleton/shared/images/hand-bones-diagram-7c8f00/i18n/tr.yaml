@@ -1,0 +1,6 @@
+# tr strings for the image "hand-bones-diagram-7c8f00".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The groups of bones in the hand: carpals, metacarpals and proximal, intermediate and distal phalanges
+image.caption: "Eldeki kemik grupları: el bileği kemikleri, el tarağı kemikleri ve yakın, orta ve uç parmak kemikleri"

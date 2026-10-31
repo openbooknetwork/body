@@ -1,0 +1,35 @@
+# tr strings for the structure "knee".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Knee joint
+structure.name: "Diz eklemi"
+
+# The joint between the femur, the tibia and the patella, the largest joint in the body
+structure.role: "Uyluk kemiği, kaval kemiği ve diz kapağı kemiği arasındaki eklem, bedenin en büyük eklemi"
+
+# Kind
+structure.facts.0.label: "Tür"
+
+# Menisci
+structure.facts.1.label: "Menisküsler"
+
+# Ligaments
+structure.facts.2.label: "Bağlar"
+
+# Sesamoid
+structure.facts.3.label: "Sesamoid"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Synovial, mainly a hinge
+structure.facts.0.value: "Sinovyal, çoğunlukla menteşe"
+
+# 2, medial and lateral, of fibrous cartilage
+structure.facts.1.value: "2, iç ve dış, lifli kıkırdaktan"
+
+# 2 cruciate inside, 2 collateral at the sides
+structure.facts.2.value: "İçeride 2 çapraz, yanlarda 2 yan bağ"
+
+# The patella, in the quadriceps tendon
+structure.facts.3.value: "Dört başlı kasın kirişindeki diz kapağı kemiği"

@@ -1,0 +1,6 @@
+# tr strings for the image "motor-end-plate-openstax-09856b".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A motor axon ending on a muscle fibre, with the neuromuscular junction enlarged to show acetylcholine released onto its receptors at the motor end plate, OpenStax Anatomy and Physiology
+image.caption: "Bir kas lifinde sona eren motor akson, motor son plakta asetilkolinin reseptörlerine salındığını göstermek için büyütülmüş sinir-kas kavşağı, OpenStax Anatomy and Physiology"

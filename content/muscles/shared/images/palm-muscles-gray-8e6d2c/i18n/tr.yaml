@@ -1,0 +1,6 @@
+# tr strings for the image "palm-muscles-gray-8e6d2c".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Muscles of the palm, with the thenar and hypothenar muscles and the long flexor tendons running into the fingers, Gray's Anatomy, 1918, figure 427
+image.caption: "Avucun kasları, tenar ve hipotenar kaslar ile parmaklara uzanan uzun bükücü kirişler, Gray’s Anatomy, 1918, şekil 427"

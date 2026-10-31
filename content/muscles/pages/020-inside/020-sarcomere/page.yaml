@@ -1,0 +1,11 @@
+title: "The sarcomere"
+sources: ["Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 6.", "Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the functional anatomy of the musculoskeletal system."]
+beden:
+  camera: right-front
+  look: right-biceps-brachii
+  distance: 0.75
+  layers: [skeleton, superficial]
+  parts:
+    highlight: [biceps-brachii]
+  labels:
+    - { part: right-biceps-brachii, text: "biceps" }

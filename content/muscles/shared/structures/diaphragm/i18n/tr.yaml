@@ -1,0 +1,29 @@
+# tr strings for the structure "diaphragm".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Diaphragm
+structure.name: "Diyafram"
+
+# The dome of muscle and tendon between the chest and the abdomen, the main muscle of breathing
+structure.role: "Göğüs ile karın arasındaki kas ve kirişten kubbe, solunumun ana kası"
+
+# Nerve
+structure.facts.0.label: "Sinir"
+
+# Openings
+structure.facts.1.label: "Açıklıklar"
+
+# Movement
+structure.facts.2.label: "Hareket"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Phrenic nerve, spinal segments C3 to C5
+structure.facts.0.value: "Frenik sinir, C3 ila C5 omurilik bölütleri"
+
+# Inferior vena cava at T8, esophagus at T10, aorta at T12
+structure.facts.1.value: "Alt ana toplardamar T8’de, yemek borusu T10’da, aort T12’de"
+
+# 1 to 2 cm in quiet breathing, up to about 10 cm in the deepest breaths
+structure.facts.2.value: "Sakin solunumda 1 ila 2 cm, en derin soluklarda 10 cm kadar"

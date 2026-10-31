@@ -1,0 +1,15 @@
+title: "Use and disuse"
+sources: ["Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 6 and 85.", "Gregory Adams, Vincent Caiozzo and Kenneth Baldwin, Skeletal muscle unweighting: spaceflight and ground-based models, Journal of Applied Physiology 95 (2003): 2185-2201."]
+beden:
+  camera: right-side
+  look: [0, 0.72, 0.05]
+  distance: 2.5
+  layers: [skeleton, superficial, middle]
+  parts:
+    highlight: [quadriceps, gluteus-maximus, soleus, gastrocnemius, erector-spinae]
+    hide: [latissimus-dorsi, trapezius, thoracolumbar-fascia, rhomboids, serratus-anterior]
+  labels:
+    - { part: right-erector-spinae, text: "erector spinae" }
+    - { part: right-gluteus-maximus, text: "gluteus maximus" }
+    - { part: right-quadriceps, text: "quadriceps" }
+    - { part: right-soleus, text: "soleus" }

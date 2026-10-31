@@ -1,0 +1,6 @@
+# tr strings for the image "external-oblique-gray-586c8c".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The external oblique on the left side of the abdomen, its aponeurosis covering the rectus abdominis as far as the linea alba, Gray's Anatomy, 1918, figure 392
+image.caption: "Karnın sol yanında dış eğik karın kası, aponevrozu düz karın kasını linea albaya kadar örter, Gray’s Anatomy, 1918, şekil 392"

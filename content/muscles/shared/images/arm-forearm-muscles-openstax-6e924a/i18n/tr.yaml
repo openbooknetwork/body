@@ -1,0 +1,6 @@
+# tr strings for the image "arm-forearm-muscles-openstax-6e924a".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Muscles of the left arm and forearm, with the two heads of the biceps and two heads of the triceps above and the superficial and deep forearm muscles below, OpenStax Anatomy and Physiology
+image.caption: "Sol kolun ve önkolun kasları, üstte bisepsin ve tricepsin ikişer başı, altta önkolun yüzeyel ve derin kasları, OpenStax Anatomy and Physiology"

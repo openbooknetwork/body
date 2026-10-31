@@ -1,0 +1,35 @@
+# tr strings for the structure "calcaneal-tendon".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Achilles tendon
+structure.name: "Aşil tendonu"
+
+# The common tendon of the gastrocnemius and the soleus, which pulls up the heel
+structure.role: "Gastroknemius ve soleusun ortak kirişi, topuğu yukarı çeker"
+
+# Length
+structure.facts.0.label: "Uzunluk"
+
+# Muscles
+structure.facts.1.label: "Kaslar"
+
+# Insertion
+structure.facts.2.label: "Tutunma yeri"
+
+# Force in running
+structure.facts.3.label: "Koşarken kuvvet"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# About 15 cm
+structure.facts.0.value: "Yaklaşık 15 cm"
+
+# Gastrocnemius and soleus
+structure.facts.1.value: "Gastroknemius ve soleus"
+
+# The back of the calcaneus
+structure.facts.2.value: "Topuk kemiğinin arkası"
+
+# Up to about 9 kN, some 12 times body weight
+structure.facts.3.value: "Yaklaşık 9 kN’a kadar, vücut ağırlığının 12 katı kadar"

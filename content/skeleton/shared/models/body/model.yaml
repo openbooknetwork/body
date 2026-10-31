@@ -1,0 +1,183 @@
+# The whole skeleton of the skeleton story, built by `beden model`. The bones, teeth and organs name BodyParts3D
+# concepts. The joints, discs, labra, menisci, ligaments and capsules and the spinal cord name Z-Anatomy element files,
+# fitted to BodyParts3D's skeleton. Paired limb bones and joints have a part per side, so a page can look at one limb.
+file: model.glb
+sha256: bacd88a47ccd62ad93afb4b1458e25ee7753068f9b3e0c242f33ed779d51001a
+credit: "BodyParts3D, The Database Center for Life Science, CC BY-SA 2.1 Japan; Z-Anatomy, Gauthier Kervyn, CC BY-SA 4.0"
+source: https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html
+simplify: 0.5
+parts:
+  # context
+  skin:        { concept: FMA7163, layer: skin, family: skin, trim: [[-0.04, 0.683, 0.112], [0.04, 0.8, 0.26]] }   # without the genitals
+  brain:       { concept: FMA50801, layer: organs, family: brain }
+  right-lung:  { concept: FMA7309, layer: organs, family: lung, exclude: [FJ2041, FJ2044] }
+  left-lung:   { concept: FMA7310, layer: organs, family: lung }
+  heart:       { concept: FMA7088, layer: organs, family: heart }
+  spinal-cord:  { elements: [za-white-matter-of-spinal-cord], layer: organs, family: nerve }
+  cauda-equina: { elements: [za-cauda-equina], layer: organs, family: nerve }
+  # the skull: the eight bones of the cranium, the fourteen of the face, the hyoid and the teeth
+  frontal-bone:   { concept: FMA52734, layer: bones, family: bone }
+  parietal-bones: { concepts: [FMA52788, FMA52789], layer: bones, family: bone }
+  occipital-bone: { concept: FMA52735, layer: bones, family: bone }
+  temporal-bones: { concepts: [FMA52738, FMA52739], layer: bones, family: bone }
+  sphenoid-bone:  { concept: FMA52736, layer: bones, family: bone }
+  ethmoid-bone:   { concept: FMA52740, layer: bones, family: bone }
+  nasal-bones:    { concepts: [FMA53647, FMA53648], layer: bones, family: bone }
+  zygomatic-bones: { concepts: [FMA52892, FMA52893], layer: bones, family: bone }
+  maxillae:       { concepts: [FMA53649, FMA53650], layer: bones, family: bone }
+  inner-facial-bones: { concepts: [FMA53645, FMA53646, FMA53655, FMA53656, FMA9710, FMA54737, FMA54738], layer: bones, family: bone }   # the lacrimal and palatine bones, the vomer and the inferior nasal conchae
+  mandible:       { concept: FMA52748, layer: bones, family: bone }
+  hyoid-bone:     { concept: FMA52749, layer: bones, family: bone }
+  teeth:          { concepts: [FMA84201, FMA84203, FMA55637, FMA84207], layer: teeth, family: tooth }   # BodyParts3D has no third molars
+  # the vertebral column
+  atlas:                   { concept: FMA12519, layer: bones, family: bone }
+  axis:                    { concept: FMA12520, layer: bones, family: bone }
+  lower-cervical-vertebrae: { concepts: [FMA12521, FMA12522, FMA12523, FMA12524, FMA12525], layer: bones, family: bone }
+  thoracic-vertebrae:      { concepts: [FMA9165, FMA9187, FMA9209, FMA9248, FMA9922, FMA9945, FMA9968, FMA9991, FMA10014, FMA10037, FMA10059, FMA10081], layer: bones, family: bone }
+  first-lumbar-vertebra:   { concept: FMA13072, layer: bones, family: bone }
+  second-lumbar-vertebra:  { concept: FMA13073, layer: bones, family: bone }
+  third-lumbar-vertebra:   { concept: FMA13074, layer: bones, family: bone }
+  fourth-lumbar-vertebra:  { concept: FMA13075, layer: bones, family: bone }
+  fifth-lumbar-vertebra:   { concept: FMA13076, layer: bones, family: bone }
+  sacrum:                  { concept: FMA16202, layer: bones, family: bone }   # with the coccyx, which BodyParts3D does not separate
+  # the thorax
+  manubrium:    { concept: FMA7486, layer: bones, family: bone }
+  sternum-body: { concept: FMA7487, layer: bones, family: bone }
+  xiphoid-process: { concept: FMA7488, layer: bones, family: bone }
+  right-true-ribs:     { concepts: [FMA7857, FMA7882, FMA7909, FMA7957, FMA8066, FMA8175, FMA8229], layer: bones, family: bone }   # the first to seventh
+  left-true-ribs:      { concepts: [FMA7987, FMA8012, FMA8039, FMA8148, FMA8093, FMA8202, FMA8256], layer: bones, family: bone }
+  right-false-ribs:    { concepts: [FMA8283, FMA8364, FMA8445], layer: bones, family: bone }   # the eighth to tenth
+  left-false-ribs:     { concepts: [FMA8310, FMA8391, FMA8472], layer: bones, family: bone }
+  right-floating-ribs: { concepts: [FMA8531, FMA8533], layer: bones, family: bone }   # the eleventh and twelfth
+  left-floating-ribs:  { concepts: [FMA8532, FMA8534], layer: bones, family: bone }
+  costal-cartilages: { concept: FMA7591, layer: cartilage, family: cartilage }   # of the first seven pairs; BodyParts3D has none for the false ribs
+  # the shoulder girdles and arms
+  right-clavicle: { concept: FMA13322, layer: bones, family: bone }
+  left-clavicle:  { concept: FMA13323, layer: bones, family: bone }
+  right-scapula:  { concept: FMA13395, layer: bones, family: bone }
+  left-scapula:   { concept: FMA13396, layer: bones, family: bone }
+  right-humerus:  { concept: FMA23130, layer: bones, family: bone }
+  left-humerus:   { concept: FMA23131, layer: bones, family: bone }
+  right-radius:   { concept: FMA23464, layer: bones, family: bone }
+  left-radius:    { concept: FMA23465, layer: bones, family: bone }
+  right-ulna:     { concept: FMA23467, layer: bones, family: bone }
+  left-ulna:      { concept: FMA23468, layer: bones, family: bone }
+  right-carpals:  { concepts: [FMA24435, FMA24437, FMA24439, FMA24441, FMA24443, FMA23725, FMA24446, FMA24448], layer: bones, family: bone }
+  left-carpals:   { concepts: [FMA24436, FMA24438, FMA24440, FMA24442, FMA24444, FMA24445, FMA24447, FMA24449], layer: bones, family: bone }
+  right-metacarpals: { concepts: [FMA24464, FMA24466, FMA24468, FMA24470, FMA24472], layer: bones, family: bone }
+  left-metacarpals:  { concepts: [FMA24465, FMA24467, FMA24469, FMA24471, FMA24473], layer: bones, family: bone }
+  right-finger-bones: { concepts: [FMA24450, FMA24451, FMA24452, FMA24453, FMA24454, FMA24455, FMA24456, FMA24457, FMA24458, FMA24459, FMA24460, FMA24461, FMA24462, FMA24463], layer: bones, family: bone }
+  left-finger-bones:  { concepts: [FMA65470, FMA71915, FMA71908, FMA71916, FMA66791, FMA23938, FMA23940, FMA23942, FMA23944, FMA23951, FMA23953, FMA23955, FMA23957, FMA23959], layer: bones, family: bone }
+  # the hip bones and legs
+  right-hip-bone: { concept: FMA16586, layer: bones, family: bone }
+  left-hip-bone:  { concept: FMA16587, layer: bones, family: bone }
+  right-femur:    { concept: FMA24474, layer: bones, family: bone }
+  left-femur:     { concept: FMA24475, layer: bones, family: bone }
+  right-patella:  { concept: FMA24486, layer: bones, family: bone }
+  left-patella:   { concept: FMA24487, layer: bones, family: bone }
+  right-tibia:    { concept: FMA24477, layer: bones, family: bone }
+  left-tibia:     { concept: FMA24478, layer: bones, family: bone }
+  right-fibula:   { concept: FMA24480, layer: bones, family: bone }
+  left-fibula:    { concept: FMA24481, layer: bones, family: bone }
+  right-talus:    { concept: FMA24482, layer: bones, family: bone }
+  left-talus:     { concept: FMA24483, layer: bones, family: bone }
+  right-calcaneus: { concept: FMA24497, layer: bones, family: bone }
+  left-calcaneus:  { concept: FMA24498, layer: bones, family: bone }
+  right-midfoot-tarsals: { concepts: [FMA24500, FMA24528, FMA24521, FMA24523, FMA24525], layer: bones, family: bone }   # the navicular, the cuboid and the three cuneiforms
+  left-midfoot-tarsals:  { concepts: [FMA24501, FMA24529, FMA24522, FMA24524, FMA24526], layer: bones, family: bone }
+  right-metatarsals: { concepts: [FMA24507, FMA24509, FMA24511, FMA24513, FMA24515], layer: bones, family: bone }
+  left-metatarsals:  { concepts: [FMA24508, FMA24510, FMA24512, FMA24514, FMA24516], layer: bones, family: bone }
+  right-toe-bones: { concepts: [FMA43253, FMA32634, FMA32636, FMA32638, FMA32640, FMA32642, FMA32644, FMA32646, FMA230986, FMA32650, FMA32652, FMA32654, FMA32656, FMA32658], layer: bones, family: bone }
+  left-toe-bones:  { concepts: [FMA43254, FMA32635, FMA32637, FMA32639, FMA32641, FMA32643, FMA32645, FMA32647, FMA230988, FMA32651, FMA32653, FMA32655, FMA32657, FMA32659], layer: bones, family: bone }
+  foot-sesamoids:  { concepts: [FMA45097, FMA45098], layer: bones, family: bone }   # the two under each big toe, outside the count of 206
+  # Z-Anatomy (Gauthier Kervyn, CC BY-SA 4.0), fitted to BodyParts3D's skeleton: the joints of the trunk
+  intervertebral-discs: { elements: [za-intervertebral-disc-*], exclude: [za-intervertebral-disc-l4-l5], layer: cartilage, family: cartilage }
+  disc-l4-l5:           { elements: [za-intervertebral-disc-l4-l5], layer: cartilage, family: cartilage }
+  nuclei-pulposi:       { elements: [za-nucleus-pulposus-*], exclude: [za-nucleus-pulposus-l4-l5], layer: cartilage, family: nucleus }
+  nucleus-l4-l5:        { elements: [za-nucleus-pulposus-l4-l5], layer: cartilage, family: nucleus }
+  anterior-longitudinal-ligament:  { elements: [za-anterior-longitudinal-ligament], layer: ligaments, family: ligament }
+  posterior-longitudinal-ligament: { elements: [za-posterior-longitudinal-ligament], layer: ligaments, family: ligament }
+  back-ligaments: { elements: [za-ligamenta-flava, za-interspinous-ligaments, za-supraspinous-ligament, za-nuchal-ligament, za-intertransverse-ligaments*], layer: ligaments, family: ligament }
+  rib-joint-ligaments: { elements: [za-costotransverse-ligament*, za-radiate-ligament-of-head-of-rib*, za-intra-articular-ligament-of-head-of-rib*], layer: ligaments, family: ligament }
+  pubic-symphysis: { elements: [za-pubic-symphysis, za-interpubic-disc, za-superior-pubic-ligament, za-inferior-pubic-ligament], layer: cartilage, family: cartilage }
+  pelvic-ligaments: { elements: [za-*sacro-iliac-ligament*, za-sacrospinous-ligament*, za-sacrotuberous-ligament*, za-iliolumbar-ligament*, za-sacrococcygeal-symphysis, za-intercornual-ligament*], layer: ligaments, family: ligament }
+  jaw-joint-capsules: { elements: [za-articular-capsule-of-temporomandibular-joint*, za-lateral-temporomandibular-ligament*], layer: capsules, family: capsule }
+  right-jaw-joint-disc: { elements: [za-articular-disc-of-temporomandibular-jointr], layer: cartilage, family: cartilage }
+  left-jaw-joint-disc:  { elements: [za-articular-disc-of-temporomandibular-jointl], layer: cartilage, family: cartilage }
+  # the joints of the shoulder girdle and arm
+  sternoclavicular-joints: { elements: [za-articular-capsule-of-sternoclavicular-joint*, za-*sternoclavicular-ligament*, za-articular-disc-of-sternoclavicular-joint*, za-interclavicular-ligament*, za-costoclavicular-ligament*], layer: ligaments, family: ligament }
+  acromioclavicular-joints: { elements: [za-articular-capsule-of-acromioclavicular-joint*, za-acromioclavicular-ligament*, za-articular-disc-of-acromioclavicular-joint*, za-conoid-ligament*, za-trapezoid-ligament*, za-coraco-acromial-ligament*], layer: ligaments, family: ligament }
+  right-shoulder-capsule: { elements: [za-articular-capsule-of-glenohumeral-jointr, za-coracohumeral-ligamentr, za-*-glenohumeral-ligamentr, za-transverse-humeral-ligamentr], layer: capsules, family: capsule }
+  left-shoulder-capsule:  { elements: [za-articular-capsule-of-glenohumeral-jointl, za-coracohumeral-ligamentl, za-*-glenohumeral-ligamentl, za-transverse-humeral-ligamentl], layer: capsules, family: capsule }
+  right-glenoid-labrum: { elements: [za-glenoid-labrumr], layer: cartilage, family: cartilage }
+  left-glenoid-labrum:  { elements: [za-glenoid-labruml], layer: cartilage, family: cartilage }
+  right-elbow-capsule: { elements: [za-articular-capsule-of-elbow-jointr, za-ulnar-collateral-ligamentr, za-radial-collateral-ligamentr, za-quadrate-ligamentr], layer: capsules, family: capsule }
+  left-elbow-capsule:  { elements: [za-articular-capsule-of-elbow-jointl, za-ulnar-collateral-ligamentl, za-radial-collateral-ligamentl, za-quadrate-ligamentl], layer: capsules, family: capsule }
+  right-annular-ligament: { elements: [za-annular-ligament-of-radiusr], layer: ligaments, family: ligament }
+  left-annular-ligament:  { elements: [za-annular-ligament-of-radiusl], layer: ligaments, family: ligament }
+  right-forearm-membrane: { elements: [za-interosseous-membrane-of-forearmr, za-oblique-cordr], layer: ligaments, family: ligament }
+  left-forearm-membrane:  { elements: [za-interosseous-membrane-of-forearml, za-oblique-cordl], layer: ligaments, family: ligament }
+  # the joints of the hip and leg
+  right-hip-capsule: { elements: [za-articular-capsule-of-hip-jointr, za-*-part-of-iliofemoral-ligamentr, za-pubofemoral-ligamentr, za-ischiofemoral-ligamentr, za-zona-orbicularisr], layer: capsules, family: capsule }
+  left-hip-capsule:  { elements: [za-articular-capsule-of-hip-jointl, za-*-part-of-iliofemoral-ligamentl, za-pubofemoral-ligamentl, za-ischiofemoral-ligamentl, za-zona-orbicularisl], layer: capsules, family: capsule }
+  right-acetabular-labrum: { elements: [za-acetabular-labrumr, za-transverse-acetabular-ligamentr], layer: cartilage, family: cartilage }
+  left-acetabular-labrum:  { elements: [za-acetabular-labruml, za-transverse-acetabular-ligamentl], layer: cartilage, family: cartilage }
+  right-femoral-head-ligament: { elements: [za-ligament-of-head-of-femurr], layer: ligaments, family: ligament }
+  left-femoral-head-ligament:  { elements: [za-ligament-of-head-of-femurl], layer: ligaments, family: ligament }
+  right-knee-capsule: { elements: [za-articular-capsule-of-knee-jointr, za-oblique-popliteal-ligamentr, za-arcuate-popliteal-ligamentr], layer: capsules, family: capsule }
+  left-knee-capsule:  { elements: [za-articular-capsule-of-knee-jointl, za-oblique-popliteal-ligamentl, za-arcuate-popliteal-ligamentl], layer: capsules, family: capsule }
+  right-menisci: { elements: [za-medial-meniscusr, za-lateral-meniscusr, za-transverse-ligament-of-kneer, za-*-meniscotibial-ligament-*-meniscusr], layer: cartilage, family: cartilage }
+  left-menisci:  { elements: [za-medial-meniscusl, za-lateral-meniscusl, za-transverse-ligament-of-kneel, za-*-meniscotibial-ligament-*-meniscusl], layer: cartilage, family: cartilage }
+  right-anterior-cruciate-ligament:  { elements: [za-anterior-cruciate-ligamentr], layer: ligaments, family: ligament }
+  left-anterior-cruciate-ligament:   { elements: [za-anterior-cruciate-ligamentl], layer: ligaments, family: ligament }
+  right-posterior-cruciate-ligament: { elements: [za-posterior-cruciate-ligamentr], layer: ligaments, family: ligament }
+  left-posterior-cruciate-ligament:  { elements: [za-posterior-cruciate-ligamentl], layer: ligaments, family: ligament }
+  right-knee-collateral-ligaments: { elements: [za-*-part-of-tibial-collateral-ligamentr, za-fibular-collateral-ligamentr], layer: ligaments, family: ligament }
+  left-knee-collateral-ligaments:  { elements: [za-*-part-of-tibial-collateral-ligamentl, za-fibular-collateral-ligamentl], layer: ligaments, family: ligament }
+  right-leg-membrane: { elements: [za-interosseous-membrane-of-legr, za-anterior-tibiofibular-ligamentr, za-posterior-tibiofibular-ligamentr, za-transverse-tibiofibular-ligamentr], layer: ligaments, family: ligament }
+  left-leg-membrane:  { elements: [za-interosseous-membrane-of-legl, za-anterior-tibiofibular-ligamentl, za-posterior-tibiofibular-ligamentl, za-transverse-tibiofibular-ligamentl], layer: ligaments, family: ligament }
+  right-ankle-ligaments: { elements: [za-anterior-talofibular-ligamentr, za-posterior-talofibular-ligamentr, za-calcaneofibular-ligamentr, za-tibiocalcaneal-ligamentr, za-tibionavicular-ligamentr, za-posterior-tibiotalar-ligamentr], layer: ligaments, family: ligament }
+  left-ankle-ligaments:  { elements: [za-anterior-talofibular-ligamentl, za-posterior-talofibular-ligamentl, za-calcaneofibular-ligamentl, za-tibiocalcaneal-ligamentl, za-tibionavicular-ligamentl, za-posterior-tibiotalar-ligamentl], layer: ligaments, family: ligament }
+  right-spring-ligament: { elements: [za-plantar-calcaneonavicular-ligamentr], layer: ligaments, family: ligament }
+  left-spring-ligament:  { elements: [za-plantar-calcaneonavicular-ligamentl], layer: ligaments, family: ligament }
+  right-long-plantar-ligament: { elements: [za-long-plantar-ligamentr, za-plantar-calcaneocuboid-ligamentr], layer: ligaments, family: ligament }
+  left-long-plantar-ligament:  { elements: [za-long-plantar-ligamentl, za-plantar-calcaneocuboid-ligamentl], layer: ligaments, family: ligament }
+groups:
+  cranium: [frontal-bone, parietal-bones, occipital-bone, temporal-bones, sphenoid-bone, ethmoid-bone]
+  face: [nasal-bones, zygomatic-bones, maxillae, inner-facial-bones, mandible]
+  skull: [frontal-bone, parietal-bones, occipital-bone, temporal-bones, sphenoid-bone, ethmoid-bone, nasal-bones, zygomatic-bones, maxillae, inner-facial-bones, mandible]
+  cervical-vertebrae: [atlas, axis, lower-cervical-vertebrae]
+  lumbar-vertebrae: [first-lumbar-vertebra, second-lumbar-vertebra, third-lumbar-vertebra, fourth-lumbar-vertebra, fifth-lumbar-vertebra]
+  vertebral-column: [atlas, axis, lower-cervical-vertebrae, thoracic-vertebrae, first-lumbar-vertebra, second-lumbar-vertebra, third-lumbar-vertebra, fourth-lumbar-vertebra, fifth-lumbar-vertebra, sacrum]
+  sternum: [manubrium, sternum-body, xiphoid-process]
+  true-ribs: [right-true-ribs, left-true-ribs]
+  false-ribs: [right-false-ribs, left-false-ribs]
+  floating-ribs: [right-floating-ribs, left-floating-ribs]
+  ribs: [right-true-ribs, left-true-ribs, right-false-ribs, left-false-ribs, right-floating-ribs, left-floating-ribs]
+  rib-cage: [manubrium, sternum-body, xiphoid-process, right-true-ribs, left-true-ribs, right-false-ribs, left-false-ribs, right-floating-ribs, left-floating-ribs, costal-cartilages]
+  axial-skeleton: [frontal-bone, parietal-bones, occipital-bone, temporal-bones, sphenoid-bone, ethmoid-bone, nasal-bones, zygomatic-bones, maxillae, inner-facial-bones, mandible, hyoid-bone, atlas, axis, lower-cervical-vertebrae, thoracic-vertebrae, first-lumbar-vertebra, second-lumbar-vertebra, third-lumbar-vertebra, fourth-lumbar-vertebra, fifth-lumbar-vertebra, sacrum, manubrium, sternum-body, xiphoid-process, right-true-ribs, left-true-ribs, right-false-ribs, left-false-ribs, right-floating-ribs, left-floating-ribs]
+  clavicles: [right-clavicle, left-clavicle]
+  scapulae: [right-scapula, left-scapula]
+  humeri: [right-humerus, left-humerus]
+  radii: [right-radius, left-radius]
+  ulnae: [right-ulna, left-ulna]
+  right-hand-bones: [right-carpals, right-metacarpals, right-finger-bones]
+  left-hand-bones: [left-carpals, left-metacarpals, left-finger-bones]
+  hip-bones: [right-hip-bone, left-hip-bone]
+  pelvis: [right-hip-bone, left-hip-bone, sacrum]
+  femurs: [right-femur, left-femur]
+  patellae: [right-patella, left-patella]
+  tibiae: [right-tibia, left-tibia]
+  fibulae: [right-fibula, left-fibula]
+  right-tarsals: [right-talus, right-calcaneus, right-midfoot-tarsals]
+  right-foot-bones: [right-talus, right-calcaneus, right-midfoot-tarsals, right-metatarsals, right-toe-bones]
+  appendicular-skeleton: [right-clavicle, left-clavicle, right-scapula, left-scapula, right-humerus, left-humerus, right-radius, left-radius, right-ulna, left-ulna, right-carpals, left-carpals, right-metacarpals, left-metacarpals, right-finger-bones, left-finger-bones, right-hip-bone, left-hip-bone, right-femur, left-femur, right-patella, left-patella, right-tibia, left-tibia, right-fibula, left-fibula, right-talus, left-talus, right-calcaneus, left-calcaneus, right-midfoot-tarsals, left-midfoot-tarsals, right-metatarsals, left-metatarsals, right-toe-bones, left-toe-bones]
+  skeleton: [frontal-bone, parietal-bones, occipital-bone, temporal-bones, sphenoid-bone, ethmoid-bone, nasal-bones, zygomatic-bones, maxillae, inner-facial-bones, mandible, hyoid-bone, atlas, axis, lower-cervical-vertebrae, thoracic-vertebrae, first-lumbar-vertebra, second-lumbar-vertebra, third-lumbar-vertebra, fourth-lumbar-vertebra, fifth-lumbar-vertebra, sacrum, manubrium, sternum-body, xiphoid-process, right-true-ribs, left-true-ribs, right-false-ribs, left-false-ribs, right-floating-ribs, left-floating-ribs, right-clavicle, left-clavicle, right-scapula, left-scapula, right-humerus, left-humerus, right-radius, left-radius, right-ulna, left-ulna, right-carpals, left-carpals, right-metacarpals, left-metacarpals, right-finger-bones, left-finger-bones, right-hip-bone, left-hip-bone, right-femur, left-femur, right-patella, left-patella, right-tibia, left-tibia, right-fibula, left-fibula, right-talus, left-talus, right-calcaneus, left-calcaneus, right-midfoot-tarsals, left-midfoot-tarsals, right-metatarsals, left-metatarsals, right-toe-bones, left-toe-bones]
+  discs: [intervertebral-discs, disc-l4-l5]
+  nuclei: [nuclei-pulposi, nucleus-l4-l5]
+  jaw-joint-discs: [right-jaw-joint-disc, left-jaw-joint-disc]
+  lungs: [right-lung, left-lung]
+  shoulder-capsules: [right-shoulder-capsule, left-shoulder-capsule]
+  elbow-capsules: [right-elbow-capsule, left-elbow-capsule]
+  hip-capsules: [right-hip-capsule, left-hip-capsule]
+  knee-capsules: [right-knee-capsule, left-knee-capsule]

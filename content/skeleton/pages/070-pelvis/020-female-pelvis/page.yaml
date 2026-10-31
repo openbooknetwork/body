@@ -1,0 +1,13 @@
+title: "A man's and a woman's pelvis"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the bony pelvis and lower back."]
+beden:
+  camera: above-front
+  look: pelvis
+  distance: 0.6
+  layers: [bones, cartilage]
+  section: { plane: axial, at: 0.965, flip: true }
+  parts: { highlight: [pelvis, pubic-symphysis] }
+  labels:
+    - { part: sacrum, text: "sacrum" }
+    - { part: right-hip-bone, text: "hip bone" }
+    - { part: pubic-symphysis, text: "pubic symphysis" }

@@ -1,0 +1,14 @@
+title: "The motor unit"
+sources: ["Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 6 and 7.", "Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the shoulder girdle and arm."]
+beden:
+  camera: right-front
+  look: [-0.19, 1.12, 0.08]
+  distance: 0.8
+  layers: [skeleton, superficial, middle, nerves]
+  parts:
+    highlight: [musculocutaneous-nerves, brachialis, coracobrachialis]
+    ghost: [deltoid, pectoralis-major, triceps-brachii]
+  labels:
+    - { part: right-musculocutaneous-nerve, text: "musculocutaneous nerve" }
+    - { part: right-biceps-brachii, text: "biceps" }
+    - { part: right-coracobrachialis, text: "coracobrachialis" }

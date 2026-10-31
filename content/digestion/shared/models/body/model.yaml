@@ -1,13 +1,13 @@
 # The whole body model of the digestion story, built from BodyParts3D by `beden model`. Each part names a
 # BodyParts3D concept, and the viewer shows, lights, ghosts or cuts parts by these ids.
 file: model.glb
-sha256: 489aa1ac0a197b7dcdb88838ed93a7b7b21dc9c66ac6f47583b0aa57d449f318
+sha256: 438601f3fbe7c26fcb5202907fd3f367eea009cc6bb9bc5f6e2cd130592ea066
 credit: "BodyParts3D, The Database Center for Life Science, CC BY-SA 2.1 Japan"
 source: https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html
 simplify: 0.5
 parts:
   # context
-  skin:            { concept: FMA7163, layer: skin, family: skin }
+  skin:            { concept: FMA7163, layer: skin, family: skin, trim: [[-0.04, 0.683, 0.112], [0.04, 0.8, 0.26]] }   # without the genitals
   skeleton:        { concept: FMA23881, layer: skeleton, family: bone }
   heart:           { concept: FMA7088, layer: chest, family: heart }
   right-lung:      { concept: FMA7309, layer: chest, family: lung, exclude: [FJ2041, FJ2044] }

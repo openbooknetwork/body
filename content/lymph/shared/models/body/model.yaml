@@ -1,12 +1,12 @@
 # The whole body model of the lymphatic story, built by `beden model` from BodyParts3D and, for the lymph nodes and
 # tonsils, Z-Anatomy. Neither holds the lymph ducts, which are drawn as tubes.
 file: model.glb
-sha256: 25d1c02a818ee6bc902ad91bcfc7d375abcb9236c3045c96a115dc58352f7516
+sha256: 1bab515819f4d244eb4324a2e1c82a3bcde3103ddaad08ab6f84fead43b4930f
 credit: "BodyParts3D, The Database Center for Life Science, CC BY-SA 2.1 Japan, and Z-Anatomy, Gauthier Kervyn, CC BY-SA 4.0"
 source: https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html
 parts:
   # context
-  skin:            { concept: FMA7163, layer: skin, family: skin }
+  skin:            { concept: FMA7163, layer: skin, family: skin, trim: [[-0.04, 0.683, 0.112], [0.04, 0.8, 0.26]] }   # without the genitals
   skeleton:        { concept: FMA23881, layer: skeleton, family: bone }
   pectoralis-major: { concepts: [FMA13373, FMA13374], layer: muscles, family: muscle }
   diaphragm:       { concept: FMA13295, layer: muscles, family: muscle }

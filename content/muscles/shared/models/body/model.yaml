@@ -1,0 +1,336 @@
+# The whole body model of the muscles story, built by `beden model`. The skin, the bones and the organs name
+# BodyParts3D concepts. The muscles, their tendons and the nerve name Z-Anatomy element files, fitted to BodyParts3D's
+# skeleton. Each paired muscle is a right and a left part, and a group of both under the muscle's own name. A muscle
+# sits in a layer from the skin inward, superficial, middle or deep, so a page peels them by the layers it shows.
+file: model.glb
+sha256: a08beab7b029bb74b463b9aa923c2c116b00402d7b81560ccb6ca2a75ee4ba18
+credit: "BodyParts3D, The Database Center for Life Science, CC BY-SA 2.1 Japan; Z-Anatomy, Gauthier Kervyn, CC BY-SA 4.0"
+source: https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html
+parts:
+  # context
+  skin:            { concept: FMA7163, layer: skin, family: skin, trim: [[-0.04, 0.683, 0.112], [0.04, 0.8, 0.26]] }   # without the genitals
+  skeletal-system: { concept: FMA23881, export: false }   # only derives the skeleton below
+  skull:           { concept: FMA46565, layer: skeleton, family: bone }
+  scapulae:        { concept: FMA13394, layer: skeleton, family: bone }
+  humeri:          { concept: FMA13303, layer: skeleton, family: bone }
+  radii:           { concept: FMA23463, layer: skeleton, family: bone }
+  ulnae:           { concept: FMA23466, layer: skeleton, family: bone }
+  femora:          { concept: FMA9611, layer: skeleton, family: bone }
+  patellae:        { concept: FMA24485, layer: skeleton, family: bone }
+  tibiae:          { concept: FMA24476, layer: skeleton, family: bone }
+  calcanei:        { concept: FMA24496, layer: skeleton, family: bone }
+  skeleton:        { from: skeletal-system, minus: [skull, scapulae, humeri, radii, ulnae, femora, patellae, tibiae, calcanei], layer: skeleton, family: bone }
+  heart:           { concept: FMA7088, layer: organs, family: heart }
+  stomach:         { concept: FMA7148, layer: organs, family: stomach }
+  right-musculocutaneous-nerve: { elements: [za-musculocutaneous-nerver], layer: nerves, family: nerve }
+  left-musculocutaneous-nerve:  { elements: [za-musculocutaneous-nervel], layer: nerves, family: nerve }
+  diaphragm:       { elements: [za-diaphragm], layer: deep, family: muscle }
+  linea-alba:      { elements: [za-linea-alba], layer: superficial, family: tendon }   # where the aponeuroses of both sides meet
+  # the head
+  right-frontalis:                          { elements: [za-frontalis-muscler], layer: superficial, family: muscle }
+  left-frontalis:                           { elements: [za-frontalis-musclel], layer: superficial, family: muscle }
+  right-occipitalis:                        { elements: [za-occipitalis-muscler], layer: superficial, family: muscle }
+  left-occipitalis:                         { elements: [za-occipitalis-musclel], layer: superficial, family: muscle }
+  right-scalp-aponeurosis:                  { elements: [za-epicranial-aponeurosisr], layer: superficial, family: tendon }
+  left-scalp-aponeurosis:                   { elements: [za-epicranial-aponeurosisl], layer: superficial, family: tendon }
+  right-orbicularis-oculi:                  { elements: [za-*-part-of-orbicularis-oculir], layer: superficial, family: muscle-shade }
+  left-orbicularis-oculi:                   { elements: [za-*-part-of-orbicularis-oculil], layer: superficial, family: muscle-shade }
+  right-orbicularis-oris:                   { elements: [za-orbicularis-oris-muscler], layer: superficial, family: muscle-shade }
+  left-orbicularis-oris:                    { elements: [za-orbicularis-oris-musclel], layer: superficial, family: muscle-shade }
+  right-zygomaticus-major:                  { elements: [za-zygomaticus-major-muscler], layer: superficial, family: muscle }
+  left-zygomaticus-major:                   { elements: [za-zygomaticus-major-musclel], layer: superficial, family: muscle }
+  right-facial-muscles:                     { elements: [za-zygomaticus-minor-muscler, za-levator-labii-superiorisr, za-levator-nasolabialisr, za-levator-anguli-orisr, za-risorius-muscler, za-depressor-anguli-orisr, za-depressor-labii-inferiorisr, za-mentalis-muscler, za-nasalis-muscler, za-procerus-muscler, za-corrugator-superciliir, za-depressor-septi-nasir, za-temporoparietalis-muscler, za-bucinatorr], layer: superficial, family: muscle }
+  left-facial-muscles:                      { elements: [za-zygomaticus-minor-musclel, za-levator-labii-superiorisl, za-levator-nasolabialisl, za-levator-anguli-orisl, za-risorius-musclel, za-depressor-anguli-orisl, za-depressor-labii-inferiorisl, za-mentalis-musclel, za-nasalis-musclel, za-procerus-musclel, za-corrugator-superciliil, za-depressor-septi-nasil, za-temporoparietalis-musclel, za-bucinatorl], layer: superficial, family: muscle }
+  right-platysma:                           { elements: [za-platysmar], layer: superficial, family: muscle-shade }
+  left-platysma:                            { elements: [za-platysmal], layer: superficial, family: muscle-shade }
+  right-masseter:                           { elements: [za-superficial-part-of-masseterr, za-deep-part-of-masseterr], layer: superficial, family: muscle }
+  left-masseter:                            { elements: [za-superficial-part-of-masseterl, za-deep-part-of-masseterl], layer: superficial, family: muscle }
+  right-temporalis:                         { elements: [za-temporalis-muscler], layer: superficial, family: muscle-shade }
+  left-temporalis:                          { elements: [za-temporalis-musclel], layer: superficial, family: muscle-shade }
+  right-pterygoids:                         { elements: [za-medial-pterygoid-muscler, za-*-head-of-lateral-pterygoid-muscler], layer: deep, family: muscle }
+  left-pterygoids:                          { elements: [za-medial-pterygoid-musclel, za-*-head-of-lateral-pterygoid-musclel], layer: deep, family: muscle }
+  right-hyoid-muscles:                      { elements: [za-anterior-belly-of-digastric-muscler, za-posterior-belly-of-digastric-muscler, za-intermediate-tendon-of-digastric-muscler, za-mylohyoid-muscler, za-geniohyoid-muscler, za-stylohyoid-muscler, za-sternohyoid-muscler, za-sternothyroid-muscler, za-thyrohyoid-muscler, za-omohyoid-muscler], layer: middle, family: muscle-shade }
+  left-hyoid-muscles:                       { elements: [za-anterior-belly-of-digastric-musclel, za-posterior-belly-of-digastric-musclel, za-intermediate-tendon-of-digastric-musclel, za-mylohyoid-musclel, za-geniohyoid-musclel, za-stylohyoid-musclel, za-sternohyoid-musclel, za-sternothyroid-musclel, za-thyrohyoid-musclel, za-omohyoid-musclel], layer: middle, family: muscle-shade }
+  # the neck
+  right-sternocleidomastoid:                { elements: [za-sternocleidomastoid-muscler], layer: superficial, family: muscle }
+  left-sternocleidomastoid:                 { elements: [za-sternocleidomastoid-musclel], layer: superficial, family: muscle }
+  right-trapezius:                          { elements: [za-*-part-of-trapezius-muscler], layer: superficial, family: muscle }
+  left-trapezius:                           { elements: [za-*-part-of-trapezius-musclel], layer: superficial, family: muscle }
+  right-splenius:                           { elements: [za-splenius-capitis-muscler, za-splenius-colli-muscler], layer: middle, family: muscle-shade }
+  left-splenius:                            { elements: [za-splenius-capitis-musclel, za-splenius-colli-musclel], layer: middle, family: muscle-shade }
+  right-levator-scapulae:                   { elements: [za-levator-scapulaer], layer: middle, family: muscle }
+  left-levator-scapulae:                    { elements: [za-levator-scapulael], layer: middle, family: muscle }
+  right-scalenes:                           { elements: [za-scalenus-*r], layer: middle, family: muscle }
+  left-scalenes:                            { elements: [za-scalenus-*l], layer: middle, family: muscle }
+  right-deep-neck-muscles:                  { elements: [za-longus-colli-muscler, za-longus-capitis-muscler, za-rectus-*-capitis-muscler, za-obliquus-*-capitis-muscler], layer: deep, family: muscle-shade }
+  left-deep-neck-muscles:                   { elements: [za-longus-colli-musclel, za-longus-capitis-musclel, za-rectus-*-capitis-musclel, za-obliquus-*-capitis-musclel], layer: deep, family: muscle-shade }
+  # the chest and breathing
+  right-pectoralis-major:                   { elements: [za-*-of-pectoralis-major-muscler], layer: superficial, family: muscle }
+  left-pectoralis-major:                    { elements: [za-*-of-pectoralis-major-musclel], layer: superficial, family: muscle }
+  right-pectoralis-minor:                   { elements: [za-pectoralis-minor-muscler], layer: middle, family: muscle-shade }
+  left-pectoralis-minor:                    { elements: [za-pectoralis-minor-musclel], layer: middle, family: muscle-shade }
+  right-serratus-anterior:                  { elements: [za-serratus-anterior-muscler], layer: superficial, family: muscle-shade }
+  left-serratus-anterior:                   { elements: [za-serratus-anterior-musclel], layer: superficial, family: muscle-shade }
+  right-external-intercostals:              { elements: [za-external-intercostal-musclesr], layer: deep, family: muscle }
+  left-external-intercostals:               { elements: [za-external-intercostal-musclesl], layer: deep, family: muscle }
+  right-internal-intercostals:              { elements: [za-internal-intercostal-musclesr, za-innermost-intercostal-musclesr], layer: deep, family: muscle-shade }
+  left-internal-intercostals:               { elements: [za-internal-intercostal-musclesl, za-innermost-intercostal-musclesl], layer: deep, family: muscle-shade }
+  # the abdominal wall; the three flat muscles each run on as an aponeurosis to the linea alba
+  right-rectus-abdominis:                   { elements: [za-rectus-abdominis-muscler, za-pyramidalis-muscler], layer: superficial, family: muscle }
+  left-rectus-abdominis:                    { elements: [za-rectus-abdominis-musclel, za-pyramidalis-musclel], layer: superficial, family: muscle }
+  right-external-oblique:                   { elements: [za-external-abdominal-oblique-muscler], layer: superficial, family: muscle-shade }
+  left-external-oblique:                    { elements: [za-external-abdominal-oblique-musclel], layer: superficial, family: muscle-shade }
+  right-internal-oblique:                   { elements: [za-internal-abdominal-oblique-muscler], layer: middle, family: muscle }
+  left-internal-oblique:                    { elements: [za-internal-abdominal-oblique-musclel], layer: middle, family: muscle }
+  right-transversus-abdominis:              { elements: [za-transversus-abdominis-muscler], layer: deep, family: muscle-shade }
+  left-transversus-abdominis:               { elements: [za-transversus-abdominis-musclel], layer: deep, family: muscle-shade }
+  right-quadratus-lumborum:                 { elements: [za-quadratus-lumborum-muscler], layer: deep, family: muscle }
+  left-quadratus-lumborum:                  { elements: [za-quadratus-lumborum-musclel], layer: deep, family: muscle }
+  # the back
+  right-latissimus-dorsi:                   { elements: [za-latissimus-dorsi-muscler], layer: superficial, family: muscle-shade }
+  left-latissimus-dorsi:                    { elements: [za-latissimus-dorsi-musclel], layer: superficial, family: muscle-shade }
+  right-thoracolumbar-fascia:               { elements: [za-posterior-layer-of-thoracolumbar-fasciar], layer: superficial, family: tendon }
+  left-thoracolumbar-fascia:                { elements: [za-posterior-layer-of-thoracolumbar-fascial], layer: superficial, family: tendon }
+  right-rhomboids:                          { elements: [za-rhomboid-major-muscler, za-rhomboid-minor-muscler], layer: middle, family: muscle }
+  left-rhomboids:                           { elements: [za-rhomboid-major-musclel, za-rhomboid-minor-musclel], layer: middle, family: muscle }
+  right-iliocostalis:                       { elements: [za-iliocostalis-lumborum-muscler, za-iliocostalis-thoracis-muscler, za-iliocostalis-colli-muscler], layer: middle, family: muscle }
+  left-iliocostalis:                        { elements: [za-iliocostalis-lumborum-musclel, za-iliocostalis-thoracis-musclel, za-iliocostalis-colli-muscle], layer: middle, family: muscle }
+  right-longissimus:                        { elements: [za-longissimus-thoracis-muscler, za-longissimus-colli-muscler, za-longissimus-capitis-muscler], layer: middle, family: muscle-shade }
+  left-longissimus:                         { elements: [za-longissimus-thoracis-musclel, za-longissimus-colli-musclel, za-longissimus-capitis-musclel], layer: middle, family: muscle-shade }
+  right-spinalis:                           { elements: [za-spinalis-*r], layer: middle, family: muscle }
+  left-spinalis:                            { elements: [za-spinalis-*l], layer: middle, family: muscle }
+  right-transversospinalis:                 { elements: [za-multifidus-*r, za-semispinalis-*r, za-rotatoresr], layer: deep, family: muscle-shade }
+  left-transversospinalis:                  { elements: [za-multifidus-*l, za-semispinalis-*l, za-rotatoresl], layer: deep, family: muscle-shade }
+  # the shoulder and the arm
+  right-deltoid:                            { elements: [za-*-part-of-deltoid-muscler], layer: superficial, family: muscle }
+  left-deltoid:                             { elements: [za-*-part-of-deltoid-musclel], layer: superficial, family: muscle }
+  right-supraspinatus:                      { elements: [za-supraspinatus-muscler], layer: middle, family: muscle }
+  left-supraspinatus:                       { elements: [za-supraspinatus-musclel], layer: middle, family: muscle }
+  right-infraspinatus:                      { elements: [za-infraspinatus-muscler], layer: middle, family: muscle-shade }
+  left-infraspinatus:                       { elements: [za-infraspinatus-musclel], layer: middle, family: muscle-shade }
+  right-teres-minor:                        { elements: [za-teres-minor-muscler], layer: middle, family: muscle }
+  left-teres-minor:                         { elements: [za-teres-minor-musclel], layer: middle, family: muscle }
+  right-subscapularis:                      { elements: [za-subscapularis-muscler], layer: deep, family: muscle-shade }
+  left-subscapularis:                       { elements: [za-subscapularis-musclel], layer: deep, family: muscle-shade }
+  right-teres-major:                        { elements: [za-teres-major-muscler], layer: middle, family: muscle }
+  left-teres-major:                         { elements: [za-teres-major-musclel], layer: middle, family: muscle }
+  right-coracobrachialis:                   { elements: [za-coracobrachialis-muscler], layer: middle, family: muscle-shade }
+  left-coracobrachialis:                    { elements: [za-coracobrachialis-musclel], layer: middle, family: muscle-shade }
+  right-biceps-brachii:                     { elements: [za-long-head-of-biceps-brachiir, za-short-head-of-biceps-brachiir], layer: superficial, family: muscle }
+  left-biceps-brachii:                      { elements: [za-long-head-of-biceps-brachiil, za-short-head-of-biceps-brachiil], layer: superficial, family: muscle }
+  right-brachialis:                         { elements: [za-brachialis-muscler], layer: middle, family: muscle-shade }
+  left-brachialis:                          { elements: [za-brachialis-musclel], layer: middle, family: muscle-shade }
+  right-triceps-brachii:                    { elements: [za-*-head-of-triceps-brachiir, za-anconeus-muscler], layer: superficial, family: muscle-shade }
+  left-triceps-brachii:                     { elements: [za-*-head-of-triceps-brachiil, za-anconeus-musclel], layer: superficial, family: muscle-shade }
+  # the forearm and the hand
+  right-brachioradialis:                    { elements: [za-brachioradialis-muscler], layer: superficial, family: muscle-shade }
+  left-brachioradialis:                     { elements: [za-brachioradialis-musclel], layer: superficial, family: muscle-shade }
+  right-wrist-flexors:                      { elements: [za-*-head-of-pronator-teresr, za-flexor-carpi-radialisr, za-palmaris-longus-muscler, za-*-head-of-flexor-carpi-ulnarisr], layer: superficial, family: muscle }
+  left-wrist-flexors:                       { elements: [za-*-head-of-pronator-teresl, za-flexor-carpi-radialisl, za-palmaris-longus-musclel, za-*-head-of-flexor-carpi-ulnarisl], layer: superficial, family: muscle }
+  right-flexor-digitorum-superficialis:     { elements: [za-*-head-of-flexor-digitorum-superficialisr], layer: middle, family: muscle-shade }
+  left-flexor-digitorum-superficialis:      { elements: [za-*-head-of-flexor-digitorum-superficialisl], layer: middle, family: muscle-shade }
+  right-deep-finger-flexors:                { elements: [za-flexor-digitorum-profundusr, za-flexor-pollicis-longusr, za-pronator-quadratusr], layer: deep, family: muscle }
+  left-deep-finger-flexors:                 { elements: [za-flexor-digitorum-profundusl, za-flexor-pollicis-longusl, za-pronator-quadratusl], layer: deep, family: muscle }
+  right-wrist-extensors:                    { elements: [za-extensor-carpi-radialis-*r, za-*-head-of-extensor-carpi-ulnarisr], layer: superficial, family: muscle }
+  left-wrist-extensors:                     { elements: [za-extensor-carpi-radialis-*l, za-*-head-of-extensor-carpi-ulnarisl], layer: superficial, family: muscle }
+  right-finger-extensors:                   { elements: [za-extensor-digitorumr, za-extensor-digiti-minimir, za-extensor-indicisr, za-extensor-pollicis-*r, za-abductor-pollicis-longusr], layer: superficial, family: muscle-shade }
+  left-finger-extensors:                    { elements: [za-extensor-digitoruml, za-extensor-digiti-minimil, za-extensor-indicisl, za-extensor-pollicis-*l, za-abductor-pollicis-longusl], layer: superficial, family: muscle-shade }
+  right-supinator:                          { elements: [za-supinatorr], layer: deep, family: muscle-shade }
+  left-supinator:                           { elements: [za-supinatorl], layer: deep, family: muscle-shade }
+  right-wrist-retinacula:                   { elements: [za-flexor-retinaculum-of-wristr, za-extensor-retinaculum-of-wristr], layer: superficial, family: tendon }
+  left-wrist-retinacula:                    { elements: [za-flexor-retinaculum-of-wristl, za-extensor-retinaculum-of-wristl], layer: superficial, family: tendon }
+  right-thenar-muscles:                     { elements: [za-abductor-pollicis-brevisr, za-*-head-of-flexor-pollicis-brevisr, za-opponens-pollicis-muscler, za-*-head-of-adductor-pollicisr], layer: superficial, family: muscle-shade }
+  left-thenar-muscles:                      { elements: [za-abductor-pollicis-brevisl, za-*-head-of-flexor-pollicis-brevisl, za-opponens-pollicis-musclel, za-*-head-of-adductor-pollicisl], layer: superficial, family: muscle-shade }
+  right-hypothenar-muscles:                 { elements: [za-abductor-digiti-minimi-of-handr, za-flexor-digiti-minimi-of-handr, za-opponens-digiti-minimi-muscle-of-handr], layer: superficial, family: muscle-shade }
+  left-hypothenar-muscles:                  { elements: [za-abductor-digiti-minimi-of-handl, za-flexor-digiti-minimi-of-handl, za-opponens-digiti-minimi-muscle-of-handl], layer: superficial, family: muscle-shade }
+  right-interossei-and-lumbricals:          { elements: [za-dorsal-interossei-muscles-of-handr, za-palmar-interossei-musclesr, za-lumbrical-muscles-of-handr], layer: middle, family: muscle }
+  left-interossei-and-lumbricals:           { elements: [za-dorsal-interossei-muscles-of-handl, za-palmar-interossei-musclesl, za-lumbrical-muscles-of-handl], layer: middle, family: muscle }
+  # the hip
+  right-gluteus-maximus:                    { elements: [za-gluteus-maximus-muscler], layer: superficial, family: muscle }
+  left-gluteus-maximus:                     { elements: [za-gluteus-maximus-musclel], layer: superficial, family: muscle }
+  right-gluteus-medius:                     { elements: [za-gluteus-medius-muscler], layer: middle, family: muscle-shade }
+  left-gluteus-medius:                      { elements: [za-gluteus-medius-musclel], layer: middle, family: muscle-shade }
+  right-gluteus-minimus:                    { elements: [za-gluteus-minimus-muscler], layer: deep, family: muscle }
+  left-gluteus-minimus:                     { elements: [za-gluteus-minimus-musclel], layer: deep, family: muscle }
+  right-tensor-fasciae-latae:               { elements: [za-tensor-fasciae-lataer], layer: superficial, family: muscle-shade }
+  left-tensor-fasciae-latae:                { elements: [za-tensor-fasciae-latael], layer: superficial, family: muscle-shade }
+  right-iliotibial-tract:                   { elements: [za-iliotibial-tractr], layer: superficial, family: tendon }
+  left-iliotibial-tract:                    { elements: [za-iliotibial-tractl], layer: superficial, family: tendon }
+  right-psoas-major:                        { elements: [za-psoas-majorr], layer: deep, family: muscle }
+  left-psoas-major:                         { elements: [za-psoas-majorl], layer: deep, family: muscle }
+  right-iliacus:                            { elements: [za-iliacus-muscler], layer: deep, family: muscle-shade }
+  left-iliacus:                             { elements: [za-iliacus-musclel], layer: deep, family: muscle-shade }
+  right-hip-rotators:                       { elements: [za-piriformis-muscler, za-superior-gemellus-muscler, za-inferior-gemellus-muscler, za-obturator-internusr, za-obturator-externusr, za-quadratus-femoris-muscler], layer: deep, family: muscle-shade }
+  left-hip-rotators:                        { elements: [za-piriformis-musclel, za-superior-gemellus-musclel, za-inferior-gemellus-musclel, za-obturator-internusl, za-obturator-externusl, za-quadratus-femoris-musclel], layer: deep, family: muscle-shade }
+  # the thigh
+  right-rectus-femoris:                     { elements: [za-rectus-femoris-muscler], layer: superficial, family: muscle }
+  left-rectus-femoris:                      { elements: [za-rectus-femoris-musclel], layer: superficial, family: muscle }
+  right-vastus-lateralis:                   { elements: [za-vastus-lateralis-muscler], layer: superficial, family: muscle-shade }
+  left-vastus-lateralis:                    { elements: [za-vastus-lateralis-musclel], layer: superficial, family: muscle-shade }
+  right-vastus-medialis:                    { elements: [za-vastus-medialis-muscler], layer: superficial, family: muscle-shade }
+  left-vastus-medialis:                     { elements: [za-vastus-medialis-musclel], layer: superficial, family: muscle-shade }
+  right-vastus-intermedius:                 { elements: [za-vastus-intermedius-muscler], layer: deep, family: muscle }
+  left-vastus-intermedius:                  { elements: [za-vastus-intermedius-musclel], layer: deep, family: muscle }
+  right-sartorius:                          { elements: [za-sartorius-muscler], layer: superficial, family: muscle-shade }
+  left-sartorius:                           { elements: [za-sartorius-musclel], layer: superficial, family: muscle-shade }
+  right-gracilis:                           { elements: [za-gracilis-muscler], layer: superficial, family: muscle }
+  left-gracilis:                            { elements: [za-gracilis-musclel], layer: superficial, family: muscle }
+  right-pectineus:                          { elements: [za-pectineus-muscler], layer: superficial, family: muscle-shade }
+  left-pectineus:                           { elements: [za-pectineus-musclel], layer: superficial, family: muscle-shade }
+  right-adductor-longus:                    { elements: [za-adductor-longusr], layer: superficial, family: muscle }
+  left-adductor-longus:                     { elements: [za-adductor-longusl], layer: superficial, family: muscle }
+  right-adductor-brevis:                    { elements: [za-adductor-brevisr], layer: middle, family: muscle-shade }
+  left-adductor-brevis:                     { elements: [za-adductor-brevisl], layer: middle, family: muscle-shade }
+  right-adductor-magnus:                    { elements: [za-adductor-magnusr, za-adductor-minimusr], layer: middle, family: muscle }
+  left-adductor-magnus:                     { elements: [za-adductor-magnusl, za-adductor-minimusl], layer: middle, family: muscle }
+  right-biceps-femoris:                     { elements: [za-long-head-of-biceps-femorisr, za-short-head-of-biceps-femorisr], layer: superficial, family: muscle }
+  left-biceps-femoris:                      { elements: [za-long-head-of-biceps-femorisl, za-short-head-of-biceps-femorisl], layer: superficial, family: muscle }
+  right-semitendinosus:                     { elements: [za-semitendinosus-muscler], layer: superficial, family: muscle-shade }
+  left-semitendinosus:                      { elements: [za-semitendinosus-musclel], layer: superficial, family: muscle-shade }
+  right-semimembranosus:                    { elements: [za-semimembranosus-muscler], layer: superficial, family: muscle }
+  left-semimembranosus:                     { elements: [za-semimembranosus-musclel], layer: superficial, family: muscle }
+  # the leg and the foot
+  right-gastrocnemius:                      { elements: [za-*-head-of-gastrocnemiusr], layer: superficial, family: muscle }
+  left-gastrocnemius:                       { elements: [za-*-head-of-gastrocnemiusl], layer: superficial, family: muscle }
+  right-soleus:                             { elements: [za-soleus-muscler], layer: middle, family: muscle-shade }
+  left-soleus:                              { elements: [za-soleus-musclel], layer: middle, family: muscle-shade }
+  right-calcaneal-tendon:                   { elements: [za-calcaneal-tendonr], layer: superficial, family: tendon }
+  left-calcaneal-tendon:                    { elements: [za-calcaneal-tendonl], layer: superficial, family: tendon }
+  right-deep-calf-muscles:                  { elements: [za-tibialis-posterior-muscler, za-flexor-digitorum-longusr, za-flexor-hallucis-longusr, za-popliteus-muscler, za-plantaris-muscler], layer: deep, family: muscle }
+  left-deep-calf-muscles:                   { elements: [za-tibialis-posterior-musclel, za-flexor-digitorum-longusl, za-flexor-hallucis-longusl, za-popliteus-musclel, za-plantaris-musclel], layer: deep, family: muscle }
+  right-tibialis-anterior:                  { elements: [za-tibialis-anterior-muscler], layer: superficial, family: muscle }
+  left-tibialis-anterior:                   { elements: [za-tibialis-anterior-musclel], layer: superficial, family: muscle }
+  right-toe-extensors:                      { elements: [za-extensor-digitorum-longusr, za-tendon-of-extensor-digitorum-longusr, za-extensor-hallucis-longusr, za-fibularis-tertius-muscler], layer: superficial, family: muscle-shade }
+  left-toe-extensors:                       { elements: [za-extensor-digitorum-longusl, za-tendon-of-extensor-digitorum-longusl, za-extensor-hallucis-longusl, za-fibularis-tertius-musclel], layer: superficial, family: muscle-shade }
+  right-fibularis:                          { elements: [za-fibularis-longus-muscler, za-fibularis-brevis-muscler], layer: superficial, family: muscle }
+  left-fibularis:                           { elements: [za-fibularis-longus-musclel, za-fibularis-brevis-musclel], layer: superficial, family: muscle }
+  right-ankle-retinacula:                   { elements: [za-superior-extensor-retinaculum-of-ankler, za-inferior-extensor-retinaculum-of-ankler, za-flexor-retinaculum-of-ankler, za-superior-fibular-retinaculumr, za-inferior-fibular-retinaculumr], layer: superficial, family: tendon }
+  left-ankle-retinacula:                    { elements: [za-superior-extensor-retinaculum-of-anklel, za-inferior-extensor-retinaculum-of-anklel, za-flexor-retinaculum-of-anklel, za-superior-fibular-retinaculuml, za-inferior-fibular-retinaculuml], layer: superficial, family: tendon }
+  right-foot-muscles:                       { elements: [za-extensor-digitorum-brevisr, za-extensor-hallucis-brevisr, za-abductor-hallucisr, za-flexor-digitorum-brevisr, za-abductor-digiti-minimi-of-footr, za-flexor-digiti-minimi-of-footr, za-quadratus-plantae-muscler, za-lumbrical-muscles-of-footr, za-dorsal-interossei-muscles-of-footr, za-plantar-interossei-musclesr, za-*-head-of-adductor-hallucisr, za-*-head-of-flexor-hallucis-brevisr, za-opponens-digiti-minimi-muscle-of-footr], layer: superficial, family: muscle-shade }
+  left-foot-muscles:                        { elements: [za-extensor-digitorum-brevisl, za-extensor-hallucis-brevisl, za-abductor-hallucisl, za-flexor-digitorum-brevisl, za-abductor-digiti-minimi-of-footl, za-flexor-digiti-minimi-of-footl, za-quadratus-plantae-musclel, za-lumbrical-muscles-of-footl, za-dorsal-interossei-muscles-of-footl, za-plantar-interossei-musclesl, za-*-head-of-adductor-hallucisl, za-*-head-of-flexor-hallucis-brevisl, za-opponens-digiti-minimi-muscle-of-footl], layer: superficial, family: muscle-shade }
+groups:
+  musculocutaneous-nerves:          [right-musculocutaneous-nerve, left-musculocutaneous-nerve]
+  frontalis:                        [right-frontalis, left-frontalis]
+  occipitalis:                      [right-occipitalis, left-occipitalis]
+  scalp-aponeurosis:                [right-scalp-aponeurosis, left-scalp-aponeurosis]
+  orbicularis-oculi:                [right-orbicularis-oculi, left-orbicularis-oculi]
+  orbicularis-oris:                 [right-orbicularis-oris, left-orbicularis-oris]
+  zygomaticus-major:                [right-zygomaticus-major, left-zygomaticus-major]
+  facial-muscles:                   [right-facial-muscles, left-facial-muscles]
+  platysma:                         [right-platysma, left-platysma]
+  masseter:                         [right-masseter, left-masseter]
+  temporalis:                       [right-temporalis, left-temporalis]
+  pterygoids:                       [right-pterygoids, left-pterygoids]
+  hyoid-muscles:                    [right-hyoid-muscles, left-hyoid-muscles]
+  sternocleidomastoid:              [right-sternocleidomastoid, left-sternocleidomastoid]
+  trapezius:                        [right-trapezius, left-trapezius]
+  splenius:                         [right-splenius, left-splenius]
+  levator-scapulae:                 [right-levator-scapulae, left-levator-scapulae]
+  scalenes:                         [right-scalenes, left-scalenes]
+  deep-neck-muscles:                [right-deep-neck-muscles, left-deep-neck-muscles]
+  pectoralis-major:                 [right-pectoralis-major, left-pectoralis-major]
+  pectoralis-minor:                 [right-pectoralis-minor, left-pectoralis-minor]
+  serratus-anterior:                [right-serratus-anterior, left-serratus-anterior]
+  external-intercostals:            [right-external-intercostals, left-external-intercostals]
+  internal-intercostals:            [right-internal-intercostals, left-internal-intercostals]
+  rectus-abdominis:                 [right-rectus-abdominis, left-rectus-abdominis]
+  external-oblique:                 [right-external-oblique, left-external-oblique]
+  internal-oblique:                 [right-internal-oblique, left-internal-oblique]
+  transversus-abdominis:            [right-transversus-abdominis, left-transversus-abdominis]
+  quadratus-lumborum:               [right-quadratus-lumborum, left-quadratus-lumborum]
+  latissimus-dorsi:                 [right-latissimus-dorsi, left-latissimus-dorsi]
+  thoracolumbar-fascia:             [right-thoracolumbar-fascia, left-thoracolumbar-fascia]
+  rhomboids:                        [right-rhomboids, left-rhomboids]
+  iliocostalis:                     [right-iliocostalis, left-iliocostalis]
+  longissimus:                      [right-longissimus, left-longissimus]
+  spinalis:                         [right-spinalis, left-spinalis]
+  transversospinalis:               [right-transversospinalis, left-transversospinalis]
+  deltoid:                          [right-deltoid, left-deltoid]
+  supraspinatus:                    [right-supraspinatus, left-supraspinatus]
+  infraspinatus:                    [right-infraspinatus, left-infraspinatus]
+  teres-minor:                      [right-teres-minor, left-teres-minor]
+  subscapularis:                    [right-subscapularis, left-subscapularis]
+  teres-major:                      [right-teres-major, left-teres-major]
+  coracobrachialis:                 [right-coracobrachialis, left-coracobrachialis]
+  biceps-brachii:                   [right-biceps-brachii, left-biceps-brachii]
+  brachialis:                       [right-brachialis, left-brachialis]
+  triceps-brachii:                  [right-triceps-brachii, left-triceps-brachii]
+  brachioradialis:                  [right-brachioradialis, left-brachioradialis]
+  wrist-flexors:                    [right-wrist-flexors, left-wrist-flexors]
+  flexor-digitorum-superficialis:   [right-flexor-digitorum-superficialis, left-flexor-digitorum-superficialis]
+  deep-finger-flexors:              [right-deep-finger-flexors, left-deep-finger-flexors]
+  wrist-extensors:                  [right-wrist-extensors, left-wrist-extensors]
+  finger-extensors:                 [right-finger-extensors, left-finger-extensors]
+  supinator:                        [right-supinator, left-supinator]
+  wrist-retinacula:                 [right-wrist-retinacula, left-wrist-retinacula]
+  thenar-muscles:                   [right-thenar-muscles, left-thenar-muscles]
+  hypothenar-muscles:               [right-hypothenar-muscles, left-hypothenar-muscles]
+  interossei-and-lumbricals:        [right-interossei-and-lumbricals, left-interossei-and-lumbricals]
+  gluteus-maximus:                  [right-gluteus-maximus, left-gluteus-maximus]
+  gluteus-medius:                   [right-gluteus-medius, left-gluteus-medius]
+  gluteus-minimus:                  [right-gluteus-minimus, left-gluteus-minimus]
+  tensor-fasciae-latae:             [right-tensor-fasciae-latae, left-tensor-fasciae-latae]
+  iliotibial-tract:                 [right-iliotibial-tract, left-iliotibial-tract]
+  psoas-major:                      [right-psoas-major, left-psoas-major]
+  iliacus:                          [right-iliacus, left-iliacus]
+  hip-rotators:                     [right-hip-rotators, left-hip-rotators]
+  rectus-femoris:                   [right-rectus-femoris, left-rectus-femoris]
+  vastus-lateralis:                 [right-vastus-lateralis, left-vastus-lateralis]
+  vastus-medialis:                  [right-vastus-medialis, left-vastus-medialis]
+  vastus-intermedius:               [right-vastus-intermedius, left-vastus-intermedius]
+  sartorius:                        [right-sartorius, left-sartorius]
+  gracilis:                         [right-gracilis, left-gracilis]
+  pectineus:                        [right-pectineus, left-pectineus]
+  adductor-longus:                  [right-adductor-longus, left-adductor-longus]
+  adductor-brevis:                  [right-adductor-brevis, left-adductor-brevis]
+  adductor-magnus:                  [right-adductor-magnus, left-adductor-magnus]
+  biceps-femoris:                   [right-biceps-femoris, left-biceps-femoris]
+  semitendinosus:                   [right-semitendinosus, left-semitendinosus]
+  semimembranosus:                  [right-semimembranosus, left-semimembranosus]
+  gastrocnemius:                    [right-gastrocnemius, left-gastrocnemius]
+  soleus:                           [right-soleus, left-soleus]
+  calcaneal-tendon:                 [right-calcaneal-tendon, left-calcaneal-tendon]
+  deep-calf-muscles:                [right-deep-calf-muscles, left-deep-calf-muscles]
+  tibialis-anterior:                [right-tibialis-anterior, left-tibialis-anterior]
+  toe-extensors:                    [right-toe-extensors, left-toe-extensors]
+  fibularis:                        [right-fibularis, left-fibularis]
+  ankle-retinacula:                 [right-ankle-retinacula, left-ankle-retinacula]
+  foot-muscles:                     [right-foot-muscles, left-foot-muscles]
+  muscles-of-expression:            [right-frontalis, left-frontalis, right-occipitalis, left-occipitalis, right-orbicularis-oculi, left-orbicularis-oculi, right-orbicularis-oris, left-orbicularis-oris, right-zygomaticus-major, left-zygomaticus-major, right-facial-muscles, left-facial-muscles, right-platysma, left-platysma]
+  chewing-muscles:                  [right-masseter, left-masseter, right-temporalis, left-temporalis, right-pterygoids, left-pterygoids]
+  intercostals:                     [right-external-intercostals, left-external-intercostals, right-internal-intercostals, left-internal-intercostals]
+  abdominal-wall:                   [right-rectus-abdominis, left-rectus-abdominis, right-external-oblique, left-external-oblique, right-internal-oblique, left-internal-oblique, right-transversus-abdominis, left-transversus-abdominis]
+  right-abdominal-wall:             [right-rectus-abdominis, right-external-oblique, right-internal-oblique, right-transversus-abdominis]
+  left-abdominal-wall:              [left-rectus-abdominis, left-external-oblique, left-internal-oblique, left-transversus-abdominis]
+  erector-spinae:                   [right-iliocostalis, left-iliocostalis, right-longissimus, left-longissimus, right-spinalis, left-spinalis]
+  right-erector-spinae:             [right-iliocostalis, right-longissimus, right-spinalis]
+  left-erector-spinae:              [left-iliocostalis, left-longissimus, left-spinalis]
+  rotator-cuff:                     [right-supraspinatus, left-supraspinatus, right-infraspinatus, left-infraspinatus, right-teres-minor, left-teres-minor, right-subscapularis, left-subscapularis]
+  right-rotator-cuff:               [right-supraspinatus, right-infraspinatus, right-teres-minor, right-subscapularis]
+  left-rotator-cuff:                [left-supraspinatus, left-infraspinatus, left-teres-minor, left-subscapularis]
+  forearm-flexors:                  [right-wrist-flexors, left-wrist-flexors, right-flexor-digitorum-superficialis, left-flexor-digitorum-superficialis, right-deep-finger-flexors, left-deep-finger-flexors]
+  right-forearm-flexors:            [right-wrist-flexors, right-flexor-digitorum-superficialis, right-deep-finger-flexors]
+  left-forearm-flexors:             [left-wrist-flexors, left-flexor-digitorum-superficialis, left-deep-finger-flexors]
+  forearm-extensors:                [right-brachioradialis, left-brachioradialis, right-wrist-extensors, left-wrist-extensors, right-finger-extensors, left-finger-extensors, right-supinator, left-supinator]
+  right-forearm-extensors:          [right-brachioradialis, right-wrist-extensors, right-finger-extensors, right-supinator]
+  left-forearm-extensors:           [left-brachioradialis, left-wrist-extensors, left-finger-extensors, left-supinator]
+  small-hand-muscles:               [right-thenar-muscles, left-thenar-muscles, right-hypothenar-muscles, left-hypothenar-muscles, right-interossei-and-lumbricals, left-interossei-and-lumbricals]
+  right-small-hand-muscles:         [right-thenar-muscles, right-hypothenar-muscles, right-interossei-and-lumbricals]
+  left-small-hand-muscles:          [left-thenar-muscles, left-hypothenar-muscles, left-interossei-and-lumbricals]
+  gluteal-muscles:                  [right-gluteus-maximus, left-gluteus-maximus, right-gluteus-medius, left-gluteus-medius, right-gluteus-minimus, left-gluteus-minimus]
+  iliopsoas:                        [right-psoas-major, left-psoas-major, right-iliacus, left-iliacus]
+  right-iliopsoas:                  [right-psoas-major, right-iliacus]
+  left-iliopsoas:                   [left-psoas-major, left-iliacus]
+  quadriceps:                       [right-rectus-femoris, left-rectus-femoris, right-vastus-lateralis, left-vastus-lateralis, right-vastus-medialis, left-vastus-medialis, right-vastus-intermedius, left-vastus-intermedius]
+  right-quadriceps:                 [right-rectus-femoris, right-vastus-lateralis, right-vastus-medialis, right-vastus-intermedius]
+  left-quadriceps:                  [left-rectus-femoris, left-vastus-lateralis, left-vastus-medialis, left-vastus-intermedius]
+  hamstrings:                       [right-biceps-femoris, left-biceps-femoris, right-semitendinosus, left-semitendinosus, right-semimembranosus, left-semimembranosus]
+  right-hamstrings:                 [right-biceps-femoris, right-semitendinosus, right-semimembranosus]
+  left-hamstrings:                  [left-biceps-femoris, left-semitendinosus, left-semimembranosus]
+  adductors:                        [right-pectineus, left-pectineus, right-adductor-longus, left-adductor-longus, right-adductor-brevis, left-adductor-brevis, right-adductor-magnus, left-adductor-magnus, right-gracilis, left-gracilis]
+  right-adductors:                  [right-pectineus, right-adductor-longus, right-adductor-brevis, right-adductor-magnus, right-gracilis]
+  left-adductors:                   [left-pectineus, left-adductor-longus, left-adductor-brevis, left-adductor-magnus, left-gracilis]
+  triceps-surae:                    [right-gastrocnemius, left-gastrocnemius, right-soleus, left-soleus]
+  right-triceps-surae:              [right-gastrocnemius, right-soleus]
+  left-triceps-surae:               [left-gastrocnemius, left-soleus]
+  arm-bones:                        [scapulae, humeri, radii, ulnae]

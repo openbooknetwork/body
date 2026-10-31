@@ -1,0 +1,6 @@
+# tr strings for the image "erector-spinae-gray-c3332b".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Deep muscles of the back, the iliocostalis, longissimus and spinalis of the erector spinae and the shorter muscles beneath them, Gray's Anatomy, 1918, figure 389
+image.caption: "Sırtın derin kasları, erector spinaenin iliokostal kası, longissimusu ve spinal kası ile altlarındaki kısa kaslar, Gray’s Anatomy, 1918, şekil 389"

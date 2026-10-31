@@ -1,0 +1,447 @@
+# tr strings for the story "muscles".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The muscles of the body
+groups.overview.title: "Bedenin kasları"
+
+# Inside a muscle
+groups.inside.title: "Bir kasın içi"
+
+# How muscles pull
+groups.pulling.title: "Kaslar nasıl çeker"
+
+# The head and neck
+groups.head.title: "Baş ve boyun"
+
+# The chest and abdomen
+groups.trunk.title: "Göğüs ve karın"
+
+# The back
+groups.back.title: "Sırt"
+
+# The shoulder and arm
+groups.arm.title: "Omuz ve kol"
+
+# The hip and thigh
+groups.hip.title: "Kalça ve uyluk"
+
+# The leg and foot
+groups.leg.title: "Bacak ve ayak"
+
+# Muscles at work
+groups.work.title: "Çalışan kaslar"
+
+# Learning how muscles work
+groups.history.title: "Kasların işleyişini öğrenmek"
+
+# deltoid
+pages.over-600.labels.0: "deltoid"
+
+# pectoralis major
+pages.over-600.labels.1: "büyük göğüs kası"
+
+# rectus abdominis
+pages.over-600.labels.2: "düz karın kası"
+
+# quadriceps
+pages.over-600.labels.3: "kuadriseps"
+
+# tibialis anterior
+pages.over-600.labels.4: "tibialis anterior"
+
+# Over 600 muscles
+pages.over-600.title: "600’den fazla kas"
+
+# skeletal muscle
+pages.three-kinds.labels.0: "iskelet kası"
+
+# cardiac muscle
+pages.three-kinds.labels.1: "kalp kası"
+
+# smooth muscle
+pages.three-kinds.labels.2: "düz kas"
+
+# Three kinds of muscle
+pages.three-kinds.title: "Üç tür kas"
+
+# biceps
+pages.fascicles.labels.0: "biseps"
+
+# brachialis
+pages.fascicles.labels.1: "brakialis"
+
+# triceps
+pages.fascicles.labels.2: "triseps"
+
+# humerus
+pages.fascicles.labels.3: "kol kemiği"
+
+# Bundles of fibres
+pages.fascicles.title: "Lif demetleri"
+
+# biceps
+pages.sarcomere.labels.0: "biseps"
+
+# The sarcomere
+pages.sarcomere.title: "Sarkomer"
+
+# biceps
+pages.cross-bridges.labels.0: "biseps"
+
+# brachialis
+pages.cross-bridges.labels.1: "brakialis"
+
+# Cross-bridges
+pages.cross-bridges.title: "Çapraz köprüler"
+
+# musculocutaneous nerve
+pages.motor-unit.labels.0: "muskulokutan sinir"
+
+# biceps
+pages.motor-unit.labels.1: "biseps"
+
+# coracobrachialis
+pages.motor-unit.labels.2: "korakobrakial kas"
+
+# The motor unit
+pages.motor-unit.title: "Motor ünite"
+
+# biceps
+pages.origin-insertion.labels.0: "biseps"
+
+# scapula
+pages.origin-insertion.labels.1: "kürek kemiği"
+
+# radius
+pages.origin-insertion.labels.2: "radius"
+
+# Origin and insertion
+pages.origin-insertion.title: "Başlangıç ve tutunma yeri"
+
+# biceps
+pages.levers.labels.0: "biseps"
+
+# brachialis
+pages.levers.labels.1: "brakialis"
+
+# radius
+pages.levers.labels.2: "radius"
+
+# ulna
+pages.levers.labels.3: "ulna"
+
+# Levers
+pages.levers.title: "Kaldıraçlar"
+
+# biceps
+pages.pairs.labels.0: "biseps"
+
+# triceps
+pages.pairs.labels.1: "triseps"
+
+# Muscles in pairs
+pages.pairs.title: "Çift çalışan kaslar"
+
+# frontalis
+pages.face.labels.0: "alın kası"
+
+# orbicularis oculi
+pages.face.labels.1: "göz çevresi halka kası"
+
+# zygomaticus major
+pages.face.labels.2: "büyük elmacık kası"
+
+# orbicularis oris
+pages.face.labels.3: "ağız çevresi halka kası"
+
+# The face
+pages.face.title: "Yüz"
+
+# temporalis
+pages.chewing.labels.0: "şakak kası"
+
+# masseter
+pages.chewing.labels.1: "masseter"
+
+# Chewing
+pages.chewing.title: "Çiğneme"
+
+# sternocleidomastoid
+pages.neck.labels.0: "sternokleidomastoid"
+
+# trapezius
+pages.neck.labels.1: "trapez kası"
+
+# The neck
+pages.neck.title: "Boyun"
+
+# pectoralis major
+pages.chest.labels.0: "büyük göğüs kası"
+
+# serratus anterior
+pages.chest.labels.1: "ön dişli kas"
+
+# The chest
+pages.chest.title: "Göğüs"
+
+# diaphragm
+pages.breathing.labels.0: "diyafram"
+
+# intercostal muscles
+pages.breathing.labels.1: "kaburgalar arası kaslar"
+
+# Breathing
+pages.breathing.title: "Solunum"
+
+# rectus abdominis
+pages.abdominal-wall.labels.0: "düz karın kası"
+
+# linea alba
+pages.abdominal-wall.labels.1: "linea alba"
+
+# external oblique
+pages.abdominal-wall.labels.2: "dış eğik karın kası"
+
+# The abdominal wall
+pages.abdominal-wall.title: "Karın duvarı"
+
+# internal oblique
+pages.three-layers.labels.0: "iç eğik karın kası"
+
+# transversus abdominis
+pages.three-layers.labels.1: "enine karın kası"
+
+# rectus abdominis
+pages.three-layers.labels.2: "düz karın kası"
+
+# Three layers
+pages.three-layers.title: "Üç kat"
+
+# trapezius
+pages.broad-back.labels.0: "trapez kası"
+
+# latissimus dorsi
+pages.broad-back.labels.1: "geniş sırt kası"
+
+# The broad muscles of the back
+pages.broad-back.title: "Sırtın geniş kasları"
+
+# iliocostalis
+pages.erector-spinae.labels.0: "iliokostal kas"
+
+# longissimus
+pages.erector-spinae.labels.1: "longissimus"
+
+# spinalis
+pages.erector-spinae.labels.2: "spinal kas"
+
+# Erector spinae
+pages.erector-spinae.title: "Erector spinae"
+
+# deltoid
+pages.deltoid.labels.0: "deltoid"
+
+# The deltoid
+pages.deltoid.title: "Deltoid kas"
+
+# supraspinatus
+pages.rotator-cuff.labels.0: "diken üstü kası"
+
+# infraspinatus
+pages.rotator-cuff.labels.1: "diken altı kası"
+
+# teres minor
+pages.rotator-cuff.labels.2: "küçük yuvarlak kas"
+
+# subscapularis
+pages.rotator-cuff.labels.3: "kürek altı kası"
+
+# The rotator cuff
+pages.rotator-cuff.title: "Rotator manşet"
+
+# flexors
+pages.forearm.labels.0: "bükücüler"
+
+# brachioradialis
+pages.forearm.labels.1: "brakioradial kas"
+
+# extensors
+pages.forearm.labels.2: "açıcılar"
+
+# The forearm
+pages.forearm.title: "Önkol"
+
+# flexor digitorum superficialis
+pages.hand.labels.0: "yüzeyel parmak bükücü kas"
+
+# flexor digitorum profundus
+pages.hand.labels.1: "derin parmak bükücü kas"
+
+# thenar muscles
+pages.hand.labels.2: "tenar kaslar"
+
+# hypothenar muscles
+pages.hand.labels.3: "hipotenar kaslar"
+
+# Into the hand
+pages.hand.title: "Ele doğru"
+
+# gluteus maximus
+pages.buttock.labels.0: "büyük kalça kası"
+
+# gluteus medius
+pages.buttock.labels.1: "orta kalça kası"
+
+# The buttock
+pages.buttock.title: "Kalça"
+
+# psoas major
+pages.iliopsoas.labels.0: "büyük bel kası"
+
+# iliacus
+pages.iliopsoas.labels.1: "iliak kas"
+
+# Iliopsoas
+pages.iliopsoas.title: "İliopsoas"
+
+# rectus femoris
+pages.quadriceps.labels.0: "düz uyluk kası"
+
+# vastus lateralis
+pages.quadriceps.labels.1: "dış geniş kas"
+
+# vastus medialis
+pages.quadriceps.labels.2: "iç geniş kas"
+
+# patella
+pages.quadriceps.labels.3: "diz kapağı"
+
+# The quadriceps
+pages.quadriceps.title: "Kuadriseps"
+
+# biceps femoris
+pages.hamstrings.labels.0: "iki başlı uyluk kası"
+
+# semitendinosus
+pages.hamstrings.labels.1: "yarı kirişli kas"
+
+# semimembranosus
+pages.hamstrings.labels.2: "yarı zarlı kas"
+
+# The hamstrings
+pages.hamstrings.title: "Arka uyluk kasları"
+
+# sartorius
+pages.inner-thigh.labels.0: "terzi kası"
+
+# adductor longus
+pages.inner-thigh.labels.1: "uzun addüktör"
+
+# gracilis
+pages.inner-thigh.labels.2: "grasilis"
+
+# adductor magnus
+pages.inner-thigh.labels.3: "büyük addüktör"
+
+# The inner thigh
+pages.inner-thigh.title: "Uyluğun iç yanı"
+
+# gastrocnemius
+pages.calf.labels.0: "gastroknemius"
+
+# soleus
+pages.calf.labels.1: "soleus"
+
+# Achilles tendon
+pages.calf.labels.2: "Aşil tendonu"
+
+# The calf
+pages.calf.title: "Baldır"
+
+# tibialis anterior
+pages.shin.labels.0: "tibialis anterior"
+
+# toe extensors
+pages.shin.labels.1: "ayak parmağı açıcıları"
+
+# fibularis longus and brevis
+pages.shin.labels.2: "uzun ve kısa fibular kaslar"
+
+# retinacula
+pages.shin.labels.3: "retinakulumlar"
+
+# The front of the leg
+pages.shin.title: "Bacağın önü"
+
+# soleus
+pages.fibre-types.labels.0: "soleus"
+
+# gastrocnemius
+pages.fibre-types.labels.1: "gastroknemius"
+
+# tibialis anterior
+pages.fibre-types.labels.2: "tibialis anterior"
+
+# Fast and slow fibres
+pages.fibre-types.title: "Hızlı ve yavaş lifler"
+
+# gluteus maximus
+pages.fuel.labels.0: "büyük kalça kası"
+
+# hamstrings
+pages.fuel.labels.1: "arka uyluk kasları"
+
+# gastrocnemius
+pages.fuel.labels.2: "gastroknemius"
+
+# Fuel and fatigue
+pages.fuel.title: "Yakıt ve yorgunluk"
+
+# erector spinae
+pages.use-and-disuse.labels.0: "erector spinae"
+
+# gluteus maximus
+pages.use-and-disuse.labels.1: "büyük kalça kası"
+
+# quadriceps
+pages.use-and-disuse.labels.2: "kuadriseps"
+
+# soleus
+pages.use-and-disuse.labels.3: "soleus"
+
+# Use and disuse
+pages.use-and-disuse.title: "Kullanmak ve kullanmamak"
+
+# 1543
+pages.vesalius.date: "1543"
+
+# Vesalius's muscle men
+pages.vesalius.title: "Vesalius’un kas adamları"
+
+# zygomaticus major
+pages.duchenne.labels.0: "büyük elmacık kası"
+
+# orbicularis oculi
+pages.duchenne.labels.1: "göz çevresi halka kası"
+
+# 1862
+pages.duchenne.date: "1862"
+
+# Duchenne's faces
+pages.duchenne.title: "Duchenne’in yüzleri"
+
+# psoas major
+pages.sliding-filaments.labels.0: "büyük bel kası"
+
+# 1954
+pages.sliding-filaments.date: "1954"
+
+# The sliding filaments
+pages.sliding-filaments.title: "Kayan filamentler"
+
+# The muscles that move the skeleton, from the face to the feet. The story looks inside a muscle at its fibres and filaments, shows how muscles pull on bones in pairs, goes through the head, trunk, arms and legs layer by layer, and ends with Vesalius, Duchenne and the discovery of the sliding filaments.
+story.summary: "İskeleti yüzden ayaklara kadar hareket ettiren kaslar. Öykü bir kasın içine, liflerine ve filamentlerine bakar, kasların kemikleri nasıl çiftler halinde çektiğini gösterir, başı, gövdeyi, kolları ve bacakları kat kat dolaşır ve Vesalius, Duchenne ve kayan filamentlerin bulunuşuyla biter."
+
+# The muscular system
+story.title: "Kas sistemi"

@@ -1,0 +1,35 @@
+# tr strings for the structure "vertebra".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Vertebra
+structure.name: "Omur"
+
+# One of the bones of the spine: a body in front that carries weight and an arch behind that encloses the spinal canal
+structure.role: "Omurganın kemiklerinden biri: önde ağırlığı taşıyan bir gövde, arkada omurilik kanalını çevreleyen bir yay"
+
+# Number
+structure.facts.0.label: "Sayı"
+
+# Regions
+structure.facts.1.label: "Bölgeler"
+
+# Processes
+structure.facts.2.label: "Çıkıntılar"
+
+# Discs
+structure.facts.3.label: "Diskler"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# 33 in a child, 26 bones in an adult
+structure.facts.0.value: "Çocukta 33, yetişkinde 26 kemik"
+
+# 7 cervical, 12 thoracic, 5 lumbar, the sacrum and the coccyx
+structure.facts.1.value: "7 boyun, 12 göğüs, 5 bel omuru, sağrı ve kuyruk sokumu kemikleri"
+
+# 7 on each arch: 1 spinous, 2 transverse, 4 articular
+structure.facts.2.value: "Her yayda 7: 1 diken, 2 enine, 4 eklem çıkıntısı"
+
+# 23, from the second cervical to the sacrum
+structure.facts.3.value: "23, ikinci boyun omurundan sağrıya kadar"

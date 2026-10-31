@@ -1,0 +1,6 @@
+# tr strings for the image "vesalius-muscle-man-ab30b8".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The second plate of the muscles in Vesalius's De humani corporis fabrica, 1543, a man seen from the side with the skin removed
+image.caption: "Vesalius’un De humani corporis fabrica kitabındaki ikinci kas levhası, 1543, derisi kaldırılmış, yandan görülen bir adam"

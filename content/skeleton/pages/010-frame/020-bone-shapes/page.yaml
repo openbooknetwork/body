@@ -1,0 +1,13 @@
+title: "Long, short, flat and irregular"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on bone and cartilage.", "J. Gordon Betts and others, Anatomy and Physiology (Houston: OpenStax, 2013), section 6.2, Bone classification."]
+beden:
+  camera: right-front
+  look: skeleton
+  layers: [bones, teeth, cartilage]
+  parts: { highlight: [right-femur, right-carpals, parietal-bones, third-lumbar-vertebra, right-patella] }
+  labels:
+    - { part: parietal-bones, text: "flat" }
+    - { part: third-lumbar-vertebra, text: "irregular" }
+    - { part: right-carpals, text: "short" }
+    - { part: right-femur, text: "long" }
+    - { part: right-patella, text: "sesamoid" }

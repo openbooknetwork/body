@@ -1,0 +1,947 @@
+# tr strings for the model "body".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# skin
+parts.skin: "deri"
+
+# skull
+parts.skull: "kafatası"
+
+# scapulae
+parts.scapulae: "kürek kemikleri"
+
+# humeri
+parts.humeri: "kol kemikleri"
+
+# radii
+parts.radii: "radius kemikleri"
+
+# ulnae
+parts.ulnae: "ulna kemikleri"
+
+# femora
+parts.femora: "uyluk kemikleri"
+
+# patellae
+parts.patellae: "diz kapakları"
+
+# tibiae
+parts.tibiae: "kaval kemikleri"
+
+# calcanei
+parts.calcanei: "topuk kemikleri"
+
+# skeleton
+parts.skeleton: "iskelet"
+
+# heart
+parts.heart: "kalp"
+
+# stomach
+parts.stomach: "mide"
+
+# right musculocutaneous nerve
+parts.right-musculocutaneous-nerve: "sağ muskulokutan sinir"
+
+# left musculocutaneous nerve
+parts.left-musculocutaneous-nerve: "sol muskulokutan sinir"
+
+# diaphragm
+parts.diaphragm: "diyafram"
+
+# linea alba
+parts.linea-alba: "linea alba"
+
+# right frontalis
+parts.right-frontalis: "sağ alın kası"
+
+# left frontalis
+parts.left-frontalis: "sol alın kası"
+
+# right occipitalis
+parts.right-occipitalis: "sağ ense kası"
+
+# left occipitalis
+parts.left-occipitalis: "sol ense kası"
+
+# right scalp aponeurosis
+parts.right-scalp-aponeurosis: "sağ kafa derisi aponevrozu"
+
+# left scalp aponeurosis
+parts.left-scalp-aponeurosis: "sol kafa derisi aponevrozu"
+
+# right orbicularis oculi
+parts.right-orbicularis-oculi: "sağ göz çevresi halka kası"
+
+# left orbicularis oculi
+parts.left-orbicularis-oculi: "sol göz çevresi halka kası"
+
+# right orbicularis oris
+parts.right-orbicularis-oris: "sağ ağız çevresi halka kası"
+
+# left orbicularis oris
+parts.left-orbicularis-oris: "sol ağız çevresi halka kası"
+
+# right zygomaticus major
+parts.right-zygomaticus-major: "sağ büyük elmacık kası"
+
+# left zygomaticus major
+parts.left-zygomaticus-major: "sol büyük elmacık kası"
+
+# right facial muscles
+parts.right-facial-muscles: "sağ yüz kasları"
+
+# left facial muscles
+parts.left-facial-muscles: "sol yüz kasları"
+
+# right platysma
+parts.right-platysma: "sağ platisma"
+
+# left platysma
+parts.left-platysma: "sol platisma"
+
+# right masseter
+parts.right-masseter: "sağ masseter"
+
+# left masseter
+parts.left-masseter: "sol masseter"
+
+# right temporalis
+parts.right-temporalis: "sağ şakak kası"
+
+# left temporalis
+parts.left-temporalis: "sol şakak kası"
+
+# right pterygoids
+parts.right-pterygoids: "sağ pterigoid kaslar"
+
+# left pterygoids
+parts.left-pterygoids: "sol pterigoid kaslar"
+
+# right hyoid muscles
+parts.right-hyoid-muscles: "sağ dil kemiği kasları"
+
+# left hyoid muscles
+parts.left-hyoid-muscles: "sol dil kemiği kasları"
+
+# right sternocleidomastoid
+parts.right-sternocleidomastoid: "sağ sternokleidomastoid kas"
+
+# left sternocleidomastoid
+parts.left-sternocleidomastoid: "sol sternokleidomastoid kas"
+
+# right trapezius
+parts.right-trapezius: "sağ trapez kası"
+
+# left trapezius
+parts.left-trapezius: "sol trapez kası"
+
+# right splenius
+parts.right-splenius: "sağ splenius kasları"
+
+# left splenius
+parts.left-splenius: "sol splenius kasları"
+
+# right levator scapulae
+parts.right-levator-scapulae: "sağ kürek kaldırıcı kas"
+
+# left levator scapulae
+parts.left-levator-scapulae: "sol kürek kaldırıcı kas"
+
+# right scalenes
+parts.right-scalenes: "sağ skalen kaslar"
+
+# left scalenes
+parts.left-scalenes: "sol skalen kaslar"
+
+# right deep neck muscles
+parts.right-deep-neck-muscles: "sağ boynun derin kasları"
+
+# left deep neck muscles
+parts.left-deep-neck-muscles: "sol boynun derin kasları"
+
+# right pectoralis major
+parts.right-pectoralis-major: "sağ büyük göğüs kası"
+
+# left pectoralis major
+parts.left-pectoralis-major: "sol büyük göğüs kası"
+
+# right pectoralis minor
+parts.right-pectoralis-minor: "sağ küçük göğüs kası"
+
+# left pectoralis minor
+parts.left-pectoralis-minor: "sol küçük göğüs kası"
+
+# right serratus anterior
+parts.right-serratus-anterior: "sağ ön dişli kas"
+
+# left serratus anterior
+parts.left-serratus-anterior: "sol ön dişli kas"
+
+# right external intercostals
+parts.right-external-intercostals: "sağ dış kaburgalar arası kaslar"
+
+# left external intercostals
+parts.left-external-intercostals: "sol dış kaburgalar arası kaslar"
+
+# right internal intercostals
+parts.right-internal-intercostals: "sağ iç kaburgalar arası kaslar"
+
+# left internal intercostals
+parts.left-internal-intercostals: "sol iç kaburgalar arası kaslar"
+
+# right rectus abdominis
+parts.right-rectus-abdominis: "sağ düz karın kası"
+
+# left rectus abdominis
+parts.left-rectus-abdominis: "sol düz karın kası"
+
+# right external oblique
+parts.right-external-oblique: "sağ dış eğik karın kası"
+
+# left external oblique
+parts.left-external-oblique: "sol dış eğik karın kası"
+
+# right internal oblique
+parts.right-internal-oblique: "sağ iç eğik karın kası"
+
+# left internal oblique
+parts.left-internal-oblique: "sol iç eğik karın kası"
+
+# right transversus abdominis
+parts.right-transversus-abdominis: "sağ enine karın kası"
+
+# left transversus abdominis
+parts.left-transversus-abdominis: "sol enine karın kası"
+
+# right quadratus lumborum
+parts.right-quadratus-lumborum: "sağ kuadratus lomborum"
+
+# left quadratus lumborum
+parts.left-quadratus-lumborum: "sol kuadratus lomborum"
+
+# right latissimus dorsi
+parts.right-latissimus-dorsi: "sağ geniş sırt kası"
+
+# left latissimus dorsi
+parts.left-latissimus-dorsi: "sol geniş sırt kası"
+
+# right thoracolumbar fascia
+parts.right-thoracolumbar-fascia: "sağ torakolomber fasya"
+
+# left thoracolumbar fascia
+parts.left-thoracolumbar-fascia: "sol torakolomber fasya"
+
+# right rhomboids
+parts.right-rhomboids: "sağ rhomboid kaslar"
+
+# left rhomboids
+parts.left-rhomboids: "sol rhomboid kaslar"
+
+# right iliocostalis
+parts.right-iliocostalis: "sağ iliokostal kas"
+
+# left iliocostalis
+parts.left-iliocostalis: "sol iliokostal kas"
+
+# right longissimus
+parts.right-longissimus: "sağ longissimus"
+
+# left longissimus
+parts.left-longissimus: "sol longissimus"
+
+# right spinalis
+parts.right-spinalis: "sağ spinal kas"
+
+# left spinalis
+parts.left-spinalis: "sol spinal kas"
+
+# right transversospinalis
+parts.right-transversospinalis: "sağ transversospinal kaslar"
+
+# left transversospinalis
+parts.left-transversospinalis: "sol transversospinal kaslar"
+
+# right deltoid
+parts.right-deltoid: "sağ deltoid kas"
+
+# left deltoid
+parts.left-deltoid: "sol deltoid kas"
+
+# right supraspinatus
+parts.right-supraspinatus: "sağ diken üstü kası"
+
+# left supraspinatus
+parts.left-supraspinatus: "sol diken üstü kası"
+
+# right infraspinatus
+parts.right-infraspinatus: "sağ diken altı kası"
+
+# left infraspinatus
+parts.left-infraspinatus: "sol diken altı kası"
+
+# right teres minor
+parts.right-teres-minor: "sağ küçük yuvarlak kas"
+
+# left teres minor
+parts.left-teres-minor: "sol küçük yuvarlak kas"
+
+# right subscapularis
+parts.right-subscapularis: "sağ kürek altı kası"
+
+# left subscapularis
+parts.left-subscapularis: "sol kürek altı kası"
+
+# right teres major
+parts.right-teres-major: "sağ büyük yuvarlak kas"
+
+# left teres major
+parts.left-teres-major: "sol büyük yuvarlak kas"
+
+# right coracobrachialis
+parts.right-coracobrachialis: "sağ korakobrakial kas"
+
+# left coracobrachialis
+parts.left-coracobrachialis: "sol korakobrakial kas"
+
+# right biceps brachii
+parts.right-biceps-brachii: "sağ iki başlı kol kası"
+
+# left biceps brachii
+parts.left-biceps-brachii: "sol iki başlı kol kası"
+
+# right brachialis
+parts.right-brachialis: "sağ brakialis"
+
+# left brachialis
+parts.left-brachialis: "sol brakialis"
+
+# right triceps brachii
+parts.right-triceps-brachii: "sağ üç başlı kol kası"
+
+# left triceps brachii
+parts.left-triceps-brachii: "sol üç başlı kol kası"
+
+# right brachioradialis
+parts.right-brachioradialis: "sağ brakioradial kas"
+
+# left brachioradialis
+parts.left-brachioradialis: "sol brakioradial kas"
+
+# right wrist flexors
+parts.right-wrist-flexors: "sağ bilek bükücüleri"
+
+# left wrist flexors
+parts.left-wrist-flexors: "sol bilek bükücüleri"
+
+# right flexor digitorum superficialis
+parts.right-flexor-digitorum-superficialis: "sağ yüzeyel parmak bükücü kas"
+
+# left flexor digitorum superficialis
+parts.left-flexor-digitorum-superficialis: "sol yüzeyel parmak bükücü kas"
+
+# right deep finger flexors
+parts.right-deep-finger-flexors: "sağ derin parmak bükücüleri"
+
+# left deep finger flexors
+parts.left-deep-finger-flexors: "sol derin parmak bükücüleri"
+
+# right wrist extensors
+parts.right-wrist-extensors: "sağ bilek açıcıları"
+
+# left wrist extensors
+parts.left-wrist-extensors: "sol bilek açıcıları"
+
+# right finger extensors
+parts.right-finger-extensors: "sağ parmak açıcıları"
+
+# left finger extensors
+parts.left-finger-extensors: "sol parmak açıcıları"
+
+# right supinator
+parts.right-supinator: "sağ supinator kas"
+
+# left supinator
+parts.left-supinator: "sol supinator kas"
+
+# right wrist retinacula
+parts.right-wrist-retinacula: "sağ bilek retinakulumları"
+
+# left wrist retinacula
+parts.left-wrist-retinacula: "sol bilek retinakulumları"
+
+# right thenar muscles
+parts.right-thenar-muscles: "sağ tenar kaslar"
+
+# left thenar muscles
+parts.left-thenar-muscles: "sol tenar kaslar"
+
+# right hypothenar muscles
+parts.right-hypothenar-muscles: "sağ hipotenar kaslar"
+
+# left hypothenar muscles
+parts.left-hypothenar-muscles: "sol hipotenar kaslar"
+
+# right interossei and lumbricals
+parts.right-interossei-and-lumbricals: "sağ interosseöz ve lumbrikal kaslar"
+
+# left interossei and lumbricals
+parts.left-interossei-and-lumbricals: "sol interosseöz ve lumbrikal kaslar"
+
+# right gluteus maximus
+parts.right-gluteus-maximus: "sağ büyük kalça kası"
+
+# left gluteus maximus
+parts.left-gluteus-maximus: "sol büyük kalça kası"
+
+# right gluteus medius
+parts.right-gluteus-medius: "sağ orta kalça kası"
+
+# left gluteus medius
+parts.left-gluteus-medius: "sol orta kalça kası"
+
+# right gluteus minimus
+parts.right-gluteus-minimus: "sağ küçük kalça kası"
+
+# left gluteus minimus
+parts.left-gluteus-minimus: "sol küçük kalça kası"
+
+# right tensor fasciae latae
+parts.right-tensor-fasciae-latae: "sağ tensor fasya lata"
+
+# left tensor fasciae latae
+parts.left-tensor-fasciae-latae: "sol tensor fasya lata"
+
+# right iliotibial tract
+parts.right-iliotibial-tract: "sağ iliotibial bant"
+
+# left iliotibial tract
+parts.left-iliotibial-tract: "sol iliotibial bant"
+
+# right psoas major
+parts.right-psoas-major: "sağ büyük bel kası"
+
+# left psoas major
+parts.left-psoas-major: "sol büyük bel kası"
+
+# right iliacus
+parts.right-iliacus: "sağ iliak kas"
+
+# left iliacus
+parts.left-iliacus: "sol iliak kas"
+
+# right hip rotators
+parts.right-hip-rotators: "sağ kalçanın derin döndürücüleri"
+
+# left hip rotators
+parts.left-hip-rotators: "sol kalçanın derin döndürücüleri"
+
+# right rectus femoris
+parts.right-rectus-femoris: "sağ düz uyluk kası"
+
+# left rectus femoris
+parts.left-rectus-femoris: "sol düz uyluk kası"
+
+# right vastus lateralis
+parts.right-vastus-lateralis: "sağ dış geniş kas"
+
+# left vastus lateralis
+parts.left-vastus-lateralis: "sol dış geniş kas"
+
+# right vastus medialis
+parts.right-vastus-medialis: "sağ iç geniş kas"
+
+# left vastus medialis
+parts.left-vastus-medialis: "sol iç geniş kas"
+
+# right vastus intermedius
+parts.right-vastus-intermedius: "sağ ara geniş kas"
+
+# left vastus intermedius
+parts.left-vastus-intermedius: "sol ara geniş kas"
+
+# right sartorius
+parts.right-sartorius: "sağ terzi kası"
+
+# left sartorius
+parts.left-sartorius: "sol terzi kası"
+
+# right gracilis
+parts.right-gracilis: "sağ grasilis"
+
+# left gracilis
+parts.left-gracilis: "sol grasilis"
+
+# right pectineus
+parts.right-pectineus: "sağ pektineus"
+
+# left pectineus
+parts.left-pectineus: "sol pektineus"
+
+# right adductor longus
+parts.right-adductor-longus: "sağ uzun addüktör"
+
+# left adductor longus
+parts.left-adductor-longus: "sol uzun addüktör"
+
+# right adductor brevis
+parts.right-adductor-brevis: "sağ kısa addüktör"
+
+# left adductor brevis
+parts.left-adductor-brevis: "sol kısa addüktör"
+
+# right adductor magnus
+parts.right-adductor-magnus: "sağ büyük addüktör"
+
+# left adductor magnus
+parts.left-adductor-magnus: "sol büyük addüktör"
+
+# right biceps femoris
+parts.right-biceps-femoris: "sağ iki başlı uyluk kası"
+
+# left biceps femoris
+parts.left-biceps-femoris: "sol iki başlı uyluk kası"
+
+# right semitendinosus
+parts.right-semitendinosus: "sağ yarı kirişli kas"
+
+# left semitendinosus
+parts.left-semitendinosus: "sol yarı kirişli kas"
+
+# right semimembranosus
+parts.right-semimembranosus: "sağ yarı zarlı kas"
+
+# left semimembranosus
+parts.left-semimembranosus: "sol yarı zarlı kas"
+
+# right gastrocnemius
+parts.right-gastrocnemius: "sağ gastroknemius"
+
+# left gastrocnemius
+parts.left-gastrocnemius: "sol gastroknemius"
+
+# right soleus
+parts.right-soleus: "sağ soleus"
+
+# left soleus
+parts.left-soleus: "sol soleus"
+
+# right calcaneal tendon
+parts.right-calcaneal-tendon: "sağ Aşil tendonu"
+
+# left calcaneal tendon
+parts.left-calcaneal-tendon: "sol Aşil tendonu"
+
+# right deep calf muscles
+parts.right-deep-calf-muscles: "sağ baldırın derin kasları"
+
+# left deep calf muscles
+parts.left-deep-calf-muscles: "sol baldırın derin kasları"
+
+# right tibialis anterior
+parts.right-tibialis-anterior: "sağ tibialis anterior"
+
+# left tibialis anterior
+parts.left-tibialis-anterior: "sol tibialis anterior"
+
+# right toe extensors
+parts.right-toe-extensors: "sağ ayak parmağı açıcıları"
+
+# left toe extensors
+parts.left-toe-extensors: "sol ayak parmağı açıcıları"
+
+# right fibularis
+parts.right-fibularis: "sağ fibular kaslar"
+
+# left fibularis
+parts.left-fibularis: "sol fibular kaslar"
+
+# right ankle retinacula
+parts.right-ankle-retinacula: "sağ ayak bileği retinakulumları"
+
+# left ankle retinacula
+parts.left-ankle-retinacula: "sol ayak bileği retinakulumları"
+
+# right foot muscles
+parts.right-foot-muscles: "sağ ayak kasları"
+
+# left foot muscles
+parts.left-foot-muscles: "sol ayak kasları"
+
+# musculocutaneous nerves
+parts.musculocutaneous-nerves: "muskulokutan sinirler"
+
+# frontalis
+parts.frontalis: "alın kası"
+
+# occipitalis
+parts.occipitalis: "ense kası"
+
+# scalp aponeurosis
+parts.scalp-aponeurosis: "kafa derisi aponevrozu"
+
+# orbicularis oculi
+parts.orbicularis-oculi: "göz çevresi halka kası"
+
+# orbicularis oris
+parts.orbicularis-oris: "ağız çevresi halka kası"
+
+# zygomaticus major
+parts.zygomaticus-major: "büyük elmacık kası"
+
+# facial muscles
+parts.facial-muscles: "yüz kasları"
+
+# platysma
+parts.platysma: "platisma"
+
+# masseter
+parts.masseter: "masseter"
+
+# temporalis
+parts.temporalis: "şakak kası"
+
+# pterygoids
+parts.pterygoids: "pterigoid kaslar"
+
+# hyoid muscles
+parts.hyoid-muscles: "dil kemiği kasları"
+
+# sternocleidomastoid
+parts.sternocleidomastoid: "sternokleidomastoid kas"
+
+# trapezius
+parts.trapezius: "trapez kası"
+
+# splenius
+parts.splenius: "splenius kasları"
+
+# levator scapulae
+parts.levator-scapulae: "kürek kaldırıcı kas"
+
+# scalenes
+parts.scalenes: "skalen kaslar"
+
+# deep neck muscles
+parts.deep-neck-muscles: "boynun derin kasları"
+
+# pectoralis major
+parts.pectoralis-major: "büyük göğüs kası"
+
+# pectoralis minor
+parts.pectoralis-minor: "küçük göğüs kası"
+
+# serratus anterior
+parts.serratus-anterior: "ön dişli kas"
+
+# external intercostals
+parts.external-intercostals: "dış kaburgalar arası kaslar"
+
+# internal intercostals
+parts.internal-intercostals: "iç kaburgalar arası kaslar"
+
+# rectus abdominis
+parts.rectus-abdominis: "düz karın kası"
+
+# external oblique
+parts.external-oblique: "dış eğik karın kası"
+
+# internal oblique
+parts.internal-oblique: "iç eğik karın kası"
+
+# transversus abdominis
+parts.transversus-abdominis: "enine karın kası"
+
+# quadratus lumborum
+parts.quadratus-lumborum: "kuadratus lomborum"
+
+# latissimus dorsi
+parts.latissimus-dorsi: "geniş sırt kası"
+
+# thoracolumbar fascia
+parts.thoracolumbar-fascia: "torakolomber fasya"
+
+# rhomboids
+parts.rhomboids: "rhomboid kaslar"
+
+# iliocostalis
+parts.iliocostalis: "iliokostal kas"
+
+# longissimus
+parts.longissimus: "longissimus"
+
+# spinalis
+parts.spinalis: "spinal kas"
+
+# transversospinalis
+parts.transversospinalis: "transversospinal kaslar"
+
+# deltoid
+parts.deltoid: "deltoid kas"
+
+# supraspinatus
+parts.supraspinatus: "diken üstü kası"
+
+# infraspinatus
+parts.infraspinatus: "diken altı kası"
+
+# teres minor
+parts.teres-minor: "küçük yuvarlak kas"
+
+# subscapularis
+parts.subscapularis: "kürek altı kası"
+
+# teres major
+parts.teres-major: "büyük yuvarlak kas"
+
+# coracobrachialis
+parts.coracobrachialis: "korakobrakial kas"
+
+# biceps brachii
+parts.biceps-brachii: "iki başlı kol kası"
+
+# brachialis
+parts.brachialis: "brakialis"
+
+# triceps brachii
+parts.triceps-brachii: "üç başlı kol kası"
+
+# brachioradialis
+parts.brachioradialis: "brakioradial kas"
+
+# wrist flexors
+parts.wrist-flexors: "bilek bükücüleri"
+
+# flexor digitorum superficialis
+parts.flexor-digitorum-superficialis: "yüzeyel parmak bükücü kas"
+
+# deep finger flexors
+parts.deep-finger-flexors: "derin parmak bükücüleri"
+
+# wrist extensors
+parts.wrist-extensors: "bilek açıcıları"
+
+# finger extensors
+parts.finger-extensors: "parmak açıcıları"
+
+# supinator
+parts.supinator: "supinator kas"
+
+# wrist retinacula
+parts.wrist-retinacula: "bilek retinakulumları"
+
+# thenar muscles
+parts.thenar-muscles: "tenar kaslar"
+
+# hypothenar muscles
+parts.hypothenar-muscles: "hipotenar kaslar"
+
+# interossei and lumbricals
+parts.interossei-and-lumbricals: "interosseöz ve lumbrikal kaslar"
+
+# gluteus maximus
+parts.gluteus-maximus: "büyük kalça kası"
+
+# gluteus medius
+parts.gluteus-medius: "orta kalça kası"
+
+# gluteus minimus
+parts.gluteus-minimus: "küçük kalça kası"
+
+# tensor fasciae latae
+parts.tensor-fasciae-latae: "tensor fasya lata"
+
+# iliotibial tract
+parts.iliotibial-tract: "iliotibial bant"
+
+# psoas major
+parts.psoas-major: "büyük bel kası"
+
+# iliacus
+parts.iliacus: "iliak kas"
+
+# hip rotators
+parts.hip-rotators: "kalçanın derin döndürücüleri"
+
+# rectus femoris
+parts.rectus-femoris: "düz uyluk kası"
+
+# vastus lateralis
+parts.vastus-lateralis: "dış geniş kas"
+
+# vastus medialis
+parts.vastus-medialis: "iç geniş kas"
+
+# vastus intermedius
+parts.vastus-intermedius: "ara geniş kas"
+
+# sartorius
+parts.sartorius: "terzi kası"
+
+# gracilis
+parts.gracilis: "grasilis"
+
+# pectineus
+parts.pectineus: "pektineus"
+
+# adductor longus
+parts.adductor-longus: "uzun addüktör"
+
+# adductor brevis
+parts.adductor-brevis: "kısa addüktör"
+
+# adductor magnus
+parts.adductor-magnus: "büyük addüktör"
+
+# biceps femoris
+parts.biceps-femoris: "iki başlı uyluk kası"
+
+# semitendinosus
+parts.semitendinosus: "yarı kirişli kas"
+
+# semimembranosus
+parts.semimembranosus: "yarı zarlı kas"
+
+# gastrocnemius
+parts.gastrocnemius: "gastroknemius"
+
+# soleus
+parts.soleus: "soleus"
+
+# calcaneal tendon
+parts.calcaneal-tendon: "Aşil tendonu"
+
+# deep calf muscles
+parts.deep-calf-muscles: "baldırın derin kasları"
+
+# tibialis anterior
+parts.tibialis-anterior: "tibialis anterior"
+
+# toe extensors
+parts.toe-extensors: "ayak parmağı açıcıları"
+
+# fibularis
+parts.fibularis: "fibular kaslar"
+
+# ankle retinacula
+parts.ankle-retinacula: "ayak bileği retinakulumları"
+
+# foot muscles
+parts.foot-muscles: "ayak kasları"
+
+# muscles of expression
+parts.muscles-of-expression: "yüz ifadesi kasları"
+
+# chewing muscles
+parts.chewing-muscles: "çiğneme kasları"
+
+# intercostals
+parts.intercostals: "kaburgalar arası kaslar"
+
+# abdominal wall
+parts.abdominal-wall: "karın duvarı kasları"
+
+# right abdominal wall
+parts.right-abdominal-wall: "sağ karın duvarı kasları"
+
+# left abdominal wall
+parts.left-abdominal-wall: "sol karın duvarı kasları"
+
+# erector spinae
+parts.erector-spinae: "erector spinae"
+
+# right erector spinae
+parts.right-erector-spinae: "sağ erector spinae"
+
+# left erector spinae
+parts.left-erector-spinae: "sol erector spinae"
+
+# rotator cuff
+parts.rotator-cuff: "rotator manşet"
+
+# right rotator cuff
+parts.right-rotator-cuff: "sağ rotator manşet"
+
+# left rotator cuff
+parts.left-rotator-cuff: "sol rotator manşet"
+
+# forearm flexors
+parts.forearm-flexors: "önkol bükücüleri"
+
+# right forearm flexors
+parts.right-forearm-flexors: "sağ önkol bükücüleri"
+
+# left forearm flexors
+parts.left-forearm-flexors: "sol önkol bükücüleri"
+
+# forearm extensors
+parts.forearm-extensors: "önkol açıcıları"
+
+# right forearm extensors
+parts.right-forearm-extensors: "sağ önkol açıcıları"
+
+# left forearm extensors
+parts.left-forearm-extensors: "sol önkol açıcıları"
+
+# small hand muscles
+parts.small-hand-muscles: "elin küçük kasları"
+
+# right small hand muscles
+parts.right-small-hand-muscles: "sağ elin küçük kasları"
+
+# left small hand muscles
+parts.left-small-hand-muscles: "sol elin küçük kasları"
+
+# gluteal muscles
+parts.gluteal-muscles: "kalça kasları"
+
+# iliopsoas
+parts.iliopsoas: "iliopsoas"
+
+# right iliopsoas
+parts.right-iliopsoas: "sağ iliopsoas"
+
+# left iliopsoas
+parts.left-iliopsoas: "sol iliopsoas"
+
+# quadriceps
+parts.quadriceps: "kuadriseps"
+
+# right quadriceps
+parts.right-quadriceps: "sağ kuadriseps"
+
+# left quadriceps
+parts.left-quadriceps: "sol kuadriseps"
+
+# hamstrings
+parts.hamstrings: "arka uyluk kasları"
+
+# right hamstrings
+parts.right-hamstrings: "sağ arka uyluk kasları"
+
+# left hamstrings
+parts.left-hamstrings: "sol arka uyluk kasları"
+
+# adductors
+parts.adductors: "addüktörler"
+
+# right adductors
+parts.right-adductors: "sağ addüktörler"
+
+# left adductors
+parts.left-adductors: "sol addüktörler"
+
+# triceps surae
+parts.triceps-surae: "triceps surae"
+
+# right triceps surae
+parts.right-triceps-surae: "sağ triceps surae"
+
+# left triceps surae
+parts.left-triceps-surae: "sol triceps surae"
+
+# arm bones
+parts.arm-bones: "kol kemikleri"

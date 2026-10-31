@@ -1,0 +1,6 @@
+# tr strings for the image "hip-thigh-muscles-openstax-40c4f2".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Muscles of the hip and thigh from the front and from behind, among them the quadriceps, the sartorius, the adductors and the hamstrings, OpenStax Anatomy and Physiology
+image.caption: "Önden ve arkadan kalça ve uyluk kasları, aralarında kuadriseps, terzi kası, addüktörler ve arka uyluk kasları, OpenStax Anatomy and Physiology"

@@ -1,0 +1,12 @@
+title: "33 vertebrae"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the back."]
+beden:
+  camera: back
+  look: vertebral-column
+  layers: [bones, cartilage]
+  parts: { highlight: [cervical-vertebrae, thoracic-vertebrae, lumbar-vertebrae, sacrum] }
+  labels:
+    - { part: lower-cervical-vertebrae, text: "cervical" }
+    - { part: thoracic-vertebrae, text: "thoracic" }
+    - { part: third-lumbar-vertebra, text: "lumbar" }
+    - { part: sacrum, text: "sacrum" }

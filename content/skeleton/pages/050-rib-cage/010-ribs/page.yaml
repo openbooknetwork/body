@@ -1,0 +1,11 @@
+title: "Twelve pairs of ribs"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the chest wall and breast.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 38."]
+beden:
+  camera: right-front
+  look: rib-cage
+  layers: [bones, cartilage, organs]
+  parts: { highlight: [true-ribs, false-ribs, floating-ribs], ghost: [lungs, heart], hide: [brain, spinal-cord, cauda-equina] }
+  labels:
+    - { part: right-true-ribs, text: "true ribs" }
+    - { part: right-false-ribs, text: "false ribs" }
+    - { part: right-floating-ribs, text: "floating ribs" }

@@ -1,0 +1,13 @@
+title: "Three kinds of joint"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the functional anatomy of the musculoskeletal system.", "J. Gordon Betts and others, Anatomy and Physiology (Houston: OpenStax, 2013), sections 9.1 to 9.4."]
+beden:
+  camera: front
+  look: skeleton
+  layers: [bones, cartilage, capsules]
+  parts: { highlight: [discs, pubic-symphysis, shoulder-capsules, elbow-capsules, hip-capsules, knee-capsules] }
+  labels:
+    - { part: intervertebral-discs, text: "intervertebral discs" }
+    - { part: pubic-symphysis, text: "pubic symphysis" }
+    - { part: right-shoulder-capsule, text: "shoulder" }
+    - { part: right-elbow-capsule, text: "elbow" }
+    - { part: right-knee-capsule, text: "knee" }

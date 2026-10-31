@@ -1,0 +1,6 @@
+# tr strings for the image "shoulder-capsule-gray-08d4b4".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The capsule of the shoulder joint from the front, distended, Gray's Anatomy, 1918, figure 327
+image.caption: "Önden şişirilmiş omuz eklemi kapsülü, Gray’s Anatomy, 1918, şekil 327"

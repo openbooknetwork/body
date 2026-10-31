@@ -1,0 +1,14 @@
+title: "26 bones of the foot"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the ankle and foot."]
+beden:
+  camera: right-above
+  look: right-foot-bones
+  distance: 0.4
+  layers: [bones]
+  parts: { highlight: [right-talus, right-calcaneus, right-midfoot-tarsals, right-metatarsals, right-toe-bones] }
+  labels:
+    - { part: right-talus, text: "talus" }
+    - { part: right-calcaneus, text: "calcaneus" }
+    - { part: right-midfoot-tarsals, text: "other tarsals" }
+    - { part: right-metatarsals, text: "metatarsals" }
+    - { part: right-toe-bones, text: "phalanges" }

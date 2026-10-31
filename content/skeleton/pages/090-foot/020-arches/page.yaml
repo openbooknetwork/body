@@ -1,0 +1,14 @@
+title: "The arches of the foot"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the ankle and foot."]
+beden:
+  camera: left-side
+  look: right-foot-bones
+  distance: 0.4
+  layers: [bones, ligaments]
+  section: { plane: sagittal, at: -0.03, flip: true }
+  parts: { highlight: [right-spring-ligament, right-long-plantar-ligament] }
+  labels:
+    - { part: right-spring-ligament, text: "spring ligament" }
+    - { part: right-long-plantar-ligament, text: "long plantar ligament" }
+    - { part: right-talus, text: "talus" }
+    - { part: right-calcaneus, text: "calcaneus" }

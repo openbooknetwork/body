@@ -1,0 +1,6 @@
+# tr strings for the image "duchenne-false-smile-f268b3".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Duchenne's subject with current on one cheek, the zygomaticus major pulling the mouth into a smile that the eyes do not join, photographed between 1854 and 1856
+image.caption: "Duchenne’in deneği bir yanağında akımla, büyük elmacık kası ağzı gözlerin katılmadığı bir gülümsemeye çekiyor, 1854 ile 1856 arasında çekilmiş"

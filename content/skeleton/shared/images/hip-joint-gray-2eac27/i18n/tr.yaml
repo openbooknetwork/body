@@ -1,0 +1,6 @@
+# tr strings for the image "hip-joint-gray-2eac27".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The right hip joint from the front, with the iliofemoral ligament across the capsule, Gray's Anatomy, 1918, figure 339
+image.caption: "Önden sağ kalça eklemi, kapsülün üzerinden geçen iliofemoral bağla, Gray’s Anatomy, 1918, şekil 339"

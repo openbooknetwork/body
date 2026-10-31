@@ -1,0 +1,6 @@
+# tr strings for the image "achilles-tendon-gray-5cd4c0".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The tendo calcaneus, or Achilles tendon, on the back of the calcaneus, Gray's Anatomy, 1918, figure 438
+image.caption: "Topuk kemiğinin arkasına tutunan tendo calcaneus, yani Aşil tendonu, Gray’s Anatomy, 1918, şekil 438"

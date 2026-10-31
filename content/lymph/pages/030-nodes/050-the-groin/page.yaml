@@ -2,8 +2,8 @@ title: "The groin"
 sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the pelvic girdle, hip, gluteal region and thigh.", "Henry Gray, Anatomy of the Human Body, 20th ed. (1918), section VIII, The Lymphatics of the Lower Extremity."]
 beden:
   camera: front
-  look: groin-vessels
-  distance: 0.7
+  look: inguinal-nodes
+  distance: 0.5
   layers: [skin, skeleton, veins, arteries]
   parts:
     show: [inguinal-nodes, pelvic-nodes, aortic-nodes, cisterna-chyli]

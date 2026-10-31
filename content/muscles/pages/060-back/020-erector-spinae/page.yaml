@@ -1,0 +1,14 @@
+title: "Erector spinae"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the back."]
+beden:
+  camera: back
+  look: [0, 1.15, 0.03]
+  distance: 1.35
+  layers: [skeleton, middle, deep]
+  parts:
+    highlight: [iliocostalis, longissimus, spinalis]
+    hide: [rhomboids, splenius, levator-scapulae, supraspinatus, infraspinatus, teres-minor, teres-major, gluteus-medius, gluteus-minimus, hip-rotators, adductor-magnus]
+  labels:
+    - { part: right-iliocostalis, text: "iliocostalis" }
+    - { part: right-longissimus, text: "longissimus" }
+    - { part: right-spinalis, text: "spinalis" }

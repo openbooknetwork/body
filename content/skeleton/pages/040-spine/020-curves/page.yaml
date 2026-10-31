@@ -1,0 +1,13 @@
+title: "Four curves"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the back."]
+beden:
+  camera: right-side
+  look: vertebral-column
+  layers: [bones, cartilage]
+  section: { plane: sagittal, at: 0 }
+  parts: { highlight: [vertebral-column, discs] }
+  labels:
+    - { part: lower-cervical-vertebrae, text: "cervical curve" }
+    - { part: thoracic-vertebrae, text: "thoracic curve" }
+    - { part: third-lumbar-vertebra, text: "lumbar curve" }
+    - { part: sacrum, text: "sacral curve" }

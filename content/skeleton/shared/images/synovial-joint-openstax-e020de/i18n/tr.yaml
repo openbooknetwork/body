@@ -1,0 +1,6 @@
+# tr strings for the image "synovial-joint-openstax-e020de".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A synovial joint: articular cartilage on the bone ends, the joint cavity with synovial fluid, the synovial membrane and the capsule
+image.caption: "Sinovyal bir eklem: kemik uçlarındaki eklem kıkırdağı, eklem sıvısı taşıyan eklem boşluğu, sinovyal zar ve kapsül"

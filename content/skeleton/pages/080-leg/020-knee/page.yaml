@@ -1,0 +1,15 @@
+title: "The knee"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the knee."]
+beden:
+  camera: front
+  look: right-menisci
+  distance: 0.3
+  layers: [bones, cartilage, ligaments]
+  parts: { highlight: [right-menisci, right-anterior-cruciate-ligament, right-posterior-cruciate-ligament, right-knee-collateral-ligaments], ghost: [right-femur, right-tibia, right-fibula, right-patella], hide: [right-leg-membrane, left-leg-membrane] }
+  structure: knee
+  labels:
+    - { part: right-menisci, text: "menisci" }
+    - { part: right-anterior-cruciate-ligament, text: "anterior cruciate" }
+    - { part: right-posterior-cruciate-ligament, text: "posterior cruciate" }
+    - { part: right-knee-collateral-ligaments, text: "collateral ligaments" }
+    - { part: right-patella, text: "patella" }

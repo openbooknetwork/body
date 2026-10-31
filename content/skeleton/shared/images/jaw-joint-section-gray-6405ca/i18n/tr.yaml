@@ -1,0 +1,6 @@
+# tr strings for the image "jaw-joint-section-gray-6405ca".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The jaw joint cut through: the articular disc lies between the condyle and its hollow, with the articular tubercle in front, Gray's Anatomy, 1918, figure 311
+image.caption: "Kesilmiş çene eklemi: eklem diski kondil ile çukuru arasında durur, önde eklem tümseği bulunur, Gray’s Anatomy, 1918, şekil 311"

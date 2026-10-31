@@ -1,0 +1,13 @@
+title: "Tibia and fibula"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapters on the leg and on the ankle and foot."]
+beden:
+  camera: right-front
+  look: right-tibia
+  distance: 0.75
+  layers: [bones, ligaments]
+  parts: { highlight: [right-tibia, right-fibula, right-leg-membrane, right-ankle-ligaments] }
+  labels:
+    - { part: right-tibia, text: "tibia" }
+    - { part: right-fibula, text: "fibula" }
+    - { part: right-leg-membrane, text: "interosseous membrane" }
+    - { part: right-ankle-ligaments, text: "ankle ligaments" }

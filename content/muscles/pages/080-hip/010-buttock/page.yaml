@@ -1,0 +1,12 @@
+title: "The buttock"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the pelvic girdle, gluteal region and thigh.", "Daniel Lieberman, David Raichlen, Herman Pontzer, Dennis Bramble and Elizabeth Cutright-Smith, The human gluteus maximus and its role in running, Journal of Experimental Biology 209 (2006): 2143-2155."]
+beden:
+  camera: right-back
+  look: [0, 0.82, 0.03]
+  distance: 0.85
+  layers: [skeleton, superficial, middle]
+  parts:
+    highlight: [gluteus-maximus, gluteus-medius]
+  labels:
+    - { part: right-gluteus-maximus, text: "gluteus maximus" }
+    - { part: right-gluteus-medius, text: "gluteus medius" }

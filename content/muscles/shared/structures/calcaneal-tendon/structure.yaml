@@ -1,0 +1,10 @@
+name: "Achilles tendon"
+latin: "Tendo calcaneus"
+role: "The common tendon of the gastrocnemius and the soleus, which pulls up the heel"
+source: https://en.wikipedia.org/wiki/Achilles_tendon
+images: [achilles-tendon-gray-5cd4c0]
+facts:
+  - { label: "Length", value: "About 15 cm" }
+  - { label: "Muscles", value: "Gastrocnemius and soleus" }
+  - { label: "Insertion", value: "The back of the calcaneus" }
+  - { label: "Force in running", value: "Up to about 9 kN, some 12 times body weight" }

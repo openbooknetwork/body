@@ -1,0 +1,6 @@
+# tr strings for the image "femur-gray-94019d".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The right femur from the front, Gray's Anatomy, 1918, figure 244
+image.caption: "Önden sağ uyluk kemiği, Gray’s Anatomy, 1918, şekil 244"

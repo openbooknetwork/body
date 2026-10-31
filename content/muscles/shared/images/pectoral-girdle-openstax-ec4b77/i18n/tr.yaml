@@ -1,0 +1,6 @@
+# tr strings for the image "pectoral-girdle-openstax-ec4b77".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Muscles that hold and move the scapula, the pectoralis minor and the serratus anterior from the front and the trapezius and the rhomboids from behind, OpenStax Anatomy and Physiology
+image.caption: "Kürek kemiğini tutan ve oynatan kaslar, önden küçük göğüs kası ve ön dişli kas, arkadan trapez ve rhomboid kaslar, OpenStax Anatomy and Physiology"

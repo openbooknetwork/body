@@ -1,0 +1,6 @@
+# tr strings for the image "female-pelvis-gray-028455".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# A woman's pelvis from the front, wider, with a rounder brim and a wider pubic arch, Gray's Anatomy, 1918, figure 242
+image.caption: "Önden bir kadının leğeni, daha geniş, girişi daha yuvarlak ve çatı kemikleri kemeri daha açık, Gray’s Anatomy, 1918, şekil 242"

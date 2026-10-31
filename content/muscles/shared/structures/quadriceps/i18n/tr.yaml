@@ -1,0 +1,35 @@
+# tr strings for the structure "quadriceps".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Quadriceps femoris
+structure.name: "Dört başlı uyluk kası"
+
+# The four-headed muscle on the front of the thigh, which straightens the knee
+structure.role: "Uyluğun önündeki, dizi düzelten dört başlı kas"
+
+# Heads
+structure.facts.0.label: "Başlar"
+
+# Insertion
+structure.facts.1.label: "Tutunma yeri"
+
+# Nerve
+structure.facts.2.label: "Sinir"
+
+# Actions
+structure.facts.3.label: "İşlevleri"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Rectus femoris, vastus lateralis, vastus medialis and vastus intermedius
+structure.facts.0.value: "Düz uyluk kası, dış geniş kas, iç geniş kas ve ara geniş kas"
+
+# The patella, and through the patellar ligament the tibial tuberosity
+structure.facts.1.value: "Diz kapağı, patellar bağ aracılığıyla da tibia tüberozitesi"
+
+# Femoral nerve, spinal segments L2 to L4
+structure.facts.2.value: "Femoral sinir, L2 ila L4 omurilik bölütleri"
+
+# Straightens the knee, and the rectus femoris also bends the hip
+structure.facts.3.value: "Dizi düzeltir, düz uyluk kası kalçayı da büker"

@@ -1,0 +1,6 @@
+# tr strings for the image "abdomen-muscles-openstax-93ae3f".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Muscles of the abdomen, the rectus abdominis beside the linea alba and the three flat muscles of the flank in front, and the psoas major, the iliacus and the quadratus lumborum on the back wall, OpenStax Anatomy and Physiology
+image.caption: "Karın kasları, önde linea albanın yanındaki düz karın kası ve böğrün üç yassı kası, arka duvarda büyük bel kası, iliak kas ve kuadratus lomborum, OpenStax Anatomy and Physiology"

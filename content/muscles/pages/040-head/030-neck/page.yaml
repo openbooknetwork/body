@@ -1,0 +1,13 @@
+title: "The neck"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapters on the neck and the back."]
+beden:
+  camera: right
+  look: [-0.05, 1.38, 0.06]
+  distance: 0.72
+  layers: [skeleton, superficial, middle]
+  parts:
+    highlight: [sternocleidomastoid, trapezius]
+    hide: [platysma]
+  labels:
+    - { part: right-sternocleidomastoid, text: "sternocleidomastoid" }
+    - { part: right-trapezius, text: "trapezius" }

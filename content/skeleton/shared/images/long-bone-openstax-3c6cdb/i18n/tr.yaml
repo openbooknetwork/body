@@ -1,0 +1,6 @@
+# tr strings for the image "long-bone-openstax-3c6cdb".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The parts of a long bone: a shaft of compact bone around the marrow cavity, and spongy bone with red marrow in the ends
+image.caption: "Uzun bir kemiğin bölümleri: ilik boşluğunu saran sıkı kemikten bir gövde ve uçlarda kırmızı ilik taşıyan süngerimsi kemik"

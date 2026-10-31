@@ -1,0 +1,13 @@
+title: "Cranium and face"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapters on the skull and on the ear.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 53."]
+beden:
+  camera: face
+  look: skull
+  distance: 0.65
+  layers: [bones, teeth]
+  parts: { highlight: [cranium] }
+  structure: skull
+  labels:
+    - { part: parietal-bones, text: "cranium" }
+    - { part: maxillae, text: "face" }
+    - { part: mandible, text: "mandible" }

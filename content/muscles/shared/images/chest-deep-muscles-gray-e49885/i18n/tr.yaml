@@ -1,0 +1,6 @@
+# tr strings for the image "chest-deep-muscles-gray-e49885".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Deep muscles of the chest and the front of the arm, with the short and long heads of the biceps coming from the scapula, the pectoralis minor, the serratus anterior and the intercostals, Gray's Anatomy, 1918, figure 411
+image.caption: "Göğsün ve kolun önünün derin kasları, kürek kemiğinden gelen bisepsin kısa ve uzun başı, küçük göğüs kası, ön dişli kas ve kaburgalar arası kaslar, Gray’s Anatomy, 1918, şekil 411"

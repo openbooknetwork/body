@@ -1,0 +1,6 @@
+# tr strings for the image "duchenne-electrodes-6e36dd".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Duchenne holding electrodes to the face of his main subject, from Mécanisme de la physionomie humaine, 1862
+image.caption: "Duchenne asıl deneğinin yüzüne elektrot tutarken, Mécanisme de la physionomie humaine, 1862"

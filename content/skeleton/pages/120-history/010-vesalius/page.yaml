@@ -1,0 +1,11 @@
+title: "Vesalius and the Fabrica"
+date: "1543"
+sources: ["Andreas Vesalius, De humani corporis fabrica libri septem (Basel: Johannes Oporinus, 1543), book 1.", "Charles O'Malley, Andreas Vesalius of Brussels, 1514 to 1564 (Berkeley: University of California Press, 1964)."]
+beden:
+  camera: right-front
+  look: skeleton
+  layers: [bones, teeth, cartilage]
+  parts: { highlight: [mandible, sternum] }
+  labels:
+    - { part: mandible, text: "mandible" }
+    - { part: sternum-body, text: "sternum" }

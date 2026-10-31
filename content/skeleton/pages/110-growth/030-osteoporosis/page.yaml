@@ -1,0 +1,11 @@
+title: "Thinning bone"
+sources: ["Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 80.", "Juliet Compston, Cyrus Cooper and Eric Orwoll, Osteoporosis, The Lancet 393 (2019): 364 to 376."]
+beden:
+  camera: front
+  look: skeleton
+  layers: [bones, cartilage]
+  parts: { highlight: [vertebral-column, right-femur, right-radius] }
+  labels:
+    - { part: first-lumbar-vertebra, text: "vertebrae" }
+    - { part: right-femur, text: "femur" }
+    - { part: right-radius, text: "radius" }

@@ -1,0 +1,6 @@
+# tr strings for the image "chest-arm-muscles-gray-ae96fa".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Superficial muscles of the chest and the front of the arm, with the pectoralis major, the deltoid and the biceps brachii, Gray's Anatomy, 1918, figure 410
+image.caption: "Göğsün ve kolun önünün yüzeyel kasları, büyük göğüs kası, deltoid ve iki başlı kol kası, Gray’s Anatomy, 1918, şekil 410"

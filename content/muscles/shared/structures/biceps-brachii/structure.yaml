@@ -1,0 +1,10 @@
+name: "Biceps brachii"
+latin: "Musculus biceps brachii"
+role: "The two-headed muscle on the front of the arm, which bends the elbow and turns the palm up"
+source: https://en.wikipedia.org/wiki/Biceps
+images: [arm-forearm-muscles-openstax-6e924a]
+facts:
+  - { label: "Heads", value: "Long head from above the shoulder socket, short head from the coracoid process of the scapula" }
+  - { label: "Insertion", value: "The radial tuberosity, and through the bicipital aponeurosis the fascia of the forearm" }
+  - { label: "Nerve", value: "Musculocutaneous nerve, spinal segments C5 and C6" }
+  - { label: "Actions", value: "Bends the elbow, turns the palm up, helps lift the arm forward" }

@@ -1,0 +1,6 @@
+# tr strings for the image "calf-gray-c08f18".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Muscles of the back of the leg, with the two heads of the gastrocnemius cut to show the soleus, and the tendo calcaneus on the heel bone, Gray's Anatomy, 1918, figure 438
+image.caption: "Bacağın arka yüzünün kasları, soleus görünsün diye kesilmiş gastroknemiusun iki başı ve topuk kemiğindeki tendo calcaneus, Gray’s Anatomy, 1918, şekil 438"

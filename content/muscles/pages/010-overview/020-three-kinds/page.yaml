@@ -1,0 +1,14 @@
+title: "Three kinds of muscle"
+sources: ["Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 6, 8 and 9.", "Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the functional anatomy of the musculoskeletal system."]
+beden:
+  camera: front
+  look: heart
+  distance: 1.5
+  layers: [skeleton, organs, superficial]
+  parts:
+    highlight: [heart, stomach, biceps-brachii]
+    ghost: [skeleton]
+  labels:
+    - { part: right-biceps-brachii, text: "skeletal muscle" }
+    - { part: heart, text: "cardiac muscle" }
+    - { part: stomach, text: "smooth muscle" }

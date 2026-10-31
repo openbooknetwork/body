@@ -1,0 +1,10 @@
+name: "Skull"
+latin: "Cranium"
+role: "The bones of the head: eight around the brain and fourteen in the face, all locked together by sutures except the mandible"
+source: https://en.wikipedia.org/wiki/Skull
+images: [skull-side-gray-060ee8]
+facts:
+  - { label: "Bones", value: "22, with 6 ear ossicles inside the temporal bones" }
+  - { label: "Capacity", value: "About 1.4 litres in a man" }
+  - { label: "Moving bone", value: "The mandible" }
+  - { label: "Main sutures", value: "Coronal, sagittal and lambdoid" }

@@ -1,0 +1,6 @@
+# tr strings for the image "bone-shapes-blausen-96c1eb".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Bones sorted by shape: flat, sutural, short, irregular, long and sesamoid
+image.caption: "Biçimlerine göre kemikler: yassı, dikiş kemiği, kısa, düzensiz, uzun ve sesamoid"

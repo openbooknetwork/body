@@ -1,0 +1,6 @@
+# tr strings for the image "back-muscles-haggstrom-f3b595".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The major muscles of the back of the body, labelled on a collage of Gray's Anatomy plates
+image.caption: "Bedenin arka yüzünün başlıca kasları, Gray’s Anatomy levhalarından yapılmış bir derleme üzerinde adlarıyla"

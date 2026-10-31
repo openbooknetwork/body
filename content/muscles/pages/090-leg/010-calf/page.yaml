@@ -1,0 +1,15 @@
+title: "The calf"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapters on the leg and on the ankle and foot.", "Paavo Komi, Relevance of in vivo force measurements to human biomechanics, Journal of Biomechanics 23, suppl. 1 (1990): 23-34."]
+beden:
+  camera: right-back
+  look: [-0.08, 0.22, 0.05]
+  distance: 0.85
+  layers: [skeleton, superficial, middle]
+  parts:
+    highlight: [gastrocnemius, soleus, calcaneal-tendon]
+    hide: [right-gastrocnemius]
+  structure: calcaneal-tendon
+  labels:
+    - { part: left-gastrocnemius, text: "gastrocnemius" }
+    - { part: right-soleus, text: "soleus" }
+    - { part: right-calcaneal-tendon, text: "Achilles tendon" }

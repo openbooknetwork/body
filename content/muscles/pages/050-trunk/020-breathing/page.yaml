@@ -1,0 +1,14 @@
+title: "Breathing"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapters on the diaphragm and phrenic nerve and on the chest wall.", "Arthur Guyton and John Hall, Textbook of Medical Physiology, 13th ed. (2016), ch. 38."]
+beden:
+  camera: below
+  look: diaphragm
+  distance: 0.75
+  layers: [skeleton, deep]
+  parts:
+    highlight: [diaphragm, intercostals]
+    hide: [transversus-abdominis, quadratus-lumborum, psoas-major, iliacus, hip-rotators, gluteus-minimus, vastus-intermedius, deep-calf-muscles, deep-finger-flexors, supinator, subscapularis, pterygoids]
+  structure: diaphragm
+  labels:
+    - { part: diaphragm, text: "diaphragm" }
+    - { part: right-external-intercostals, text: "intercostal muscles" }

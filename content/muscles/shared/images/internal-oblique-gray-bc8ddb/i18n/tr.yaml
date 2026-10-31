@@ -1,0 +1,6 @@
+# tr strings for the image "internal-oblique-gray-bc8ddb".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The internal oblique of the left side, with the external oblique removed, Gray's Anatomy, 1918, figure 395
+image.caption: "Dış eğik kas kaldırılmış olarak sol yanın iç eğik karın kası, Gray’s Anatomy, 1918, şekil 395"

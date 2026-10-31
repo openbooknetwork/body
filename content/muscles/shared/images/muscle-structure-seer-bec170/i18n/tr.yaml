@@ -1,0 +1,6 @@
+# tr strings for the image "muscle-structure-seer-bec170".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Structure of a skeletal muscle, from the tendon and the epimysium round the whole muscle to the fascicles and the single muscle fibres, NCI SEER Training
+image.caption: "Bir iskelet kasının yapısı, kiriş ve bütün kası saran epimizyumdan demetlere ve tek tek kas liflerine, NCI SEER Training"

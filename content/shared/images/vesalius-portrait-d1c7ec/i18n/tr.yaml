@@ -1,0 +1,6 @@
+# tr strings for the image "vesalius-portrait-d1c7ec".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Andreas Vesalius at 28, from the Fabrica, 1543
+image.caption: "28 yaşında Andreas Vesalius, Fabrica’dan, 1543"

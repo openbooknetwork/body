@@ -1,0 +1,10 @@
+name: "Vertebra"
+latin: "Vertebra"
+role: "One of the bones of the spine: a body in front that carries weight and an arch behind that encloses the spinal canal"
+source: https://en.wikipedia.org/wiki/Vertebra
+images: [lumbar-vertebra-gray-a678ba]
+facts:
+  - { label: "Number", value: "33 in a child, 26 bones in an adult" }
+  - { label: "Regions", value: "7 cervical, 12 thoracic, 5 lumbar, the sacrum and the coccyx" }
+  - { label: "Processes", value: "7 on each arch: 1 spinous, 2 transverse, 4 articular" }
+  - { label: "Discs", value: "23, from the second cervical to the sacrum" }

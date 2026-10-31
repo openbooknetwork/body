@@ -1,0 +1,12 @@
+title: "The jaw"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapters on the skull and on the infratemporal fossa and temporomandibular joint."]
+beden:
+  camera: right-side
+  look: [0, 1.47, 0.12]
+  distance: 0.45
+  layers: [bones, teeth, cartilage, capsules]
+  parts: { highlight: [mandible, right-jaw-joint-disc], ghost: [jaw-joint-capsules, zygomatic-bones] }
+  labels:
+    - { part: mandible, text: "mandible" }
+    - { part: right-jaw-joint-disc, text: "articular disc" }
+    - { part: temporal-bones, text: "temporal bone" }

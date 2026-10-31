@@ -1,0 +1,35 @@
+# tr strings for the structure "skull".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Skull
+structure.name: "Kafatası"
+
+# The bones of the head: eight around the brain and fourteen in the face, all locked together by sutures except the mandible
+structure.role: "Başın kemikleri: sekizi beyni sarar, on dördü yüzü oluşturur, alt çene kemiği dışında hepsi dikişlerle birbirine kenetlenmiştir"
+
+# Bones
+structure.facts.0.label: "Kemikler"
+
+# Capacity
+structure.facts.1.label: "Hacim"
+
+# Moving bone
+structure.facts.2.label: "Hareketli kemik"
+
+# Main sutures
+structure.facts.3.label: "Başlıca dikişler"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# 22, with 6 ear ossicles inside the temporal bones
+structure.facts.0.value: "22, şakak kemiklerinin içinde 6 kulak kemikçiği"
+
+# About 1.4 litres in a man
+structure.facts.1.value: "Bir erkekte yaklaşık 1,4 litre"
+
+# The mandible
+structure.facts.2.value: "Alt çene kemiği"
+
+# Coronal, sagittal and lambdoid
+structure.facts.3.value: "Taç, sagittal ve lambda dikişleri"

@@ -1,0 +1,13 @@
+title: "The forearm"
+sources: ["Susan Standring (ed.), Gray's Anatomy, 42nd ed. (2020), chapter on the elbow and forearm."]
+beden:
+  camera: right-front
+  look: [-0.24, 0.9, 0.11]
+  distance: 0.7
+  layers: [skeleton, superficial]
+  parts:
+    highlight: [wrist-flexors, brachioradialis, wrist-extensors, finger-extensors]
+  labels:
+    - { part: right-wrist-flexors, text: "flexors" }
+    - { part: right-brachioradialis, text: "brachioradialis" }
+    - { part: right-wrist-extensors, text: "extensors" }

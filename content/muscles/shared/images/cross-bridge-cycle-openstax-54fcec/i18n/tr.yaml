@@ -1,0 +1,6 @@
+# tr strings for the image "cross-bridge-cycle-openstax-54fcec".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# The cross-bridge cycle, in which a myosin head binds actin, pulls in the power stroke, lets go when ATP binds and is cocked again, OpenStax Anatomy and Physiology
+image.caption: "Çapraz köprü döngüsü, miyozin başı aktine bağlanır, güç vuruşuyla çeker, ATP bağlanınca bırakır ve yeniden kurulur, OpenStax Anatomy and Physiology"
