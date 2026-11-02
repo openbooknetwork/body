@@ -12,6 +12,9 @@ layer is peeled, a structure is lit, the camera turns, or the clip runs to a new
 The reader takes a page in bite-sized chunks: two or three paragraphs of up to about 60 words each. Each page shows
 at least one image with `@image <id>`, two where a second one shows something the text describes.
 
+The English and every translation follow `node_modules/@openbooknetwork/kitap/writing/README.md`, and a
+translation also follows that folder's file for its language, such as `tr.md`.
+
 ## Checking a story
 
 1. `./node_modules/.bin/kitap check <story> [page ids]` reads the pages, texts, images, structures and models and
