@@ -7,8 +7,8 @@
     "dev": "kitap dev"
   },
   "dependencies": {
-    "@openbooknetwork/beden": "^0.3.0",
-    "@openbooknetwork/kitap": "^0.6.2"
+    "@openbooknetwork/beden": "^0.3.2",
+    "@openbooknetwork/kitap": "^0.7.4"
   },
   "description": "Open Body Book: step-through models of the human body, an educational project",
   "version": "0.2.1",
