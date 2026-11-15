@@ -28,5 +28,6 @@ A page's text links each structure its model highlights the first time it names 
 
 ## Translations
 
-`./node_modules/.bin/kitap i18n tr --story <story>` adds an empty key for every new English string. A
-structure's strings sit in its folder's `i18n/tr.yaml`, an image folder's caption in that folder's `i18n/tr.yaml`.
+`node_modules/@openbooknetwork/kitap/agents/translating.md` has the steps for translating a story or updating its
+translations. The book's binary is `./node_modules/.bin/kitap`. The `translator` and `translation-reviewer` of
+`.claude/agents/` name their own files.
